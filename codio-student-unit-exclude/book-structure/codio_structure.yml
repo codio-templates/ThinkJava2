@@ -1,0 +1,552 @@
+workspace:
+  directory: /home/codio/workspace/codio-student-unit-exclude/ThinkJava2
+  tex: thinkjava2.tex
+  #removes inline code examples that are full programs (they auto-generate code files)
+  removeTrinket: true
+metadata:
+  hideMenu: false
+  protectLayout: false
+  suppressPageNumbering: true
+refs:
+  #Offsets chapter numbering to match physical book
+  chapter_counter_from: 0
+assets:
+ - code
+ - fig: "*.jpg"
+sections:
+  - name: "Preface"
+    type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: "The Philosophy Behind the Book"
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: "Object-Oriented Programming"
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: "Changes to the Second Edition"
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: "About the Appendixes"
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: "Using the Code Examples"
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: "Acknowledgments"
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: "Computer Programming"
+    type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: "What Is a Computer?"
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: "What Is Programming?"
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: "The Hello World Program"
+    type: section
+    transformations:
+        - remove: 1
+          position: 87
+        - add:  |
+                 See the example java code in the left pane. To compile and run the code, press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch01/Hello.java java -cp code/ch01/ Hello )
+
+          position: 105
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch01/Hello.java"
+            panel: 0
+            action: open
+  - name: "Compiling Java Programs"
+    type: section
+  - name: "Displaying Two Messages"
+    type: section
+  - name: "Formatting Source Code"
+    type: section
+  - name: "Using Escape Sequences"
+    type: section
+  - name: "What Is Computer Science?"
+    type: section
+  - name: "Debugging Programs"
+    type: section
+  - name: "Vocabulary"
+    type: section
+  - name: "Exercises"
+    type: section
+  - name: "Variables and Operators"
+    type: chapter
+  - name: "Declaring Variables"
+    type: section
+  - name: "Assigning Variables"
+    type: section
+  - name: "Memory Diagrams"
+    type: section
+  - name: "Printing Variables"
+    type: section
+  - name: "Arithmetic Operators"
+    type: section
+  - name: "Floating-Point Numbers"
+    type: section
+  - name: "Rounding Errors"
+    type: section
+  - name: "Operators for Strings"
+    type: section
+  - name: "Compiler Error Messages"
+    type: section
+  - name: "Other Types of Errors"
+    type: section
+  - name: "Vocabulary"
+    type: section
+  - name: "Exercises"
+    type: section
+  - name: "Input and Output"
+    type: chapter
+  - name: "The System Class"
+    type: section
+  - name: "The Scanner Class"
+    type: section
+  - name: "Language Elements"
+    type: section
+  - name: "Literals and Constants"
+    type: section
+  - name: "Formatting Output"
+    type: section
+  - name: "Reading Error Messages"
+    type: section
+  - name: "Type Cast Operators"
+    type: section
+  - name: "Remainder Operator"
+    type: section
+  - name: "Putting It All Together"
+    type: section
+  - name: "The Scanner Bug"
+    type: section
+  - name: "Vocabulary"
+    type: section
+  - name: "Exercises"
+    type: section
+  - name: "Methods and Testing"
+    type: chapter
+  - name: "Defining New Methods"
+    type: section
+  - name: "Flow of Execution"
+    type: section
+  - name: "Parameters and Arguments"
+    type: section
+  - name: "Multiple Parameters"
+    type: section
+  - name: "Stack Diagrams"
+    type: section
+  - name: "Math Methods"
+    type: section
+  - name: "Composition"
+    type: section
+  - name: "Return Values"
+    type: section
+  - name: "Incremental Development"
+    type: section
+  - name: "Vocabulary"
+    type: section
+  - name: "Exercises"
+    type: section
+  - name: "Conditionals and Logic"
+    type: chapter
+  - name: "Relational Operators"
+    type: section
+  - name: "The if-else Statement"
+    type: section
+  - name: "Chaining and Nesting"
+    type: section
+  - name: "The switch Statement"
+    type: section
+  - name: "Logical Operators"
+    type: section
+  - name: "De Morgan's Laws"
+    type: section
+  - name: "Boolean Variables"
+    type: section
+  - name: "Boolean Methods"
+    type: section
+  - name: "Validating Input"
+    type: section
+  - name: "Example Program"
+    type: section
+  - name: "Vocabulary"
+    type: section
+  - name: "Exercises"
+    type: section
+  - name: "Loops and Strings"
+    type: chapter
+  - name: "The while Statement"
+    type: section
+  - name: "Increment and Decrement"
+    type: section
+  - name: "The for Statement"
+    type: section
+  - name: "Nested Loops"
+    type: section
+  - name: "Characters"
+    type: section
+  - name: "Which Loop to Use"
+    type: section
+  - name: "String Iteration"
+    type: section
+  - name: "The indexOf Method"
+    type: section
+  - name: "Substrings"
+    type: section
+  - name: "String Comparison"
+    type: section
+  - name: "String Formatting"
+    type: section
+  - name: "Vocabulary"
+    type: section
+  - name: "Exercises"
+    type: section
+  - name: "Arrays and References"
+    type: chapter
+  - name: "Creating Arrays"
+    type: section
+  - name: "Accessing Elements"
+    type: section
+  - name: "Displaying Arrays"
+    type: section
+  - name: "Copying Arrays"
+    type: section
+  - name: "Traversing Arrays"
+    type: section
+  - name: "Random Numbers"
+    type: section
+  - name: "Building a Histogram"
+    type: section
+  - name: "The Enhanced for Loop"
+    type: section
+  - name: "Counting Characters"
+    type: section
+  - name: "Vocabulary"
+    type: section
+  - name: "Exercises"
+    type: section
+  - name: "Recursive Methods"
+    type: chapter
+  - name: "Recursive Void Methods"
+    type: section
+  - name: "Recursive Stack Diagrams"
+    type: section
+  - name: "Value-Returning Methods"
+    type: section
+  - name: "The Leap of Faith"
+    type: section
+  - name: "Counting Up Recursively"
+    type: section
+  - name: "Binary Number System"
+    type: section
+  - name: "Recursive Binary Method"
+    type: section
+  - name: "CodingBat Problems"
+    type: section
+  - name: "Vocabulary"
+    type: section
+  - name: "Exercises"
+    type: section
+  - name: "Immutable Objects"
+    type: chapter
+  - name: "Primitives vs Objects"
+    type: section
+  - name: "The null Keyword"
+    type: section
+  - name: "Strings Are Immutable"
+    type: section
+  - name: "Wrapper Classes"
+    type: section
+  - name: "Command-Line Arguments"
+    type: section
+  - name: "Argument Validation"
+    type: section
+  - name: "BigInteger Arithmetic"
+    type: section
+  - name: "Incremental Design"
+    type: section
+  - name: "More Generalization"
+    type: section
+  - name: "Vocabulary"
+    type: section
+  - name: "Exercises"
+    type: section
+  - name: "Mutable Objects"
+    type: chapter
+  - name: "Point Objects"
+    type: section
+  - name: "Objects as Parameters"
+    type: section
+  - name: "Objects as Return Values"
+    type: section
+  - name: "Rectangles Are Mutable"
+    type: section
+  - name: "Aliasing Revisited"
+    type: section
+  - name: "Java Library Source"
+    type: section
+  - name: "Class Diagrams"
+    type: section
+  - name: "Scope Revisited"
+    type: section
+  - name: "Garbage Collection"
+    type: section
+  - name: "Mutable vs Immutable"
+    type: section
+  - name: "StringBuilder Objects"
+    type: section
+  - name: "Vocabulary"
+    type: section
+  - name: "Exercises"
+    type: section
+  - name: "Designing Classes"
+    type: chapter
+  - name: "The Time Class"
+    type: section
+  - name: "Constructors"
+    type: section
+  - name: "Value Constructors"
+    type: section
+  - name: "Getters and Setters"
+    type: section
+  - name: "Displaying Objects"
+    type: section
+  - name: "The toString Method"
+    type: section
+  - name: "The equals Method"
+    type: section
+  - name: "Adding Times"
+    type: section
+  - name: "Vocabulary"
+    type: section
+  - name: "Exercises"
+    type: section
+  - name: "Arrays of Objects"
+    type: chapter
+  - name: "Card Objects"
+    type: section
+  - name: "Card toString"
+    type: section
+  - name: "Class Variables"
+    type: section
+  - name: "The compareTo Method"
+    type: section
+  - name: "Cards Are Immutable"
+    type: section
+  - name: "Arrays of Cards"
+    type: section
+  - name: "Sequential Search"
+    type: section
+  - name: "Binary Search"
+    type: section
+  - name: "Tracing the Code"
+    type: section
+  - name: "Vocabulary"
+    type: section
+  - name: "Exercises"
+    type: section
+  - name: "Objects of Arrays"
+    type: chapter
+  - name: "Decks of Cards"
+    type: section
+  - name: "Shuffling Decks"
+    type: section
+  - name: "Selection Sort"
+    type: section
+  - name: "Merge Sort"
+    type: section
+  - name: "Subdecks"
+    type: section
+  - name: "Merging Decks"
+    type: section
+  - name: "Adding Recursion"
+    type: section
+  - name: "Static Context"
+    type: section
+  - name: "Piles of Cards"
+    type: section
+  - name: "Playing War"
+    type: section
+  - name: "Vocabulary"
+    type: section
+  - name: "Exercises"
+    type: section
+  - name: "Extending Classes"
+    type: chapter
+  - name: "CardCollection"
+    type: section
+  - name: "Inheritance"
+    type: section
+  - name: "Dealing Cards"
+    type: section
+  - name: "The Player Class"
+    type: section
+  - name: "The Eights Class"
+    type: section
+  - name: "Class Relationships"
+    type: section
+  - name: "Vocabulary"
+    type: section
+  - name: "Exercises"
+    type: section
+  - name: "Arrays of Arrays"
+    type: chapter
+  - name: "Conway's Game of Life"
+    type: section
+  - name: "The Cell Class"
+    type: section
+  - name: "Two-Dimensional Arrays"
+    type: section
+  - name: "The GridCanvas Class"
+    type: section
+  - name: "Other Grid Methods"
+    type: section
+  - name: "Starting the Game"
+    type: section
+  - name: "The Simulation Loop"
+    type: section
+  - name: "Exception Handling"
+    type: section
+  - name: "Counting Neighbors"
+    type: section
+  - name: "Updating the Grid"
+    type: section
+  - name: "Vocabulary"
+    type: section
+  - name: "Exercises"
+    type: section
+  - name: "Reusing Classes"
+    type: chapter
+  - name: "Langton's Ant"
+    type: section
+  - name: "Refactoring"
+    type: section
+  - name: "Abstract Classes"
+    type: section
+  - name: "UML Diagram"
+    type: section
+  - name: "Vocabulary"
+    type: section
+  - name: "Exercises"
+    type: section
+  - name: "Advanced Topics"
+    type: chapter
+  - name: "Polygon Objects"
+    type: section
+  - name: "Adding Color"
+    type: section
+  - name: "Regular Polygons"
+    type: section
+  - name: "More Constructors"
+    type: section
+  - name: "An Initial Drawing"
+    type: section
+  - name: "Blinking Polygons"
+    type: section
+  - name: "Interfaces"
+    type: section
+  - name: "Event Listeners"
+    type: section
+  - name: "Timers"
+    type: section
+  - name: "Vocabulary"
+    type: section
+  - name: "Exercises"
+    type: section
+  - name: "Tools"
+    type: chapter
+  - name: "Installing DrJava"
+    type: section
+  - name: "DrJava Interactions"
+    type: section
+  - name: "Command-Line Interface"
+    type: section
+  - name: "Command-Line Testing"
+    type: section
+  - name: "Running Checkstyle"
+    type: section
+  - name: "Tracing with a Debugger"
+    type: section
+  - name: "Testing with JUnit"
+    type: section
+  - name: "Vocabulary"
+    type: section
+  - name: "Javadoc"
+    type: chapter
+  - name: "Reading Documentation"
+    type: section
+  - name: "Writing Documentation"
+    type: section
+  - name: "Javadoc Tags"
+    type: section
+  - name: "Example Source File"
+    type: section
+  - name: "Vocabulary"
+    type: section
+  - name: "Graphics"
+    type: chapter
+  - name: "Creating Graphics"
+    type: section
+  - name: "Graphics Methods"
+    type: section
+  - name: "Example Drawing"
+    type: section
+  - name: "Vocabulary"
+    type: section
+  - name: "Exercises"
+    type: section
+  - name: "Debugging"
+    type: chapter
+  - name: "Compile-Time Errors"
+    type: section
+  - name: "Run-Time Errors"
+    type: section
+  - name: "Logic Errors"
+    type: section

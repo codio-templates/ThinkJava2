@@ -1,0 +1,1 @@
+The Java library includes the package `java.awt` for drawing 2D graphics. **AWT** stands for “Abstract Window Toolkit”. We are only going to scratch the surface of graphics programming. You can read more about it in the Java tutorials (see [https://thinkjava.org/java2d](https://thinkjava.org/java2d)).
