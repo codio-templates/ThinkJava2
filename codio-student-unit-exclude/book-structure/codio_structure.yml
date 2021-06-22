@@ -353,11 +353,20 @@ sections:
             action: open
   - name: "Vocabulary"
     type: section
+    transformations:
+       - add:  |
+                 See examples of arrays and different array methods in java in the left pane. To compile and run the code, press "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch07/ArrayExamples.java java -cp code/ch07/ ArrayExamples )
+
+         position: 775
     configuration:
-      layout: 1-panel
+      layout: 2-panels
       files:
           - path: "#tabs"
             action: close
+          - path: "code/ch07/ArrayExamples.java"
+            panel: 0
+            action: open
   - name: "Exercises"
     type: section
     configuration:

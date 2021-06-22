@@ -13,3 +13,8 @@
 * **pseudorandom** A sequence of numbers that appear to be random but are actually the product of a deterministic computation.
 * **histogram** An array of integers in which each integer counts the number of values that fall into a certain range.
 * **enhanced for loop** An alternative syntax for traversing the elements of an array (or other collection).
+
+
+
+See examples of arrays and different array methods in java in the left pane. To compile and run the code, press "Run!"
+{Run!}(sh .guides/bg.sh javac code/ch07/ArrayExamples.java java -cp code/ch07/ ArrayExamples )
