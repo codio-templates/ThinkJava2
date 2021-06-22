@@ -1079,8 +1079,19 @@
     {
       "chapter": true,
       "content-file": ".guides/content/arrays-and-references.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch07/Inefficient.java"
+        }
+      ],
       "id": "arrays-and-references",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1091,8 +1102,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-and-references-creating-arrays.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "arrays-and-references-creating-arrays",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1103,8 +1120,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-and-references-accessing-elements.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "arrays-and-references-accessing-elements",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1115,8 +1138,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-and-references-displaying-arrays.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "arrays-and-references-displaying-arrays",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1127,8 +1156,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-and-references-copying-arrays.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "arrays-and-references-copying-arrays",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1139,8 +1174,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-and-references-traversing-arrays.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "arrays-and-references-traversing-arrays",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1151,8 +1192,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-and-references-random-numbers.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "arrays-and-references-random-numbers",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1163,8 +1210,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-and-references-building-a-histogram.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch07/Histogram.java"
+        }
+      ],
       "id": "arrays-and-references-building-a-histogram",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1175,8 +1233,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-and-references-the-enhanced-for-loop.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "arrays-and-references-the-enhanced-for-loop",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1187,8 +1251,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-and-references-counting-characters.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch07/Doubloon.java"
+        }
+      ],
       "id": "arrays-and-references-counting-characters",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1199,8 +1274,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-and-references-vocabulary.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "arrays-and-references-vocabulary",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1211,8 +1292,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-and-references-exercises.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "arrays-and-references-exercises",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],

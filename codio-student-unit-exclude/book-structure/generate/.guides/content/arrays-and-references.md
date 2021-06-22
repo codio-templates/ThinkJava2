@@ -11,7 +11,9 @@ for (char c = 'a'; c <= 'z'; c++) {
     // if the count is not 0 or 2, return false
 ```
 
-This “nested loops” approach is inefficient, especially when the string is long.  For example, there are more than 3 million characters in *War and Peace*; to process the whole book, the nested loop would run about 80 million times.
+See the complete example java code in the left pane. To compile and run the code, press "Run!"
+{Run!}(sh .guides/bg.sh javac code/ch07/Inefficient.java java -cp code/ch07/ Inefficient )
+ This “nested loops” approach is inefficient, especially when the string is long.  For example, there are more than 3 million characters in *War and Peace*; to process the whole book, the nested loop would run about 80 million times.
 
 Another algorithm would initialize 26 variables to zero, loop through the string *one time*, and use a giant `if` statement to update the variable for each letter. But who wants to declare 26 variables?
 

@@ -254,28 +254,117 @@ sections:
     type: section
   - name: "Arrays and References"
     type: chapter
+    transformations:
+       - add:  |
+                 See the complete example java code in the left pane. To compile and run the code, press "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch07/Inefficient.java java -cp code/ch07/ Inefficient )
+
+         position: 19
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch07/Inefficient.java"
+            panel: 0
+            action: open
   - name: "Creating Arrays"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Accessing Elements"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Displaying Arrays"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Copying Arrays"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Traversing Arrays"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Random Numbers"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Building a Histogram"
     type: section
+    transformations:
+       - add:  |
+                 Putting together all the above code fragments, and adding some comments and test cases, see the complete example java code in the left pane. To compile and run the code, press "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch07/Histogram.java java -cp code/ch07/ Histogram )
+
+         position: 568
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch07/Histogram.java"
+            panel: 0
+            action: open
   - name: "The Enhanced for Loop"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Counting Characters"
     type: section
+    transformations:
+       - remove: 1
+         position: 684
+       - add:  |
+                 Pulling together the code fragments, and adding some comments and test cases, see the complete example java code in the left pane. To compile and run the code, press "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch07/Doubloon.java java -cp code/ch07/ Doubloon )
+
+         position: 685
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch07/Doubloon.java"
+            panel: 0
+            action: open
   - name: "Vocabulary"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Exercises"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Recursive Methods"
     type: chapter
   - name: "Recursive Void Methods"

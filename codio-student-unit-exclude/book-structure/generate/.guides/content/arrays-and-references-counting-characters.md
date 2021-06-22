@@ -51,7 +51,9 @@ return true;  // is a doubloon
 
 If we find a count that is neither 0 or 2, we know the word is not a doubloon and we can return immediately. If we make it all the way through the `for` loop, we know that all counts are 0 or 2, which means the word is a doubloon.
 
-Pulling together the code fragments, and adding some comments and test cases, here's the entire program:
+Pulling together the code fragments, and adding some comments and test cases, see the complete example java code in the left pane. To compile and run the code, press "Run!"
+{Run!}(sh .guides/bg.sh javac code/ch07/Doubloon.java java -cp code/ch07/ Doubloon )
+
 
 
 
