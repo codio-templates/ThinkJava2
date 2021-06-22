@@ -311,8 +311,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/computer-programming-what-is-computer-science-.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "computer-programming-what-is-computer-science-",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],

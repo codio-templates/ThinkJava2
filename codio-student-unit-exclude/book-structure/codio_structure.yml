@@ -192,8 +192,20 @@ sections:
             action: open
   - name: "What Is Computer Science?"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Debugging Programs"
     type: section
+    transformations:
+        - remove: 3
+          position: 500
+        - add: |
+                 When presented with code examples within this book, be sure to experiment with variations in the code in order to get the full picture of how a given language feature, code snippet, or solution works. 
+
+          position: 505
   - name: "Vocabulary"
     type: section
   - name: "Exercises"

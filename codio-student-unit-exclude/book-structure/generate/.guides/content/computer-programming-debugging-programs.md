@@ -1,4 +1,4 @@
-It is a good idea to read this book in front of a computer so you can try out the examples as you go. You can run many of the examples directly in DrJava's Interactions pane (see Appendix 18.2). But if you put the code in a source file, it will be easier to try out variations.
+When presented with code examples within this book, be sure to experiment with variations in the code in order to get the full picture of how a given language feature, code snippet, or solution works. 
 
 
 Whenever you are experimenting with a new feature, you should also try to make mistakes. For example, in the Hello World program, what happens if you leave out one of the quotation marks? What if you leave out both? What if you spell `println` wrong? These kinds of experiments help you remember what you read. They also help with debugging, because you learn what the error messages mean. It is better to make mistakes now and on purpose than later on and accidentally.
