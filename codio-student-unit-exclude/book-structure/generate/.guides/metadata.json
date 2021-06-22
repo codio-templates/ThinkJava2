@@ -1106,10 +1106,15 @@
         {
           "action": "close",
           "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch07/ArrayExamples.java"
         }
       ],
       "id": "arrays-and-references-creating-arrays",
-      "layout": "1-panel",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1278,15 +1283,10 @@
         {
           "action": "close",
           "path": "#tabs"
-        },
-        {
-          "action": "open",
-          "panel": 0,
-          "path": "code/ch07/ArrayExamples.java"
         }
       ],
       "id": "arrays-and-references-vocabulary",
-      "layout": "2-panels",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1339,8 +1339,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/recursive-methods-recursive-stack-diagrams.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "recursive-methods-recursive-stack-diagrams",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1351,8 +1357,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/recursive-methods-value-returning-methods.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "recursive-methods-value-returning-methods",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1363,8 +1375,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/recursive-methods-the-leap-of-faith.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "recursive-methods-the-leap-of-faith",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1375,8 +1393,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/recursive-methods-counting-up-recursively.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "recursive-methods-counting-up-recursively",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1387,8 +1411,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/recursive-methods-binary-number-system.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "recursive-methods-binary-number-system",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1399,8 +1429,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/recursive-methods-recursive-binary-method.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "recursive-methods-recursive-binary-method",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1411,8 +1447,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/recursive-methods-codingbat-problems.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch08/CodingBat.java"
+        }
+      ],
       "id": "recursive-methods-codingbat-problems",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1423,8 +1470,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/recursive-methods-vocabulary.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch08/Examples.java"
+        }
+      ],
       "id": "recursive-methods-vocabulary",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1435,8 +1493,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/recursive-methods-exercises.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "recursive-methods-exercises",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],

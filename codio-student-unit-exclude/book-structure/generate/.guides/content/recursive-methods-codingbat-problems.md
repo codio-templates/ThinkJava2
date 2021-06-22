@@ -92,3 +92,6 @@ Again, you can run this solutions on CodingBat by pasting the snippets into the 
 To see how these solutions actually work, you might find it helpful to step through them with a debugger (see Appendix 18.6) or Java Tutor ([https://thinkjava.org/javatutor](https://thinkjava.org/javatutor)). Then try solving other CodingBat problems on your own.
 
 Learning to think recursively is an important part of learning to think like a computer scientist. Many algorithms can be written concisely with recursive methods that perform computations on the way down, on the way up, or both.
+
+See both solved CodingBat problems solved in java in the left pane. To compile and run the code, press "Run!"
+{Run!}(sh .guides/bg.sh javac code/ch08/CodingBat.java java -cp code/ch08/ CodingBat )

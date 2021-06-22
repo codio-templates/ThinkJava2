@@ -69,4 +69,4 @@ for (int i = 0; i < scores.length; i++) {
 Each time through the loop, it selects one element from `scores` and uses it as an index to increment the corresponding element of `counts`. Because this code traverses the array of scores only once, it is much more efficient.
 
 Putting together all the above code fragments, and adding some comments and test cases, see the complete example java code in the left pane. To compile and run the code, press "Run!"
-{Run!}(sh .guides/bg.sh javac code/ch07/Histogram.java java -cp code/ch07/ Histogram )
+{Run!}(sh .guides/bg.sh javac code/ch07/*.java java -cp code/ch07/ Histogram )

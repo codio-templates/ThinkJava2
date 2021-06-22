@@ -256,7 +256,7 @@ sections:
     type: chapter
     transformations:
        - add:  |
-                 See the complete example java code in the left pane. To compile and run the code, press "Run!"
+                 See example java code in the left pane. To compile and run the code, press "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch07/Inefficient.java java -cp code/ch07/ Inefficient )
 
          position: 19
@@ -270,11 +270,19 @@ sections:
             action: open
   - name: "Creating Arrays"
     type: section
+    transformations:
+       - add:  |
+                 [TEST](open_file code/ch07/ArrayExamples.java panel=0 ref="int size" count=3)
+
+         position: 45
     configuration:
-      layout: 1-panel
+      layout: 2-panels
       files:
           - path: "#tabs"
             action: close
+          - path: "code/ch07/ArrayExamples.java"
+            panel: 0
+            action: open
   - name: "Accessing Elements"
     type: section
     configuration:
@@ -315,7 +323,7 @@ sections:
     transformations:
        - add:  |
                  Putting together all the above code fragments, and adding some comments and test cases, see the complete example java code in the left pane. To compile and run the code, press "Run!"
-                 {Run!}(sh .guides/bg.sh javac code/ch07/Histogram.java java -cp code/ch07/ Histogram )
+                 {Run!}(sh .guides/bg.sh javac code/ch07/*.java java -cp code/ch07/ Histogram )
 
          position: 568
     configuration:
@@ -353,20 +361,11 @@ sections:
             action: open
   - name: "Vocabulary"
     type: section
-    transformations:
-       - add:  |
-                 See examples of arrays and different array methods in java in the left pane. To compile and run the code, press "Run!"
-                 {Run!}(sh .guides/bg.sh javac code/ch07/ArrayExamples.java java -cp code/ch07/ ArrayExamples )
-
-         position: 775
     configuration:
-      layout: 2-panels
+      layout: 1-panel
       files:
           - path: "#tabs"
             action: close
-          - path: "code/ch07/ArrayExamples.java"
-            panel: 0
-            action: open
   - name: "Exercises"
     type: section
     configuration:
@@ -383,22 +382,85 @@ sections:
           position: 36
   - name: "Recursive Stack Diagrams"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Value-Returning Methods"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "The Leap of Faith"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Counting Up Recursively"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Binary Number System"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Recursive Binary Method"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "CodingBat Problems"
     type: section
+    transformations:
+       - add:  |
+                 See both solved CodingBat problems solved in java in the left pane. To compile and run the code, press "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch08/CodingBat.java java -cp code/ch08/ CodingBat )
+
+         position: 654
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch08/CodingBat.java"
+            panel: 0
+            action: open
   - name: "Vocabulary"
     type: section
+    transformations:
+       - add:  |
+                 See examples of different recursive methods in java in the left pane. To compile and run the code, press "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch08/Examples.java java -cp code/ch08/ Examples )
+
+         position: 692
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch08/Examples.java"
+            panel: 0
+            action: open
   - name: "Exercises"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Immutable Objects"
     type: chapter
   - name: "Primitives vs Objects"
