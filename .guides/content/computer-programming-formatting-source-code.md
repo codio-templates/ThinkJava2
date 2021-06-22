@@ -10,11 +10,17 @@ publicclassGoodbye{
 }
 ```
 
-But most other spaces are optional. For example, this program *is* legal:
+But most other spaces are optional.
+
+For example, the code to the upper left is legal. To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/1/Goodbye.java java -cp code/1/ Goodbye )
 
 
 
-The newlines are optional, too. So we could just write this:
+The newlines are optional, too.
+
+So even the code on the lower left is legal. To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/2/Goodbye.java java -cp code/2/ Goodbye )
 
 
 

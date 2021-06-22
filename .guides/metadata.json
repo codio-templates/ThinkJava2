@@ -214,8 +214,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/computer-programming-compiling-java-programs.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "computer-programming-compiling-java-programs",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -238,8 +244,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/computer-programming-formatting-source-code.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/1/Goodbye.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "code/2/Goodbye.java"
+        }
+      ],
       "id": "computer-programming-formatting-source-code",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],

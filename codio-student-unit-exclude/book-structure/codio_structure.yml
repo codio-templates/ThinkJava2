@@ -79,21 +79,17 @@ sections:
             action: close
   - name: "What Is Programming?"
     type: section
-    transformations:
-      - add: | 
-              Here is a random line of text. 
-        position: 105
     configuration:
       layout: 1-panel
       files:
           - path: "#tabs"
             action: close
-  - name: "The Hello World Program -- TEST CHANGE"
+  - name: "The Hello World Program"
     type: section
     transformations:
         - remove: 1
           position: 87
-        - add:  |
+        - add: |
                  See the example java code in the left pane. This is a random sentence. To compile and run the code, press the "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch01/Hello.java java -cp code/ch01/ Hello )
 
@@ -108,10 +104,42 @@ sections:
             action: open
   - name: "Compiling Java Programs"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Displaying Two Messages"
     type: section
   - name: "Formatting Source Code"
     type: section
+    transformations:
+        - remove: 1
+          position: 348
+        - add: |
+                 For example, the code to the upper left is legal. To compile and run the code, press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/1/Goodbye.java java -cp code/1/ Goodbye )
+
+          position: 350
+        - remove: 1
+          position: 360
+        - add: |
+                 So even the code on the lower left is legal. To compile and run the code, press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/2/Goodbye.java java -cp code/2/ Goodbye )
+
+          position: 362
+    configuration:
+      layout: 3-cell
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/1/Goodbye.java"
+            panel: 0
+            action: open
+          - path: "code/2/Goodbye.java"
+            panel: 1
+            action: open
+            
   - name: "Using Escape Sequences"
     type: section
   - name: "What Is Computer Science?"

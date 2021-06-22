@@ -3,7 +3,7 @@ Traditionally, the first program you write when learning a new programming langu
 
 
 
-See the example java code in the left pane. To compile and run the code, press the "Run!"
+See the example java code in the left pane. This is a random sentence. To compile and run the code, press the "Run!"
 {Run!}(sh .guides/bg.sh javac code/ch01/Hello.java java -cp code/ch01/ Hello )
 
 
