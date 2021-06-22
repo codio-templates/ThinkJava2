@@ -13,9 +13,7 @@ System.out.print("The value of firstLine is ");
 System.out.println(firstLine);
 ```
 
-See the example java code in the left pane. This is a random sentence. To compile and run the code, press the "Run!"
-{Run!}(sh .guides/bg.sh javac code/ch02/PrintingVars.java java -cp code/ch02/ PrintingVars )
- For this example, the output is as follows:
+For this example, the output is as follows:
 
 ```code
 The value of firstLine is Hello, again!
@@ -40,3 +38,6 @@ The current time is 11:59.
 ```
 
 To output multiple values on the same line, it's common to use several `print` statements followed by `println` at the end. But don't forget the `println`! On many computers, the output from `print` is stored without being displayed until `println` is run; then the entire line is displayed at once. If you omit the `println`, the program might display the stored output at unexpected times or even terminate without displaying anything.
+
+See the example java code in the left pane. To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/ch02/PrintingVars.java java -cp code/ch02/ PrintingVars )

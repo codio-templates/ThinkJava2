@@ -33,3 +33,6 @@ int balance = 12345;      // total number of cents
 
 
 This solution works as long as the number of cents doesn't exceed the largest `int`, which is about 2 billion.
+
+See the example java code in the left pane. To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/ch02/FloatingPoint.java java -cp code/ch02/ FloatingPoint )

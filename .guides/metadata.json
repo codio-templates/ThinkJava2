@@ -321,10 +321,15 @@
         {
           "action": "close",
           "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch02/DeclareAssign.java"
         }
       ],
       "id": "variables-and-operators-declaring-variables",
-      "layout": "1-panel",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -357,10 +362,15 @@
         {
           "action": "close",
           "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch02/MemoryDiagram.java"
         }
       ],
       "id": "variables-and-operators-memory-diagrams",
-      "layout": "1-panel",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -416,10 +426,15 @@
         {
           "action": "close",
           "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch02/FloatingPoint.java"
         }
       ],
       "id": "variables-and-operators-floating-point-numbers",
-      "layout": "1-panel",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -434,10 +449,15 @@
         {
           "action": "close",
           "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch02/FloatingPoint.java"
         }
       ],
       "id": "variables-and-operators-rounding-errors",
-      "layout": "1-panel",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -460,7 +480,7 @@
         }
       ],
       "id": "variables-and-operators-operators-for-strings",
-      "layout": "2-panel",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],

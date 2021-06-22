@@ -131,11 +131,20 @@ sections:
             action: close
   - name: "Declaring Variables"
     type: section
+    transformations:
+        - add:  |
+                 See the example java code in the left pane. To compile and run the code, press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch02/DeclareAssign.java java -cp code/ch02/ DeclareAssign )
+
+          position: 71
     configuration:
-      layout: 1-panel
+      layout: 2-panels
       files:
           - path: "#tabs"
             action: close
+          - path: "code/ch02/DeclareAssign.java"
+            panel: 0
+            action: open
   - name: "Assigning Variables"
     type: section
     configuration:
@@ -145,18 +154,28 @@ sections:
             action: close
   - name: "Memory Diagrams"
     type: section
+    transformations:
+        - add:  |
+                 See the example java code in the left pane. To compile and run the code, press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch02/MemoryDiagram.java java -cp code/ch02/ MemoryDiagram )
+
+          position: 180
     configuration:
-      layout: 1-panel
+      layout: 2-panels
       files:
           - path: "#tabs"
             action: close
+          - path: "code/ch02/MemoryDiagram.java"
+            panel: 0
+            action: open
   - name: "Printing Variables"
     type: section
     transformations:
         - add:  |
-                 See the example java code in the left pane. This is a random sentence. To compile and run the code, press the "Run!"
+                 See the example java code in the left pane. To compile and run the code, press the "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch02/PrintingVars.java java -cp code/ch02/ PrintingVars )
-          position: 239
+
+          position: 269
     configuration:
       layout: 2-panels
       files:
@@ -174,22 +193,46 @@ sections:
             action: close
   - name: "Floating-Point Numbers"
     type: section
+    transformations:
+        - add:  |
+                 See the example java code in the left pane. To compile and run the code, press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch02/FloatingPoint.java java -cp code/ch02/ FloatingPoint )
+
+          position: 430
     configuration:
-      layout: 1-panel
+      layout: 2-panels
       files:
           - path: "#tabs"
             action: close
+          - path: "code/ch02/FloatingPoint.java"
+            panel: 0
+            action: open
   - name: "Rounding Errors"
     type: section
+    transformations:
+        - add:  |
+                 See the example java code in the left pane. To compile and run the code, press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch02/FloatingPoint.java java -cp code/ch02/ FloatingPoint )
+
+          position: 492
     configuration:
-      layout: 1-panel
+      layout: 2-panels
       files:
           - path: "#tabs"
             action: close
+          - path: "code/ch02/FloatingPoint.java"
+            panel: 0
+            action: open
   - name: "Operators for Strings"
     type: section
+    transformations:
+        - add:  |
+                 See the example java code in the left pane. To compile and run the code, press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch02/StringConcat.java java -cp code/ch02/ StringConcat )
+
+          position: 528
     configuration:
-      layout: 2-panel
+      layout: 2-panels
       files:
           - path: "#tabs"
             action: close
@@ -206,10 +249,13 @@ sections:
   - name: "Other Types of Errors"
     type: section
     transformations:
+        - remove: 6
+          position: 684 
         - add:  |
-                 See the example java code in the left pane. This is a random sentence. To compile and run the code, press the "Run!"
+                 See the example java code in the left pane. To compile and run the code, press the "Run!". 
                  {Run!}(sh .guides/bg.sh javac code/ch02/Hello.java java -cp code/ch02/ Hello )
-          position: 239
+
+          position: 683
     configuration:
       layout: 2-panels
       files:

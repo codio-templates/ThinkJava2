@@ -51,3 +51,6 @@ double y = 1.0 / 3.0;  // correct
 ```
 
 As a matter of style, you should always assign floating-point values to floating-point variables. The compiler won't make you do it, but you never know when a simple mistake will come back and haunt you.
+
+See the example java code in the left pane. To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/ch02/FloatingPoint.java java -cp code/ch02/ FloatingPoint )

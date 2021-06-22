@@ -21,6 +21,9 @@ System.out.println("Hello" + 1 + 2);
 
 Java executes these operations from left to right. In the first line, `1 + 2` is `3`, and `3 + "Hello"` is `"3Hello"`. But in the second line, `"Hello" + 1` is `"Hello1"`, and `"Hello1" + 2` is `"Hello12"`.
 
+See the example java code in the left pane. To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/ch02/StringConcat.java java -cp code/ch02/ StringConcat )
+
 
 
 

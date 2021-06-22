@@ -10,7 +10,9 @@ int b = a;     // a and b are now equal
 a = 3;         // a and b are no longer equal
 ```
 
-The third line changes the value of `a`, but it does not change the value of `b`, so they are no longer equal.
+See the example java code in the left pane. To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/ch02/MemoryDiagram.java java -cp code/ch02/ MemoryDiagram )
+ The third line changes the value of `a`, but it does not change the value of `b`, so they are no longer equal.
 
 
 Taken together, the variables in a program and their current values make up the program's **state**. Figure 2.1 shows the state of the program after these assignment statements run.
