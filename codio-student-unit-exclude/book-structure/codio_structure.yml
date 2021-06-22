@@ -111,6 +111,32 @@ sections:
             action: close
   - name: "Displaying Two Messages"
     type: section
+    transformations:
+        - remove: 1
+          position: 278
+        - add: |
+                 For example, take a look at Hello2.java in the top left corner. To compile and run the code, press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch01/Goodbye.java java -cp code/ch01/ Goodbye )
+
+          position: 279
+        - remove: 1
+          position: 308
+        - add: |
+                 For example, take a look at Goodbye.java in the bottom left corner. To compile and run the code, press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch01/Goodbye.java java -cp code/ch01/ Goodbye )
+
+          position: 309
+    configuration:
+      layout: 3-cell
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch01/Hello2.java"
+            panel: 0
+            action: open
+          - path: "code/ch01/Goodbye.java"
+            panel: 1
+            action: open
   - name: "Formatting Source Code"
     type: section
     transformations:
@@ -139,7 +165,6 @@ sections:
           - path: "code/2/Goodbye.java"
             panel: 1
             action: open
-            
   - name: "Using Escape Sequences"
     type: section
   - name: "What Is Computer Science?"

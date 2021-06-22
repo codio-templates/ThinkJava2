@@ -232,8 +232,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/computer-programming-displaying-two-messages.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch01/Hello2.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "code/ch01/Goodbye.java"
+        }
+      ],
       "id": "computer-programming-displaying-two-messages",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],

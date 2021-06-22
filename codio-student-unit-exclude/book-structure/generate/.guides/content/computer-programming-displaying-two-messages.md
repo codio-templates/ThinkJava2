@@ -1,4 +1,6 @@
-You can put as many statements as you like in the `main` method. For example, to display more than one line of output:
+You can put as many statements as you like in the `main` method. For example, take a look at Hello2.java in the top left corner. To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/ch01/Goodbye.java java -cp code/ch01/ Goodbye )
+
 
 
 
@@ -9,6 +11,9 @@ Phrases that appear in quotation marks are called **strings**, because they cont
 
 
 `System.out.println` appends a special character, called a **newline**, that moves to the beginning of the next line. If you don't want a newline at the end, you can use `print` instead of `println`:
+
+For example, take a look at Goodbye.java in the bottom left corner. To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/ch01/Goodbye.java java -cp code/ch01/ Goodbye )
 
 
 
