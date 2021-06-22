@@ -206,6 +206,14 @@ sections:
                  When presented with code examples within this book, be sure to experiment with variations in the code in order to get the full picture of how a given language feature, code snippet, or solution works. 
 
           position: 505
+  - name: "Assessment 1"
+    type: section
+  - name: "Assessment 2"
+    type: section
+  - name: "Assessment 3"
+    type: section
+  - name: "Assessment 4"
+    type: section
   - name: "Vocabulary"
     type: section
   - name: "Exercises"
