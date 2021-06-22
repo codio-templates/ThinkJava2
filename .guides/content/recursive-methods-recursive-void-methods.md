@@ -13,7 +13,6 @@ public static void countdown(int n) {
 
 The name of the method is `countdown`; it takes a single integer as a parameter. If the parameter is 0, it displays the word `Blastoff!`. Otherwise, it displays the number and then invokes itself, passing `n - 1` as the argument.
 
-What happens if we invoke `countdown(3)` from `main`?
 
 
 
