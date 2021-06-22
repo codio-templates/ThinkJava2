@@ -191,19 +191,8 @@
     {
       "chapter": false,
       "content-file": ".guides/content/computer-programming-the-hello-world-program.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        },
-        {
-          "action": "open",
-          "panel": 0,
-          "path": "code/ch01/Hello.java"
-        }
-      ],
+      "files": [],
       "id": "computer-programming-the-hello-world-program",
-      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -310,8 +299,14 @@
     {
       "chapter": true,
       "content-file": ".guides/content/variables-and-operators.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "variables-and-operators",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -322,8 +317,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-operators-declaring-variables.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "variables-and-operators-declaring-variables",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -334,8 +335,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-operators-assigning-variables.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "variables-and-operators-assigning-variables",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -346,8 +353,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-operators-memory-diagrams.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "variables-and-operators-memory-diagrams",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -358,8 +371,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-operators-printing-variables.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch02/PrintingVars.java"
+        }
+      ],
       "id": "variables-and-operators-printing-variables",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -370,8 +394,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-operators-arithmetic-operators.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "variables-and-operators-arithmetic-operators",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -382,8 +412,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-operators-floating-point-numbers.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "variables-and-operators-floating-point-numbers",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -394,8 +430,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-operators-rounding-errors.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "variables-and-operators-rounding-errors",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -406,8 +448,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-operators-operators-for-strings.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch02/StringConcat.java"
+        }
+      ],
       "id": "variables-and-operators-operators-for-strings",
+      "layout": "2-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -418,8 +471,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-operators-compiler-error-messages.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "variables-and-operators-compiler-error-messages",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -430,8 +489,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-operators-other-types-of-errors.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch02/Hello.java"
+        }
+      ],
       "id": "variables-and-operators-other-types-of-errors",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -442,8 +512,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-operators-vocabulary.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "variables-and-operators-vocabulary",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -454,8 +530,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/variables-and-operators-exercises.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "variables-and-operators-exercises",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],

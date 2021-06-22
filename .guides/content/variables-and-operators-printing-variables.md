@@ -13,7 +13,9 @@ System.out.print("The value of firstLine is ");
 System.out.println(firstLine);
 ```
 
-For this example, the output is as follows:
+See the example java code in the left pane. This is a random sentence. To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/ch02/PrintingVars.java java -cp code/ch02/ PrintingVars )
+ For this example, the output is as follows:
 
 ```code
 The value of firstLine is Hello, again!

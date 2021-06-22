@@ -79,12 +79,16 @@ sections:
             action: close
   - name: "What Is Programming?"
     type: section
+    transformations:
+      - add: | 
+              Here is a random line of text. 
+        position: 105
     configuration:
       layout: 1-panel
       files:
           - path: "#tabs"
             action: close
-  - name: "The Hello World Program"
+  - name: "The Hello World Program -- TEST CHANGE"
     type: section
     transformations:
         - remove: 1
@@ -120,30 +124,114 @@ sections:
     type: section
   - name: "Variables and Operators"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Declaring Variables"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Assigning Variables"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Memory Diagrams"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Printing Variables"
     type: section
+    transformations:
+        - add:  |
+                 See the example java code in the left pane. This is a random sentence. To compile and run the code, press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch02/PrintingVars.java java -cp code/ch02/ PrintingVars )
+          position: 239
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch02/PrintingVars.java"
+            panel: 0
+            action: open
   - name: "Arithmetic Operators"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Floating-Point Numbers"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Rounding Errors"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Operators for Strings"
     type: section
+    configuration:
+      layout: 2-panel
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch02/StringConcat.java"
+            panel: 0
+            action: open
   - name: "Compiler Error Messages"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Other Types of Errors"
     type: section
+    transformations:
+        - add:  |
+                 See the example java code in the left pane. This is a random sentence. To compile and run the code, press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch02/Hello.java java -cp code/ch02/ Hello )
+          position: 239
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch02/Hello.java"
+            panel: 0
+            action: open
   - name: "Vocabulary"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Exercises"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Input and Output"
     type: chapter
   - name: "The System Class"
