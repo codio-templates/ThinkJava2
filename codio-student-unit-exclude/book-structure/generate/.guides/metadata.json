@@ -288,8 +288,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/computer-programming-using-escape-sequences.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch01/Hello3.java"
+        }
+      ],
       "id": "computer-programming-using-escape-sequences",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],

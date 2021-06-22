@@ -116,7 +116,7 @@ sections:
           position: 278
         - add: |
                  For example, take a look at Hello2.java in the top left corner. To compile and run the code, press the "Run!"
-                 {Run!}(sh .guides/bg.sh javac code/ch01/Goodbye.java java -cp code/ch01/ Goodbye )
+                 {Run!}(sh .guides/bg.sh javac code/ch01/Hello2.java java -cp code/ch01/ Hello2 )
 
           position: 279
         - remove: 1
@@ -167,6 +167,29 @@ sections:
             action: open
   - name: "Using Escape Sequences"
     type: section
+    transformations:
+        - remove: 1
+          position: 404
+        - add: |
+                 You just have to tell Java where to put the line breaks. For example, take a look at Hello3.java on the left. To compile and run the code, press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch01/Hello3.java java -cp code/ch01/ Hello3 1)
+
+          position: 405
+        - remove: 5
+          position: 448
+        - add: |
+                 For example, to write quotation marks inside of strings, you need to escape them with a backslash, as in line 5 on the code on the left. To compile and run the code, press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch01/Hello3.java java -cp code/ch01/ Hello3 2)
+
+          position: 453
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch01/Hello3.java"
+            panel: 0
+            action: open
   - name: "What Is Computer Science?"
     type: section
   - name: "Debugging Programs"

@@ -1,5 +1,5 @@
 You can put as many statements as you like in the `main` method. For example, take a look at Hello2.java in the top left corner. To compile and run the code, press the "Run!"
-{Run!}(sh .guides/bg.sh javac code/ch01/Goodbye.java java -cp code/ch01/ Goodbye )
+{Run!}(sh .guides/bg.sh javac code/ch01/Hello2.java java -cp code/ch01/ Hello2 )
 
 
 
