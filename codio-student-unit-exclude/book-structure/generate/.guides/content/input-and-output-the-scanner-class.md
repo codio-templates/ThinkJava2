@@ -22,7 +22,9 @@ The `Scanner` class provides a method called `nextLine` that reads a line of inp
 
 
 
-Import statements can't be inside a class definition. By convention, they are usually at the beginning of the file. If you omit the import statement, you get a compiler error like “cannot find symbol”. That means the compiler doesn't know where to find the definition for `Scanner`.
+See the example java code in the left pane. This is a random sentence. To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/ch03/The Scanner Class.java java -cp code/ch03/ The Scanner Class )
+ Import statements can't be inside a class definition. By convention, they are usually at the beginning of the file. If you omit the import statement, you get a compiler error like “cannot find symbol”. That means the compiler doesn't know where to find the definition for `Scanner`.
 
 
 You might wonder why we can use the `System` class without importing it. `System` belongs to the `java.lang` package, which is imported automatically. According to the documentation, `java.lang` “provides classes that are fundamental to the design of the Java programming language.” The `String` class is also part of `java.lang`.

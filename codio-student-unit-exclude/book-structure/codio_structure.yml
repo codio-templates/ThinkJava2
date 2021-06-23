@@ -155,34 +155,177 @@ sections:
     configuration:
       layout: 1-panel
       files:
-           path: #tabs#
-           section: close
+           path: "#tabs#"
+           action: close
   - name: "The Scanner Class"
     type: section
+    transformations:
+        - add:  |
+                 See the example java code in the left pane. This is a random sentence. To compile and run the code, press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch03/The Scanner Class.java java -cp code/ch03/ The Scanner Class )
+
+          position: 129
     configuration:
       layout: 2-panels
       files:
-           path: #tabs#
-           section: close
+          - path: "#tabs#"
+            action: close
+          - path: "code/ch03/Echo.java"
+            panel: 0
+            action: open
+      
   - name: "Language Elements"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+           path: "#tabs#"
+           action: close
   - name: "Literals and Constants"
     type: section
+    transformations:
+        - add:  |
+                 See the example java code in the left pane. This is a random sentence. To compile and run the code, press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch03/Literals.java java -cp code/ch03/ Literals )
+
+          position: 264
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs#"
+            action: close
+          - path: "code/ch03/Literals.java"
+            panel: 0
+            action: open
+    
   - name: "Formatting Output"
     type: section
+    transformations:
+      - add: |
+          See the example java code in the left pane. To compile and run the code, press the "Run"!
+          {Run!}(sh .guides/bg.sh javac code/ch03/Formatting.java java -cp code/ch03/Formatting )
+          
+        position : 279
+      - add: |
+          See the example java code in the left pane. To compile and run the code, press the "Run"!
+          {Run!}(sh .guides/bg.sh javac code/ch03/Formatting.java java -cp code/ch03/Formatting )
+          
+        position : 299
+        
+      - add: |
+          See the example java code in the left pane. To compile and run the code, press the "Run"!
+          {Run!}(sh .guides/bg.sh javac code/ch03/Formatting.java java -cp code/ch03/Formatting )
+          
+        position : 316
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs#"
+            action: close
+          - path: "code/ch03/Formatting.java"
+            panel: 0
+            action: open
   - name: "Reading Error Messages"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+           path: "#tabs#"
+           action: close
+
   - name: "Type Cast Operators"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+           path: "#tabs#"
+           action: close
   - name: "Remainder Operator"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+           path: "#tabs#"
+           action: close
   - name: "Putting It All Together"
     type: section
+    transformations:
+      - add: |
+          See the example java code in the left pane. To compile and run the code, press the "Run"!
+          {Run!}(sh .guides/bg.sh javac code/ch03/Putting It All Together.java java -cp code/ch03/Putting It All Together )
+          
+        position : 563
+      - add: |
+          See the example java code in the left pane. To compile and run the code, press the "Run"!
+          {Run!}(sh .guides/bg.sh javac code/ch03/Putting It All Together.java java -cp code/ch03/Putting It All Together )
+          
+        position : 655
+        
+      - add: |
+          See the example java code in the left pane. To compile and run the code, press the "Run"!
+          {Run!}(sh .guides/bg.sh javac code/ch03/Putting It All Together.java java -cp code/ch03/Putting It All Together )
+          
+        position : 608
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs#"
+            action: close
+          - path: "code/ch03/Convert.java"
+            panel: 0
+            action: open
+    
   - name: "The Scanner Bug"
     type: section
+    transformations:
+      - add: |
+          See the example java code in the left pane. To compile and run the code, press the "Run"!
+          {Run!}(sh .guides/bg.sh javac code/ch03/ScannerBug.java java -cp code/ch03/ScannerBug )
+          
+        position : 608
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs#"
+            action: close
+          - path: "code/ch03/ScannerBug.java"
+            panel: 0
+            action: open
+    
   - name: "Vocabulary"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+           path: "#tabs#"
+           action: close
   - name: "Exercises"
+    transformations:
+      - add: |
+          See the example java code in the left pane. To compile and run the code, press the "Run"!
+          {Run!}(sh .guides/bg.sh javac code/ch03/exercise.java java -cp code/ch03/exercise )
+          
+        position : 846
+      - add: |
+          See the example java code in the left pane. To compile and run the code, press the "Run"!
+          {Run!}(sh .guides/bg.sh javac code/ch03/exercise.java java -cp code/ch03/exercise )
+          
+        position : 848
+      - add: |
+          See the example java code in the left pane. To compile and run the code, press the "Run"!
+          {Run!}(sh .guides/bg.sh javac code/ch03/exercise.java java -cp code/ch03/exercise )
+          
+        position : 851
+      - add: |
+          See the example java code in the left pane. To compile and run the code, press the "Run"!
+          {Run!}(sh .guides/bg.sh javac code/ch03/exercise.java java -cp code/ch03/exercise )
+          
+        position : 854
+    configuration:
+      layout: 1-panel
+      files:
+           path: "#tabs#"
+           action: close
     type: section
   - name: "Methods and Testing"
     type: chapter

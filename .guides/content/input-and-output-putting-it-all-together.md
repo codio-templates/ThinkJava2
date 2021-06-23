@@ -4,7 +4,9 @@ At this point, you have seen enough Java to write useful programs that solve eve
 
 
 
-Although not required, all variables and constants are declared at the top of `main`. This practice makes it easier to find their types later on, and it helps the reader know what data is involved in the algorithm.
+See the example java code in the left pane. To compile and run the code, press the "Run"!
+{Run!}(sh .guides/bg.sh javac code/ch03/Putting It All Together.java java -cp code/ch03/Putting It All Together )
+ Although not required, all variables and constants are declared at the top of `main`. This practice makes it easier to find their types later on, and it helps the reader know what data is involved in the algorithm.
 
 
 For readability, each major step of the algorithm is separated by a blank line and begins with a comment. The class also includes a documentation comment (`/**`), which you can learn more about in Appendix 19.

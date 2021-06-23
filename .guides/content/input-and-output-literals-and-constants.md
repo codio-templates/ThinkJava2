@@ -47,6 +47,8 @@ final double CM_PER_INCH = 2.54;
 ```
 
 
-Declaring that a variable is `final` means that it cannot be reassigned once it has been initialized. If you try, the compiler gives an error.
+Declaring that a variable is `final` means that it cannot be reassigned once it has been initialized. See the example java code in the left pane. This is a random sentence. To compile and run the code, press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/ch03/Literals.java java -cp code/ch03/ Literals )
+ If you try, the compiler gives an error.
 
 Variables declared as `final` are called **constants**. By convention, names for constants are all uppercase, with the underscore character (`_`) between words.

@@ -1,5 +1,3 @@
-My simple text
-
 We have been using `System.out.println` for a while, but you might not have thought about what it means. `System` is a class that provides methods related to the “system”, or environment, where programs run. It also provides `System.out`, which is a special value that has additional methods (like `println`) for displaying output.
 
 

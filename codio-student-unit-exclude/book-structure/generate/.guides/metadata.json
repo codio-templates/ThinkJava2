@@ -468,8 +468,8 @@
       "chapter": false,
       "content-file": ".guides/content/input-and-output-the-system-class.md",
       "files": {
-        "path": null,
-        "section": "close"
+        "action": "close",
+        "path": "#tabs#"
       },
       "id": "input-and-output-the-system-class",
       "layout": "1-panel",
@@ -483,8 +483,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/input-and-output-the-scanner-class.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs#"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch03/Echo.java"
+        }
+      ],
       "id": "input-and-output-the-scanner-class",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -495,8 +506,12 @@
     {
       "chapter": false,
       "content-file": ".guides/content/input-and-output-language-elements.md",
-      "files": [],
+      "files": {
+        "action": "close",
+        "path": "#tabs#"
+      },
       "id": "input-and-output-language-elements",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -507,8 +522,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/input-and-output-literals-and-constants.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs#"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch03/Literals.java"
+        }
+      ],
       "id": "input-and-output-literals-and-constants",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -519,8 +545,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/input-and-output-formatting-output.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs#"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch03/Formatting.java"
+        }
+      ],
       "id": "input-and-output-formatting-output",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -531,8 +568,12 @@
     {
       "chapter": false,
       "content-file": ".guides/content/input-and-output-reading-error-messages.md",
-      "files": [],
+      "files": {
+        "action": "close",
+        "path": "#tabs#"
+      },
       "id": "input-and-output-reading-error-messages",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -543,8 +584,12 @@
     {
       "chapter": false,
       "content-file": ".guides/content/input-and-output-type-cast-operators.md",
-      "files": [],
+      "files": {
+        "action": "close",
+        "path": "#tabs#"
+      },
       "id": "input-and-output-type-cast-operators",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -555,8 +600,12 @@
     {
       "chapter": false,
       "content-file": ".guides/content/input-and-output-remainder-operator.md",
-      "files": [],
+      "files": {
+        "action": "close",
+        "path": "#tabs#"
+      },
       "id": "input-and-output-remainder-operator",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -567,8 +616,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/input-and-output-putting-it-all-together.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs#"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch03/Convert.java"
+        }
+      ],
       "id": "input-and-output-putting-it-all-together",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -579,8 +639,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/input-and-output-the-scanner-bug.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs#"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch03/ScannerBug.java"
+        }
+      ],
       "id": "input-and-output-the-scanner-bug",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -591,8 +662,12 @@
     {
       "chapter": false,
       "content-file": ".guides/content/input-and-output-vocabulary.md",
-      "files": [],
+      "files": {
+        "action": "close",
+        "path": "#tabs#"
+      },
       "id": "input-and-output-vocabulary",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -603,8 +678,12 @@
     {
       "chapter": false,
       "content-file": ".guides/content/input-and-output-exercises.md",
-      "files": [],
+      "files": {
+        "action": "close",
+        "path": "#tabs#"
+      },
       "id": "input-and-output-exercises",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],

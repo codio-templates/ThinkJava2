@@ -24,7 +24,9 @@ name = in.nextLine();
 System.out.printf("Hello %s, age %d\n", name, age);
 ```
 
-Try running this example code. It doesn't let you input your name, and it immediately displays the output:
+See the example java code in the left pane. To compile and run the code, press the "Run"!
+{Run!}(sh .guides/bg.sh javac code/ch03/ScannerBug.java java -cp code/ch03/ScannerBug )
+ Try running this example code. It doesn't let you input your name, and it immediately displays the output:
 
 ```code
 What is your name? Hello , age 45
