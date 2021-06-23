@@ -254,20 +254,11 @@ sections:
     type: section
   - name: "Arrays and References"
     type: chapter
-    transformations:
-       - add:  |
-                 See the complete example java code in the left pane. To compile and run the code, press "Run!"
-                 {Run!}(sh .guides/bg.sh javac code/ch07/Inefficient.java java -cp code/ch07/ Inefficient )
-
-         position: 19
     configuration:
-      layout: 2-panels
+      layout: 1-panel
       files:
           - path: "#tabs"
             action: close
-          - path: "code/ch07/Inefficient.java"
-            panel: 0
-            action: open
   - name: "Creating Arrays"
     type: section
     transformations:
@@ -277,6 +268,12 @@ sections:
                  Of course, you can also declare the variable and create the array with a [single line of code:](open_file code/ch07/ArrayExamples.java panel=0 ref="int size" count=4)
 
          position: 67
+       - remove: 1
+         position: 80
+       - add:  |
+                 You can initialize an array with a comma-separated sequence of elements enclosed in braces, [like this:](open_file code/ch07/ArrayExamples.java panel=0 ref="int[] a" count=1)
+
+         position: 81
     configuration:
       layout: 2-panels
       files:
@@ -297,7 +294,7 @@ sections:
        - remove: 1
          position: 146
        - add:  |
-                 [For example:](open_file code/ch07/ArrayExamples.java panel=0 ref="int j" count=5)
+                 [For example:](open_file code/ch07/ArrayExamples.java panel=0 ref="// traversal with a while loop" count=6)
 
          position: 147
        - remove: 1

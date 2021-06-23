@@ -1083,15 +1083,10 @@
         {
           "action": "close",
           "path": "#tabs"
-        },
-        {
-          "action": "open",
-          "panel": 0,
-          "path": "code/ch07/Inefficient.java"
         }
       ],
       "id": "arrays-and-references",
-      "layout": "2-panels",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],

@@ -29,7 +29,8 @@ double[] values = new double[size];
 
 You can use any integer expression for the size of an array, as long as the value is nonnegative. If you try to create an array with `-4` elements, for example, you will get a `NegativeArraySizeException`. An array with zero elements is allowed, and there are special uses for such arrays.
 
-You can initialize an array with a comma-separated sequence of elements enclosed in braces, like this:
+You can initialize an array with a comma-separated sequence of elements enclosed in braces, [like this:](open_file code/ch07/ArrayExamples.java panel=0 ref="int[] a" count=1)
+
 
 ```code
 int[] a = {1, 2, 3, 4};

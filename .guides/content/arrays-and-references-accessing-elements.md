@@ -32,7 +32,7 @@ Figure 7.2 shows the result of these statements.
 
 **Figure 7.2 Memory diagram after several assignment statements.**
 
-You can use any expression as an index, as long as it has type `int`. One of the most common ways to index an array is with a loop variable. [For example:](open_file code/ch07/ArrayExamples.java panel=0 ref="int j" count=5)
+You can use any expression as an index, as long as it has type `int`. One of the most common ways to index an array is with a loop variable. [For example:](open_file code/ch07/ArrayExamples.java panel=0 ref="// traversal with a while loop" count=6)
 
 
 ```code
