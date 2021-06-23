@@ -57,3 +57,7 @@ for (int i = 0; i < 4; i++) {
 
 
 For the `counts` array, the only legal indexes are 0, 1, 2, and 3. If the index is negative or greater than 3, the result is an `ArrayIndexOutOfBoundsException`.
+
+[Remove highlighting](open_file code/ch07/ArrayExamples.java panel=0)
+To compile and run the code in the left panel, press "Run!"
+{Run!}(sh .guides/bg.sh javac code/ch07/ArrayExamples.java java -cp code/ch07/ ArrayExamples )

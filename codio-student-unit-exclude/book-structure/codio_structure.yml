@@ -303,6 +303,12 @@ sections:
                  This type of array processing is usually written as a [for loop:](open_file code/ch07/ArrayExamples.java panel=0 ref="// traversal with a for loop" count=4)
 
          position: 166
+       - add:  |
+                 [Remove highlighting](open_file code/ch07/ArrayExamples.java panel=0)
+                 To compile and run the code in the left panel, press "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch07/ArrayExamples.java java -cp code/ch07/ ArrayExamples )
+
+         position: 179
     configuration:
       layout: 2-panels
       files:
@@ -323,7 +329,7 @@ sections:
        - remove: 1
          position: 201
        - add:  |
-                 If we want to display the elements of the array, [we can do it ourselves:](open_file code/ch07/ArrayExamples.java panel=0 ref="public static void printArray" count=7)
+                 If we want to [display the elements of the array](open_file code/ch07/ArrayExamples.java panel=0 ref="* Prints the elements of an array." count=9), we can do it ourselves:
 
          position: 202
        - remove: 1
@@ -352,9 +358,9 @@ sections:
        - remove: 1
          position: 328
        - add:  |
-                 Of course, we can replace the loop altogether by using `Arrays.copyOf` and `a.length` [for the second argument.](open_file code/ch07/ArrayExamples.java panel=0 ref="double[] c" count=1)
+                 Of course, we can replace the loop altogether by using `Arrays.copyOf` and `a.length` [for the second argument.](open_file code/ch07/ArrayExamples.java panel=0 ref="// copying with Arrays class" count=2)
 
-         position: 329
+         position: 328
     configuration:
       layout: 2-panels
       files:
@@ -375,13 +381,13 @@ sections:
        - remove: 1
          position: 360
        - add:  |
-                 [For example](open_file code/ch07/ArrayExamples.java panel=0 ref="public static int search" count=9), the following method takes an array and a value, and it returns the index where the value appears:
+                 For example, [the following method](open_file code/ch07/ArrayExamples.java panel=0 ref="* Returns the index" count=11) takes an array and a value, and it returns the index where the value appears:
 
          position: 361
        - remove: 1
          position: 392
        - add:  |
-                 [The following method](open_file code/ch07/ArrayExamples.java panel=0 ref="public static double sum" count=8) takes an array and returns the sum of its elements:
+                 [The following method](open_file code/ch07/ArrayExamples.java panel=0 ref="* Returns the total" count=10) takes an array and returns the sum of its elements:
 
          position: 393
     configuration:
@@ -398,9 +404,15 @@ sections:
        - remove: 1
          position: 442
        - add:  |
-                   [The following method](open_file code/ch07/Histogram.java panel=0 ref="public static int[]" count=8) creates an `int` array and fills it with random numbers between 0 and 99.
+                   [The following method](open_file code/ch07/Histogram.java panel=0 ref="* Returns an array of random integers." count=10) creates an `int` array and fills it with random numbers between 0 and 99.
 
          position: 443
+       - remove: 1
+         position: 456
+       - add:  |
+                   [The following main method](open_file code/ch07/Histogram.java panel=0 ref="public static void main" count=4) generates an array and displays it by using the `printArray` method from Section 7.3. 
+
+         position: 457
     configuration:
       layout: 2-panels
       files:
@@ -415,7 +427,7 @@ sections:
        - remove: 1
          position: 486
        - add:  |
-                   [The following method](open_file code/ch07/Histogram.java panel=0 ref="public static int inRange" count=9) takes an array and two integers.
+                   [The following method](open_file code/ch07/Histogram.java panel=0 ref="* Computes the number" count=11) takes an array and two integers.
 
          position: 487
        - remove: 1
@@ -568,7 +580,8 @@ sections:
 
          position: 224
        - add:  |
-                 Pulling together all of the above code fragments, and adding some test cases, run the complete example java code in the left pane. To compile and run the code, press "Run!"
+                 Pulling together all of the above code fragments, and adding some test cases, run the complete example java code in the left pane. To compile and run the code, press "Run!".
+                 This will execute both the fibonacci and factorial functions, the former of which we will get to at a later stage. 
                  {Run!}(sh .guides/bg.sh javac code/ch08/Series.java java -cp code/ch08/ Series )
 
          position: 275
@@ -608,11 +621,11 @@ sections:
        - remove: 1
          position: 363
        - add:  |
-                   What do you think happens if you reverse steps 2 and 3 [making the recursive call before displaying?](open_file code/ch08/Examples.java panel=0 ref="public static void countup" count=8)
+                   What do you think happens if you reverse steps 2 and 3, [making the recursive call before displaying?](open_file code/ch08/Examples.java panel=0 ref="public static void countup" count=8)
 
          position: 364
        - add:  |
-                 Test and run the code here.
+                 Test and run both the `countup` and `countdown` functions here.
                  {Run!}(sh .guides/bg.sh javac code/ch08/Examples.java java -cp code/ch08/ Examples )
 
          position: 388

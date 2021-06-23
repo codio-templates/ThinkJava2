@@ -52,10 +52,10 @@ for (int i = 0; i < a.length; i++) {
 
 All arrays have a built-in constant, `length`, that stores the number of elements. In contrast to `String.length()`, which is a method, `a.length` is a constant. The expression `a.length` may look like a method invocation, but there are no parentheses and no arguments.
 
-The last time the loop gets executed, `i` is `a.length - 1`, which is the index of the last element. When `i` is equal to `a.length`, the condition fails and the body is not executed---which is a good thing, because trying to access `a[a.length]` would throw an exception.
+The last time the loop gets executed, `i` is `a.length - 1`, which is the index of the last element. When `i` is equal to `a.length`, the condition fails and the body is not executed---which is a good thing, because trying to access `a[a.length]` would throw an exception. Of course, we can replace the loop altogether by using `Arrays.copyOf` and `a.length` [for the second argument.](open_file code/ch07/ArrayExamples.java panel=0 ref="// copying with Arrays class" count=2)
 
-Of course, we can replace the loop altogether by using `Arrays.copyOf` and `a.length` [for the second argument.](open_file code/ch07/ArrayExamples.java panel=0 ref="double[] c" count=1)
- The following line produces the same result shown in Figure 7.4:
+
+The following line produces the same result shown in Figure 7.4:
 
 ```code
 double[] b = Arrays.copyOf(a, a.length);

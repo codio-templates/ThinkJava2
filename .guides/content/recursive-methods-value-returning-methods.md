@@ -82,5 +82,6 @@ Figure 8.2 shows what the stack diagram looks like for this sequence of method i
 ![Figure 8.2 Stack diagram for the `factorial` method.](figs/stack3.jpg)
 
 **Figure 8.2 Stack diagram for the `factorial` method.**
-Pulling together all of the above code fragments, and adding some test cases, run the complete example java code in the left pane. To compile and run the code, press "Run!"
+Pulling together all of the above code fragments, and adding some test cases, run the complete example java code in the left pane. To compile and run the code, press "Run!".
+This will execute both the fibonacci and factorial functions, the former of which we will get to at a later stage. 
 {Run!}(sh .guides/bg.sh javac code/ch08/Series.java java -cp code/ch08/ Series )

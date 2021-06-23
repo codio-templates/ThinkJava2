@@ -2,7 +2,7 @@ If these values were exam scores---and they would be pretty bad exam scores in t
 
 For exam scores, we might have 10 counters to keep track of how many students scored in the 90s, the 80s, etc. To do that, we can traverse the array and count the number of elements that fall in a given range.
 
-[The following method](open_file code/ch07/Histogram.java panel=0 ref="public static int inRange" count=9) takes an array and two integers.
+[The following method](open_file code/ch07/Histogram.java panel=0 ref="* Computes the number" count=11) takes an array and two integers.
  It returns the number of elements that fall in the range from `low` to `high - 1`:
 
 ```code

@@ -14,7 +14,7 @@ The output is something like this:
 
 The bracket indicates that the value is an array, `I` stands for “integer”, and the rest represents the address of the array in memory.
 
-If we want to display the elements of the array, [we can do it ourselves:](open_file code/ch07/ArrayExamples.java panel=0 ref="public static void printArray" count=7)
+If we want to [display the elements of the array](open_file code/ch07/ArrayExamples.java panel=0 ref="* Prints the elements of an array." count=9), we can do it ourselves:
 
 
 
