@@ -210,6 +210,38 @@ sections:
             action: close
   - name: "The if-else Statement"
     type: section
+    transformations:
+        - remove: 7
+          position: 76
+        - add:  |
+                 [Click here to see an example on the left.](open_file code/ch05/IfElse.java panel=0 ref="if" count=3)
+
+          position: 82
+        - remove: 7
+          position: 95
+        - add:  |
+                 [Click here to see an example on the left.](open_file code/ch05/IfElse.java panel=0 ref="x % 2" count=5)
+
+          position: 101
+        - remove: 8
+          position: 108
+        - add:  |
+                 So we could have written the previous example [this way.](open_file code/ch05/IfElse.java panel=0 ref="//" count=6)
+
+          position: 116
+        - remove: 7
+          position: 118
+          # The below doesn't work, I tried doing a negative count because the first line of the snippet isn't distinguishable enough
+        - add:  |
+                 [This code](open_file code/ch05/IfElse.java panel=0 ref="x is not zero" count=-3) is misleading because it's not indented correctly.
+
+          position: 125
+        - remove: 8
+          position: 143 
+        - add:  |
+                 Another common mistake is to put a semicolon after the condition, like [this.](open_file code/ch05/IfElse.java panel=0 ref="incorrect semicolon" count=3)
+
+          position: 151
     configuration:
       layout: 2-panels
       files:
