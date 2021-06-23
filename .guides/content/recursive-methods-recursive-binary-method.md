@@ -1,6 +1,7 @@
 Now, to display a number in binary, we can combine the algorithm from the previous section and the “count up” pattern from Section 8.5.
 
-Here is a recursive method that displays any positive integer in binary:
+[Here](open_file code/ch08/Examples.java panel=0 ref="public static void displayBinary" count=6) is a recursive method that displays any positive integer in binary:
+
 
 ```code
 public static void displayBinary(int value) {
@@ -24,3 +25,6 @@ The leftmost digit is near the bottom of the stack, so it gets displayed first. 
 displayBinary(23);      // output is 10111
 System.out.println();
 ```
+
+Test and run the code here.
+{Run!}(sh .guides/bg.sh javac code/ch08/Examples.java java -cp code/ch08/ Examples )

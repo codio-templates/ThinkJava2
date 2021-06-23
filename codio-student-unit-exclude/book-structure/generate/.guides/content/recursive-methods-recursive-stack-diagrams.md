@@ -14,7 +14,8 @@ There are four frames for `countdown`, each with a different value for the param
 
 If there is no base case in a recursive method, or if the base case is never reached, the stack would grow forever---at least in theory. In practice, the size of the stack is limited. If you exceed the limit, you get a `StackOverflowError`.
 
-For example, here is a recursive method without a base case:
+For example, [here](open_file code/ch08/Examples.java panel=0 ref="public static void forever" count=4) is a recursive method without a base case:
+
 
 ```code
 public static void forever(String s) {

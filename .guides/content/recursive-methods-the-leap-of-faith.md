@@ -41,7 +41,8 @@ $$
 && fibonacci(2) = 1 \\
 && fibonacci(n) = fibonacci(n-1) + fibonacci(n-2)
 $$
-Notice that each Fibonacci number is the sum of the two preceding Fibonacci numbers. Translated into Java, this function is as follows:
+Notice that each Fibonacci number is the sum of the two preceding Fibonacci numbers. Translated into Java, [this function is as follows:](open_file code/ch08/Series.java panel=0 ref="public static int fibonacci" count=6)
+
 
 ```code
 public static int fibonacci(int n) {
@@ -53,3 +54,6 @@ public static int fibonacci(int n) {
 ```
 
 If you try to follow the flow of execution here, even for small values of `n`, your head will explode. But if we take a leap of faith and assume that the two recursive invocations work correctly, then it is clear, looking at the definition, that our implementation is correct.
+
+Run the complete example java code and fibonacci function in the left pane. To compile and run the code, press "Run!"
+{Run!}(sh .guides/bg.sh javac code/ch08/Series.java java -cp code/ch08/ Series )

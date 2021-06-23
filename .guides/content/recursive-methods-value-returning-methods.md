@@ -29,7 +29,8 @@ public static int factorial(int n) {
 }
 ```
 
-Next, we think about the base case. If the argument happens to be 0, we return 1:
+Next, we think about the base case. If the argument happens to be 0, [we return 1:](open_file code/ch08/Series.java panel=0 ref="public static int factorial" count=4)
+
 
 ```code
 public static int factorial(int n) {
@@ -40,7 +41,8 @@ public static int factorial(int n) {
 }
 ```
 
-Otherwise, and this is the interesting part, we have to make a recursive call to find the factorial of $n-1$, and then multiply it by $n$:
+Otherwise, and this is the interesting part, [we have to make a recursive call](open_file code/ch08/Series.java panel=0 ref="int recurse" count=3) to find the factorial of n−1, and then multiply it by n:
+
 
 ```code
 public static int factorial(int n) {
@@ -80,3 +82,5 @@ Figure 8.2 shows what the stack diagram looks like for this sequence of method i
 ![Figure 8.2 Stack diagram for the `factorial` method.](figs/stack3.jpg)
 
 **Figure 8.2 Stack diagram for the `factorial` method.**
+Pulling together all of the above code fragments, and adding some test cases, run the complete example java code in the left pane. To compile and run the code, press "Run!"
+{Run!}(sh .guides/bg.sh javac code/ch08/Series.java java -cp code/ch08/ Series )

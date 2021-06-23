@@ -4,8 +4,3 @@
 * **factorial** The product of all the integers up to and including a given integer.
 * **leap of faith** A way to read recursive programs by assuming that the recursive call works, rather than following the flow of execution.
 * **binary** A system that uses only zeros and ones to represent numbers. Also known as “base 2”.
-
-
-
-See examples of different recursive methods in java in the left pane. To compile and run the code, press "Run!"
-{Run!}(sh .guides/bg.sh javac code/ch08/Examples.java java -cp code/ch08/ Examples )
