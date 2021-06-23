@@ -276,6 +276,34 @@ sections:
             action: open
   - name: "The switch Statement"
     type: section
+    transformations:
+        - remove: 14
+          position: 227
+        - add:  |
+                 For example, consider the first part of the program on the left. [Click to view.](open_file code/ch05/Switch.java panel=0 ref="if" count=12) It converts integers like `1`,`2`, and `3` into words like `"one"`, `"two"`, and `"three"`.
+
+          position: 244
+        - remove: 19
+          position: 245
+        - add:  |
+                 
+                 An alternative way to evaluate many possible values of an expression is to use a ```switch``` statement:, as shown [on the left.](open_file code/ch05/Switch.java panel=0 ref="same" count=16)
+
+
+          position: 263
+        - add:  |
+                 
+                 
+                 
+          position: 263
+        - remove: 17
+          position: 268
+        - add:  |
+                 
+                 
+                 Although `switch` statements appear longer than chained `else if` blocks, they are particularly useful when multiple cases can be grouped, as seen [on the left.](open_file code/ch05/Switch.java panel=0 ref="fall" count=15)
+
+          position: 284
     configuration:
       layout: 2-panels
       files:
