@@ -40,7 +40,8 @@ The second parameter is the number of elements you want to copy, so `copyOf` can
 
 
 
-The examples so far work only if the array has three elements. It is better to generalize the code to work with arrays of any size. We can do that by replacing the magic number, `3`, with `a.length`:
+The examples so far work only if the array has three elements. It is better to generalize the code to work with arrays of any size. We can do that by replacing the magic number, `3`, [with a.length:](open_file code/ch07/ArrayExamples.java panel=0 ref="// copying an array" count=6)
+
 
 ```code
 double[] b = new double[a.length];
@@ -53,7 +54,8 @@ All arrays have a built-in constant, `length`, that stores the number of element
 
 The last time the loop gets executed, `i` is `a.length - 1`, which is the index of the last element. When `i` is equal to `a.length`, the condition fails and the body is not executed---which is a good thing, because trying to access `a[a.length]` would throw an exception.
 
-Of course, we can replace the loop altogether by using `Arrays.copyOf` and `a.length` for the second argument. The following line produces the same result shown in Figure 7.4:
+Of course, we can replace the loop altogether by using `Arrays.copyOf` and `a.length` [for the second argument.](open_file code/ch07/ArrayExamples.java panel=0 ref="double[] c" count=1)
+ The following line produces the same result shown in Figure 7.4:
 
 ```code
 double[] b = Arrays.copyOf(a, a.length);
