@@ -252,6 +252,13 @@ sections:
             action: open
   - name: "Chaining and Nesting"
     type: section
+    transformations:
+        - remove: 8
+          position: 179
+        - add:  |
+                 [Click here to see an example on the left.](open_file code/ch05/ChainNest.java panel=0 ref="if" count=3)
+
+          position: 187
     configuration:
       layout: 2-panels
       files:
