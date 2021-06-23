@@ -314,6 +314,21 @@ sections:
             action: open
   - name: "Logical Operators"
     type: section
+    transformations:
+        - remove: 16
+          position: 315
+        - add:  |
+                 For example, [this code at the left](open_file code/ch05/LogicalOpers.java panel=0 ref="nested" count=6) can be rewritten with a single condition, to look [like this](open_file code/ch05/LogicalOpers.java panel=0 ref="combined" count=4)
+
+          position: 331
+        - remove: 19
+          position: 332
+          # TODO: Including || in the ref parameter, even with backslashes, makes the button act strange for some reason. 
+        - add:  |
+                 Likewise, the `||` operator can simplify chained `if` statements, such as the one [at the left](open_file code/ch05/LogicalOpers.java panel=0 ref="chained" count=6). Since the branches are the same, there is no need to duplicate [this line of code](open_file code/ch05/LogicalOpers.java panel=0 ref="Either" count=1).  
+                 Therefore, we can combine them, as on line 26. [like this](open_file code/ch05/LogicalOpers.java panel=0 ref="0 || y" count=3)
+
+          position: 350
     configuration:
       layout: 2-panels
       files:
@@ -325,17 +340,23 @@ sections:
   - name: "De Morgan's Laws"
     type: section
     configuration:
-      layout: 1-panel
+      layout: 2-panels
       files:
           - path: "#tabs"
             action: close
+          - path: "code/ch05/LogicalOpers.java"
+            panel: 0
+            action: open
   - name: "Boolean Variables"
     type: section
     configuration:
-      layout: 1-panel
+      layout: 2-panels
       files:
           - path: "#tabs"
             action: close
+          - path: "code/ch05/LogicalOpers.java"
+            panel: 0
+            action: open
   - name: "Boolean Methods"
     type: section
     configuration:
