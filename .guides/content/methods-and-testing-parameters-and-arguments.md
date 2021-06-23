@@ -23,7 +23,9 @@ String message = "Never say never.";
 printTwice(message);
 ```
 
-The value you provide as an argument must have the same (or compatible) type as the parameter. For example, if you try this:
+The value you provide as an argument must have the same (or compatible) type as the parameter. See the example java code in the left pane. To compile and run the code, press the "Run"!
+{Run!}(sh .guides/bg.sh javac code/ch04/PrintTwice.java java -cp code/ch04/ PrintTwice )
+ For example, if you try this:
 
 ```code
 printTwice(17);  // syntax error

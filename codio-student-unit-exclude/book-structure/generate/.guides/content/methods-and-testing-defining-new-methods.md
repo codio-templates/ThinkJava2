@@ -28,7 +28,9 @@ Notice the extra space between the lines. If we wanted more space between them, 
 
 
 
-In this example, the name of the class is `NewLine`. By convention, class names begin with a capital letter. `NewLine` contains three methods, `newLine`, `threeLine`, and `main`. Remember that Java is case-sensitive, so `NewLine` and `newLine` are not the same.
+See the example java code in the left pane. To compile and run the code, press the "Run"!
+{Run!}(sh .guides/bg.sh javac code/ch04/NewLine.java java -cp code/ch04/ NewLine )
+ In this example, the name of the class is `NewLine`. By convention, class names begin with a capital letter. `NewLine` contains three methods, `newLine`, `threeLine`, and `main`. Remember that Java is case-sensitive, so `NewLine` and `newLine` are not the same.
 
 
 By convention, method names begin with a lowercase letter and use “camel case”, which is a cute name for `jammingWordsTogetherLikeThis`. You can use any name you want for methods, except `main` or any of the Java keywords.

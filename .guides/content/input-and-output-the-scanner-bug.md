@@ -16,7 +16,8 @@ Hello Grace Hopper, age 45
 
 When you read a `String` followed by an `int`, everything works just fine. But when you read an `int` followed by a `String`, something strange happens:
 
-```code
+[TEST](open_file code/ch03/ScannerBug.java panel=0 ref="System.out.print" count=5)
+ ```code
 System.out.print("What is your age? ");
 age = in.nextInt();
 System.out.print("What is your name? ");
@@ -25,7 +26,7 @@ System.out.printf("Hello %s, age %d\n", name, age);
 ```
 
 See the example java code in the left pane. To compile and run the code, press the "Run"!
-{Run!}(sh .guides/bg.sh javac code/ch03/ScannerBug.java java -cp code/ch03/ScannerBug )
+{Run!|terminal}(sh .guides/bg.sh javac code/ch03/ScannerBug.java java -cp code/ch03/ ScannerBug )
  Try running this example code. It doesn't let you input your name, and it immediately displays the output:
 
 ```code

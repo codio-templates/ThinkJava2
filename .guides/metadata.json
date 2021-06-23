@@ -467,10 +467,12 @@
     {
       "chapter": false,
       "content-file": ".guides/content/input-and-output-the-system-class.md",
-      "files": {
-        "action": "close",
-        "path": "#tabs#"
-      },
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "input-and-output-the-system-class",
       "layout": "1-panel",
       "learningObjectives": "",
@@ -486,16 +488,21 @@
       "files": [
         {
           "action": "close",
-          "path": "#tabs#"
+          "path": "#tabs"
         },
         {
           "action": "open",
           "panel": 0,
           "path": "code/ch03/Echo.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: clear"
         }
       ],
       "id": "input-and-output-the-scanner-class",
-      "layout": "2-panels",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -506,10 +513,12 @@
     {
       "chapter": false,
       "content-file": ".guides/content/input-and-output-language-elements.md",
-      "files": {
-        "action": "close",
-        "path": "#tabs#"
-      },
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "input-and-output-language-elements",
       "layout": "1-panel",
       "learningObjectives": "",
@@ -525,16 +534,21 @@
       "files": [
         {
           "action": "close",
-          "path": "#tabs#"
+          "path": "#tabs"
         },
         {
           "action": "open",
           "panel": 0,
           "path": "code/ch03/Literals.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: clear"
         }
       ],
       "id": "input-and-output-literals-and-constants",
-      "layout": "2-panels",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -548,7 +562,7 @@
       "files": [
         {
           "action": "close",
-          "path": "#tabs#"
+          "path": "#tabs"
         },
         {
           "action": "open",
@@ -568,10 +582,12 @@
     {
       "chapter": false,
       "content-file": ".guides/content/input-and-output-reading-error-messages.md",
-      "files": {
-        "action": "close",
-        "path": "#tabs#"
-      },
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "input-and-output-reading-error-messages",
       "layout": "1-panel",
       "learningObjectives": "",
@@ -584,10 +600,12 @@
     {
       "chapter": false,
       "content-file": ".guides/content/input-and-output-type-cast-operators.md",
-      "files": {
-        "action": "close",
-        "path": "#tabs#"
-      },
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "input-and-output-type-cast-operators",
       "layout": "1-panel",
       "learningObjectives": "",
@@ -600,10 +618,12 @@
     {
       "chapter": false,
       "content-file": ".guides/content/input-and-output-remainder-operator.md",
-      "files": {
-        "action": "close",
-        "path": "#tabs#"
-      },
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "input-and-output-remainder-operator",
       "layout": "1-panel",
       "learningObjectives": "",
@@ -619,16 +639,21 @@
       "files": [
         {
           "action": "close",
-          "path": "#tabs#"
+          "path": "#tabs"
         },
         {
           "action": "open",
           "panel": 0,
           "path": "code/ch03/Convert.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: clear"
         }
       ],
       "id": "input-and-output-putting-it-all-together",
-      "layout": "2-panels",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -642,16 +667,21 @@
       "files": [
         {
           "action": "close",
-          "path": "#tabs#"
+          "path": "#tabs"
         },
         {
           "action": "open",
           "panel": 0,
           "path": "code/ch03/ScannerBug.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: clear"
         }
       ],
       "id": "input-and-output-the-scanner-bug",
-      "layout": "2-panels",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -662,10 +692,12 @@
     {
       "chapter": false,
       "content-file": ".guides/content/input-and-output-vocabulary.md",
-      "files": {
-        "action": "close",
-        "path": "#tabs#"
-      },
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "input-and-output-vocabulary",
       "layout": "1-panel",
       "learningObjectives": "",
@@ -678,8 +710,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/input-and-output-exercises.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "input-and-output-exercises",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -702,8 +740,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/methods-and-testing-defining-new-methods.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch04/NewLine.java"
+        }
+      ],
       "id": "methods-and-testing-defining-new-methods",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -714,8 +763,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/methods-and-testing-flow-of-execution.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "methods-and-testing-flow-of-execution",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -726,8 +781,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/methods-and-testing-parameters-and-arguments.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch04/PrintTwice.java"
+        }
+      ],
       "id": "methods-and-testing-parameters-and-arguments",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -738,8 +804,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/methods-and-testing-multiple-parameters.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch04/printTime.java"
+        }
+      ],
       "id": "methods-and-testing-multiple-parameters",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -750,8 +827,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/methods-and-testing-stack-diagrams.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "methods-and-testing-stack-diagrams",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -762,8 +845,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/methods-and-testing-math-methods.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch04/MathMethods.java"
+        }
+      ],
       "id": "methods-and-testing-math-methods",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -774,8 +868,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/methods-and-testing-composition.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "methods-and-testing-composition",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -786,8 +886,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/methods-and-testing-return-values.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "methods-and-testing-return-values",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -798,8 +904,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/methods-and-testing-incremental-development.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch04/Distance.java"
+        }
+      ],
       "id": "methods-and-testing-incremental-development",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -810,8 +927,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/methods-and-testing-vocabulary.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs#"
+        }
+      ],
       "id": "methods-and-testing-vocabulary",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],

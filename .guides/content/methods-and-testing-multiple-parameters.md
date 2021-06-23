@@ -46,4 +46,6 @@ int minute = 59;
 printTime(hour + 1, 0);
 ```
 
-Before the method is invoked, Java evaluates the arguments; in this example, the results are `12` and `0`. Then it assigns those values to the parameters. Inside `printTime`, the value of `hour` is `12`, not `11`, and the value of `minute` is `0`, not `59`. Furthermore, if `printTime` modifies one of its parameters, that change has no effect on the variables in `main`.
+See the example java code in the left pane. To compile and run the code, press the "Run"!
+{Run!}(sh .guides/bg.sh javac code/ch04/printTime.java java -cp code/ch04/ printTime)
+ Before the method is invoked, Java evaluates the arguments; in this example, the results are `12` and `0`. Then it assigns those values to the parameters. Inside `printTime`, the value of `hour` is `12`, not `11`, and the value of `minute` is `0`, not `59`. Furthermore, if `printTime` modifies one of its parameters, that change has no effect on the variables in `main`.

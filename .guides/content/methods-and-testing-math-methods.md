@@ -26,12 +26,12 @@ double degrees = Math.toDegrees(Math.PI);
 ```
 
 
-Another useful method is `round`, which rounds a floating-point value to the nearest integer and returns a `long`. The following result is 63 (rounded up from 62.8319):
+See the example java code in the left pane. To compile and run the code, press the "Run"!
+{Run!}(sh .guides/bg.sh javac code/ch04/MathMethods.java java -cp code/ch04/ MathMethods)
+ Another useful method is `round`, which rounds a floating-point value to the nearest integer and returns a `long`. The following result is 63 (rounded up from 62.8319):
 
 ```code
 long x = Math.round(Math.PI * 20.0);
 ```
 
 A `long` is like an `int`, but bigger. More specifically, an `int` uses 32 bits of memory; the largest value it can hold is $2^{31}-1$, which is about 2 billion. A `long` uses 64 bits, so the largest value is $2^{63}-1$, which is about 9 quintillion.
-
-Take a minute to read the documentation for these and other methods in the `Math` class. The easiest way to find documentation for Java classes is to do a web search for “Java” and the name of the class.

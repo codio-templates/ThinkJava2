@@ -12,4 +12,4 @@ Stack diagrams help you to visualize the **scope** of a variable, which is the a
 
 Stack diagrams are a good mental model for how variables and methods work at run-time. Learning to trace the execution of a program on paper (or on a whiteboard) is a useful skill for communicating with other programmers.
 
-Educational tools can automatically draw stack diagrams for you. For example, Java Tutor ([https://thinkjava.org/javatutor](https://thinkjava.org/javatutor)) allows you to step through an entire program, both forward and backward, and see the stack frames and variables at each step. If you haven't already, you should check out the Java examples on that website.
+Educational tools can automatically draw stack diagrams for you. For example, Java Tutor ([https://thinkjava.org/javatutor](https://thinkjava.org/javatutor)) allows you to step through an entire program, both forward and backward, and see the stack frames and variables at each step.

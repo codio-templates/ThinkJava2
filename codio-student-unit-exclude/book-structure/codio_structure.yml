@@ -155,72 +155,100 @@ sections:
     configuration:
       layout: 1-panel
       files:
-           path: "#tabs#"
-           action: close
+          - path: "#tabs"
+            action: close
   - name: "The Scanner Class"
     type: section
     transformations:
         - add:  |
+                  [click here](open_file code/ch03/Echo.java panel=0 ref="Scanner in" count=3)
+
+          position: 100
+
+        - add:  |
                  See the example java code in the left pane. This is a random sentence. To compile and run the code, press the "Run!"
-                 {Run!}(sh .guides/bg.sh javac code/ch03/The Scanner Class.java java -cp code/ch03/ The Scanner Class )
+                 {Run!| terminal}(sh .guides/bg.sh javac code/ch03/Echo.java java -cp code/ch03/ Echo )
 
           position: 129
     configuration:
-      layout: 2-panels
+      layout: 3-cell
       files:
-          - path: "#tabs#"
+          - path: "#tabs"
             action: close
           - path: "code/ch03/Echo.java"
             panel: 0
             action: open
+          - path: "#terminal: clear"
+            panel: 1
+            action: open
+            
       
   - name: "Language Elements"
     type: section
     configuration:
       layout: 1-panel
       files:
-           path: "#tabs#"
-           action: close
+          - path: "#tabs"
+            action: close
   - name: "Literals and Constants"
     type: section
     transformations:
         - add:  |
+                  [click here!](open_file code/ch03/Literals.java panel=0 ref="int inch" count=3)
+
+          position: 200
+        - add:  |
+                  [click here](open_file code/ch03/Literals.java panel=0 ref="cm =" count=3)
+
+          position: 213
+        - add:  |
+                  [click here](open_file code/ch03/Literals.java panel=0 ref="cm" count=3)
+
+          position: 220
+        - add:  |
                  See the example java code in the left pane. This is a random sentence. To compile and run the code, press the "Run!"
-                 {Run!}(sh .guides/bg.sh javac code/ch03/Literals.java java -cp code/ch03/ Literals )
+                 {Run!|terminal}(sh .guides/bg.sh javac code/ch03/Literals.java java -cp code/ch03/ Literals)
 
           position: 264
     configuration:
-      layout: 2-panels
+      layout: 3-cell
       files:
-          - path: "#tabs#"
+          - path: "#tabs"
             action: close
           - path: "code/ch03/Literals.java"
             panel: 0
             action: open
+          - path: "#terminal: clear"
+            panel: 1
+            action: open  
     
   - name: "Formatting Output"
     type: section
     transformations:
+      - add:  |
+                  [TEST](open_file code/ch03/Formatting.java panel=0 ref="int inch" count=3)
+
+        position: 310
       - add: |
           See the example java code in the left pane. To compile and run the code, press the "Run"!
-          {Run!}(sh .guides/bg.sh javac code/ch03/Formatting.java java -cp code/ch03/Formatting )
+          {Run!}(sh .guides/bg.sh javac code/ch03/Formatting.java java -cp code/ch03/ Formatting)
           
         position : 279
       - add: |
           See the example java code in the left pane. To compile and run the code, press the "Run"!
-          {Run!}(sh .guides/bg.sh javac code/ch03/Formatting.java java -cp code/ch03/Formatting )
+          {Run!}(sh .guides/bg.sh javac code/ch03/Formatting.java java -cp code/ch03/ Formatting)
           
         position : 299
         
       - add: |
           See the example java code in the left pane. To compile and run the code, press the "Run"!
-          {Run!}(sh .guides/bg.sh javac code/ch03/Formatting.java java -cp code/ch03/Formatting )
+          {Run!}(sh .guides/bg.sh javac code/ch03/Formatting.java java -cp code/ch03/ Formatting)
           
         position : 316
     configuration:
       layout: 2-panels
       files:
-          - path: "#tabs#"
+          - path: "#tabs"
             action: close
           - path: "code/ch03/Formatting.java"
             panel: 0
@@ -230,66 +258,67 @@ sections:
     configuration:
       layout: 1-panel
       files:
-           path: "#tabs#"
-           action: close
+          - path: "#tabs"
+            action: close
 
   - name: "Type Cast Operators"
     type: section
     configuration:
       layout: 1-panel
       files:
-           path: "#tabs#"
-           action: close
+          - path: "#tabs"
+            action: close
   - name: "Remainder Operator"
     type: section
     configuration:
       layout: 1-panel
       files:
-           path: "#tabs#"
-           action: close
+          - path: "#tabs"
+            action: close
   - name: "Putting It All Together"
     type: section
     transformations:
-      - add: |
-          See the example java code in the left pane. To compile and run the code, press the "Run"!
-          {Run!}(sh .guides/bg.sh javac code/ch03/Putting It All Together.java java -cp code/ch03/Putting It All Together )
-          
-        position : 563
-      - add: |
-          See the example java code in the left pane. To compile and run the code, press the "Run"!
-          {Run!}(sh .guides/bg.sh javac code/ch03/Putting It All Together.java java -cp code/ch03/Putting It All Together )
-          
-        position : 655
         
       - add: |
           See the example java code in the left pane. To compile and run the code, press the "Run"!
-          {Run!}(sh .guides/bg.sh javac code/ch03/Putting It All Together.java java -cp code/ch03/Putting It All Together )
+          {Run!| terminal}(sh .guides/bg.sh javac code/ch03/Convert.java java -cp code/ch03/ Convert )
           
-        position : 608
+        position : 563
     configuration:
-      layout: 2-panels
+      layout: 3-cell
       files:
-          - path: "#tabs#"
+          - path: "#tabs"
             action: close
           - path: "code/ch03/Convert.java"
             panel: 0
+            action: open
+            action: open
+          - path: "#terminal: clear"
+            panel: 1
             action: open
     
   - name: "The Scanner Bug"
     type: section
     transformations:
+      - add:  |
+                  [TEST](open_file code/ch03/ScannerBug.java panel=0 ref="System.out.print" count=5)
+
+        position: 600
       - add: |
           See the example java code in the left pane. To compile and run the code, press the "Run"!
-          {Run!}(sh .guides/bg.sh javac code/ch03/ScannerBug.java java -cp code/ch03/ScannerBug )
+          {Run!|terminal}(sh .guides/bg.sh javac code/ch03/ScannerBug.java java -cp code/ch03/ ScannerBug )
           
         position : 608
-     configuration:
-      layout: 2-panels
-      files:
-          - path: "#tabs#"
+    configuration:
+       layout: 3-cell
+       files:
+          - path: "#tabs"
             action: close
           - path: "code/ch03/ScannerBug.java"
             panel: 0
+            action: open
+          - path: "#terminal: clear"
+            panel: 1
             action: open
     
   - name: "Vocabulary"
@@ -297,51 +326,51 @@ sections:
     configuration:
       layout: 1-panel
       files:
-           path: "#tabs#"
-           action: close
+          - path: "#tabs"
+            action: close
   - name: "Exercises"
     type: section
     transformations:
       - add: |
           See the example java code in the left pane. To compile and run the code, press the "Run"!
-          {Run!}(sh .guides/bg.sh javac code/ch03/exercise.java java -cp code/ch03/exercise )
+          {Run!}(sh .guides/bg.sh javac code/ch03/exercise.java java -cp code/ch03/ exercise )
           
         position : 846
       - add: |
           See the example java code in the left pane. To compile and run the code, press the "Run"!
-          {Run!}(sh .guides/bg.sh javac code/ch03/exercise.java java -cp code/ch03/exercise )
+          {Run!}(sh .guides/bg.sh javac code/ch03/exercise.java java -cp code/ch03/ exercise )
           
         position : 848
       - add: |
           See the example java code in the left pane. To compile and run the code, press the "Run"!
-          {Run!}(sh .guides/bg.sh javac code/ch03/exercise.java java -cp code/ch03/exercise )
+          {Run!}(sh .guides/bg.sh javac code/ch03/exercise.java java -cp code/ch03/ exercise )
           
         position : 851
       - add: |
           See the example java code in the left pane. To compile and run the code, press the "Run"!
-          {Run!}(sh .guides/bg.sh javac code/ch03/exercise.java java -cp code/ch03/exercise )
+          {Run!}(sh .guides/bg.sh javac code/ch03/exercise.java java -cp code/ch03/ exercise )
           
         position : 854
     configuration:
       layout: 1-panel
       files:
-           path: "#tabs#"
-           action: close
-    type: chapter
+          - path: "#tabs"
+            action: close
+    
   - name: "Methods and Testing"
-    type: section
+    type: chapter
   - name: "Defining New Methods"
     type: section
     transformations:
         - add: |
-              See the example java code in the left pane. To compile and run the code, press the "Run"!
-              {Run!}(sh .guides/bg.sh javac code/ch04/Defining New Methods.java java -cp code/ch04/Defining New Methods )
+             See the example java code in the left pane. To compile and run the code, press the "Run"!
+             {Run!}(sh .guides/bg.sh javac code/ch04/NewLine.java java -cp code/ch04/ NewLine )
           
           position : 84
     configuration:
       layout: 2-panels
       files:
-          - path: "#tabs#"
+          - path: "#tabs"
             action: close
           - path: "code/ch04/NewLine.java"
             panel: 0
@@ -352,20 +381,20 @@ sections:
     configuration:
       layout: 1-panel
       files:
-           path: "#tabs#"
-           action: close
+          - path: "#tabs"
+            action: close
   - name: "Parameters and Arguments"
     type: section
     transformations:
         - add: |
               See the example java code in the left pane. To compile and run the code, press the "Run"!
-              {Run!}(sh .guides/bg.sh javac code/ch04/Parameters and Arguments.java java -cp code/ch04/Parameters and Arguments )
+              {Run!}(sh .guides/bg.sh javac code/ch04/PrintTwice.java java -cp code/ch04/ PrintTwice )
           
           position : 203
     configuration:
       layout: 2-panels
       files:
-          - path: "#tabs#"
+          - path: "#tabs"
             action: close
           - path: "code/ch04/PrintTwice.java"
             panel: 0
@@ -375,13 +404,13 @@ sections:
     transformations:
       - add: |
               See the example java code in the left pane. To compile and run the code, press the "Run"!
-              {Run!}(sh .guides/bg.sh javac code/ch04/Multiple Parameters.java java -cp code/ch04/Multiple Parameters)
+              {Run!}(sh .guides/bg.sh javac code/ch04/printTime.java java -cp code/ch04/ printTime)
           
-          position : 323
+        position : 323
     configuration:
       layout: 2-panels
       files:
-          - path: "#tabs#"
+          - path: "#tabs"
             action: close
           - path: "code/ch04/printTime.java"
             panel: 0
@@ -394,8 +423,8 @@ sections:
     configuration:
       layout: 1-panel
       files:
-           path: "#tabs#"
-           action: close
+          - path: "#tabs"
+            action: close
           
   - name: "Math Methods"
     type: section
@@ -404,13 +433,13 @@ sections:
           position: 429
         - add: |
               See the example java code in the left pane. To compile and run the code, press the "Run"!
-              {Run!}(sh .guides/bg.sh javac code/ch04/Math Methods.java java -cp code/ch04/Math Methods)
+              {Run!}(sh .guides/bg.sh javac code/ch04/MathMethods.java java -cp code/ch04/ MathMethods)
           
           position : 418
     configuration:
       layout: 2-panels
       files:
-          - path: "#tabs#"
+          - path: "#tabs"
             action: close
           - path: "code/ch04/MathMethods.java"
             panel: 0
@@ -420,33 +449,33 @@ sections:
     transformations:
         - add: |
               See the example java code in the left pane. To compile and run the code, press the "Run"!
-              {Run!}(sh .guides/bg.sh javac code/ch04/Composition.java java -cp code/ch04/Composition)
+              {Run!}(sh .guides/bg.sh javac code/ch04/Composition.java java -cp code/ch04/ Composition)
           
           position : 476
     configuration:
       layout: 1-panel
       files:
-           path: "#tabs#"
-           action: close
+          - path: "#tabs"
+            action: close
   - name: "Return Values"
     type: section
     configuration:
       layout: 1-panel
       files:
-           path: "#tabs#"
-           action: close
+          - path: "#tabs"
+            action: close
   - name: "Incremental Development"
     type: section
     transformations:
         - add: |
               See the example java code in the left pane. To compile and run the code, press the "Run"!
-              {Run!}(sh .guides/bg.sh javac code/ch04/Incremental Development.java java -cp code/ch04/Incremental Development)
+              {Run!}(sh .guides/bg.sh javac code/ch04/Distance.java java -cp code/ch04/ Distance)
           
           position : 690
     configuration:
       layout: 2-panels
       files:
-          - path: "#tabs#"
+          - path: "#tabs"
             action: close
           - path: "code/ch04/Distance.java"
             panel: 0
@@ -456,8 +485,8 @@ sections:
     configuration:
       layout: 1-panel
       files:
-           path: "#tabs#"
-           action: close
+          - path: "#tabs#"
+            action: close
   - name: "Exercises"
     type: section
   - name: "Conditionals and Logic"

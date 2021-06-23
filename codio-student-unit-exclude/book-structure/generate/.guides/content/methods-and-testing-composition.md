@@ -23,7 +23,9 @@ Some math methods take more than one argument. For example, `Math.pow` takes two
 double x = Math.pow(2.0, 10.0);
 ```
 
-When using `Math` methods, beginners often forget the word `Math`. For example, if you just write `x = pow(2.0, 10.0)`, you will get a compiler error:
+When using `Math` methods, beginners often forget the word `Math`. See the example java code in the left pane. To compile and run the code, press the "Run"!
+{Run!}(sh .guides/bg.sh javac code/ch04/Composition.java java -cp code/ch04/ Composition)
+ For example, if you just write `x = pow(2.0, 10.0)`, you will get a compiler error:
 
 ```code
 File: Test.java  [line: 5]

@@ -5,7 +5,7 @@ At this point, you have seen enough Java to write useful programs that solve eve
 
 
 See the example java code in the left pane. To compile and run the code, press the "Run"!
-{Run!}(sh .guides/bg.sh javac code/ch03/Putting It All Together.java java -cp code/ch03/Putting It All Together )
+{Run!| terminal}(sh .guides/bg.sh javac code/ch03/Convert.java java -cp code/ch03/ Convert )
  Although not required, all variables and constants are declared at the top of `main`. This practice makes it easier to find their types later on, and it helps the reader know what data is involved in the algorithm.
 
 

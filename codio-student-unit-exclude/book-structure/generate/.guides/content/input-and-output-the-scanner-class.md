@@ -13,7 +13,8 @@ This **import statement** tells the compiler that when you refer to `Scanner`, y
 Next you have to initialize the `Scanner`. This line declares a `Scanner` variable named `in` and creates a `Scanner` that reads input from `System.in`:
 
 
-```code
+[click here](open_file code/ch03/Echo.java panel=0 ref="Scanner in" count=3)
+ ```code
 Scanner in = new Scanner(System.in);
 ```
 
@@ -23,7 +24,7 @@ The `Scanner` class provides a method called `nextLine` that reads a line of inp
 
 
 See the example java code in the left pane. This is a random sentence. To compile and run the code, press the "Run!"
-{Run!}(sh .guides/bg.sh javac code/ch03/The Scanner Class.java java -cp code/ch03/ The Scanner Class )
+{Run!| terminal}(sh .guides/bg.sh javac code/ch03/Echo.java java -cp code/ch03/ Echo )
  Import statements can't be inside a class definition. By convention, they are usually at the beginning of the file. If you omit the import statement, you get a compiler error like “cannot find symbol”. That means the compiler doesn't know where to find the definition for `Scanner`.
 
 
