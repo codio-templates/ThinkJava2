@@ -196,26 +196,102 @@ sections:
     type: section
   - name: "Conditionals and Logic"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Relational Operators"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "The if-else Statement"
     type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch05/IfElse.java"
+            panel: 0
+            action: open
   - name: "Chaining and Nesting"
     type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch05/ChainNest.java"
+            panel: 0
+            action: open
   - name: "The switch Statement"
     type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch05/Switch.java"
+            panel: 0
+            action: open
   - name: "Logical Operators"
     type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch05/LogicalOpers.java"
+            panel: 0
+            action: open
   - name: "De Morgan's Laws"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Boolean Variables"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Boolean Methods"
     type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch05/DigitUtil.java"
+            panel: 0
+            action: open
   - name: "Validating Input"
     type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch05/Logarithm.java" # unsure
+            panel: 0
+            action: open
   - name: "Example Program"
     type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch05/Logarithm.java"
+            panel: 0
+            action: open
   - name: "Vocabulary"
     type: section
   - name: "Exercises"

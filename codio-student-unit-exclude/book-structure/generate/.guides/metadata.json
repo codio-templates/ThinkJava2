@@ -766,8 +766,14 @@
     {
       "chapter": true,
       "content-file": ".guides/content/conditionals-and-logic.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "conditionals-and-logic",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -778,8 +784,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/conditionals-and-logic-relational-operators.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "conditionals-and-logic-relational-operators",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -790,8 +802,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/conditionals-and-logic-the-if-else-statement.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch05/IfElse.java"
+        }
+      ],
       "id": "conditionals-and-logic-the-if-else-statement",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -802,8 +825,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/conditionals-and-logic-chaining-and-nesting.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch05/ChainNest.java"
+        }
+      ],
       "id": "conditionals-and-logic-chaining-and-nesting",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -814,8 +848,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/conditionals-and-logic-the-switch-statement.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch05/Switch.java"
+        }
+      ],
       "id": "conditionals-and-logic-the-switch-statement",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -826,8 +871,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/conditionals-and-logic-logical-operators.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch05/LogicalOpers.java"
+        }
+      ],
       "id": "conditionals-and-logic-logical-operators",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -838,8 +894,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/conditionals-and-logic-de-morgan-s-laws.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "conditionals-and-logic-de-morgan-s-laws",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -850,8 +912,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/conditionals-and-logic-boolean-variables.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "conditionals-and-logic-boolean-variables",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -862,8 +930,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/conditionals-and-logic-boolean-methods.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch05/DigitUtil.java"
+        }
+      ],
       "id": "conditionals-and-logic-boolean-methods",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -874,8 +953,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/conditionals-and-logic-validating-input.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch05/Logarithm.java"
+        }
+      ],
       "id": "conditionals-and-logic-validating-input",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -886,8 +976,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/conditionals-and-logic-example-program.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch05/Logarithm.java"
+        }
+      ],
       "id": "conditionals-and-logic-example-program",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
