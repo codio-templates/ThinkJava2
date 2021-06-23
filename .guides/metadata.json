@@ -678,12 +678,8 @@
     {
       "chapter": false,
       "content-file": ".guides/content/input-and-output-exercises.md",
-      "files": {
-        "action": "close",
-        "path": "#tabs#"
-      },
+      "files": [],
       "id": "input-and-output-exercises",
-      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
