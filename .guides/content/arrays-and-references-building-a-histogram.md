@@ -2,7 +2,8 @@ If these values were exam scores---and they would be pretty bad exam scores in t
 
 For exam scores, we might have 10 counters to keep track of how many students scored in the 90s, the 80s, etc. To do that, we can traverse the array and count the number of elements that fall in a given range.
 
-The following method takes an array and two integers. It returns the number of elements that fall in the range from `low` to `high - 1`:
+[The following method](open_file code/ch07/Histogram.java panel=0 ref="public static int inRange" count=9) takes an array and two integers.
+ It returns the number of elements that fall in the range from `low` to `high - 1`:
 
 ```code
 public static int inRange(int[] a, int low, int high) {
@@ -19,7 +20,8 @@ public static int inRange(int[] a, int low, int high) {
 
 This pattern should look familiar: it is another reduce operation. Notice that `low` is included in the range (`>=`), but `high` is excluded (`<`). This design keeps us from counting any scores twice.
 
-Now we can count the number of scores in each grade range. We add the following code to our `main` method:
+Now we can count the number of scores in each grade range. We add [the following code](open_file code/ch07/Histogram.java panel=0 ref="int[] scores" count=6) to our `main` method:
+
 
 ```code
 int[] scores = randomArray(30);
@@ -56,7 +58,8 @@ Notice that we are using the loop variable `i` three times: as an index into the
 
 The code works, but it is not as efficient as it could be. Every time the loop invokes `inRange`, it traverses the entire array. It would be better to make a single pass through the `scores` array.
 
-For each score, we already know which range it falls in---the score itself. We can use that value to increment the corresponding counter. This code traverses the array of scores *only once* to generate the histogram:
+For each score, we already know which range it falls in---the score itself. We can use that value to increment the corresponding counter. [This code](open_file code/ch07/Histogram.java panel=0 ref="// making a histogram" count=6) traverses the array of scores only once to generate the histogram:
+
 
 ```code
 int[] counts = new int[100];

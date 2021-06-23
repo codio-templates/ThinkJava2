@@ -10,7 +10,8 @@ If you did Exercise 3.4, you have already seen `java.util.Random`, which generat
 
 If you generate a long series of random numbers, every value should appear, at least approximately, the same number of times. One way to test this behavior of `nextInt` is to generate a large number of values, store them in an array, and count the number of times each value occurs.
 
-The following method creates an `int` array and fills it with random numbers between 0 and 99. The argument specifies the desired size of the array, and the return value is a reference to the new array:
+[The following method](open_file code/ch07/Histogram.java panel=0 ref="public static int[]" count=8) creates an `int` array and fills it with random numbers between 0 and 99.
+ The argument specifies the desired size of the array, and the return value is a reference to the new array:
 
 ```code
 public static int[] randomArray(int size) {

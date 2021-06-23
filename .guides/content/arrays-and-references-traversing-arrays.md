@@ -1,4 +1,5 @@
-Many computations can be implemented by looping through the elements of an array and performing an operation on each element. Looping through the elements of an array is called a **traversal**:
+Many computations can be implemented by looping through the elements of an array and performing an operation on each element. Looping through the elements of an array is called a [traversal:](open_file code/ch07/ArrayExamples.java panel=0 ref="// traversing arrays" count=4)
+
 
 ```code
 int[] a = {1, 2, 3, 4, 5};
@@ -10,7 +11,8 @@ for (int i = 0; i < a.length; i++) {
 This example traverses an array and squares each element. At the end of the loop, the array has the values `{1, 4, 9, 16, 25}`.
 
 
-Another common pattern is a **search**, which involves traversing an array and “searching” for a particular element. For example, the following method takes an array and a value, and it returns the index where the value appears:
+Another common pattern is a **search**, which involves traversing an array and “searching” for a particular element. [For example](open_file code/ch07/ArrayExamples.java panel=0 ref="public static int search" count=9), the following method takes an array and a value, and it returns the index where the value appears:
+
 
 
 ```code
@@ -35,7 +37,8 @@ System.out.println(index);
 ```
 
 
-Another common traversal is a **reduce** operation, which “reduces” an array of values down to a single value. Examples include the sum or product of the elements, the minimum, and the maximum. The following method takes an array and returns the sum of its elements:
+Another common traversal is a **reduce** operation, which “reduces” an array of values down to a single value. Examples include the sum or product of the elements, the minimum, and the maximum. [The following method](open_file code/ch07/ArrayExamples.java panel=0 ref="public static double sum" count=8) takes an array and returns the sum of its elements:
+
 
 ```code
 public static double sum(double[] array) {

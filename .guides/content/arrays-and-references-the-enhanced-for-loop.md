@@ -20,7 +20,8 @@ This statement is called an **enhanced for loop**, also known as the “for each
 
 Notice how the single line `for (int value : values)` replaces the first two lines of the standard `for` loop. It hides the details of iterating each index of the array, and instead, focuses on the values themselves.
 
-Using the enhanced `for` loop, and removing the temporary variable, we can write the histogram code from the previous section more concisely:
+Using the enhanced `for` loop, and removing the temporary variable, [we can write the histogram code](open_file code/ch07/Histogram.java panel=0 ref="// histogram" count=5) from the previous section more concisely:
+
 
 ```code
 int[] counts = new int[100];
