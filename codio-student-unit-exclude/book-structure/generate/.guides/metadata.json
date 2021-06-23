@@ -191,19 +191,8 @@
     {
       "chapter": false,
       "content-file": ".guides/content/computer-programming-the-hello-world-program.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        },
-        {
-          "action": "open",
-          "panel": 0,
-          "path": "code/ch01/Hello.java"
-        }
-      ],
+      "files": [],
       "id": "computer-programming-the-hello-world-program",
-      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -478,8 +467,12 @@
     {
       "chapter": false,
       "content-file": ".guides/content/input-and-output-the-system-class.md",
-      "files": [],
+      "files": {
+        "path": null,
+        "section": "close"
+      },
       "id": "input-and-output-the-system-class",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],

@@ -191,19 +191,8 @@
     {
       "chapter": false,
       "content-file": ".guides/content/computer-programming-the-hello-world-program.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        },
-        {
-          "action": "open",
-          "panel": 0,
-          "path": "code/ch01/Hello.java"
-        }
-      ],
+      "files": [],
       "id": "computer-programming-the-hello-world-program",
-      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],

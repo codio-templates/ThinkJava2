@@ -1,10 +1,7 @@
-Traditionally, the first program you write when learning a new programming language is called the “Hello World” program. All it does is output the words `Hello, World!` to the screen.
+Traditionally, the first program you write when learning a new programming language is called the “Hello World” program. All it does is output the words `Hello, World!` to the screen. In Java, it looks like this:
 
 
 
-
-See the example java code in the left pane. To compile and run the code, press the "Run!"
-{Run!}(sh .guides/bg.sh javac code/ch01/Hello.java java -cp code/ch01/ Hello )
 
 
 When this program runs, it displays the following:
