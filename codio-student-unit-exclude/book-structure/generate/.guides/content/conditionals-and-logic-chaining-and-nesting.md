@@ -1,33 +1,14 @@
-Sometimes you want to check related conditions and choose one of several actions. One way to do this is by **chaining** a series of `if` and `else` blocks:
+Sometimes you want to check related conditions and choose one of several actions. One way to do this is by **chaining** a series of `if` and `else` blocks: [Click here to see an example on the left.](open_file code/ch05/ChainNest.java panel=0 ref="if" count=7)
 
-```code
-if (x > 0) {
-    System.out.println("x is positive");
-} else if (x < 0) {
-    System.out.println("x is negative");
-} else {
-    System.out.println("x is zero");
-}
-```
+
 
 These chains can be as long as you want, although they can be difficult to read if they get out of hand. One way to make them easier to read is to use standard indentation, as demonstrated in these examples. If you keep all the statements and braces lined up, you are less likely to make syntax errors.
 
 Notice that the last branch is simply `else`, not `else if (x == 0)`. At this point in the chain, we know that `x` is not positive and `x` is not negative. There is no need to test whether `x` is 0, because there is no other possibility.
 
 
-In addition to chaining, you can also make complex decisions by **nesting** one conditional statement inside another. We could have written the previous example as follows:
+In addition to chaining, you can also make complex decisions by **nesting** one conditional statement inside another. [We could have written it this way instead.](open_file code/ch05/ChainNest.java panel=0 ref="if" count=8)
 
-```code
-if (x > 0) {
-    System.out.println("x is positive");
-} else {
-    if (x < 0) {
-        System.out.println("x is negative");
-    } else {
-        System.out.println("x is zero");
-    }
-}
-```
 
 The outer conditional has two branches. The first branch contains a print statement, and the second branch contains another conditional statement, which has two branches of its own. These two branches are also print statements, but they could have been conditional statements as well.
 

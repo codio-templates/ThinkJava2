@@ -253,12 +253,19 @@ sections:
   - name: "Chaining and Nesting"
     type: section
     transformations:
-        - remove: 8
+        - remove: 9
           position: 179
         - add:  |
-                 [Click here to see an example on the left.](open_file code/ch05/ChainNest.java panel=0 ref="if" count=3)
+                 [Click here to see an example on the left.](open_file code/ch05/ChainNest.java panel=0 ref="if" count=7)
 
           position: 187
+        - remove: 13
+          position: 200
+          # Same issue as above, snippet indistinguishable. Can we add comments?
+        - add:  |
+                 [We could have written it this way instead.](open_file code/ch05/ChainNest.java panel=0 ref="if" count=8)
+
+          position: 213
     configuration:
       layout: 2-panels
       files:
