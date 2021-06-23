@@ -898,10 +898,15 @@
         {
           "action": "close",
           "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch05/LogicalOpers.java"
         }
       ],
       "id": "conditionals-and-logic-de-morgan-s-laws",
-      "layout": "1-panel",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -916,10 +921,15 @@
         {
           "action": "close",
           "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch05/LogicalOpers.java"
         }
       ],
       "id": "conditionals-and-logic-boolean-variables",
-      "layout": "1-panel",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],

@@ -339,6 +339,19 @@ sections:
             action: open
   - name: "De Morgan's Laws"
     type: section
+    transformations:
+        - remove: 10
+          position: 368
+        - add:  |
+                 For example, to test if `x` and `y` are both nonzero, you could write [this code at the left.](open_file code/ch05/LogicalOpers.java panel=0 ref="!" count=3)
+
+          position: 378
+        - remove: 8
+          position: 402
+        - add:  |
+                 The logic is the same, and the source code is easier to read, as seen [here at the left.](open_file code/ch05/LogicalOpers.java panel=0 ref="x !" count=3)
+
+          position: 410
     configuration:
       layout: 2-panels
       files:

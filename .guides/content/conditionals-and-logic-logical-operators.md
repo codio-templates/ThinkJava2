@@ -12,7 +12,7 @@ In order for an expression with `&&` to be true, both sides of the `&&` operator
 
 The `&&` operator can be used to simplify nested `if` statements. For example, [this code at the left](open_file code/ch05/LogicalOpers.java panel=0 ref="nested" count=6) can be rewritten with a single condition, to look [like this](open_file code/ch05/LogicalOpers.java panel=0 ref="combined" count=4)
  Likewise, the `||` operator can simplify chained `if` statements, such as the one [at the left](open_file code/ch05/LogicalOpers.java panel=0 ref="chained" count=6). Since the branches are the same, there is no need to duplicate [this line of code](open_file code/ch05/LogicalOpers.java panel=0 ref="Either" count=1).  
-Therefore, we can combine them [like this](open_file code/ch05/LogicalOpers.java panel=0 ref="0 || y" count=3)
+Therefore, we can combine them, as on line 26. [like this](open_file code/ch05/LogicalOpers.java panel=0 ref="0 || y" count=3)
 
 
 But it's useful to explore different ways of representing the same logic, especially when it's complex.
