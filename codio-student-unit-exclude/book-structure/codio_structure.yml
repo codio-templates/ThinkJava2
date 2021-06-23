@@ -362,6 +362,31 @@ sections:
             action: open
   - name: "Boolean Variables"
     type: section
+    transformations:
+        - remove: 7
+          position: 418
+        - add:  |
+                 In the example at the left, the first line is a variable declaration, the second is an assignment, and the third is both. [Click to view.](open_file code/ch05/LogicalOpers.java panel=0 ref="boolean" count=4)
+
+          position: 425
+        - remove: 8
+          position: 429
+        - add:  |
+                 Since relational and logical operators evaluate to a `boolean` value, you can store the result of a comparison in a variable, as is done [here at the left.](open_file code/ch05/LogicalOpers.java panel=0 ref="even" count=2)
+
+          position: 437
+        - remove: 8
+          position: 441
+        - add:  |
+                 You can even use flag variables as part of a conditional statement, [like this.](open_file code/ch05/LogicalOpers.java panel=0 ref="evenFlag)" count=3)
+
+          position: 449
+        - remove: 8
+          position: 454
+        - add:  |
+                 To check if a flag is `false`, we simply negate the flag [like this.](open_file code/ch05/LogicalOpers.java panel=0 ref="!evenFlag" count=3)
+
+          position: 462
     configuration:
       layout: 2-panels
       files:
