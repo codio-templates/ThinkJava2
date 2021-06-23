@@ -1,8 +1,7 @@
 An **array** is a sequence of values; the values in the array are called **elements**. You can make an array of `int`s, `double`s, `String`s, or any other type, but all the values in an array must have the same type.
 
 
-To create an array, you have to declare a variable with an *array type* and then create the array itself. Array types look like other Java types, except they are followed by square brackets (`[]`). For example, the following lines declare that `counts` is an “integer array” and `values` is a “double array”: [TEST](open_file code/ch07/ArrayExamples.java panel=0 ref="int size" count=3)
-
+To create an array, you have to declare a variable with an *array type* and then create the array itself. Array types look like other Java types, except they are followed by square brackets (`[]`). For example, the following lines declare that `counts` is an “integer array” and `values` is a “double array”:
 
 ```code
 int[] counts;
@@ -19,7 +18,8 @@ values = new double[size];
 
 The first assignment makes `counts` refer to an array of four integers. The second makes `values` refer to an array of `double`s, but the number of elements depends on the value of `size` (at the time the array is created).
 
-Of course, you can also declare the variable and create the array with a single line of code:
+Of course, you can also declare the variable and create the array with a [single line of code:](open_file code/ch07/ArrayExamples.java panel=0 ref="int size" count=4)
+
 
 ```code
 int[] counts = new int[4];

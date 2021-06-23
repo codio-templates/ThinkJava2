@@ -1,4 +1,5 @@
-You can use `println` to display an array, but it probably doesn't do what you would like. For example, say you print an array like this:
+You can use `println` to display an array, but it probably doesn't do what you would like. For example, say you print an array [like this:](open_file code/ch07/ArrayExamples.java panel=0 ref="int[] a" count=2)
+
 
 ```code
 int[] a = {1, 2, 3, 4};
@@ -13,7 +14,8 @@ The output is something like this:
 
 The bracket indicates that the value is an array, `I` stands for “integer”, and the rest represents the address of the array in memory.
 
-If we want to display the elements of the array, we can do it ourselves:
+If we want to display the elements of the array, [we can do it ourselves:](open_file code/ch07/ArrayExamples.java panel=0 ref="public static void printArray" count=7)
+
 
 
 ```code
@@ -33,7 +35,8 @@ Given the previous array, the output of `printArray` is as follows:
 ```
 
 
-The Java library includes a class, `java.util.Arrays`, that provides methods for working with arrays. One of them, `toString`, returns a string representation of an array. After importing `Arrays`, we can invoke `toString` like this:
+The Java library includes a class, `java.util.Arrays`, that provides methods for working with arrays. One of them, `toString`, returns a string representation of an array. After importing `Arrays`, we can invoke `toString` [like this:](open_file code/ch07/ArrayExamples.java panel=0 ref="// printing with Arrays class" count=2)
+
 
 ```code
 System.out.println(Arrays.toString(a));

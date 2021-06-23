@@ -256,7 +256,7 @@ sections:
     type: chapter
     transformations:
        - add:  |
-                 See example java code in the left pane. To compile and run the code, press "Run!"
+                 See the complete example java code in the left pane. To compile and run the code, press "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch07/Inefficient.java java -cp code/ch07/ Inefficient )
 
          position: 19
@@ -271,10 +271,12 @@ sections:
   - name: "Creating Arrays"
     type: section
     transformations:
+       - remove: 1
+         position: 66
        - add:  |
-                 [TEST](open_file code/ch07/ArrayExamples.java panel=0 ref="int size" count=3)
+                 Of course, you can also declare the variable and create the array with a [single line of code:](open_file code/ch07/ArrayExamples.java panel=0 ref="int size" count=4)
 
-         position: 45
+         position: 67
     configuration:
       layout: 2-panels
       files:
@@ -285,18 +287,62 @@ sections:
             action: open
   - name: "Accessing Elements"
     type: section
+    transformations:
+       - remove: 1
+         position: 125
+       - add:  |
+                 You can use the `[]` operator anywhere in an [expression:](open_file code/ch07/ArrayExamples.java panel=0 ref="counts[0]" count=4)
+
+         position: 126
+       - remove: 1
+         position: 146
+       - add:  |
+                 [For example:](open_file code/ch07/ArrayExamples.java panel=0 ref="int j" count=5)
+
+         position: 147
+       - remove: 1
+         position: 165
+       - add:  |
+                 This type of array processing is usually written as a [for loop:](open_file code/ch07/ArrayExamples.java panel=0 ref="// traversal with a for loop" count=4)
+
+         position: 166
     configuration:
-      layout: 1-panel
+      layout: 2-panels
       files:
           - path: "#tabs"
             action: close
+          - path: "code/ch07/ArrayExamples.java"
+            panel: 0
+            action: open
   - name: "Displaying Arrays"
     type: section
+    transformations:
+       - remove: 1
+         position: 186
+       - add:  |
+                 For example, say you print an array [like this:](open_file code/ch07/ArrayExamples.java panel=0 ref="int[] a" count=2)
+
+         position: 187
+       - remove: 1
+         position: 201
+       - add:  |
+                 If we want to display the elements of the array, [we can do it ourselves:](open_file code/ch07/ArrayExamples.java panel=0 ref="public static void printArray" count=7)
+
+         position: 202
+       - remove: 1
+         position: 226
+       - add:  |
+                 After importing `Arrays`, we can invoke `toString` [like this:](open_file code/ch07/ArrayExamples.java panel=0 ref="// printing with Arrays class" count=2)
+
+         position: 227
     configuration:
-      layout: 1-panel
+      layout: 2-panels
       files:
           - path: "#tabs"
             action: close
+          - path: "code/ch07/ArrayExamples.java"
+            panel: 0
+            action: open
   - name: "Copying Arrays"
     type: section
     configuration:

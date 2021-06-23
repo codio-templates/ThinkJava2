@@ -16,7 +16,8 @@ The `[]` operator selects elements from an array:
 System.out.println("The zeroth element is " + counts[0]);
 ```
 
-You can use the `[]` operator anywhere in an expression:
+You can use the `[]` operator anywhere in an [expression:](open_file code/ch07/ArrayExamples.java panel=0 ref="counts[0]" count=4)
+
 
 ```code
 counts[0] = 7;
@@ -31,7 +32,8 @@ Figure 7.2 shows the result of these statements.
 
 **Figure 7.2 Memory diagram after several assignment statements.**
 
-You can use any expression as an index, as long as it has type `int`. One of the most common ways to index an array is with a loop variable. For example:
+You can use any expression as an index, as long as it has type `int`. One of the most common ways to index an array is with a loop variable. [For example:](open_file code/ch07/ArrayExamples.java panel=0 ref="int j" count=5)
+
 
 ```code
 int i = 0;
@@ -44,7 +46,8 @@ while (i < 4) {
 This `while` loop counts up from 0 to 4. When `i` is 4, the condition fails and the loop terminates. So the body of the loop is executed only when `i` is 0, 1, 2, or 3. In this context, the variable name `i` is short for “index”.
 
 
-Each time through the loop, we use `i` as an index into the array, displaying the $i$th element. This type of array processing is usually written as a `for` loop:
+Each time through the loop, we use `i` as an index into the array, displaying the $i$th element. This type of array processing is usually written as a [for loop:](open_file code/ch07/ArrayExamples.java panel=0 ref="// traversal with a for loop" count=4)
+
 
 ```code
 for (int i = 0; i < 4; i++) {

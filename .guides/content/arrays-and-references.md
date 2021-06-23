@@ -11,7 +11,7 @@ for (char c = 'a'; c <= 'z'; c++) {
     // if the count is not 0 or 2, return false
 ```
 
-See example java code in the left pane. To compile and run the code, press "Run!"
+See the complete example java code in the left pane. To compile and run the code, press "Run!"
 {Run!}(sh .guides/bg.sh javac code/ch07/Inefficient.java java -cp code/ch07/ Inefficient )
  This “nested loops” approach is inefficient, especially when the string is long.  For example, there are more than 3 million characters in *War and Peace*; to process the whole book, the nested loop would run about 80 million times.
 
