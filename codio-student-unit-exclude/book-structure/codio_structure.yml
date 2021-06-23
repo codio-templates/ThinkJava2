@@ -206,18 +206,52 @@ sections:
                  When presented with code examples within this book, be sure to experiment with variations in the code in order to get the full picture of how a given language feature, code snippet, or solution works. 
 
           position: 505
-  - name: "Assessment 1"
-    type: section
-  - name: "Assessment 2"
-    type: section
-  - name: "Assessment 3"
-    type: section
-  - name: "Assessment 4"
-    type: section
   - name: "Vocabulary"
     type: section
   - name: "Exercises"
     type: section
+  # How do you split the Exercises section into 4 as shown below?
+  - name: "Exercise 1"
+    type: section
+    # Also, would the system allow us to create new code files for the exercises, or would these be overriden by subsequent updates?
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch01/Hello3.java"
+            panel: 0
+            action: open
+  - name: "Exercise 2"
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch01/Hello3.java"
+            panel: 0
+            action: open
+  - name: "Exercise 3"
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch01/Hello3.java"
+            panel: 0
+            action: open
+  - name: "Exercise 4"
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch01/Hello3.java"
+            panel: 0
+            action: open
   - name: "Variables and Operators"
     type: chapter
   - name: "Declaring Variables"
