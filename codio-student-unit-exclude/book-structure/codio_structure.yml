@@ -397,6 +397,31 @@ sections:
             action: open
   - name: "Boolean Methods"
     type: section
+    transformations:
+        - remove: 11
+          position: 473
+        - add:  |
+                 [Click to see an example at the left.](open_file code/ch05/DigitUtil.java panel=0 ref="isSingleDigit" count=7)
+
+          position: 484
+        - remove: 5
+          position: 492
+        - add:  |
+                 [Click to see an example at the left.](open_file code/ch05/DigitUtil.java panel=0 ref="isSingleDigit2" count=3)
+
+          position: 497
+        - remove: 5
+          position: 500
+        - add:  |
+                 [Click to see an example at the left.](open_file code/ch05/DigitUtil.java panel=0 ref="main" count=3)
+
+          position: 505
+        - remove: 8
+          position: 510
+        - add:  |
+                 [Click to see an example at the left.](open_file code/ch05/DigitUtil.java panel=0 ref="z" count=6)
+
+          position: 518
     configuration:
       layout: 2-panels
       files:
