@@ -12,7 +12,7 @@ Phrases that appear in quotation marks are called **strings**, because they cont
 
 `System.out.println` appends a special character, called a **newline**, that moves to the beginning of the next line. If you don't want a newline at the end, you can use `print` instead of `println`:
 
-For example, take a look at Goodbye.java in the bottom left corner. To compile and run the code, press the "Run!"
+For example, take a look at Goodbye.java in the bottom left corner. [Click to view the print statement without the newline.](open_file code/ch01/Goodbye.java panel=1 ref="Goodbye," count=1) To compile and run the code, press the "Run!"
 {Run!}(sh .guides/bg.sh javac code/ch01/Goodbye.java java -cp code/ch01/ Goodbye )
 
 
