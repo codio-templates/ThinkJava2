@@ -214,32 +214,36 @@ sections:
         - remove: 7
           position: 76
         - add:  |
-                 [Click here to see an example on the left.](open_file code/ch05/IfElse.java panel=0 ref="if" count=3)
+                 [Click here to see an example on the left.](open_file code/ch05/IfElse.java panel=0 ref="if" count=3) Remove the comment symbols in front of the code and then press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch05/IfElse.java java -cp code/ch05/ IfElse 1)
 
           position: 82
         - remove: 7
           position: 95
         - add:  |
-                 [Click here to see an example on the left.](open_file code/ch05/IfElse.java panel=0 ref="x % 2" count=5)
+                 [Click here to see an example on the left.](open_file code/ch05/IfElse.java panel=0 ref="x % 2" count=5) Remove the comment symbols in front of the code and then press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch05/IfElse.java java -cp code/ch05/ IfElse 2)
 
           position: 101
         - remove: 8
           position: 108
         - add:  |
-                 So we could have written the previous example [this way.](open_file code/ch05/IfElse.java panel=0 ref="//" count=6)
+                 So we could have written the previous example [this way.](open_file code/ch05/IfElse.java panel=0 ref="look" count=6) Remove the comment symbols in front of the code and then press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch05/IfElse.java java -cp code/ch05/ IfElse 3)
 
           position: 116
         - remove: 7
           position: 118
-          # The below doesn't work, I tried doing a negative count because the first line of the snippet isn't distinguishable enough
         - add:  |
-                 [This code](open_file code/ch05/IfElse.java panel=0 ref="x is not zero" count=-3) is misleading because it's not indented correctly.
+                 [This code](open_file code/ch05/IfElse.java panel=0 ref="logic" count=4) is misleading because it's not indented correctly. Remove the comment symbols in front of the code and then press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch05/IfElse.java java -cp code/ch05/ IfElse 4) Then try changing x to 0 and see if the code works as expected. 
 
           position: 125
         - remove: 8
           position: 143 
         - add:  |
-                 Another common mistake is to put a semicolon after the condition, like [this.](open_file code/ch05/IfElse.java panel=0 ref="incorrect semicolon" count=3)
+                 Another common mistake is to put a semicolon after the condition, like [this.](open_file code/ch05/IfElse.java panel=0 ref="incorrect semicolon" count=3) Remove the comment symbols in front of the code and then press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch05/IfElse.java java -cp code/ch05/ IfElse 5)
 
           position: 151
     configuration:
@@ -256,14 +260,16 @@ sections:
         - remove: 9
           position: 179
         - add:  |
-                 [Click here to see an example on the left.](open_file code/ch05/ChainNest.java panel=0 ref="if" count=7)
+                 [Click here to see an example on the left.](open_file code/ch05/ChainNest.java panel=0 ref="if" count=7) Remove the comment symbols in front of the code and then press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch05/ChainNest.java java -cp code/ch05/ ChainNest 1)
+
 
           position: 187
         - remove: 13
           position: 200
-          # Same issue as above, snippet indistinguishable. Can we add comments?
         - add:  |
-                 [We could have written it this way instead.](open_file code/ch05/ChainNest.java panel=0 ref="if" count=8)
+                 [We could have written it this way instead.](open_file code/ch05/ChainNest.java panel=0 ref="alternate way" count=10) Remove the comment symbols in front of the code and then press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch05/ChainNest.java java -cp code/ch05/ ChainNest 2)
 
           position: 213
     configuration:
@@ -280,14 +286,16 @@ sections:
         - remove: 14
           position: 227
         - add:  |
-                 For example, consider the first part of the program on the left. [Click to view.](open_file code/ch05/Switch.java panel=0 ref="if" count=12) It converts integers like `1`,`2`, and `3` into words like `"one"`, `"two"`, and `"three"`.
+                 For example, consider the first part of the program on the left. [Click to view.](open_file code/ch05/Switch.java panel=0 ref="if" count=14) It converts integers like `1`,`2`, and `3` into words like `"one"`, `"two"`, and `"three"`. Remove the comment symbols in front of the code and then press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch05/Switch.java java -cp code/ch05/ Switch 1)
 
           position: 244
         - remove: 19
           position: 245
         - add:  |
                  
-                 An alternative way to evaluate many possible values of an expression is to use a ```switch``` statement:, as shown [on the left.](open_file code/ch05/Switch.java panel=0 ref="same" count=16)
+                 An alternative way to evaluate many possible values of an expression is to use a ```switch``` statement:, as shown [on the left.](open_file code/ch05/Switch.java panel=0 ref="same" count=18) Remove the comment symbols in front of the code and then press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch05/Switch.java java -cp code/ch05/ Switch 2)
 
 
           position: 263
@@ -301,7 +309,8 @@ sections:
         - add:  |
                  
                  
-                 Although `switch` statements appear longer than chained `else if` blocks, they are particularly useful when multiple cases can be grouped, as seen [on the left.](open_file code/ch05/Switch.java panel=0 ref="fall" count=15)
+                 Although `switch` statements appear longer than chained `else if` blocks, they are particularly useful when multiple cases can be grouped, as seen [on the left.](open_file code/ch05/Switch.java panel=0 ref="fall" count=15) Remove the comment symbols in front of the code and then press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch05/Switch.java java -cp code/ch05/ Switch 3)
 
           position: 284
     configuration:
@@ -318,15 +327,16 @@ sections:
         - remove: 16
           position: 315
         - add:  |
-                 For example, [this code at the left](open_file code/ch05/LogicalOpers.java panel=0 ref="nested" count=6) can be rewritten with a single condition, to look [like this](open_file code/ch05/LogicalOpers.java panel=0 ref="combined" count=4)
+                 For example, [this code at the left](open_file code/ch05/LogicalOpers.java panel=0 ref="nested" count=6) can be rewritten with a single condition, to look [like this](open_file code/ch05/LogicalOpers.java panel=0 ref="combined" count=4) Remove the comment symbols in front of the code and then press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch05/LogicalOpers.java java -cp code/ch05/ LogicalOpers 1)
 
           position: 331
         - remove: 19
           position: 332
-          # TODO: Including || in the ref parameter, even with backslashes, makes the button act strange for some reason. 
         - add:  |
                  Likewise, the `||` operator can simplify chained `if` statements, such as the one [at the left](open_file code/ch05/LogicalOpers.java panel=0 ref="chained" count=6). Since the branches are the same, there is no need to duplicate [this line of code](open_file code/ch05/LogicalOpers.java panel=0 ref="Either" count=1).  
-                 Therefore, we can combine them, as on line 26. [like this](open_file code/ch05/LogicalOpers.java panel=0 ref="0 || y" count=3)
+                 Therefore, we can combine them [like this](open_file code/ch05/LogicalOpers.java panel=0 ref="can make things easier" count=4) Remove the comment symbols in front of the code and then press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch05/LogicalOpers.java java -cp code/ch05/ LogicalOpers 2)
 
           position: 350
     configuration:
@@ -343,14 +353,16 @@ sections:
         - remove: 10
           position: 368
         - add:  |
-                 For example, to test if `x` and `y` are both nonzero, you could write [this code at the left.](open_file code/ch05/LogicalOpers.java panel=0 ref="!" count=3)
+                 For example, to test if `x` and `y` are both nonzero, you could write [this code at the left.](open_file code/ch05/LogicalOpers.java panel=0 ref="!" count=3) Remove the comment symbols in front of the code and then press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch05/LogicalOpers.java java -cp code/ch05/ LogicalOpers 1) This code won't print anything, because the condition is false. 
 
           position: 378
         - remove: 8
           position: 402
         - add:  |
-                 The logic is the same, and the source code is easier to read, as seen [here at the left.](open_file code/ch05/LogicalOpers.java panel=0 ref="x !" count=3)
-
+                 The logic is the same, and the source code is easier to read, as seen [here at the left.](open_file code/ch05/LogicalOpers.java panel=0 ref="x !" count=3) Remove the comment symbols in front of the code and then press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch05/LogicalOpers.java java -cp code/ch05/ LogicalOpers 2) This code still won't print anything, because the condition is still false. 
+ 
           position: 410
     configuration:
       layout: 2-panels
@@ -366,25 +378,29 @@ sections:
         - remove: 7
           position: 418
         - add:  |
-                 In the example at the left, the first line is a variable declaration, the second is an assignment, and the third is both. [Click to view.](open_file code/ch05/LogicalOpers.java panel=0 ref="boolean" count=4)
+                 In the example at the left, the first line is a variable declaration, the second is an assignment, and the third is both. [Click to view.](open_file code/ch05/LogicalOpers.java panel=0 ref="boolean" count=4) Remove the comment symbols in front of the code and then press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch05/LogicalOpers.java java -cp code/ch05/ LogicalOpers 1) This won't print anything because there are no print statements: the code is only saving boolean values into memory and labeling them. 
 
           position: 425
         - remove: 8
           position: 429
         - add:  |
-                 Since relational and logical operators evaluate to a `boolean` value, you can store the result of a comparison in a variable, as is done [here at the left.](open_file code/ch05/LogicalOpers.java panel=0 ref="even" count=2)
+                 Since relational and logical operators evaluate to a `boolean` value, you can store the result of a comparison in a variable, as is done [here at the left.](open_file code/ch05/LogicalOpers.java panel=0 ref="even" count=2) Remove the comment symbols in front of the code and then press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch05/LogicalOpers.java java -cp code/ch05/ LogicalOpers 2) This still doesn't print anything. Be sure **NOT** to re-comment these lines out before moving on to the next code snippet. 
 
           position: 437
         - remove: 8
           position: 441
         - add:  |
-                 You can even use flag variables as part of a conditional statement, [like this.](open_file code/ch05/LogicalOpers.java panel=0 ref="evenFlag)" count=3)
+                 You can even use flag variables as part of a conditional statement, [like this.](open_file code/ch05/LogicalOpers.java panel=0 ref="evenFlag)" count=3) Remove the comment symbols in front of the code and then press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch05/LogicalOpers.java java -cp code/ch05/ LogicalOpers 3)
 
           position: 449
         - remove: 8
           position: 454
         - add:  |
-                 To check if a flag is `false`, we simply negate the flag [like this.](open_file code/ch05/LogicalOpers.java panel=0 ref="!evenFlag" count=3)
+                 To check if a flag is `false`, we simply negate the flag [like this.](open_file code/ch05/LogicalOpers.java panel=0 ref="!evenFlag" count=3) Remove the comment symbols in front of the code and then press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch05/LogicalOpers.java java -cp code/ch05/ LogicalOpers 4)
 
           position: 462
     configuration:
@@ -401,7 +417,7 @@ sections:
         - remove: 11
           position: 473
         - add:  |
-                 [Click to see an example at the left.](open_file code/ch05/DigitUtil.java panel=0 ref="isSingleDigit" count=7)
+                 [Click to see an example at the left.](open_file code/ch05/DigitUtil.java panel=0 ref="isSingleDigit" count=7) 
 
           position: 484
         - remove: 5
@@ -413,13 +429,15 @@ sections:
         - remove: 5
           position: 500
         - add:  |
-                 [Click to see an example at the left.](open_file code/ch05/DigitUtil.java panel=0 ref="main" count=3)
+                 [Click to see an example at the left.](open_file code/ch05/DigitUtil.java panel=0 ref="main" count=3) To compile and run the code, press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch05/DigitUtil.java java -cp code/ch05/ DigitUtil 3)
 
           position: 505
         - remove: 8
           position: 510
         - add:  |
-                 [Click to see an example at the left.](open_file code/ch05/DigitUtil.java panel=0 ref="z" count=6)
+                 [Click to see an example at the left.](open_file code/ch05/DigitUtil.java panel=0 ref="z" count=6) Remove the comment symbols in front of the code and then press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch05/DigitUtil.java java -cp code/ch05/ DigitUtil 4)
 
           position: 518
     configuration:
@@ -443,16 +461,20 @@ sections:
         - remove: 36
           position: 607
         - add:  |
-                 The program on the left shows how the individual code examples in the previous section fit together.
+                 The program on the left shows how the individual code examples in the previous section fit together. To compile and run the code, press the "Run!" and enter your input into the terminal on the bottom left.
+                 {Run!|terminal}(sh .guides/bg.sh javac code/ch05/Logarithm.java java -cp code/ch05/ Logarithm ) 
 
           position: 643
     configuration:
-      layout: 2-panels
+      layout: 3-cell
       files:
           - path: "#tabs"
             action: close
           - path: "code/ch05/Logarithm.java"
             panel: 0
+            action: open
+          - path: "#terminal: "
+            panel: 1
             action: open
   - name: "Vocabulary"
     type: section

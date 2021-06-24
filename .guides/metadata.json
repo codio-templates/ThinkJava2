@@ -990,10 +990,15 @@
           "action": "open",
           "panel": 0,
           "path": "code/ch05/Logarithm.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: "
         }
       ],
       "id": "conditionals-and-logic-example-program",
-      "layout": "2-panels",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],

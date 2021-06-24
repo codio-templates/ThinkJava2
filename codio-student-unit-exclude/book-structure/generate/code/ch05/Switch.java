@@ -4,53 +4,54 @@ public class Switch {
         int number = 0;
         String word;
 
-        // if-else-if
+//         // if-else-if
 
-        if (number == 1) {
-            word = "one";
-        } else if (number == 2) {
-            word = "two";
-        } else if (number == 3) {
-            word = "three";
-        } else {
-            word = "unknown";
-        }
+//         if (number == 1) {
+//             word = "one";
+//         } else if (number == 2) {
+//             word = "two";
+//         } else if (number == 3) {
+//             word = "three";
+//         } else {
+//             word = "unknown";
+//         }
+//         System.out.println(number);
+//         System.out.println(word);
 
-        // same result as above
+//         // same result as above
 
-        switch (number) {
-            case 1:
-                word = "one";
-                break;
-            case 2:
-                word = "two";
-                break;
-            case 3:
-                word = "three";
-                break;
-            default:
-                word = "unknown";
-                break;
-        }
+//         switch (number) {
+//             case 1:
+//                 word = "one";
+//                 break;
+//             case 2:
+//                 word = "two";
+//                 break;
+//             case 3:
+//                 word = "three";
+//                 break;
+//             default:
+//                 word = "unknown";
+//                 break;
+//         }
+//         System.out.println(number);
+//         System.out.println(word);
 
-        System.out.print(number);
-        System.out.print(word);
+//         // switch blocks fall through
 
-        // switch blocks fall through
-
-        String food = "apple";
-        switch (food) {
-            case "apple":
-            case "banana":
-            case "cherry":
-                System.out.println("Fruit!");
-                break;
-            case "asparagus":
-            case "broccoli":
-            case "carrot":
-                System.out.println("Vegetable!");
-                break;
-        }
+//         String food = "apple";
+//         switch (food) {
+//             case "apple":
+//             case "banana":
+//             case "cherry":
+//                 System.out.println("Fruit!");
+//                 break;
+//             case "asparagus":
+//             case "broccoli":
+//             case "carrot":
+//                 System.out.println("Vegetable!");
+//                 break;
+//         }
     }
 
 }
