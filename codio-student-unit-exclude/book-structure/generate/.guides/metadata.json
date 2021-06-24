@@ -967,15 +967,10 @@
         {
           "action": "close",
           "path": "#tabs"
-        },
-        {
-          "action": "open",
-          "panel": 0,
-          "path": "code/ch05/Logarithm.java"
         }
       ],
       "id": "conditionals-and-logic-validating-input",
-      "layout": "2-panels",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1009,8 +1004,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/conditionals-and-logic-vocabulary.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "conditionals-and-logic-vocabulary",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],

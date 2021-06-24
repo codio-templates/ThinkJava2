@@ -1,6 +1,4 @@
-In this chapter, you have seen relational and logical operators, `if` statements, boolean methods, and validating input. The following program shows how the individual code examples in the previous section fit together:
-
-
+In this chapter, you have seen relational and logical operators, `if` statements, boolean methods, and validating input. The program on the left shows how the individual code examples in the previous section fit together.
 
 
 

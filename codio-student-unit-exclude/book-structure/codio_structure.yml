@@ -433,15 +433,19 @@ sections:
   - name: "Validating Input"
     type: section
     configuration:
-      layout: 2-panels
+      layout: 1-panel
       files:
           - path: "#tabs"
             action: close
-          - path: "code/ch05/Logarithm.java" # unsure
-            panel: 0
-            action: open
   - name: "Example Program"
     type: section
+    transformations:
+        - remove: 36
+          position: 607
+        - add:  |
+                 The program on the left shows how the individual code examples in the previous section fit together.
+
+          position: 643
     configuration:
       layout: 2-panels
       files:
@@ -452,6 +456,11 @@ sections:
             action: open
   - name: "Vocabulary"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Exercises"
     type: section
   - name: "Loops and Strings"
