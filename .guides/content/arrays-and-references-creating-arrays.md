@@ -18,7 +18,7 @@ values = new double[size];
 
 The first assignment makes `counts` refer to an array of four integers. The second makes `values` refer to an array of `double`s, but the number of elements depends on the value of `size` (at the time the array is created).
 
-Of course, you can also declare the variable and create the array with a [single line of code:](open_file code/ch07/ArrayExamples.java panel=0 ref="int size" count=4)
+Of course, you can also declare the variable and create the array with a [single line of code:](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples1.java panel=0 ref="int size" count=4)
 
 
 ```code
@@ -29,7 +29,7 @@ double[] values = new double[size];
 
 You can use any integer expression for the size of an array, as long as the value is nonnegative. If you try to create an array with `-4` elements, for example, you will get a `NegativeArraySizeException`. An array with zero elements is allowed, and there are special uses for such arrays.
 
-You can initialize an array with a comma-separated sequence of elements enclosed in braces, [like this:](open_file code/ch07/ArrayExamples.java panel=0 ref="int[] a" count=1)
+You can initialize an array with a comma-separated sequence of elements enclosed in braces, [like this:](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples1.java panel=0 ref="// displaying arrays" count=3)
 
 
 ```code
@@ -37,3 +37,7 @@ int[] a = {1, 2, 3, 4};
 ```
 
 This statement creates an array variable, `a`, and makes it refer to an array with four elements.
+
+[Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples1.java panel=0)
+See the example java code in the left pane. To print the array using the printArray method, press the "Run!". Feel free to edit the existing array or create a new one. 
+{Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples1.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ArrayExamples1 )

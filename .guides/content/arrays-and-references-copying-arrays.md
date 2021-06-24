@@ -15,7 +15,9 @@ These statements create an array of three `double`s and make two different varia
 
 Any changes made through either variable will be seen by the other. For example, if we set `a[0] = 17.0`, and then display `b[0]`, the result is `17.0`. Because `a` and `b` are different names for the same thing, they are sometimes called **aliases**.
 
-If you actually want to copy the array, not just the reference, you have to create a new array and copy the elements from one to the other, like this:
+Try adding the code snippets above to the editor on the left to see how the mechanics of copying arrays work. To print the arrays and see what changes you are making you can use the `printArray` method. Run your code here.
+{Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples4.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ArrayExamples4 )
+ If you actually want to copy the array, not just the reference, you have to create a new array and copy the elements from one to the other, like this:
 
 ```code
 double[] b = new double[3];
@@ -31,7 +33,9 @@ for (int i = 0; i < 3; i++) {
 double[] b = Arrays.copyOf(a, 3);
 ```
 
-The second parameter is the number of elements you want to copy, so `copyOf` can also be used to copy part of an array. Figure 7.4 shows the state of the array variables after invoking `Arrays.copyOf`.
+Copy both of these methods to the panel on the left within the `main` method to give them a try. To print the arrays and see what changes you are making you can use the `printArray` method. Run your code here.
+{Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples4.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ArrayExamples4 )
+ The second parameter is the number of elements you want to copy, so `copyOf` can also be used to copy part of an array. Figure 7.4 shows the state of the array variables after invoking `Arrays.copyOf`.
 
 ![Figure 7.4 Memory diagram of two variables referring to different arrays.](figs/array4.jpg)
 
@@ -40,7 +44,7 @@ The second parameter is the number of elements you want to copy, so `copyOf` can
 
 
 
-The examples so far work only if the array has three elements. It is better to generalize the code to work with arrays of any size. We can do that by replacing the magic number, `3`, [with a.length:](open_file code/ch07/ArrayExamples.java panel=0 ref="// copying an array" count=6)
+The examples so far work only if the array has three elements. It is better to generalize the code to work with arrays of any size. We can do that by replacing the magic number, `3`, [with a.length:](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples4.java panel=0 ref="// copying an array" count=6)
 
 
 ```code
@@ -52,7 +56,7 @@ for (int i = 0; i < a.length; i++) {
 
 All arrays have a built-in constant, `length`, that stores the number of elements. In contrast to `String.length()`, which is a method, `a.length` is a constant. The expression `a.length` may look like a method invocation, but there are no parentheses and no arguments.
 
-The last time the loop gets executed, `i` is `a.length - 1`, which is the index of the last element. When `i` is equal to `a.length`, the condition fails and the body is not executed---which is a good thing, because trying to access `a[a.length]` would throw an exception. Of course, we can replace the loop altogether by using `Arrays.copyOf` and `a.length` [for the second argument.](open_file code/ch07/ArrayExamples.java panel=0 ref="// copying with Arrays class" count=2)
+The last time the loop gets executed, `i` is `a.length - 1`, which is the index of the last element. When `i` is equal to `a.length`, the condition fails and the body is not executed---which is a good thing, because trying to access `a[a.length]` would throw an exception. Of course, we can replace the loop altogether by using `Arrays.copyOf` and `a.length` [for the second argument.](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples4.java panel=0 ref="// copying with Arrays class" count=2)
 
 
 The following line produces the same result shown in Figure 7.4:
@@ -61,4 +65,7 @@ The following line produces the same result shown in Figure 7.4:
 double[] b = Arrays.copyOf(a, a.length);
 ```
 
-The `Arrays` class provides many other useful methods like `Arrays.compare`, `Arrays.equals`, `Arrays.fill`, and `Arrays.sort`. Take a moment to read the documentation by searching the web for `java.util.Arrays`.
+[Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples4.java panel=0)
+Give both of the code snippets above a try by copying them to the `main` method on the left. To print the arrays and see what changes you are making you can use the `printArray` method. Run your code here.
+{Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples4.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ArrayExamples4 )
+ The `Arrays` class provides many other useful methods like `Arrays.compare`, `Arrays.equals`, `Arrays.fill`, and `Arrays.sort`. Take a moment to read the documentation by searching the web for `java.util.Arrays`.

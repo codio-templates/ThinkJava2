@@ -10,13 +10,16 @@ The arrow indicates that the value of `counts` is a **reference** to the array. 
 
 The boldface numbers inside the boxes are the elements of the array. The lighter numbers outside the boxes are the **indexes** used to identify each location in the array. As with strings, the index of the first element is 0, not 1. For this reason, we sometimes refer to the first element as the “zeroth” element.
 
-The `[]` operator selects elements from an array:
+The `[]` operator selects elements from an array: [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples2.java panel=0)
+See how the `printArray` function works by pressing "Run!".
+{Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples3.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ArrayExamples3 )
+
 
 ```code
 System.out.println("The zeroth element is " + counts[0]);
 ```
 
-You can use the `[]` operator anywhere in an [expression:](open_file code/ch07/ArrayExamples.java panel=0 ref="counts[0]" count=4)
+You can use the `[]` operator anywhere in an [expression:](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples2.java panel=0 ref="counts[0]" count=4)
 
 
 ```code
@@ -32,7 +35,7 @@ Figure 7.2 shows the result of these statements.
 
 **Figure 7.2 Memory diagram after several assignment statements.**
 
-You can use any expression as an index, as long as it has type `int`. One of the most common ways to index an array is with a loop variable. [For example:](open_file code/ch07/ArrayExamples.java panel=0 ref="// traversal with a while loop" count=6)
+You can use any expression as an index, as long as it has type `int`. One of the most common ways to index an array is with a loop variable. [For example:](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples2.java panel=0 ref="// traversal with a while loop" count=6)
 
 
 ```code
@@ -46,7 +49,7 @@ while (i < 4) {
 This `while` loop counts up from 0 to 4. When `i` is 4, the condition fails and the loop terminates. So the body of the loop is executed only when `i` is 0, 1, 2, or 3. In this context, the variable name `i` is short for “index”.
 
 
-Each time through the loop, we use `i` as an index into the array, displaying the $i$th element. This type of array processing is usually written as a [for loop:](open_file code/ch07/ArrayExamples.java panel=0 ref="// traversal with a for loop" count=4)
+Each time through the loop, we use `i` as an index into the array, displaying the $i$th element. This type of array processing is usually written as a [for loop:](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples2.java panel=0 ref="// traversal with a for loop" count=4)
 
 
 ```code
@@ -57,7 +60,3 @@ for (int i = 0; i < 4; i++) {
 
 
 For the `counts` array, the only legal indexes are 0, 1, 2, and 3. If the index is negative or greater than 3, the result is an `ArrayIndexOutOfBoundsException`.
-
-[Remove highlighting](open_file code/ch07/ArrayExamples.java panel=0)
-To compile and run the code in the left panel, press "Run!"
-{Run!}(sh .guides/bg.sh javac code/ch07/ArrayExamples.java java -cp code/ch07/ ArrayExamples )

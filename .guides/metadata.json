@@ -1105,7 +1105,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "code/ch07/ArrayExamples.java"
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples1.java"
         }
       ],
       "id": "arrays-and-references-creating-arrays",
@@ -1128,7 +1128,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "code/ch07/ArrayExamples.java"
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples2.java"
         }
       ],
       "id": "arrays-and-references-accessing-elements",
@@ -1151,7 +1151,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "code/ch07/ArrayExamples.java"
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples3.java"
         }
       ],
       "id": "arrays-and-references-displaying-arrays",
@@ -1174,7 +1174,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "code/ch07/ArrayExamples.java"
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples4.java"
         }
       ],
       "id": "arrays-and-references-copying-arrays",

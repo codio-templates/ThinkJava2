@@ -265,21 +265,27 @@ sections:
        - remove: 1
          position: 66
        - add:  |
-                 Of course, you can also declare the variable and create the array with a [single line of code:](open_file code/ch07/ArrayExamples.java panel=0 ref="int size" count=4)
+                 Of course, you can also declare the variable and create the array with a [single line of code:](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples1.java panel=0 ref="int size" count=4)
 
          position: 67
        - remove: 1
          position: 80
        - add:  |
-                 You can initialize an array with a comma-separated sequence of elements enclosed in braces, [like this:](open_file code/ch07/ArrayExamples.java panel=0 ref="int[] a" count=1)
+                 You can initialize an array with a comma-separated sequence of elements enclosed in braces, [like this:](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples1.java panel=0 ref="// displaying arrays" count=3)
 
          position: 81
+       - add:  |
+                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples1.java panel=0)
+                 See the example java code in the left pane. To print the array using the printArray method, press the "Run!". Feel free to edit the existing array or create a new one. 
+                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples1.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ArrayExamples1 )
+
+         position: 88
     configuration:
       layout: 2-panels
       files:
           - path: "#tabs"
             action: close
-          - path: "code/ch07/ArrayExamples.java"
+          - path: "codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples1.java"
             panel: 0
             action: open
   - name: "Accessing Elements"
@@ -288,33 +294,33 @@ sections:
        - remove: 1
          position: 125
        - add:  |
-                 You can use the `[]` operator anywhere in an [expression:](open_file code/ch07/ArrayExamples.java panel=0 ref="counts[0]" count=4)
+                 You can use the `[]` operator anywhere in an [expression:](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples2.java panel=0 ref="counts[0]" count=4)
 
          position: 126
        - remove: 1
          position: 146
        - add:  |
-                 [For example:](open_file code/ch07/ArrayExamples.java panel=0 ref="// traversal with a while loop" count=6)
+                 [For example:](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples2.java panel=0 ref="// traversal with a while loop" count=6)
 
          position: 147
        - remove: 1
          position: 165
        - add:  |
-                 This type of array processing is usually written as a [for loop:](open_file code/ch07/ArrayExamples.java panel=0 ref="// traversal with a for loop" count=4)
+                 This type of array processing is usually written as a [for loop:](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples2.java panel=0 ref="// traversal with a for loop" count=4)
 
          position: 166
        - add:  |
-                 [Remove highlighting](open_file code/ch07/ArrayExamples.java panel=0)
-                 To compile and run the code in the left panel, press "Run!"
-                 {Run!}(sh .guides/bg.sh javac code/ch07/ArrayExamples.java java -cp code/ch07/ ArrayExamples )
+                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples2.java panel=0)
+                 See how the `printArray` function works by pressing "Run!".
+                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples3.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ArrayExamples3 )
 
-         position: 179
+         position: 120
     configuration:
       layout: 2-panels
       files:
           - path: "#tabs"
             action: close
-          - path: "code/ch07/ArrayExamples.java"
+          - path: "codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples2.java"
             panel: 0
             action: open
   - name: "Displaying Arrays"
@@ -323,27 +329,45 @@ sections:
        - remove: 1
          position: 186
        - add:  |
-                 For example, say you print an array [like this:](open_file code/ch07/ArrayExamples.java panel=0 ref="int[] a" count=2)
+                 For example, say you print an array [like this:](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples3.java panel=0 ref="// displaying" count=3)
 
          position: 187
        - remove: 1
          position: 201
        - add:  |
-                 If we want to [display the elements of the array](open_file code/ch07/ArrayExamples.java panel=0 ref="* Prints the elements of an array." count=9), we can do it ourselves:
+                 If we want to [display the elements of the array](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples3.java panel=0 ref="* Prints the elements of an array." count=9), we can do it ourselves:
 
          position: 202
        - remove: 1
          position: 226
        - add:  |
-                 After importing `Arrays`, we can invoke `toString` [like this:](open_file code/ch07/ArrayExamples.java panel=0 ref="// printing with Arrays class" count=2)
+                 After importing `Arrays`, we can invoke `toString` [like this:](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples3.java panel=0 ref="// printing with Arrays class" count=2)
 
          position: 227
+       - add:  |
+                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples3.java panel=0)
+                 Try it out here.
+                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples3.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ArrayExamples3 )
+
+         position: 199
+       - add:  |
+                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples3.java panel=0)
+                 Try out the `printArray` function here.
+                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples3.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ArrayExamples3 )
+
+         position: 221
+       - add:  |
+                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples3.java panel=0)
+                 Run your code here.
+                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples3.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ArrayExamples3 )
+
+         position: 238
     configuration:
       layout: 2-panels
       files:
           - path: "#tabs"
             action: close
-          - path: "code/ch07/ArrayExamples.java"
+          - path: "codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples3.java"
             panel: 0
             action: open
   - name: "Copying Arrays"
@@ -352,21 +376,37 @@ sections:
        - remove: 1
          position: 312
        - add:  |
-                 We can do that by replacing the magic number, `3`, [with a.length:](open_file code/ch07/ArrayExamples.java panel=0 ref="// copying an array" count=6)
+                 We can do that by replacing the magic number, `3`, [with a.length:](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples4.java panel=0 ref="// copying an array" count=6)
 
          position: 313
        - remove: 1
          position: 328
        - add:  |
-                 Of course, we can replace the loop altogether by using `Arrays.copyOf` and `a.length` [for the second argument.](open_file code/ch07/ArrayExamples.java panel=0 ref="// copying with Arrays class" count=2)
+                 Of course, we can replace the loop altogether by using `Arrays.copyOf` and `a.length` [for the second argument.](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples4.java panel=0 ref="// copying with Arrays class" count=2)
 
          position: 328
+       - add:  |
+                 Try adding the code snippets above to the editor on the left to see how the mechanics of copying arrays work. To print the arrays and see what changes you are making you can use the `printArray` method. Run your code here.
+                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples4.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ArrayExamples4 )
+
+         position: 275
+       - add:  |
+                 Copy both of these methods to the panel on the left within the `main` method to give them a try. To print the arrays and see what changes you are making you can use the `printArray` method. Run your code here.
+                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples4.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ArrayExamples4 )
+
+         position: 293
+       - add:  |
+                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples4.java panel=0)
+                 Give both of the code snippets above a try by copying them to the `main` method on the left. To print the arrays and see what changes you are making you can use the `printArray` method. Run your code here.
+                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples4.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ArrayExamples4 )
+
+         position: 335
     configuration:
       layout: 2-panels
       files:
           - path: "#tabs"
             action: close
-          - path: "code/ch07/ArrayExamples.java"
+          - path: "codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples4.java"
             panel: 0
             action: open
   - name: "Traversing Arrays"
