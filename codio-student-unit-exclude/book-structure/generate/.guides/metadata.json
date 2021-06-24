@@ -1197,7 +1197,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "code/ch07/ArrayExamples.java"
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples5.java"
         }
       ],
       "id": "arrays-and-references-traversing-arrays",
@@ -1220,7 +1220,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "code/ch07/Histogram.java"
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch07/RandomNum.java"
         }
       ],
       "id": "arrays-and-references-random-numbers",
@@ -1243,7 +1243,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "code/ch07/Histogram.java"
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch07/Histogram.java"
         }
       ],
       "id": "arrays-and-references-building-a-histogram",

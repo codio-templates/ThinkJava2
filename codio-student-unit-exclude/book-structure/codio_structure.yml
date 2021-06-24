@@ -415,27 +415,45 @@ sections:
        - remove: 1
          position: 345
        - add:  |
-                 Looping through the elements of an array is called a [traversal:](open_file code/ch07/ArrayExamples.java panel=0 ref="// traversing arrays" count=4)
+                 Looping through the elements of an array is called a [traversal:](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples5.java panel=0 ref="// traversing arrays" count=4)
 
          position: 346
        - remove: 1
          position: 360
        - add:  |
-                 For example, [the following method](open_file code/ch07/ArrayExamples.java panel=0 ref="* Returns the index" count=11) takes an array and a value, and it returns the index where the value appears:
+                 For example, [the following method](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples5.java panel=0 ref="* Returns the index" count=11) takes an array and a value, and it returns the index where the value appears:
 
          position: 361
        - remove: 1
          position: 392
        - add:  |
-                 [The following method](open_file code/ch07/ArrayExamples.java panel=0 ref="* Returns the total" count=10) takes an array and returns the sum of its elements:
+                 [The following method](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples5.java panel=0 ref="* Returns the total" count=10) takes an array and returns the sum of its elements:
 
          position: 393
+       - add:  |
+                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples5.java panel=0)
+                 Try it out yourself and don't forget to print the array using the `printArray` method. Run your code here.
+                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples5.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ArrayExamples5 )
+
+         position: 355
+       - add:  |
+                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples5.java panel=0)
+                 Test it out in the main method of the code on the left. Run your code here.
+                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples5.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ArrayExamples5 )
+
+         position: 388
+       - add:  |
+                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples5.java panel=0)
+                 Test it out in the main method of the code on the left. Run your code here.
+                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples5.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ArrayExamples5 )
+
+         position: 411
     configuration:
       layout: 2-panels
       files:
           - path: "#tabs"
             action: close
-          - path: "code/ch07/ArrayExamples.java"
+          - path: "codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples5.java"
             panel: 0
             action: open
   - name: "Random Numbers"
@@ -444,21 +462,33 @@ sections:
        - remove: 1
          position: 442
        - add:  |
-                   [The following method](open_file code/ch07/Histogram.java panel=0 ref="* Returns an array of random integers." count=10) creates an `int` array and fills it with random numbers between 0 and 99.
+                   [The following method](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/RandomNum.java panel=0 ref="* Returns an array of random integers." count=10) creates an `int` array and fills it with random numbers between 0 and 99.
 
          position: 443
        - remove: 1
          position: 456
        - add:  |
-                   [The following main method](open_file code/ch07/Histogram.java panel=0 ref="public static void main" count=4) generates an array and displays it by using the `printArray` method from Section 7.3. 
+                   [The following main method](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/RandomNum.java panel=0 ref="public static void main" count=4) generates an array and displays it by using the `printArray` method from Section 7.3. 
 
          position: 457
+       - add:  |
+                   [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/RandomNum.java panel=0)
+                   Try it out here.
+                   {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/*.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ RandomNum )
+
+         position: 443
+       - add:  |
+                   [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/RandomNum.java panel=0)
+                   Try it out yourself here.
+                   {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/*.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ RandomNum )
+
+         position: 473
     configuration:
       layout: 2-panels
       files:
           - path: "#tabs"
             action: close
-          - path: "code/ch07/Histogram.java"
+          - path: "codio-student-unit-exclude/ThinkJava2/code/ch07/RandomNum.java"
             panel: 0
             action: open
   - name: "Building a Histogram"
@@ -467,24 +497,24 @@ sections:
        - remove: 1
          position: 486
        - add:  |
-                   [The following method](open_file code/ch07/Histogram.java panel=0 ref="* Computes the number" count=11) takes an array and two integers.
+                   [The following method](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/Histogram.java panel=0 ref="* Computes the number" count=11) takes an array and two integers.
 
          position: 487
        - remove: 1
          position: 508
        - add:  |
-                   We add [the following code](open_file code/ch07/Histogram.java panel=0 ref="int[] scores" count=6) to our `main` method:
+                   We add [the following code](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/Histogram.java panel=0 ref="int[] scores" count=6) to our `main` method:
 
          position: 509
        - remove: 1
          position: 555
        - add:  |
-                   [This code](open_file code/ch07/Histogram.java panel=0 ref="// making a histogram" count=6) traverses the array of scores only once to generate the histogram:
+                   [This code](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/Histogram.java panel=0 ref="// making a histogram" count=6) traverses the array of scores only once to generate the histogram:
 
          position: 556
        - add:  |
                  Putting together all the above code fragments, and adding some comments and test cases, see the complete example java code in the left pane. To compile and run the code, press "Run!"
-                 {Run!}(sh .guides/bg.sh javac code/ch07/*.java java -cp code/ch07/ Histogram )
+                 {Run!}(sh .guides/bg.sh javac code/ch07/*.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ Histogram )
 
          position: 568
     configuration:
@@ -492,7 +522,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "code/ch07/Histogram.java"
+          - path: "codio-student-unit-exclude/ThinkJava2/code/ch07/Histogram.java"
             panel: 0
             action: open
   - name: "The Enhanced for Loop"
