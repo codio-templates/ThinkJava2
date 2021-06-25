@@ -1,0 +1,70 @@
+[
+ {
+  "taskId": "free-text-3657199918",
+  "state": {
+   "text": "XYZABCDEFGHIJKLJ"
+  },
+  "results": [
+   {
+    "comments": {
+     "value": ""
+    },
+    "status": "PENDING",
+    "answer": "XYZABCDEFGHIJKLJ",
+    "timestamp": "2021-06-24T19:23:07.035Z",
+    "state": "fail"
+   }
+  ]
+ },
+ {
+  "taskId": "free-text-3293046330",
+  "state": {
+   "text": "you can port it! :)"
+  },
+  "results": [
+   {
+    "comments": {
+     "value": ""
+    },
+    "status": "PENDING",
+    "answer": "you can port it! :)",
+    "timestamp": "2021-06-24T19:23:15.279Z",
+    "state": "fail"
+   }
+  ]
+ },
+ {
+  "taskId": "free-text-3590859974",
+  "state": {
+   "text": "c o m p i l e"
+  },
+  "results": [
+   {
+    "comments": {
+     "value": ""
+    },
+    "status": "PENDING",
+    "answer": "c o m p i l e",
+    "timestamp": "2021-06-24T19:23:20.535Z",
+    "state": "fail"
+   }
+  ]
+ },
+ {
+  "taskId": "free-text-1108820771",
+  "state": {
+   "text": "exeuctiable"
+  },
+  "results": [
+   {
+    "comments": {
+     "value": ""
+    },
+    "status": "PENDING",
+    "answer": "exeuctiable",
+    "timestamp": "2021-06-24T19:23:24.552Z",
+    "state": "fail"
+   }
+  ]
+ }
+]

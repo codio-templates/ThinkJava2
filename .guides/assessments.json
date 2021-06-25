@@ -1,0 +1,114 @@
+[
+ {
+  "type": "free-text",
+  "taskId": "free-text-3657199918",
+  "source": {
+   "name": "Exercise 1.1.1",
+   "showName": true,
+   "instructions": "In computer jargon, what's the difference between a *statement* and a *comment*?",
+   "guidance": "While a statement is a line of code that performs a basic action, a comment is a bit of English text that explains a statement or set of statements. ",
+   "showGuidanceAfterResponse": true,
+   "previewType": "NONE",
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "points": 20,
+   "rubrics": [],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Free Text"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-3293046330",
+  "source": {
+   "name": "Exercise 1.1.2",
+   "showName": true,
+   "instructions": "What does it mean to say that a program is *portable*?",
+   "guidance": "A portable program can run on different kinds of computers with few or no modifications.",
+   "showGuidanceAfterResponse": true,
+   "previewType": "NONE",
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "points": 20,
+   "rubrics": [],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Free Text"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-3590859974",
+  "source": {
+   "name": "Exercise 1.1.3",
+   "showName": true,
+   "instructions": "In common English, what does the word *compile* mean?",
+   "guidance": "The dictionary definition of *compile* is to put something together from its parts. Similarly, in computer science compiling is when the computer reads the entire program and translates it completely into an executable -- language the computer understands -- before running it. ",
+   "showGuidanceAfterResponse": true,
+   "previewType": "NONE",
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "points": 20,
+   "rubrics": [],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Free Text"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-1108820771",
+  "source": {
+   "name": "Exercise 1.1.4",
+   "showName": true,
+   "instructions": "What is an *executable*? Why is that word used as a noun?",
+   "guidance": "An executable is the \"translated\" program that is produced by the compiler and run. It is a noun because it represents a specific program at a certain step in the process, rather than being used as an adjective to describe just any program. ",
+   "showGuidanceAfterResponse": true,
+   "previewType": "NONE",
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "points": 20,
+   "rubrics": [],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Free Text"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ }
+]

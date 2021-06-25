@@ -816,17 +816,58 @@ sections:
   - name: "Logic Errors"
     type: section
 insert_sections:
-  - name: "Exercise 5.1"
+  - name: Exercise 5.1
     type: section
-    chapter: 
-    section: What is programming?
+    chapter: Conditionals and logic
+    section: Exercises
     before: false
     latex: |
       hello latex
-  - name: Exercises 1.2
+      
+  - name: Exercise 5.2
     type: section
-    chapter: Computer programming
-    section: What is programming?
+    chapter: Conditionals and logic
+    section: Exercises
+    before: false
+    markdown: |
+      hello markdown
+      
+  - name: Exercise 5.3
+    type: section
+    chapter: Conditionals and logic
+    section: Exercises
+    before: false
+    markdown: | 
+      temp
+      
+  - name: Exercise 5.4
+    type: section
+    chapter: Conditionals and logic
+    section: Exercises
+    before: false
+    markdown: |
+      hello markdown
+      
+  - name: Exercise 5.5
+    type: section
+    chapter: Conditionals and logic
+    section: Exercises
+    before: false
+    markdown: |
+      hello markdown
+
+  - name: Exercise 5.6
+    type: section
+    chapter: Conditionals and logic
+    section: Exercises
+    before: false
+    markdown: |
+      hello markdown
+      
+  - name: Exercise 5.7
+    type: section
+    chapter: Conditionals and logic
+    section: Exercises
     before: false
     markdown: |
       hello markdown
