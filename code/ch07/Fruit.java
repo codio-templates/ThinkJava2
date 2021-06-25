@@ -31,5 +31,10 @@ public class Fruit {
         }
         return pear;
     }
+  
+  public static void main(String[] args) {
+        //Test your code here
+    
+    }
 
 }

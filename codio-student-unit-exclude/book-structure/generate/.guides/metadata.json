@@ -1338,10 +1338,200 @@
       "type": "markdown"
     },
     {
+      "chapter": false,
+      "content-file": ".guides/content/arrays-and-references-exercise-7-1.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch07/Fruit.java"
+        }
+      ],
+      "id": "arrays-and-references-exercise-7-1",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 7.1",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/arrays-and-references-exercise-7-2.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch07/MakeDubMus.java"
+        }
+      ],
+      "id": "arrays-and-references-exercise-7-2",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 7.2",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/arrays-and-references-exercise-7-3.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch07/ExerciseScript.java"
+        }
+      ],
+      "id": "arrays-and-references-exercise-7-3",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 7.3",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/arrays-and-references-exercise-7-4.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch07/ExerciseScript.java"
+        }
+      ],
+      "id": "arrays-and-references-exercise-7-4",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 7.4",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/arrays-and-references-exercise-7-5.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch07/ExerciseScript.java"
+        }
+      ],
+      "id": "arrays-and-references-exercise-7-5",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 7.5",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/arrays-and-references-exercise-7-6.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch07/ExerciseScript.java"
+        }
+      ],
+      "id": "arrays-and-references-exercise-7-6",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 7.6",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/arrays-and-references-exercise-7-7.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch07/ExerciseScript.java"
+        }
+      ],
+      "id": "arrays-and-references-exercise-7-7",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 7.7",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/arrays-and-references-exercise-7-8.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch07/ExerciseScript.java"
+        }
+      ],
+      "id": "arrays-and-references-exercise-7-8",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 7.8",
+      "type": "markdown"
+    },
+    {
       "chapter": true,
       "content-file": ".guides/content/recursive-methods.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "recursive-methods",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1562,6 +1752,167 @@
       "reset": [],
       "teacherOnly": false,
       "title": "Exercises",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/recursive-methods-exercise-8-1.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript.java"
+        }
+      ],
+      "id": "recursive-methods-exercise-8-1",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 8.1",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/recursive-methods-exercise-8-2.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript.java"
+        }
+      ],
+      "id": "recursive-methods-exercise-8-2",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 8.2",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/recursive-methods-exercise-8-3.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript.java"
+        }
+      ],
+      "id": "recursive-methods-exercise-8-3",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 8.3",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/recursive-methods-exercise-8-4.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript.java"
+        }
+      ],
+      "id": "recursive-methods-exercise-8-4",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 8.4",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/recursive-methods-exercise-8-5.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript.java"
+        }
+      ],
+      "id": "recursive-methods-exercise-8-5",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 8.5",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/recursive-methods-exercise-8-6.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript.java"
+        }
+      ],
+      "id": "recursive-methods-exercise-8-6",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 8.6",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/recursive-methods-exercise-8-7.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch08/Recurse.java"
+        }
+      ],
+      "id": "recursive-methods-exercise-8-7",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 8.7",
       "type": "markdown"
     },
     {

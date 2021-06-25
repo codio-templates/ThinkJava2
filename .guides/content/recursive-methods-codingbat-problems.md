@@ -5,7 +5,9 @@ In the past several chapters, you've seen methods, conditions, loops, strings, a
 
 To conclude this chapter, we consider two problems in the **Recursion-1** section of CodingBat. One of them deals with strings, and the other deals with arrays. Both of them have the same recursive idea: check the base case, look at the current index, and recursively handle the rest.
 
-The first problem is available at [https://codingbat.com/prob/p118230](https://codingbat.com/prob/p118230):
+The first problem is available at [https://codingbat.com/prob/p118230](open_preview https://codingbat.com/prob/p118230).
+Try solving the first challenge in CodingBat's online text editor.
+
 
 
 
@@ -54,7 +56,9 @@ if (first == 'x') {
 
 You can run this solution on CodingBat by pasting these snippets into the provided method definition.
 
-The second problem is available at [https://codingbat.com/prob/p135988](https://codingbat.com/prob/p135988):
+The second problem is available at [https://codingbat.com/prob/p135988](open_preview https://codingbat.com/prob/p135988).
+Try solving the second challenge in CodingBat's online text editor.
+
 
 
 
@@ -94,4 +98,4 @@ To see how these solutions actually work, you might find it helpful to step thro
 Learning to think recursively is an important part of learning to think like a computer scientist. Many algorithms can be written concisely with recursive methods that perform computations on the way down, on the way up, or both.
 
 See both solved CodingBat problems in java in the left pane. To compile and run the code, press "Run!"
-{Run!}(sh .guides/bg.sh javac code/ch08/CodingBat.java java -cp code/ch08/ CodingBat )
+{Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/CodingBat.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ CodingBat )

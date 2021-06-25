@@ -602,13 +602,101 @@ sections:
             action: close
   - name: "Exercises"
     type: section
+    transformations:
+       - remove: 142
+         position: 785
     configuration:
       layout: 1-panel
       files:
           - path: "#tabs"
             action: close
+  - name: Exercise 7.1
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "codio-student-unit-exclude/ThinkJava2/code/ch07/Fruit.java"
+            panel: 0
+            action: open
+  - name: Exercise 7.2
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "codio-student-unit-exclude/ThinkJava2/code/ch07/MakeDubMus.java"
+            panel: 0
+            action: open
+  - name: Exercise 7.3
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "codio-student-unit-exclude/ThinkJava2/code/ch07/ExerciseScript.java"
+            panel: 0
+            action: open
+  - name: Exercise 7.4
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "codio-student-unit-exclude/ThinkJava2/code/ch07/ExerciseScript.java"
+            panel: 0
+            action: open
+  - name: Exercise 7.5
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "codio-student-unit-exclude/ThinkJava2/code/ch07/ExerciseScript.java"
+            panel: 0
+            action: open
+  - name: Exercise 7.6
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "codio-student-unit-exclude/ThinkJava2/code/ch07/ExerciseScript.java"
+            panel: 0
+            action: open
+  - name: Exercise 7.7
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "codio-student-unit-exclude/ThinkJava2/code/ch07/ExerciseScript.java"
+            panel: 0
+            action: open   
+  - name: Exercise 7.8
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "codio-student-unit-exclude/ThinkJava2/code/ch07/ExerciseScript.java"
+            panel: 0
+            action: open          
   - name: "Recursive Methods"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Recursive Void Methods"
     type: section
     transformations:
@@ -812,11 +900,84 @@ sections:
             action: close
   - name: "Exercises"
     type: section
+    transformations:
+       - remove: 221
+         position: 701
     configuration:
       layout: 1-panel
       files:
           - path: "#tabs"
             action: close
+  - name: Exercise 8.1
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript.java"
+            panel: 0
+            action: open
+  - name: Exercise 8.2
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript.java"
+            panel: 0
+            action: open
+  - name: Exercise 8.3
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript.java"
+            panel: 0
+            action: open
+  - name: Exercise 8.4
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript.java"
+            panel: 0
+            action: open
+  - name: Exercise 8.5
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript.java"
+            panel: 0
+            action: open
+  - name: Exercise 8.6
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript.java"
+            panel: 0
+            action: open
+  - name: Exercise 8.7
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "codio-student-unit-exclude/ThinkJava2/code/ch08/Recurse.java"
+            panel: 0
+            action: open
   - name: "Immutable Objects"
     type: chapter
   - name: "Primitives vs Objects"
@@ -1073,3 +1234,344 @@ sections:
     type: section
   - name: "Logic Errors"
     type: section
+insert_sections:
+  - name: Exercise 7.1
+    type: section
+    chapter: Arrays and References
+    section: Exercises
+    before: false
+    markdown: |
+      **Exercise 7.1:**
+      The purpose of this exercise is to practice reading code and recognizing the traversal patterns in this chapter. The following methods are hard to read, because instead of using meaningful names for the variables and methods, they use names of fruit.
+      
+      For each method, write one sentence that describes what the method does, without getting into the details of how it works. And for each variable, identify the role it plays.
+
+      ```code
+      public static int banana(int[] a) {
+          int kiwi = 1;
+          int i = 0;
+          while (i < a.length) {
+              kiwi = kiwi * a[i];
+              i++;
+          }
+          return kiwi;
+      }
+      ```
+
+      ```code
+      public static int grapefruit(int[] a, int grape) {
+          for (int i = 0; i < a.length; i++) {
+              if (a[i] == grape) {
+                  return i;
+              }
+          }
+          return -1;
+      }
+      ```
+
+      ```code
+      public static int pineapple(int[] a, int apple) {
+          int pear = 0;
+          for (int pine: a) {
+              if (pine == apple) {
+                  pear++;
+              }
+          }
+          return pear;
+      }
+      ```
+      Test out these functions here.
+      {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/Fruit.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ Fruit )
+  - name: Exercise 7.2
+    type: section
+    chapter: Arrays and References
+    section: Exercises
+    before: false
+    markdown: |
+      **Exercise 7.2:**
+      What is the output of the following program? Describe in a few words what `mus` does. Draw a stack diagram just before `mus` returns.
+
+      ```code
+      public static int[] make(int n) {
+          int[] a = new int[n];
+          for (int i = 0; i < n; i++) {
+              a[i] = i + 1;
+          }
+          return a;
+      }
+      ```
+
+      ```code
+      public static void dub(int[] jub) {
+          for (int i = 0; i < jub.length; i++) {
+              jub[i] *= 2;
+          }
+      }
+      ```
+
+      ```code
+      public static int mus(int[] zoo) {
+          int fus = 0;
+          for (int i = 0; i < zoo.length; i++) {
+              fus += zoo[i];
+          }
+          return fus;
+      }
+      ```
+
+      ```code
+      public static void main(String[] args) {
+          int[] bob = make(5);
+          dub(bob);
+          System.out.println(mus(bob));
+      }
+      ```
+      Test out these functions here.
+      {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/MakeDubMus.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ MakeDubMus )
+  - name: Exercise 7.3
+    type: section
+    chapter: Arrays and References
+    section: Exercises
+    before: false
+    markdown: |
+      **Exercise 7.3:**
+      Write a method called `indexOfMax` that takes an array of integers and returns the index of the largest element.
+      Can you write this method by using an enhanced `for` loop? Why or why not?
+      {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ExerciseScript.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ExerciseScript )
+  - name: Exercise 7.4
+    type: section
+    chapter: Arrays and References
+    section: Exercises
+    before: false
+    markdown: |
+      **Exercise 7.4:**
+      The Sieve of Eratosthenes is “a simple, ancient algorithm for finding all prime numbers up to any given limit” ([https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)).
+      {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ExerciseScript.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ExerciseScript )
+  - name: Exercise 7.5
+    type: section
+    chapter: Arrays and References
+    section: Exercises
+    before: false
+    markdown: | 
+      **Exercise 7.5:**
+      Write a method named `areFactors` that takes an integer `n` and an array of integers, and returns `true` if the numbers in the array are all factors of `n` (which is to say that `n` is divisible by all of them).
+      {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ExerciseScript.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ExerciseScript )
+  - name: Exercise 7.6
+    type: section
+    chapter: Arrays and References
+    section: Exercises
+    before: false
+    markdown: |
+      **Exercise 7.6:**
+      Write a method named `arePrimeFactors` that takes an integer `n` and an array of integers, and that returns `true` if the numbers in the array are all prime *and* their product is `n`.
+      {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ExerciseScript.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ExerciseScript )
+  - name: Exercise 7.7
+    type: section
+    chapter: Arrays and References
+    section: Exercises
+    before: false
+    markdown: |
+      **Exercise 7.7:**
+      Write a method called `letterHist` that takes a string as a parameter and returns a histogram of the letters in the string.
+      The zeroth element of the histogram should contain the number of a's in the string (upper- and lowercase); the 25th element should contain the number of z's. 
+      Your solution should traverse the string only once.
+      {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ExerciseScript.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ExerciseScript )
+  - name: Exercise 7.8
+    type: section
+    chapter: Arrays and References
+    section: Exercises
+    before: false
+    markdown: |
+      **Exercise 7.8:**
+      Two words are anagrams if they contain the same letters and the same number of each letter.
+      For example, “stop” is an anagram of “pots”, “allen downey” is an anagram of “well annoyed”, and “christopher mayfield” is an anagram of “hi prof the camel is dry”.
+      Write a method that takes two strings and checks whether they are anagrams of each other.
+      {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ExerciseScript.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ExerciseScript )
+  - name: Exercise 8.1
+    type: section
+    chapter: Recursive Methods
+    section: Exercises
+    before: false
+    markdown: |
+      **Exercise 8.1:**
+      The purpose of this exercise is to take a problem and break it into smaller problems, and to solve the smaller problems by writing simple methods. Consider the first verse of the song “99 Bottles of Beer”:
+
+
+
+      > 99 bottles of beer on the wall,<br/>
+      > 99 bottles of beer,<br/>
+      > ya' take one down, ya' pass it around,<br/>
+      > 98 bottles of beer on the wall.
+
+
+      Subsequent verses are identical except that the number of bottles gets smaller by one in each verse, until the last verse:
+
+
+
+      > No bottles of beer on the wall,<br/>
+      > no bottles of beer,<br/>
+      > ya' can't take one down, ya' can't pass it around,<br/>
+      > 'cause there are no more bottles of beer on the wall!
+
+
+      And then the song (finally) ends.
+
+      Write a program that displays the entire lyrics of “99 Bottles of Beer”. 
+      Your program should include a recursive method that does the hard part, but you might want to write additional methods to separate other parts of the program.
+      As you develop your code, test it with a small number of verses, like `3`.
+      {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ ExerciseScript )
+  - name: Exercise 8.2
+    type: section
+    chapter: Recursive Methods
+    section: Exercises
+    before: false
+    markdown: |
+      **Exercise 8.2:**
+      Write a recursive method named `oddSum` that takes a positive odd integer `n` and returns the sum of odd integers from 1 to `n`.
+      Start with a base case, and use temporary variables to debug your solution.
+      You might find it helpful to print the value of `n` each time `oddSum` is invoked.
+      {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ ExerciseScript )
+  - name: Exercise 8.3
+    type: section
+    chapter: Recursive Methods
+    section: Exercises
+    before: false
+    markdown: |
+      **Exercise 8.3:**
+      In this exercise, you will use a stack diagram to understand the execution of the following recursive method:
+
+      ```code
+      public static void main(String[] args) {
+          System.out.println(prod(1, 4));
+      }
+
+      public static int prod(int m, int n) {
+          if (m == n) {
+              return n;
+          } else {
+              int recurse = prod(m, n - 1);
+              int result = n * recurse;
+              return result;
+          }
+      }
+      ```
+
+
+
+      1. Draw a stack diagram showing the state of the program just before the last invocation of `prod` completes.
+      1. What is the output of this program? (Try to answer this question on paper first; then run the code to check your answer.)
+      1. Explain in a few words what `prod` does (without getting into the details of how it works).
+      1. Rewrite `prod` without the temporary variables `recurse` and `result`. *Hint:* You need only one line for the `else` branch.
+      
+      {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ ExerciseScript )
+  - name: Exercise 8.4
+    type: section
+    chapter: Recursive Methods
+    section: Exercises
+    before: false
+    markdown: |
+      **Exercise 8.4:**
+      The goal of this exercise is to translate a recursive definition into a Java method. The Ackermann function is defined for non-negative integers as follows:
+      $$
+      A(m, n) = \begin{cases}
+                    n+1 & \mbox{if } m = 0 \\
+              A(m-1, 1) & \mbox{if } m > 0 \mbox{ and } n = 0 \\
+      A(m-1, A(m, n-1)) & \mbox{if } m > 0 \mbox{ and } n > 0
+      \end{cases}
+      $$
+
+      Write a recursive method called `ack` that takes two `int`s as parameters and that computes and returns the value of the Ackermann function.
+
+      Test your implementation of Ackermann by invoking it from `main` and displaying the return value.
+      Note the return value gets very big very quickly.
+      You should try it only for small values of $m$ and $n$ (not bigger than 3).
+      {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ ExerciseScript )
+  - name: Exercise 8.5
+    type: section
+    chapter: Recursive Methods
+    section: Exercises
+    before: false
+    markdown: |
+      Write a recursive method called `power` that takes a double `x` and an integer `n` and returns $x^n$.
+
+      *Hint:* A recursive definition of this operation is $x^n = x \cdot x^{n-1}$. Also, remember that anything raised to the zeroth power is 1.
+
+      Optional challenge: you can make this method more efficient, when `n` is even, using $x^n = \left( x^{n/2} \right)^2$.
+      {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ ExerciseScript )
+  - name: Exercise 8.6
+    type: section
+    chapter: Recursive Methods
+    section: Exercises
+    before: false
+    markdown: |
+      **Exercise 8.6:**
+      Many of the patterns you have seen for traversing arrays can also be written recursively. It is not common, but it is a useful exercise.
+
+
+
+      1. Write a method called `maxInRange` that takes an array of integers and two indexes, `lowIndex` and `highIndex`, and finds the maximum value in the array, but considering only the elements between `lowIndex` and `highIndex`, including both. This method should be recursive. If the length of the range is 1 (i.e., if `lowIndex == highIndex`), we know immediately that the sole element in the range must be the maximum. So that's the base case. If there is more than one element in the range, we can break the array into two pieces, find the maximum in each piece, and then find the maximum of the maxima.
+      1. Methods like `maxInRange` can be awkward to use. To find the largest element in an array, we have to provide the range for the entire array: ```code
+      double max = maxInRange(a, 0, a.length - 1);
+      ``` Write a method called `max` that takes an array and uses `maxInRange` to find and return the largest element.
+      {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ ExerciseScript )
+  - name: Exercise 8.7
+    type: section
+    chapter: Recursive Methods
+    section: Exercises
+    before: false
+    markdown: |
+      **Exercise 8.7:**
+      Create a program called *Recurse.java* and type in the following methods:
+
+      ```code
+      /**
+       * Returns the first character of the given String.
+       */
+      public static char first(String s) {
+          return s.charAt(0);
+      }
+      ```
+
+      ```code
+      /**
+       * Returns all but the first letter of the given String.
+       */
+      public static String rest(String s) {
+          return s.substring(1);
+      }
+      ```
+
+      ```code
+      /**
+       * Returns all but the first and last letter of the String.
+       */
+      public static String middle(String s) {
+          return s.substring(1, s.length() - 1);
+      }
+      ```
+
+      ```code
+      /**
+       * Returns the length of the given String.
+       */
+      public static int length(String s) {
+          return s.length();
+      }
+      ```
+
+
+
+      1. Write some code in `main` that tests each of these methods. Make sure they work, and you understand what they do.
+      1. Using these methods, and without using any other `String` methods, write a method called `printString` that takes a string as a parameter and displays the letters of the string, one on each line. It should be a `void` method.
+      1. Again using only these methods, write a method called `printBackward` that does the same thing as `printString` but displays the string backward (again, one character per line).
+      1. Now write a method called `reverseString` that takes a string as a parameter and returns a new string as a return value. The new string should contain the same letters as the parameter, but in reverse order: ```code
+      String backwards = reverseString("coffee");
+      System.out.println(backwards);
+      ``` The output of this example code should be as follows: ```code
+      eeffoc
+      ```
+      1. A palindrome is a word that reads the same both forward and backward, like “otto” and “palindromeemordnilap”. Here's one way to test whether a string is a palindrome: 
+
+      > A single letter is a palindrome, a two-letter word is a palindrome if the letters are the same, and any other word is a palindrome if the first letter is the same as the last and the middle is a palindrome.
+       Write a recursive method named `isPalindrome` that takes a `String` and returns a `boolean` indicating whether the word is a palindrome.
+      {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/Recurse.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ Recurse )

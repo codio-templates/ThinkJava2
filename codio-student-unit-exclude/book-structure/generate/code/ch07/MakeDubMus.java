@@ -30,5 +30,10 @@ public class MakeDubMus {
         dub(bob);
         System.out.println(mus(bob));
     }
+  
+  public static void main(String[] args) {
+        //Test your code here
+    
+    }
 
 }

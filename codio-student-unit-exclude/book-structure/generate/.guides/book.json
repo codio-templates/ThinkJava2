@@ -585,6 +585,54 @@
           "pageId": "arrays-and-references-exercises",
           "title": "Exercises",
           "type": "page"
+        },
+        {
+          "id": "arrays-and-references-exercise-7-1",
+          "pageId": "arrays-and-references-exercise-7-1",
+          "title": "Exercise 7.1",
+          "type": "page"
+        },
+        {
+          "id": "arrays-and-references-exercise-7-2",
+          "pageId": "arrays-and-references-exercise-7-2",
+          "title": "Exercise 7.2",
+          "type": "page"
+        },
+        {
+          "id": "arrays-and-references-exercise-7-3",
+          "pageId": "arrays-and-references-exercise-7-3",
+          "title": "Exercise 7.3",
+          "type": "page"
+        },
+        {
+          "id": "arrays-and-references-exercise-7-4",
+          "pageId": "arrays-and-references-exercise-7-4",
+          "title": "Exercise 7.4",
+          "type": "page"
+        },
+        {
+          "id": "arrays-and-references-exercise-7-5",
+          "pageId": "arrays-and-references-exercise-7-5",
+          "title": "Exercise 7.5",
+          "type": "page"
+        },
+        {
+          "id": "arrays-and-references-exercise-7-6",
+          "pageId": "arrays-and-references-exercise-7-6",
+          "title": "Exercise 7.6",
+          "type": "page"
+        },
+        {
+          "id": "arrays-and-references-exercise-7-7",
+          "pageId": "arrays-and-references-exercise-7-7",
+          "title": "Exercise 7.7",
+          "type": "page"
+        },
+        {
+          "id": "arrays-and-references-exercise-7-8",
+          "pageId": "arrays-and-references-exercise-7-8",
+          "title": "Exercise 7.8",
+          "type": "page"
         }
       ],
       "id": "arrays-and-references",
@@ -652,6 +700,48 @@
           "id": "recursive-methods-exercises",
           "pageId": "recursive-methods-exercises",
           "title": "Exercises",
+          "type": "page"
+        },
+        {
+          "id": "recursive-methods-exercise-8-1",
+          "pageId": "recursive-methods-exercise-8-1",
+          "title": "Exercise 8.1",
+          "type": "page"
+        },
+        {
+          "id": "recursive-methods-exercise-8-2",
+          "pageId": "recursive-methods-exercise-8-2",
+          "title": "Exercise 8.2",
+          "type": "page"
+        },
+        {
+          "id": "recursive-methods-exercise-8-3",
+          "pageId": "recursive-methods-exercise-8-3",
+          "title": "Exercise 8.3",
+          "type": "page"
+        },
+        {
+          "id": "recursive-methods-exercise-8-4",
+          "pageId": "recursive-methods-exercise-8-4",
+          "title": "Exercise 8.4",
+          "type": "page"
+        },
+        {
+          "id": "recursive-methods-exercise-8-5",
+          "pageId": "recursive-methods-exercise-8-5",
+          "title": "Exercise 8.5",
+          "type": "page"
+        },
+        {
+          "id": "recursive-methods-exercise-8-6",
+          "pageId": "recursive-methods-exercise-8-6",
+          "title": "Exercise 8.6",
+          "type": "page"
+        },
+        {
+          "id": "recursive-methods-exercise-8-7",
+          "pageId": "recursive-methods-exercise-8-7",
+          "title": "Exercise 8.7",
           "type": "page"
         }
       ],
