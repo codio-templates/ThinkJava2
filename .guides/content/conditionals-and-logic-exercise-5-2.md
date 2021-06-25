@@ -6,4 +6,4 @@ By adding a small amount of code at a time and testing as you go, modify the pro
 
 The program should continue until the user gets it right or guesses incorrectly three times. If the user guesses the correct number, display a message and terminate the program
 
-{Run!|terminal}(sh .guides/bg.sh javac code/ch05/Exercise2.java java -cp code/ch05/ Exercise2 4)
+{Run!|terminal}(sh .guides/bg.sh javac code/ch03/GuessStarter.java java -cp code/ch03/ GuessStarter 4)
