@@ -815,3 +815,18 @@ sections:
     type: section
   - name: "Logic Errors"
     type: section
+insert_sections:
+  - name: "Exercise 5.1"
+    type: section
+    chapter: 
+    section: What is programming?
+    before: false
+    latex: |
+      hello latex
+  - name: Exercises 1.2
+    type: section
+    chapter: Computer programming
+    section: What is programming?
+    before: false
+    markdown: |
+      hello markdown
