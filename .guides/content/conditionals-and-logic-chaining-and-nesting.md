@@ -1,4 +1,6 @@
-Sometimes you want to check related conditions and choose one of several actions. One way to do this is by **chaining** a series of `if` and `else` blocks: [Click here to see an example on the left.](open_file code/ch05/ChainNest.java panel=0 ref="if" count=7) Remove the comment symbols in front of the code and then press the "Run!"
+Sometimes you want to check related conditions and choose one of several actions. One way to do this is by **chaining** a series of `if` and `else` blocks: [Click here to see an example on the left.](open_file code/ch05/ChainNest.java panel=0 ref="if" count=7) 
+[Click here to remove highlight](open_file code/ch05/ChainNest.java panel=0)
+Remove the comment symbols in front of the code and then press the "Run!"
 {Run!}(sh .guides/bg.sh javac code/ch05/ChainNest.java java -cp code/ch05/ ChainNest 1)
 
 
@@ -8,7 +10,9 @@ These chains can be as long as you want, although they can be difficult to read 
 Notice that the last branch is simply `else`, not `else if (x == 0)`. At this point in the chain, we know that `x` is not positive and `x` is not negative. There is no need to test whether `x` is 0, because there is no other possibility.
 
 
-In addition to chaining, you can also make complex decisions by **nesting** one conditional statement inside another. [We could have written it this way instead.](open_file code/ch05/ChainNest.java panel=0 ref="alternate way" count=10) Remove the comment symbols in front of the code and then press the "Run!"
+In addition to chaining, you can also make complex decisions by **nesting** one conditional statement inside another. [We could have written it this way instead.](open_file code/ch05/ChainNest.java panel=0 ref="alternate way" count=10)
+[Click here to remove highlight](open_file code/ch05/ChainNest.java panel=0)
+Remove the comment symbols in front of the code and then press the "Run!"
 {Run!}(sh .guides/bg.sh javac code/ch05/ChainNest.java java -cp code/ch05/ ChainNest 2)
 
 

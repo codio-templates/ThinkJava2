@@ -10,10 +10,14 @@ In addition to the relational operators, Java also has three **logical operators
 
 In order for an expression with `&&` to be true, both sides of the `&&` operator must be true. And in order for an expression with `||` to be false, both sides of the `||` operator must be false.
 
-The `&&` operator can be used to simplify nested `if` statements. For example, [this code at the left](open_file code/ch05/LogicalOpers.java panel=0 ref="nested" count=6) can be rewritten with a single condition, to look [like this](open_file code/ch05/LogicalOpers.java panel=0 ref="combined" count=4) Remove the comment symbols in front of the code and then press the "Run!"
+The `&&` operator can be used to simplify nested `if` statements. For example, [this code at the left](open_file code/ch05/LogicalOpers.java panel=0 ref="nested" count=6) can be rewritten with a single condition, to look [like this](open_file code/ch05/LogicalOpers.java panel=0 ref="combined" count=4) 
+[Click here to remove highlight](open_file code/ch05/LogicalOpers.java panel=0)
+Remove the comment symbols in front of the code and then press the "Run!"
 {Run!}(sh .guides/bg.sh javac code/ch05/LogicalOpers.java java -cp code/ch05/ LogicalOpers 1)
  Likewise, the `||` operator can simplify chained `if` statements, such as the one [at the left](open_file code/ch05/LogicalOpers.java panel=0 ref="chained" count=6). Since the branches are the same, there is no need to duplicate [this line of code](open_file code/ch05/LogicalOpers.java panel=0 ref="Either" count=1).  
-Therefore, we can combine them [like this](open_file code/ch05/LogicalOpers.java panel=0 ref="can make things easier" count=4) Remove the comment symbols in front of the code and then press the "Run!"
+Therefore, we can combine them [like this](open_file code/ch05/LogicalOpers.java panel=0 ref="can make things easier" count=4) 
+[Click here to remove highlights](open_file code/ch05/LogicalOpers.java panel=0)
+Remove the comment symbols in front of the code and then press the "Run!"
 {Run!}(sh .guides/bg.sh javac code/ch05/LogicalOpers.java java -cp code/ch05/ LogicalOpers 2)
 
 
