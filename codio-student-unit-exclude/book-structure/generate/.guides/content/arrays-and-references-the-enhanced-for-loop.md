@@ -18,7 +18,9 @@ for (int value : values) {
 
 This statement is called an **enhanced for loop**, also known as the “for each” loop. You can read the code as, “for each `value` in `values`”. It's conventional to use plural nouns for array variables and singular nouns for element variables.
 
-Notice how the single line `for (int value : values)` replaces the first two lines of the standard `for` loop. It hides the details of iterating each index of the array, and instead, focuses on the values themselves.
+Notice how the single line `for (int value : values)` replaces the first two lines of the standard `for` loop. It hides the details of iterating each index of the array, and instead, focuses on the values themselves. Give the above enhanced for loop a try by pressing run and see what is printed.
+{Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples6.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ArrayExamples6 )
+
 
 Using the enhanced `for` loop, and removing the temporary variable, [we can write the histogram code](open_file code/ch07/Histogram.java panel=0 ref="// histogram" count=5) from the previous section more concisely:
 

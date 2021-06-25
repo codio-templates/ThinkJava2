@@ -34,11 +34,5 @@ public class CodingBat {
             return recurse;
         }
     }
-  
-  public static void main(String[] args) {
-    noX("xaxb");
-    array11([1,2,11],0);
-    
-    }
 
 }

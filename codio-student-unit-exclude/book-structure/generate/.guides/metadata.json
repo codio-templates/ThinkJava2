@@ -1266,7 +1266,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "code/ch07/Histogram.java"
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples6.java"
         }
       ],
       "id": "arrays-and-references-the-enhanced-for-loop",
@@ -1360,7 +1360,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "code/ch08/Examples.java"
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch08/Examples1.java"
         }
       ],
       "id": "recursive-methods-recursive-void-methods",
@@ -1383,7 +1383,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "code/ch08/Examples.java"
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch08/Examples2.java"
         }
       ],
       "id": "recursive-methods-recursive-stack-diagrams",
@@ -1406,7 +1406,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "code/ch08/Series.java"
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch08/Series1.java"
         }
       ],
       "id": "recursive-methods-value-returning-methods",
@@ -1429,7 +1429,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "code/ch08/Series.java"
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch08/Series2.java"
         }
       ],
       "id": "recursive-methods-the-leap-of-faith",
@@ -1452,7 +1452,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "code/ch08/Examples.java"
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch08/Examples3.java"
         }
       ],
       "id": "recursive-methods-counting-up-recursively",
@@ -1493,7 +1493,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "code/ch08/Examples.java"
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch08/Examples4.java"
         }
       ],
       "id": "recursive-methods-recursive-binary-method",
@@ -1516,7 +1516,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "code/ch08/CodingBat.java"
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch08/CodingBat.java"
         }
       ],
       "id": "recursive-methods-codingbat-problems",

@@ -514,9 +514,19 @@ sections:
          position: 556
        - add:  |
                  Putting together all the above code fragments, and adding some comments and test cases, see the complete example java code in the left pane. To compile and run the code, press "Run!"
-                 {Run!}(sh .guides/bg.sh javac code/ch07/*.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ Histogram )
+                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/*.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ Histogram )
 
          position: 568
+       - add:  |
+                 Try comparing the results from the `inRange` function calls and the `randomArray` named `scores` to see how this function works.
+                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/*.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ Histogram )
+
+         position: 503
+       - add:  |
+                 Try printing the array `counts` after running the above lines of code to see how a complete histogram is built up.
+                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/*.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ Histogram )
+
+         position: 565
     configuration:
       layout: 2-panels
       files:
@@ -534,12 +544,17 @@ sections:
                    Using the enhanced `for` loop, and removing the temporary variable, [we can write the histogram code](open_file code/ch07/Histogram.java panel=0 ref="// histogram" count=5) from the previous section more concisely:
 
          position: 601
+       - add:  |
+                   Give the above enhanced for loop a try by pressing run and see what is printed.
+                   {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples6.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ArrayExamples6 )
+
+         position: 600
     configuration:
       layout: 2-panels
       files:
           - path: "#tabs"
             action: close
-          - path: "code/ch07/Histogram.java"
+          - path: "codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples6.java"
             panel: 0
             action: open
   - name: "Counting Characters"
@@ -600,21 +615,33 @@ sections:
        - remove: 1
          position: 19
        - add:  |
-                   [Consider the following example:](open_file code/ch08/Examples.java panel=0 ref="public static void countdown" count=8)
+                   [Consider the following example:](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Examples1.java panel=0 ref="public static void countdown" count=8)
 
          position: 20
        - remove: 1
          position: 84
        - add:  |
-                   A more general alternative would be [the following:](open_file code/ch08/Examples.java panel=0 ref="public static void nLines" count=6)
+                   A more general alternative would be [the following:](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Examples1.java panel=0 ref="public static void nLines" count=6)
 
          position: 85
+       - add:  |
+                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Examples1.java panel=0)
+                 Give the function a try here.
+                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/Examples1.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ Examples1 )
+
+         position: 66
+       - add:  |
+                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Examples1.java panel=0)
+                 Give the `nLines` function a try here.
+                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/Examples1.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ Examples1 )
+
+         position: 95
     configuration:
       layout: 2-panels
       files:
           - path: "#tabs"
             action: close
-          - path: "code/ch08/Examples.java"
+          - path: "codio-student-unit-exclude/ThinkJava2/code/ch08/Examples1.java"
             panel: 0
             action: open
   - name: "Recursive Stack Diagrams"
@@ -623,15 +650,21 @@ sections:
        - remove: 1
          position: 139
        - add:  |
-                   For example, [here](open_file code/ch08/Examples.java panel=0 ref="public static void forever" count=4) is a recursive method without a base case:
+                   For example, [here](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Examples2.java panel=0 ref="public static void forever" count=4) is a recursive method without a base case:
 
          position: 140
+       - add:  |
+                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Examples2.java panel=0)
+                 Give the `nLines` function a try here.
+                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/Examples2.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ Examples2 )
+
+         position: 152
     configuration:
       layout: 2-panels
       files:
           - path: "#tabs"
             action: close
-          - path: "code/ch08/Examples.java"
+          - path: "codio-student-unit-exclude/ThinkJava2/code/ch08/Examples2.java"
             panel: 0
             action: open
   - name: "Value-Returning Methods"
@@ -640,19 +673,19 @@ sections:
        - remove: 1
          position: 212
        - add:  |
-                   If the argument happens to be 0, [we return 1:](open_file code/ch08/Series.java panel=0 ref="public static int factorial" count=4)
+                   If the argument happens to be 0, [we return 1:](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Series1.java panel=0 ref="public static int factorial" count=4)
 
          position: 213
        - remove: 1
          position: 223
        - add:  |
-                   Otherwise, and this is the interesting part, [we have to make a recursive call](open_file code/ch08/Series.java panel=0 ref="int recurse" count=3) to find the factorial of n−1, and then multiply it by n:
+                   Otherwise, and this is the interesting part, [we have to make a recursive call](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Series1.java panel=0 ref="int recurse" count=3) to find the factorial of n−1, and then multiply it by n:
 
          position: 224
        - add:  |
+                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Series1.java panel=0)
                  Pulling together all of the above code fragments, and adding some test cases, run the complete example java code in the left pane. To compile and run the code, press "Run!".
-                 This will execute both the fibonacci and factorial functions, the former of which we will get to at a later stage. 
-                 {Run!}(sh .guides/bg.sh javac code/ch08/Series.java java -cp code/ch08/ Series )
+                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/Series1.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ Series1 )
 
          position: 275
     configuration:
@@ -660,7 +693,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "code/ch08/Series.java"
+          - path: "codio-student-unit-exclude/ThinkJava2/code/ch08/Series1.java"
             panel: 0
             action: open
   - name: "The Leap of Faith"
@@ -669,12 +702,13 @@ sections:
        - remove: 1
          position: 344
        - add:  |
-                   Translated into Java, [this function is as follows:](open_file code/ch08/Series.java panel=0 ref="public static int fibonacci" count=6)
+                   Translated into Java, [this function is as follows:](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Series2.java panel=0 ref="public static int fibonacci" count=6)
 
          position: 345
        - add:  |
+                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Series2.java panel=0)
                  Run the complete example java code and fibonacci function in the left pane. To compile and run the code, press "Run!"
-                 {Run!}(sh .guides/bg.sh javac code/ch08/Series.java java -cp code/ch08/ Series )
+                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/Series2.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ Series2 )
 
          position: 358
     configuration:
@@ -682,7 +716,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "code/ch08/Series.java"
+          - path: "codio-student-unit-exclude/ThinkJava2/code/ch08/Series2.java"
             panel: 0
             action: open
   - name: "Counting Up Recursively"
@@ -691,12 +725,13 @@ sections:
        - remove: 1
          position: 363
        - add:  |
-                   What do you think happens if you reverse steps 2 and 3, [making the recursive call before displaying?](open_file code/ch08/Examples.java panel=0 ref="public static void countup" count=8)
+                   What do you think happens if you reverse steps 2 and 3, [making the recursive call before displaying?](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Examples3.java panel=0 ref="public static void countup" count=8)
 
          position: 364
        - add:  |
+                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Examples3.java panel=0)
                  Test and run both the `countup` and `countdown` functions here.
-                 {Run!}(sh .guides/bg.sh javac code/ch08/Examples.java java -cp code/ch08/ Examples )
+                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/Examples3.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ Examples3 )
 
          position: 388
     configuration:
@@ -704,7 +739,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "code/ch08/Examples.java"
+          - path: "codio-student-unit-exclude/ThinkJava2/code/ch08/Examples3.java"
             panel: 0
             action: open
   - name: "Binary Number System"
@@ -720,12 +755,13 @@ sections:
        - remove: 1
          position: 499
        - add:  |
-                   [Here](open_file code/ch08/Examples.java panel=0 ref="public static void displayBinary" count=6) is a recursive method that displays any positive integer in binary:
+                   [Here](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Examples4.java panel=0 ref="public static void displayBinary" count=6) is a recursive method that displays any positive integer in binary:
 
          position: 500
        - add:  |
+                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Examples4.java panel=0)
                  Test and run the code here.
-                 {Run!}(sh .guides/bg.sh javac code/ch08/Examples.java java -cp code/ch08/ Examples )
+                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/Examples4.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ Examples4 )
 
          position: 535
     configuration:
@@ -733,15 +769,29 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "code/ch08/Examples.java"
+          - path: "codio-student-unit-exclude/ThinkJava2/code/ch08/Examples4.java"
             panel: 0
             action: open
   - name: "CodingBat Problems"
     type: section
     transformations:
+       - remove: 1
+         position: 550
+       - add:  |
+                 The first problem is available at [https://codingbat.com/prob/p118230](open_preview https://codingbat.com/prob/p118230).
+                 Try solving the first challenge in CodingBat's online text editor.
+
+         position: 551
+       - remove: 1
+         position: 608
+       - add:  |
+                 The second problem is available at [https://codingbat.com/prob/p135988](open_preview https://codingbat.com/prob/p135988).
+                 Try solving the second challenge in CodingBat's online text editor.
+
+         position: 609
        - add:  |
                  See both solved CodingBat problems in java in the left pane. To compile and run the code, press "Run!"
-                 {Run!}(sh .guides/bg.sh javac code/ch08/CodingBat.java java -cp code/ch08/ CodingBat )
+                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/CodingBat.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ CodingBat )
 
          position: 654
     configuration:
@@ -749,7 +799,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "code/ch08/CodingBat.java"
+          - path: "codio-student-unit-exclude/ThinkJava2/code/ch08/CodingBat.java"
             panel: 0
             action: open
   - name: "Vocabulary"
