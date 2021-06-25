@@ -1037,6 +1037,182 @@
       "type": "markdown"
     },
     {
+      "chapter": false,
+      "content-file": ".guides/content/conditionals-and-logic-exercise-5-1.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch05/Exercise1.java"
+        }
+      ],
+      "id": "conditionals-and-logic-exercise-5-1",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 5.1",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/conditionals-and-logic-exercise-5-2.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch05/Exercise2.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: "
+        }
+      ],
+      "id": "conditionals-and-logic-exercise-5-2",
+      "layout": "3-cell",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 5.2",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/conditionals-and-logic-exercise-5-3.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch05/Fermat.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: "
+        }
+      ],
+      "id": "conditionals-and-logic-exercise-5-3",
+      "layout": "3-cell",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 5.3",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/conditionals-and-logic-exercise-5-4.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "conditionals-and-logic-exercise-5-4",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 5.4",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/conditionals-and-logic-exercise-5-5.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch05/Hoopy.java"
+        }
+      ],
+      "id": "conditionals-and-logic-exercise-5-5",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 5.5",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/conditionals-and-logic-exercise-5-6.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch05/Quadratic.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: "
+        }
+      ],
+      "id": "conditionals-and-logic-exercise-5-6",
+      "layout": "3-cell",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 5.6",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/conditionals-and-logic-exercise-5-7.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch05/Triangle.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: "
+        }
+      ],
+      "id": "conditionals-and-logic-exercise-5-7",
+      "layout": "3-cell",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 5.7",
+      "type": "markdown"
+    },
+    {
       "chapter": true,
       "content-file": ".guides/content/loops-and-strings.md",
       "files": [],

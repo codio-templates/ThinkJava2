@@ -485,6 +485,85 @@ sections:
             action: close
   - name: "Exercises"
     type: section
+  - name: "Exercise 5.1"
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch05/Exercise1.java"
+            panel: 0
+            action: open
+  - name: "Exercise 5.2"
+    type: section
+    configuration:
+      layout: 3-cell
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch05/Exercise2.java"
+            panel: 0
+            action: open
+          - path: "#terminal: "
+            panel: 1
+            action: open
+  - name: "Exercise 5.3"
+    type: section
+    configuration:
+      layout: 3-cell
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch05/Fermat.java"
+            panel: 0
+            action: open
+          - path: "#terminal: "
+            panel: 1
+            action: open
+  - name: "Exercise 5.4"
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: "Exercise 5.5"
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch05/Hoopy.java"
+            panel: 0
+            action: open
+  - name: "Exercise 5.6"
+    type: section
+    configuration:
+      layout: 3-cell
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch05/Quadratic.java"
+            panel: 0
+            action: open  
+          - path: "#terminal: "
+            panel: 1
+            action: open
+  - name: "Exercise 5.7"
+    type: section
+    configuration:
+      layout: 3-cell
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch05/Triangle.java"
+            panel: 0
+            action: open  
+          - path: "#terminal: "
+            panel: 1
+            action: open
   - name: "Loops and Strings"
     type: chapter
   - name: "The while Statement"
@@ -839,14 +918,13 @@ insert_sections:
 
       The program should continue until the user gets it right or guesses incorrectly three times. If the user guesses the correct number, display a message and terminate the program
       
-      {Run!}(sh .guides/bg.sh javac code/ch05/Exercise2.java java -cp code/ch05/ Exercise2 4)
+      {Run!|terminal}(sh .guides/bg.sh javac code/ch05/Exercise2.java java -cp code/ch05/ Exercise2 4)
 
   - name: Exercise 5.3
     type: section
     chapter: Conditionals and logic
     section: Exercises
     before: false
-    # testing if run buttons work in latex
     latex: | 
       Fermat's Last Theorem says that there are no integers $a$, $b$, $c$, and $n$ such that $a^n + b^n = c^n$, except when $n \leq 2$.
 
@@ -856,14 +934,13 @@ insert_sections:
 
       {\em Hint:} You might want to use \java{Math.pow}.
       
-      {Run!}(sh .guides/bg.sh javac code/ch05/Fermat.java java -cp code/ch05/ Fermat 4)
+      {Run!|terminal}(sh .guides/bg.sh javac code/ch05/Fermat.java java -cp code/ch05/ Fermat 4)
       
   - name: Exercise 5.4
     type: section
     chapter: Conditionals and logic
     section: Exercises
     before: false
-    # TODO: add assessment so students can log answers
     latex: |
       Using the following variables, evaluate the logic expressions in the table that follows.
       
@@ -879,36 +956,7 @@ insert_sections:
       String hello = "world";
       \end{code}
 
-      \vspace{1ex}
-
-      \begin{center}
-      \begin{tabular}{|l|l|}
-      \hline
-      Expression & Result \\
-      \hline
-      \hline
-      \java{yes == no || grade > amount} & \hspace{5em} \\
-      \hline
-      \java{amount == 40.0 || 50.0} &  \\
-      \hline
-      \java{hiVal != loVal || loVal < 0} &  \\
-      \hline
-      \java{True || hello.length() > 0} &  \\
-      \hline
-      \java{hello.isEmpty() && yes} &  \\
-      \hline
-      \java{grade <= 100 && !false} &  \\
-      \hline
-      \java{!yes || no} &  \\
-      \hline
-      \java{grade > 75 > amount} &  \\
-      \hline
-      \java{amount <= hiVal && amount >= loVal} &  \\
-      \hline
-      \java{no && !no || yes && !yes} &  \\
-      \hline
-      \end{tabular}
-      \end{center}
+      {Check It!|assessment}(fill-in-the-blanks-405612404)
 
   - name: Exercise 5.5
     type: section
@@ -939,14 +987,14 @@ insert_sections:
       The user should never see an input mismatch exception.
       Display specific error messages that include the invalid input.
       
-      {Run!}(sh .guides/bg.sh javac code/ch05/Quadratic.java java -cp code/ch05/ Quadratic 4)
+      {Run!|terminal}(sh .guides/bg.sh javac code/ch05/Quadratic.java java -cp code/ch05/ Quadratic 4)
       
   - name: Exercise 5.7
     type: section
     chapter: Conditionals and logic
     section: Exercises
     before: false
-    markdown: |
+    latex: |
       If you are given three sticks, you may or may not be able to arrange them in a triangle.
       For example, if one of the sticks is 12 inches long and the other two are 1 inch long, you will not be able to get the short sticks to meet in the middle.
       For any three lengths, there is a simple test to see if it is possible to form a triangle:
@@ -960,4 +1008,4 @@ insert_sections:
       %The point of this exercise is to use conditional statements to write a value method.
       Reuse your code from the previous exercise to validate the inputs.
       Display an error if any of the lengths are negative or zero.
-      {Run!}(sh .guides/bg.sh javac code/ch05/Triangle.java java -cp code/ch05/ Triangle 4)
+      {Run!|terminal}(sh .guides/bg.sh javac code/ch05/Triangle.java java -cp code/ch05/ Triangle 4)
