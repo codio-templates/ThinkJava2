@@ -111,6 +111,24 @@
           "pageId": "computer-programming-exercises",
           "title": "Exercises",
           "type": "page"
+        },
+        {
+          "id": "computer-programming-exercise-1-1",
+          "pageId": "computer-programming-exercise-1-1",
+          "title": "Exercise 1.1",
+          "type": "page"
+        },
+        {
+          "id": "computer-programming-exercise-1-2",
+          "pageId": "computer-programming-exercise-1-2",
+          "title": "Exercise 1.2",
+          "type": "page"
+        },
+        {
+          "id": "computer-programming-exercise-1-3",
+          "pageId": "computer-programming-exercise-1-3",
+          "title": "Exercise 1.3",
+          "type": "page"
         }
       ],
       "id": "computer-programming",
