@@ -98,24 +98,28 @@ sections:
           position: 128
         - add: |
                   In the Hello World program, line 5 is a **print statement** that displays a message to the user. [Click here to view.](open_file code/ch01/Hello.java panel=0 ref="System" count=1)
+                  [Click to remove the highlight.](open_file code/ch01/Hello.java panel=0)
 
           position: 133
         - remove: 5
           position: 151
         - add: |
-                  This program defines one method named `main`. [Click to view.](open_file code/ch01/Hello.java panel=0 ref="static" count=1) 
+                  This program defines one method named `main`. [Click to view.](open_file code/ch01/Hello.java panel=0 ref="static" count=1)
+                  [Click to remove the highlight.](open_file code/ch01/Hello.java panel=0)
 
           position: 156
         - remove: 1
           position: 164
         - add: |
                   The program defines [a class (click to view)](open_file code/ch01/Hello.java panel=0 ref="public" count=1), called Hello. 
+                  [Click to remove the highlight.](open_file code/ch01/Hello.java panel=0)
 
           position: 165
         - remove: 1
           position: 176
         - add: |
                   [This line (click) is a comment](open_file code/ch01/Hello.java panel=0 ref="//" count=1), which is a bit of English text that explains the code.
+                  [Click to remove the highlight.](open_file code/ch01/Hello.java panel=0)
 
           position: 177
     configuration:
@@ -146,7 +150,9 @@ sections:
         - remove: 1
           position: 308
         - add: |
-                 For example, take a look at Goodbye.java in the bottom left corner. [Click to view the print statement without the newline.](open_file code/ch01/Goodbye.java panel=1 ref="Goodbye," count=1) To compile and run the code, press the "Run!"
+                 For example, take a look at Goodbye.java in the bottom left corner. [Click to view the print statement without the newline.](open_file code/ch01/Goodbye.java panel=1 ref="Goodbye," count=1)
+                 [Click to remove the highlight.](open_file code/ch01/Goodbye.java panel=1)
+                 To compile and run the code, press the "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch01/Goodbye.java java -cp code/ch01/ Goodbye )
 
           position: 309
@@ -195,14 +201,18 @@ sections:
         - remove: 1
           position: 404
         - add: |
-                 You just have to tell Java where to put the line breaks. For example, take a look at [line 4 on the code on the left (click).](open_file code/ch01/Hello3.java panel=0 ref="System" count=1) To compile and run the code, comment out line 5 using a `//` and press the "Run!"
+                 You just have to tell Java where to put the line breaks. For example, take a look at [line 4 on the code on the left (click).](open_file code/ch01/Hello3.java panel=0 ref="System" count=1)
+                 [Click to remove the highlight.](open_file code/ch01/Hello3.java panel=0)
+                 To compile and run the code, comment out line 5 using a `//` and press the "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch01/Hello3.java java -cp code/ch01/ Hello3 1)
 
           position: 405
         - remove: 5
           position: 448
         - add: |
-                 For example, to write quotation marks inside of strings, you need to escape them with a backslash, as in [line 5](open_file code/ch01/Hello3.java panel=0 ref="println" count=1) on the code on the left. To compile and run the code, remove the comment from line 5, comment out line 4 using a `//` and press the "Run!"
+                 For example, to write quotation marks inside of strings, you need to escape them with a backslash, as in [line 5](open_file code/ch01/Hello3.java panel=0 ref="println" count=1) on the code on the left. 
+                 [Click to remove the highlight.](open_file code/ch01/Hello3.java panel=0)
+                 To compile and run the code, remove the comment from line 5, comment out line 4 using a `//` and press the "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch01/Hello3.java java -cp code/ch01/ Hello3 2)
 
           position: 453

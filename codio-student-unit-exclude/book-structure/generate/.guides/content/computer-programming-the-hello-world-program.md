@@ -19,6 +19,7 @@ Notice that the output does not include the quotation marks.
 
 
 Java programs are made up of *class* and *method* definitions, and methods are made up of *statements*. In the Hello World program, line 5 is a **print statement** that displays a message to the user. [Click here to view.](open_file code/ch01/Hello.java panel=0 ref="System" count=1)
+[Click to remove the highlight.](open_file code/ch01/Hello.java panel=0)
  A **statement** is a line of code that performs a basic action.
 
 `System.out.println` displays results on the screen; the name `println` stands for “print line”. Confusingly, *print* can mean both “display on the screen” and “send to the printer”. In this book, we'll try to say “display” when we mean output to the screen. Like most statements, the print statement ends with a semicolon (`;`).
@@ -27,7 +28,8 @@ Java programs are made up of *class* and *method* definitions, and methods are m
 Java is “case-sensitive”, which means that uppercase and lowercase are not the same. In the Hello World program, `System` has to begin with an uppercase letter; `system` and `SYSTEM` won't work.
 
 
-A **method** is a named sequence of statements. This program defines one method named `main`. [Click to view.](open_file code/ch01/Hello.java panel=0 ref="static" count=1) 
+A **method** is a named sequence of statements. This program defines one method named `main`. [Click to view.](open_file code/ch01/Hello.java panel=0 ref="static" count=1)
+[Click to remove the highlight.](open_file code/ch01/Hello.java panel=0)
 
 
 
@@ -35,6 +37,7 @@ The name and format of `main` is special: when the program runs, it starts at th
 
 
 The program defines [a class (click to view)](open_file code/ch01/Hello.java panel=0 ref="public" count=1), called Hello. 
+[Click to remove the highlight.](open_file code/ch01/Hello.java panel=0)
  For now, a **class** is a collection of methods; we'll have more to say about this later. You can give a class any name you like, but it is conventional to start with a capital letter. The name of the class has to match the name of the file it is in, so this class has to be in a file named *Hello.java*.
 
 
@@ -42,4 +45,5 @@ Java uses curly braces (`{` and `\`}) to group things together. In *Hello.java*,
 
 
 [This line (click) is a comment](open_file code/ch01/Hello.java panel=0 ref="//" count=1), which is a bit of English text that explains the code.
+[Click to remove the highlight.](open_file code/ch01/Hello.java panel=0)
  When Java sees `//`, it ignores everything from there until the end of the line. Comments have no effect on the execution of the program, but they make it easier for other programmers (and your future self) to understand what you meant to do.
