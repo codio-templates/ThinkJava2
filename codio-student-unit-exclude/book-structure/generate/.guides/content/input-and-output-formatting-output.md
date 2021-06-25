@@ -30,7 +30,8 @@ Four thirds = 1.333
 
 The format string can contain any number of format specifiers; here's an example with two of them:
 
-[TEST](open_file code/ch03/Formatting.java panel=0 ref="int inch" count=3)
+[View the highlighted the code](open_file code/ch03/Formatting.java panel=0 ref="int inch" count=3)
+[Remove the highlight](open_file code/ch03/Formatting.java panel=0)
  ```code
 int inch = 100;
 double cm = inch * CM_PER_INCH;

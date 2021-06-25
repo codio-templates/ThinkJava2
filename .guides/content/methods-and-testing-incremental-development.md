@@ -17,7 +17,9 @@ The first step is to consider what a `distance` method should look like in Java.
 
 Already we can write an outline for the method, which is sometimes called a **stub**. The stub includes the method declaration and a `return` statement:
 
-```code
+[View the highlighted the code](open_file code/ch04/Distance.java panel=0 ref="public static double" count=3)
+[Remove the highlight](open_file code/ch04/Distance.java panel=0)
+ ```code
 public static double distance
         (double x1, double y1, double x2, double y2) {
     return 0.0;  // stub
@@ -39,7 +41,9 @@ Once we have compiled the stub, we can start adding code one line at a time. Aft
 
 The next step is to find the differences, $x_2 - x_1$ and $y_2 - y_1$. We store those values in temporary variables named `dx` and `dy`, so that we can examine them with print statements before proceeding. They should be 3.0 and 4.0:
 
-```code
+[View the highlighted the code](open_file code/ch04/Distance.java panel=0 ref="public static double" count=7)
+[Remove the highlight](open_file code/ch04/Distance.java panel=0)
+ ```code
 public static double distance
         (double x1, double y1, double x2, double y2) {
     double dx = x2 - x1;
@@ -55,7 +59,9 @@ We will remove the print statements when the method is finished. Code like that 
 
 The next step is to square `dx` and `dy`. We could use the `Math.pow` method, but it is simpler (and more efficient) to multiply each term by itself. Then we add the squares and print the result so far:
 
-```code
+[View the highlighted the code](open_file code/ch04/Distance.java panel=0 ref="public static" count=7)
+[Remove the highlight](open_file code/ch04/Distance.java panel=0)
+ ```code
 public static double distance
         (double x1, double y1, double x2, double y2) {
     double dx = x2 - x1;
@@ -68,7 +74,9 @@ public static double distance
 
 Again, you should compile and run the program at this stage and check the intermediate value, which should be 25.0. Finally, we can use `Math.sqrt` to compute and return the result:
 
-```code
+[View the highlighted the code](open_file code/ch04/Distance.java panel=0 ref="public static" count=7)
+[Remove the highlight](open_file code/ch04/Distance.java panel=0)
+ ```code
 public static double distance
         (double x1, double y1, double x2, double y2) {
     double dx = x2 - x1;

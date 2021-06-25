@@ -13,7 +13,8 @@ This **import statement** tells the compiler that when you refer to `Scanner`, y
 Next you have to initialize the `Scanner`. This line declares a `Scanner` variable named `in` and creates a `Scanner` that reads input from `System.in`:
 
 
-[click here](open_file code/ch03/Echo.java panel=0 ref="Scanner in" count=3)
+[View the highlighted the code](open_file code/ch03/Echo.java panel=0 ref="Scanner in" count=3)
+[Remove the highlight](open_file code/ch03/Echo.java panel=0)
  ```code
 Scanner in = new Scanner(System.in);
 ```

@@ -18,7 +18,9 @@ Before the method executes, the argument gets assigned to the parameter. In the 
 
 This process is called **parameter passing**, because the value gets passed from outside the method to the inside. An argument can be any kind of expression, so if you have a `String` variable, you can use its value as an argument:
 
-```code
+[View the highlighted the code](open_file code/ch04/PrintTwice.java panel=0 ref="String message" count=7)
+[Remove the highlight](open_file code/ch04/PrintTwice.java panel=0)
+ ```code
 String message = "Never say never.";
 printTwice(message);
 ```

@@ -1,7 +1,9 @@
 Some methods perform a computation and return a result. For example, `nextDouble` reads input from the keyboard and returns it as a `double`. Other methods, like `println`, carry out a sequence of actions without returning a result. Java uses the keyword `void` to define such methods:
 
 
-```code
+[View the highlighted the code](open_file code/ch04/NewLine.java panel=0 ref="public static" count=7)
+[Remove the highlight](open_file code/ch04/NewLine.java panel=0)
+ ```code
 public static void newLine() {
     System.out.println();
 }

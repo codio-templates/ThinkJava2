@@ -271,6 +271,30 @@
           "pageId": "input-and-output-exercises",
           "title": "Exercises",
           "type": "page"
+        },
+        {
+          "id": "input-and-output-exercises-1-1",
+          "pageId": "input-and-output-exercises-1-1",
+          "title": "Exercises 1.1",
+          "type": "page"
+        },
+        {
+          "id": "input-and-output-exercises-1-2",
+          "pageId": "input-and-output-exercises-1-2",
+          "title": "Exercises 1.2",
+          "type": "page"
+        },
+        {
+          "id": "input-and-output-exercises-1-3",
+          "pageId": "input-and-output-exercises-1-3",
+          "title": "Exercises 1.3",
+          "type": "page"
+        },
+        {
+          "id": "input-and-output-exercises-1-2",
+          "pageId": "input-and-output-exercises-1-2",
+          "title": "Exercises 1.2",
+          "type": "page"
         }
       ],
       "id": "input-and-output",
@@ -344,6 +368,36 @@
           "id": "methods-and-testing-exercises",
           "pageId": "methods-and-testing-exercises",
           "title": "Exercises",
+          "type": "page"
+        },
+        {
+          "id": "methods-and-testing-exercises-1-1",
+          "pageId": "methods-and-testing-exercises-1-1",
+          "title": "Exercises 1.1",
+          "type": "page"
+        },
+        {
+          "id": "methods-and-testing-exercises-1-2",
+          "pageId": "methods-and-testing-exercises-1-2",
+          "title": "Exercises 1.2",
+          "type": "page"
+        },
+        {
+          "id": "methods-and-testing-exercises-1-3",
+          "pageId": "methods-and-testing-exercises-1-3",
+          "title": "Exercises 1.3",
+          "type": "page"
+        },
+        {
+          "id": "methods-and-testing-exercises-1-4",
+          "pageId": "methods-and-testing-exercises-1-4",
+          "title": "Exercises 1.4",
+          "type": "page"
+        },
+        {
+          "id": "methods-and-testing-exercises-1-5",
+          "pageId": "methods-and-testing-exercises-1-5",
+          "title": "Exercises 1.5",
           "type": "page"
         }
       ],

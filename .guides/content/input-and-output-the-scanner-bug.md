@@ -16,7 +16,8 @@ Hello Grace Hopper, age 45
 
 When you read a `String` followed by an `int`, everything works just fine. But when you read an `int` followed by a `String`, something strange happens:
 
-[TEST](open_file code/ch03/ScannerBug.java panel=0 ref="System.out.print" count=5)
+[View the highlighted the code](open_file code/ch03/ScannerBug.java panel=0 ref="System.out.print" count=5)
+[Remove the Highlight](open_file code/ch03/ScannerBug.java panel=0 ref=)
  ```code
 System.out.print("What is your age? ");
 age = in.nextInt();

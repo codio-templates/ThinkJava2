@@ -3,7 +3,8 @@ Although most of the world has adopted the metric system for weights and measure
 
 We can write a program to help. We'll use a `Scanner` to input a measurement in inches, convert to centimeters, and then display the results. The following lines declare the variables and create the `Scanner`:
 
-[click here!](open_file code/ch03/Literals.java panel=0 ref="int inch" count=3)
+[View the highlighted the code](open_file code/ch03/Literals.java panel=0 ref="int inch" count=3)
+[Remove highlight](open_file code/ch03/Literals.java panel=0)
  ```code
 int inch;
 double cm;
@@ -13,7 +14,8 @@ Scanner in = new Scanner(System.in);
 
 The next step is to prompt the user for the input. We'll use `print` instead of `println` so the user can enter the input on the same line as the **prompt**. And we'll use the `Scanner` method `nextInt`, which reads input from the keyboard and converts it to an integer:
 
-[click here](open_file code/ch03/Literals.java panel=0 ref="cm =" count=3)
+[View the highlighted the code](open_file code/ch03/Literals.java panel=0 ref="cm =" count=3)
+[Remove highlight](open_file code/ch03/Literals.java panel=0)
  ```code
 System.out.print("How many inches? ");
 inch = in.nextInt();
@@ -21,7 +23,8 @@ inch = in.nextInt();
 
 Next we multiply the number of inches by 2.54, since that's how many centimeters there are per inch, and display the results:
 
-[click here](open_file code/ch03/Literals.java panel=0 ref="cm" count=3)
+[View the highlighted the code](open_file code/ch03/Literals.java panel=0 ref="cm" count=3)
+[Remove highlight](open_file code/ch03/Literals.java panel=0)
  ```code
 cm = inch * 2.54;
 System.out.print(inch + " in = ");

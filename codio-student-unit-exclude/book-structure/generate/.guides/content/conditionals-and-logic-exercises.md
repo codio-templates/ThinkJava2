@@ -16,7 +16,7 @@ if (x > 0) {
 
 
 **Exercise 5.2:**
-Now that we have conditional statements, we can get back to the *Guess My Number* game from Exercise 3.4.
+Now that we have conditional statements, we can get back to the *Guess My Number* game from Exercise 3.8.
 
 You should already have a program that chooses a random number, prompts the user to guess it, and displays the difference between the guess and the chosen number.
 
