@@ -12,19 +12,4 @@ double amount = 50.0;
 String hello = "world";
 ```
 
-
-<center>
-|Expression|Result|
-|-|-|
-|`yes == no &#124;&#124; grade > amount`|\hspace{5em}|
-|`amount == 40.0 &#124;&#124; 50.0`||
-|`hiVal != loVal &#124;&#124; loVal < 0`||
-|`True &#124;&#124; hello.length() > 0`||
-|`hello.isEmpty()||
-|`grade <= 100||
-|`!yes &#124;&#124; no`||
-|`grade > 75 > amount`||
-|`amount <= hiVal||
-|`no||
-
-</center>
+{Check It!|assessment}(fill-in-the-blanks-405612404)

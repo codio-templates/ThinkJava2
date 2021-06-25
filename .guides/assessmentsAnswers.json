@@ -66,5 +66,62 @@
     "state": "fail"
    }
   ]
+ },
+ {
+  "taskId": "fill-in-the-blanks-405612404",
+  "points": 20,
+  "state": {
+   "active": [
+    "false",
+    "error",
+    "true",
+    "true",
+    "false",
+    "true",
+    "false",
+    "error",
+    "true",
+    "false"
+   ]
+  },
+  "results": [
+   {
+    "guidance": "",
+    "current": [
+     "false",
+     "error",
+     "true",
+     "true",
+     "false",
+     "true",
+     "false",
+     "error",
+     "true",
+     "false"
+    ],
+    "right": [
+     "false",
+     "error",
+     "true",
+     "true",
+     "false",
+     "true",
+     "false",
+     "error",
+     "true",
+     "false"
+    ],
+    "timestamp": "2021-06-25T13:55:52.554Z",
+    "state": "pass"
+   }
+  ]
+ },
+ {
+  "taskId": "free-text-2095154106",
+  "points": 0,
+  "state": {
+   "text": ""
+  },
+  "results": []
  }
 ]

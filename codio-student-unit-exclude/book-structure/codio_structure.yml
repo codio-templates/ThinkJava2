@@ -963,9 +963,9 @@ insert_sections:
     chapter: Conditionals and logic
     section: Exercises
     before: false
-    # TODO: add assessment here as well 
     markdown: |
-      What will be the output of the program to the left? Determine the answer without running the code. 
+      What will be the output of the program to the left? Determine the answer without running the code.
+      {Submit Answer!|assessment}(free-text-2095154106)
 
   - name: Exercise 5.6
     type: section
