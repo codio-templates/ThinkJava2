@@ -361,6 +361,42 @@ sections:
           position: 133
   - name: "Strings Are Immutable"
     type: section
+    transformations:
+        - remove: 6
+          position: 153
+        - add:  |
+                 For example, consider [this code on the left.](open_file code/ch09/Objects.java panel=0 ref="immutable" count=4)
+                 You'll need to remove the comments from these lines of code in order to run the next steps. (You'll also need to re-comment out the NullPointerException lines.)
+                 [Click to remove highlight](open_file code/ch09/Objects.java panel=0)
+                 
+          position: 159
+        - remove: 8
+          position: 164
+        - add:  |
+                 A common mistake is to assume that `toUpperCase` somehow affects the original string, as in [this code on the left.](open_file code/ch09/Objects.java panel=0 ref="ignores" count=2)
+                 Remove the comments from this code and press "Run!" to see what happens. 
+                 {Run!}(sh .guides/bg.sh javac code/ch09/Objects.java java -cp code/ch09/ Objects )
+                 [Click to remove highlight](open_file code/ch09/Objects.java panel=0)
+                 
+          position: 172
+        - remove: 7
+          position: 173
+        - add:  |
+                 If you want to change `name` to be uppercase, then you need to assign the return value: as in [this code on the left.](open_file code/ch09/Objects.java panel=0 ref="references" count=2)
+                 Remove the comments from this code and press "Run!" to see what happens. 
+                 {Run!}(sh .guides/bg.sh javac code/ch09/Objects.java java -cp code/ch09/ Objects )
+                 [Click to remove highlight](open_file code/ch09/Objects.java panel=0)
+                 
+          position: 180
+        - remove: 6
+          position: 184
+        - add:  |
+                 [This example](open_file code/ch09/Objects.java panel=0 ref="Computer Science" count=2) replaces `"Computer Science"` with `"CS"`.
+                 Remove the comments from this code and press "Run!" to see what happens. 
+                 {Run!}(sh .guides/bg.sh javac code/ch09/Objects.java java -cp code/ch09/ Objects )
+                 [Click to remove highlight](open_file code/ch09/Objects.java panel=0)
+                 
+          position: 190
   - name: "Wrapper Classes"
     type: section
   - name: "Command-Line Arguments"
