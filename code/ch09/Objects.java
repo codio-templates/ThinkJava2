@@ -24,36 +24,36 @@ public class Objects {
 
         // Strings are immutable
 
-        String name = "Alan Turing";
-        String upperName = name.toUpperCase();
+//         String name = "Alan Turing";
+//         String upperName = name.toUpperCase();
 
-        name.toUpperCase();           // ignores the return value
-        System.out.println(name);
-        name = name.toUpperCase();    // references the new string
-        System.out.println(name);
+//         name.toUpperCase();           // ignores the return value
+//         System.out.println(name);
+//         name = name.toUpperCase();    // references the new string
+//         System.out.println(name);
 
-        String text = "Computer Science is fun!";
-        text = text.replace("Computer Science", "CS");
+//         String text = "Computer Science is fun!";
+//         text = text.replace("Computer Science", "CS");
 
-        // Wrapper classes
+//         // Wrapper classes
 
-        Integer i = Integer.valueOf(5);
-        System.out.println(i.equals(5));  // displays true
+//         Integer i = Integer.valueOf(5);
+//         System.out.println(i.equals(5));  // displays true
 
-        Integer x = Integer.valueOf(123);
-        Integer y = Integer.valueOf(123);
-        if (x == y) {                     // false
-            System.out.println("x and y are the same object");
-        }
-        if (x.equals(y)) {                // true
-            System.out.println("x and y have the same value");
-        }
+//         Integer x = Integer.valueOf(123);
+//         Integer y = Integer.valueOf(123);
+//         if (x == y) {                     // false
+//             System.out.println("x and y are the same object");
+//         }
+//         if (x.equals(y)) {                // true
+//             System.out.println("x and y have the same value");
+//         }
 
-        String str = "12345";
-        int num = Integer.parseInt(str);
+//         String str = "12345";
+//         int num = Integer.parseInt(str);
 
-        num = 12345;
-        str = Integer.toString(num);
+//         num = 12345;
+//         str = Integer.toString(num);
     }
 
 }

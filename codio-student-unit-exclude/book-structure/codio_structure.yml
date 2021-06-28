@@ -296,10 +296,69 @@ sections:
     type: section
   - name: "Immutable Objects"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Primitives vs Objects"
     type: section
+    transformations:
+        - remove: 6
+          position: 30
+        - add:  |
+                 Figure 1 shows how the computer stores the results of [this assignment code to the left](open_file code/ch09/Objects.java panel=0 ref="int" count=2) in memory. 
+                 [Click to remove highlight](open_file code/ch09/Objects.java panel=0)
+                 
+          position: 36
+        - remove: 5
+          position: 50
+        - add:  |
+                 For example, [this code to the left](open_file code/ch09/Objects.java panel=0 ref="char[]" count=1) declares a variable named `array` and creates an array of three characters.
+                 [Click to remove highlight](open_file code/ch09/Objects.java panel=0)
+                 
+          position: 55
+        - remove: 5
+          position: 67
+        - add:  |
+                For example, [this line](open_file code/ch09/Objects.java panel=0 ref="String word" count=1) declares a `String` variable named `word` and creates a `String` object, as shown in the below figure.
+                [Click to remove highlight](open_file code/ch09/Objects.java panel=0)
+                 
+          position: 72
+        - remove: 6
+          position: 82
+        - add:  |
+                For convenience, you don't have to use `new` to create strings:, as shown [on the left.](open_file code/ch09/Objects.java panel=0 ref="String word1" count=2)
+                [Click to remove highlight](open_file code/ch09/Objects.java panel=0)
+                 
+          position: 88
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch09/Objects.java"
+            panel: 0
+            action: open
   - name: "The null Keyword"
     type: section
+    transformations:
+        - remove: 6
+          position: 107
+        - add:  |
+                 You can initialize object and array variables using `null` as shown [on the left.](open_file code/ch09/Objects.java panel=0 ref="null" count=4)
+                 [Click to remove highlight](open_file code/ch09/Objects.java panel=0)
+                 
+          position: 113
+        - remove: 6
+          position: 127
+        - add:  |
+                 If you try to use a variable that is `null` by invoking a method or accessing an element, Java throws a `NullPointerException`, as in the two cases [on the left.](open_file code/ch09/Objects.java panel=0 ref="NullPointerException" count=2)
+                 To see what a NullPointerException looks like, try removing the comments from the two lines of code and clicking "Run!" below.
+                 {Run!}(sh .guides/bg.sh javac code/ch09/Objects.java java -cp code/ch09/ Objects )
+                 [Click to remove highlight](open_file code/ch09/Objects.java panel=0)
+                 
+          position: 133
   - name: "Strings Are Immutable"
     type: section
   - name: "Wrapper Classes"
