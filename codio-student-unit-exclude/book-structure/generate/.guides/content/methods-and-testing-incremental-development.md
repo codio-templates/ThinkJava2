@@ -17,7 +17,7 @@ The first step is to consider what a `distance` method should look like in Java.
 
 Already we can write an outline for the method, which is sometimes called a **stub**. The stub includes the method declaration and a `return` statement:
 
-[View the highlighted the code](open_file code/ch04/Distance.java panel=0 ref="public static double" count=3)
+[View the highlighted the code](open_file code/ch04/Distance.java panel=0 ref="public static" count=3)
 [Remove the highlight](open_file code/ch04/Distance.java panel=0)
  ```code
 public static double distance
@@ -41,7 +41,7 @@ Once we have compiled the stub, we can start adding code one line at a time. Aft
 
 The next step is to find the differences, $x_2 - x_1$ and $y_2 - y_1$. We store those values in temporary variables named `dx` and `dy`, so that we can examine them with print statements before proceeding. They should be 3.0 and 4.0:
 
-[View the highlighted the code](open_file code/ch04/Distance.java panel=0 ref="public static double" count=7)
+[View the highlighted the code](open_file code/ch04/Distance.java panel=0 ref="public static" count=7)
 [Remove the highlight](open_file code/ch04/Distance.java panel=0)
  ```code
 public static double distance

@@ -1,4 +1,3 @@
-**Exercise 4.11:**
 Many computations can be expressed more concisely using the “multadd” operation, which takes three operands and computes `a * b + c`. Some processors even provide a hardware implementation of this operation for floating-point numbers.
 
 
@@ -14,3 +13,5 @@ Many computations can be expressed more concisely using the “multadd” operat
 In the last part of this exercise, you need to write a method that invokes another method you wrote. Whenever you do that, it is a good idea to test the first method carefully before working on the second. Otherwise, you might find yourself debugging two methods at the same time, which can be difficult.
 
 One of the purposes of this exercise is to practice pattern-matching: the ability to recognize a specific problem as an instance of a general category of problems.
+
+See the example java code in the left pane. To compile and run the code, press the "Run"! {Run!}(sh .guides/bg.sh javac code/ch04/multadd.java java -cp code/ch04/ multadd)

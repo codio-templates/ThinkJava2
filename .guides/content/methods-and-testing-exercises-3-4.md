@@ -1,4 +1,4 @@
-**Exercise 4.10:**
+**Exercise 4.8:**
 Draw a stack diagram that shows the state of the program the *second* time `zoop` is invoked. What is the complete output?
 
 ```code

@@ -1,4 +1,3 @@
-**Exercise 4.8:**
 Answer the following questions without running the program on a computer.
 
 
@@ -37,3 +36,5 @@ public static void ping() {
     System.out.println(".");
 }
 ```
+
+See the example java code in the left pane. To compile and run the code, press the "Run"! {Run!}(sh .guides/bg.sh javac code/ch04/Zoop.java java -cp code/ch04/ Zoop)

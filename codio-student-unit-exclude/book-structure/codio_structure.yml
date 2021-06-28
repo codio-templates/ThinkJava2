@@ -332,33 +332,76 @@ sections:
             action: close
   - name: "Exercises"
     type: section
-    transformations:
-      - add: |
-          See the example java code in the left pane. To compile and run the code, press the "Run"!
-          {Run!}(sh .guides/bg.sh javac code/ch03/exercise.java java -cp code/ch03/ exercise )
+     
+#     transformations:
+#       - add: |
+#           See the example java code in the left pane. To compile and run the code, press the "Run"!
+#           {Run!}(sh .guides/bg.sh javac code/ch03/exercise.java java -cp code/ch03/ exercise )
           
-        position : 846
-      - add: |
-          See the example java code in the left pane. To compile and run the code, press the "Run"!
-          {Run!}(sh .guides/bg.sh javac code/ch03/exercise.java java -cp code/ch03/ exercise )
+#         position : 846
+#       - add: |
+#           See the example java code in the left pane. To compile and run the code, press the "Run"!
+#           {Run!}(sh .guides/bg.sh javac code/ch03/exercise.java java -cp code/ch03/ exercise )
           
-        position : 848
-      - add: |
-          See the example java code in the left pane. To compile and run the code, press the "Run"!
-          {Run!}(sh .guides/bg.sh javac code/ch03/exercise.java java -cp code/ch03/ exercise )
+#         position : 848
+#       - add: |
+#           See the example java code in the left pane. To compile and run the code, press the "Run"!
+#           {Run!}(sh .guides/bg.sh javac code/ch03/exercise.java java -cp code/ch03/ exercise )
           
-        position : 851
-      - add: |
-          See the example java code in the left pane. To compile and run the code, press the "Run"!
-          {Run!}(sh .guides/bg.sh javac code/ch03/exercise.java java -cp code/ch03/ exercise )
+#         position : 851
+#       - add: |
+#           See the example java code in the left pane. To compile and run the code, press the "Run"!
+#           {Run!}(sh .guides/bg.sh javac code/ch03/exercise.java java -cp code/ch03/ exercise )
           
-        position : 854
+#         position : 854
     configuration:
       layout: 1-panel
       files:
           - path: "#tabs"
             action: close
-    
+  - name: "Exercises 3.1"
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch03/Exercises.java"
+            panel: 0
+            action: open
+  - name: Exercises 3.2
+    type: section 
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch03/Exercise3_2.java"
+            panel: 0
+            action: open
+  - name: Exercises 3.3
+    type: section 
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch03/Exercise3_3.java"
+            panel: 0
+            action: open
+  - name: Exercises 3.4
+    type: section
+    configuration:
+      layout: 3-cell
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch03/GuessStarter.java"
+            panel: 0
+            action: open
+          - path: "#terminal: clear"
+            panel: 1
+            action: open
   - name: "Methods and Testing"
     type: chapter
   - name: "Defining New Methods"
@@ -477,7 +520,7 @@ sections:
         - add: |
               See the example java code in the left pane. To compile and run the code, press the "Run"!
               {Run!}(sh .guides/bg.sh javac code/ch04/Composition.java java -cp code/ch04/ Composition)
-          
+             
           position : 476
     configuration:
       layout: 1-panel
@@ -495,11 +538,11 @@ sections:
     type: section
     transformations:
         - add:  |
-                  [View the highlighted the code](open_file code/ch04/Distance.java panel=0 ref="public static double" count=3)
+                  [View the highlighted the code](open_file code/ch04/Distance.java panel=0 ref="public static" count=3)
                   [Remove the highlight](open_file code/ch04/Distance.java panel=0)
           position: 612
         - add:  |
-                   [View the highlighted the code](open_file code/ch04/Distance.java panel=0 ref="public static double" count=7)
+                   [View the highlighted the code](open_file code/ch04/Distance.java panel=0 ref="public static" count=7)
                    [Remove the highlight](open_file code/ch04/Distance.java panel=0)
           position: 643
           
@@ -534,6 +577,65 @@ sections:
             action: close
   - name: "Exercises"
     type: section
+
+    transformations:
+        - remove: -218
+          position: 775
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Exercises 4.1
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch04/Exercise4_1.java"
+            panel: 0
+            action: open
+  - name: Exercises 4.2
+    type: section 
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch04/Zoop.java"
+            panel: 0
+            action: open
+  - name: Exercises 4.3
+    type: section        
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch04/Exercise4_3.java"
+            panel: 0
+            action: open
+  - name: Exercises 4.4
+    type: section        
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch04/Zoop.java"
+            panel: 0
+            action: open
+  - name: Exercises 4.5
+    type: section          
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch04/multadd.java"
+            panel: 0
+            action: open
   - name: "Conditionals and Logic"
     type: chapter
   - name: "Relational Operators"
@@ -891,27 +993,29 @@ sections:
   - name: "Logic Errors"
     type: section
 insert_sections:
-  - name: Exercises 1.1
-    type: Exercises
-    chapter: Input and output
+  - name: Exercises 3.1
+    type: section
+
+    chapter: Input and Output
     section: Exercises
     before: false
     latex: |
-      \begin{exercise}  %%V6 Ex3.1
+     
 
       When you use \java{printf}, the Java compiler does not check your format string.
       See what happens if you try to display a value with type \java{int} using \java{\%f}.
       And what happens if you display a \java{double} using \java{\%d}?
       What if you use two format specifiers, but then provide only one value?
 
-      \end{exercise}
-  - name: Exercises 1.2
-    type: Exercises
-    chapter: Input and output
+      
+      See the example java code in the left pane. To compile and run the code, press the "Run"!
+      {Run!}(sh .guides/bg.sh javac code/ch03/Exercises.java java -cp code/ch04/ Exercises)
+  - name: Exercises 3.2
+    type: section
+    chapter: Input and Output
     section: Exercises
     before: false
     latex: |
-      \begin{exercise}  %%V6 Ex3.2
 
       Write a program that converts a temperature from Celsius to Fahrenheit.
       It should (1) prompt the user for input, (2) read a \java{double} value from the keyboard, (3) calculate the result, and (4) format the output to one decimal place.
@@ -928,14 +1032,19 @@ insert_sections:
       %
       {\em Hint:} Be careful not to use integer division!
 
-      \end{exercise}
-  - name: Exercises 1.3
+     
+              See the example java code in the left pane. To compile and run the code, press the "Run"!
+              {Run!}(sh .guides/bg.sh javac code/ch03/Exercise3_2.java java -cp code/ch03/ Exercise3_2)
+             
+
+   
+  - name: Exercises 3.3
     type: Exercises
-    chapter: Input and output
+    chapter: Input and Output
     section: Exercises
     before: false
     latex: |
-      \begin{exercise}  %%V6 Ex3.3
+      
 
       Write a program that converts a total number of seconds to hours, minutes, and seconds.
       It should (1) prompt the user for input, (2) read an integer from the keyboard, (3) calculate the result, and (4) use \java{printf} to display the output.
@@ -943,14 +1052,17 @@ insert_sections:
 
       {\em Hint:} Use the remainder operator.
 
-      \end{exercise}
-  - name: Exercises 1.2
-    type: Exercises
-    chapter: Input and output
+     
+      See the example java code in the left pane. To compile and run the code, press the "Run"!
+      {Run!}(sh .guides/bg.sh javac code/ch03/Exercise3_3.java java -cp code/ch03/ Exercise3_3)
+    
+  - name: Exercises 3.4
+    type: section
+    chapter: Input and Output
     section: Exercises
     before: false
     latex: |
-      \begin{exercise}  %%V6 Ex3.4
+      
       \label{guess}
 
       The goal of this exercise is to program a {\it Guess My Number} game.
@@ -1011,15 +1123,17 @@ insert_sections:
 
       \end{enumerate}
 
-      \end{exercise}
       
-  - name: Exercises 1.1
-    type: Exercises
+      See the example java code in the left pane. To compile and run the code, press the "Run"!
+      {Run!| terminal}(sh .guides/bg.sh javac code/ch03/GuessStarter.java java -cp code/ch03/ GuessStarter)
+    
+  - name: Exercises 4.1
+    type: section
     chapter: Methods and Testing
     section: Exercises
     before: false
     latex: |
-      \begin{exercise}  %%V6 Ex4.3
+      
 
       The purpose of this exercise is to take code from a previous exercise and redesign it as a method that takes parameters.
       Start with a working solution to Exercise~\ref{ex:date}.
@@ -1041,14 +1155,17 @@ insert_sections:
       \end{enumerate}
       \vspace{1ex}
 
-      \end{exercise}
+      See the example java code in the left pane. To compile and run the code, press the "Run"!
+      {Run!| terminal}(sh .guides/bg.sh javac code/ch04/Exercise4_1.java java -cp code/ch03/ Exercise4_1)
+    
+    
   
-  - name: Exercises 1.2
-    type: Exercises
+  - name: Exercises 4.2
+    type: section
     chapter: Methods and Testing
     section: Exercises
     latex: |
-      \begin{exercise}  %%V6 Ex4.1
+      
 
       %The point of this exercise is to practice reading code and to make sure that you understand the flow of execution through a program with multiple methods.
       Answer the following questions without running the program on a computer.
@@ -1095,16 +1212,18 @@ insert_sections:
           System.out.println(".");
       }
       \end{code}
-
-      \end{exercise}  
       
-  - name: Exercises 1.3
-    type: Exercises
+      See the example java code in the left pane. To compile and run the code, press the "Run"!
+      {Run!}(sh .guides/bg.sh javac code/ch04/Zoop.java java -cp code/ch04/ Zoop)
+     
+  - name: Exercises 4.3
+    type: section
     chapter: Methods and Testing
     section: Exercises
     before: false
+
     latex: |
-        \begin{exercise}  %%V6 Ex6.1
+        
 
         If you have a question about whether something is legal, and what happens if it is not, a good way to find out is to ask the compiler.
         Answer the following questions by trying them out.
@@ -1118,15 +1237,17 @@ insert_sections:
 
         \end{enumerate}
 
-        \end{exercise}
+        See the example java code in the left pane. To compile and run the code, press the "Run"!
+        {Run!}(sh .guides/bg.sh javac code/ch04/Exercise4_3.java java -cp code/ch04/ Exercise4_3)
+     
         
-  - name: Exercises 1.4
-    type: Exercises
+  - name: Exercises 4.4
+    type: section
     chapter: Methods and Testing
     section: Exercises
     before: false
     latex: |
-         \begin{exercise}  %%V6 Ex5.2
+         
 
           Draw a stack diagram that shows the state of the program the {\em second} time \java{zoop} is invoked.
           What is the complete output?
@@ -1164,16 +1285,18 @@ insert_sections:
               System.out.println("any " + strangStrung + "more ");
           }
           \end{code}
-
-          \end{exercise} 
           
-  - name: Exercises 1.5
-    type: Exercises
+          See the example java code in the left pane. To compile and run the code, press the "Run"!
+          {Run!}(sh .guides/bg.sh javac code/ch04/Zoop.java java -cp code/ch04/ Zoop)
+           
+          
+  - name: Exercises 4.5
+    type: section
     chapter: Methods and Testing
     section: Exercises
     before: false
     latex: |
-      \begin{exercise}  %%V6 Ex6.4
+      
 
       Many computations can be expressed more concisely using the ``multadd'' operation, which takes three operands and computes \java{a * b + c}.
       Some processors even provide a hardware implementation of this operation for floating-point numbers.
@@ -1208,5 +1331,7 @@ insert_sections:
       Otherwise, you might find yourself debugging two methods at the same time, which can be difficult.
 
       One of the purposes of this exercise is to practice pattern-matching: the ability to recognize a specific problem as an instance of a general category of problems.
-
-      \end{exercise}
+      
+          See the example java code in the left pane. To compile and run the code, press the "Run"!
+          {Run!}(sh .guides/bg.sh javac code/ch04/multadd.java java -cp code/ch04/ multadd)
+   

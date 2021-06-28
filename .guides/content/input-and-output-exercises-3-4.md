@@ -1,4 +1,3 @@
-**Exercise 3.8:**
 The goal of this exercise is to program a *Guess My Number* game. When it's finished, it should work like this:
 
 ```code
@@ -27,3 +26,8 @@ Then we can use the method `nextInt` to generate a random number. In this exampl
 1. Modify the program to prompt the user; then use a `Scanner` to read a line of user input. Compile and test the program.
 1. Read the user input as an integer and display the result. Again, compile and test.
 1. Compute and display the difference between the user's guess and the number that was generated.
+
+
+
+
+See the example java code in the left pane. To compile and run the code, press the "Run"! {Run!| terminal}(sh .guides/bg.sh javac code/ch03/GuessStarter.java java -cp code/ch03/ GuessStarter)

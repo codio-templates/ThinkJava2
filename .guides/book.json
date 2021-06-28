@@ -273,27 +273,27 @@
           "type": "page"
         },
         {
-          "id": "input-and-output-exercises-1-1",
-          "pageId": "input-and-output-exercises-1-1",
-          "title": "Exercises 1.1",
+          "id": "input-and-output-exercises-3-1",
+          "pageId": "input-and-output-exercises-3-1",
+          "title": "Exercises 3.1",
           "type": "page"
         },
         {
-          "id": "input-and-output-exercises-1-2",
-          "pageId": "input-and-output-exercises-1-2",
-          "title": "Exercises 1.2",
+          "id": "input-and-output-exercises-3-2",
+          "pageId": "input-and-output-exercises-3-2",
+          "title": "Exercises 3.2",
           "type": "page"
         },
         {
-          "id": "input-and-output-exercises-1-3",
-          "pageId": "input-and-output-exercises-1-3",
-          "title": "Exercises 1.3",
+          "id": "input-and-output-exercises-3-3",
+          "pageId": "input-and-output-exercises-3-3",
+          "title": "Exercises 3.3",
           "type": "page"
         },
         {
-          "id": "input-and-output-exercises-1-2",
-          "pageId": "input-and-output-exercises-1-2",
-          "title": "Exercises 1.2",
+          "id": "input-and-output-exercises-3-4",
+          "pageId": "input-and-output-exercises-3-4",
+          "title": "Exercises 3.4",
           "type": "page"
         }
       ],
@@ -371,33 +371,33 @@
           "type": "page"
         },
         {
-          "id": "methods-and-testing-exercises-1-1",
-          "pageId": "methods-and-testing-exercises-1-1",
-          "title": "Exercises 1.1",
+          "id": "methods-and-testing-exercises-4-1",
+          "pageId": "methods-and-testing-exercises-4-1",
+          "title": "Exercises 4.1",
           "type": "page"
         },
         {
-          "id": "methods-and-testing-exercises-1-2",
-          "pageId": "methods-and-testing-exercises-1-2",
-          "title": "Exercises 1.2",
+          "id": "methods-and-testing-exercises-4-2",
+          "pageId": "methods-and-testing-exercises-4-2",
+          "title": "Exercises 4.2",
           "type": "page"
         },
         {
-          "id": "methods-and-testing-exercises-1-3",
-          "pageId": "methods-and-testing-exercises-1-3",
-          "title": "Exercises 1.3",
+          "id": "methods-and-testing-exercises-4-3",
+          "pageId": "methods-and-testing-exercises-4-3",
+          "title": "Exercises 4.3",
           "type": "page"
         },
         {
-          "id": "methods-and-testing-exercises-1-4",
-          "pageId": "methods-and-testing-exercises-1-4",
-          "title": "Exercises 1.4",
+          "id": "methods-and-testing-exercises-4-4",
+          "pageId": "methods-and-testing-exercises-4-4",
+          "title": "Exercises 4.4",
           "type": "page"
         },
         {
-          "id": "methods-and-testing-exercises-1-5",
-          "pageId": "methods-and-testing-exercises-1-5",
-          "title": "Exercises 1.5",
+          "id": "methods-and-testing-exercises-4-5",
+          "pageId": "methods-and-testing-exercises-4-5",
+          "title": "Exercises 4.5",
           "type": "page"
         }
       ],

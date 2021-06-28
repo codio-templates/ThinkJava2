@@ -49,16 +49,8 @@ Then we can use the method `nextInt` to generate a random number. In this exampl
 
 
 
-1. The definition of `GuessStarter` is in a file called *GuessStarter.java*, in the directory called *ch03*, in the repository for this book. See the example java code in the left pane. To compile and run the code, press the "Run"!
-{Run!}(sh .guides/bg.sh javac code/ch03/exercise.java java -cp code/ch03/ exercise )
-
-1. Compile and run this program. See the example java code in the left pane. To compile and run the code, press the "Run"!
-{Run!}(sh .guides/bg.sh javac code/ch03/exercise.java java -cp code/ch03/ exercise )
-
-1. Modify the program to prompt the user; then use a `Scanner` to read a line of user input. Compile and test the program. See the example java code in the left pane. To compile and run the code, press the "Run"!
-{Run!}(sh .guides/bg.sh javac code/ch03/exercise.java java -cp code/ch03/ exercise )
-
-1. Read the user input as an integer and display the result. Again, compile and test. See the example java code in the left pane. To compile and run the code, press the "Run"!
-{Run!}(sh .guides/bg.sh javac code/ch03/exercise.java java -cp code/ch03/ exercise )
-
+1. The definition of `GuessStarter` is in a file called *GuessStarter.java*, in the directory called *ch03*, in the repository for this book.
+1. Compile and run this program.
+1. Modify the program to prompt the user; then use a `Scanner` to read a line of user input. Compile and test the program.
+1. Read the user input as an integer and display the result. Again, compile and test.
 1. Compute and display the difference between the user's guess and the number that was generated.
