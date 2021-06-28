@@ -9,7 +9,8 @@ The `+` operator works with strings, but it might not do what you expect. For st
 
 Likewise if you have a variable called `name` that has type `String`, the expression `"Hello, " + name` appends the value of `name` to the hello string, which creates a personalized greeting.
 
-Since addition is defined for both numbers and strings, Java performs automatic conversions you may not expect:
+Since addition is defined for both numbers and strings, Java performs automatic conversions you may not [ expect:](open_file code/ch02/StringConcat.java panel=0 ref="System.out.println" count=5)
+
 
 ```code
 System.out.println(1 + 2 + "Hello");
@@ -21,7 +22,7 @@ System.out.println("Hello" + 1 + 2);
 
 Java executes these operations from left to right. In the first line, `1 + 2` is `3`, and `3 + "Hello"` is `"3Hello"`. But in the second line, `"Hello" + 1` is `"Hello1"`, and `"Hello1" + 2` is `"Hello12"`.
 
-See the example java code in the left pane. To compile and run the code, press the "Run!"
+To compile and run the code, press the "Run!"
 {Run!}(sh .guides/bg.sh javac code/ch02/StringConcat.java java -cp code/ch02/ StringConcat )
 
 
@@ -37,4 +38,4 @@ When more than one operator appears in an expression, they are evaluated accordi
 
 
 
-See the official Java tutorials for a complete table of operator precedence ([https://thinkjava.org/operators](https://thinkjava.org/operators)). If the order of operations is not obvious when looking at an expression, you can always add parentheses to make it more clear. But over time, you should internalize these kinds of details about the Java language.
+See the official Java tutorials for a complete table of operator precedence ( [https://thinkjava.org/operators](open_preview https://thinkjava.org/operators panel=0) ). If the order of operations is not obvious when looking at an expression, you can always add parentheses to make it more clear. But over time, you should internalize these kinds of details about the Java language.

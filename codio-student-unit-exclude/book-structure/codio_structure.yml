@@ -132,11 +132,36 @@ sections:
   - name: "Declaring Variables"
     type: section
     transformations:
+        - remove: 1
+          position: 30
+        - add: To store a value, you first have to 
+          position: 30
         - add:  |
-                 See the example java code in the left pane. To compile and run the code, press the "Run!"
-                 {Run!}(sh .guides/bg.sh javac code/ch02/DeclareAssign.java java -cp code/ch02/ DeclareAssign )
+                 [declare a variable:](open_file code/ch02/DeclareAssign.java panel=0 ref="String message;" count=1)
 
-          position: 71
+          position: 30
+        - remove: 1
+          position: 52
+        - add: To declare an integer variable named x, see the 
+          position: 52
+        - add:  |
+                 [left panel ](open_file code/ch02/DeclareAssign.java panel=0 ref="int x;" count=1)
+
+          position: 52
+        - add: and below.
+          position: 52
+        - remove: 1
+          position: 59
+        - add: In general, you should use names that indicate what the variables
+          position: 60
+        - add:  |
+                 [ mean.](open_file code/ch02/DeclareAssign.java panel=0 ref="String firstName;" count=3)
+
+          position: 60
+        - remove: 1
+          position: 84
+        - add: You can see the full list of keywords at [https://thinkjava.org/keywords](open_preview https://thinkjava.org/keywords panel=0).
+          position: 85
     configuration:
       layout: 2-panels
       files:
@@ -147,19 +172,60 @@ sections:
             action: open
   - name: "Assigning Variables"
     type: section
+    transformations:
+        - remove: 1
+          position: 99
+        - add: We do that with an **assignment**
+          position: 100
+        - add:  |
+                 [ statement:](open_file code/ch02/DeclareAssign.java panel=0 ref="message " count=3)
+
+          position: 100
+        - remove: 1
+          position: 125
+        - add: But that is not the same thing as the integer ```123``` as shown below and
+          position: 126
+        - add:  |
+                 [ here:](open_file code/ch02/DeclareAssign.java panel=0 ref=""123";" count=2)
+
+          position: 126
+        - remove: 1
+          position: 136
+        - add: You can also declare and initialize on the
+          position: 137
+        - add:  |
+                 [ the same line:](open_file code/ch02/DeclareAssign.java panel=0 ref="String message2" count=3)
+
+          position: 137
     configuration:
-      layout: 1-panel
+      layout: 2-panels
       files:
           - path: "#tabs"
             action: close
+          - path: "code/ch02/DeclareAssign.java"
+            panel: 0
+            action: open 
   - name: "Memory Diagrams"
     type: section
     transformations:
+        - remove: 1
+          position: 172
+        - add: In Java, an assignment statement can make two variables equal, but they don't have to stay
+          position: 173
         - add:  |
-                 See the example java code in the left pane. To compile and run the code, press the "Run!"
-                 {Run!}(sh .guides/bg.sh javac code/ch02/MemoryDiagram.java java -cp code/ch02/ MemoryDiagram )
+                 [that way:](open_file code/ch02/MemoryDiagram.java panel=0 ref="int a" count=3)
 
-          position: 180
+          position: 173
+        - remove: 1
+          position: 202
+        - add: For example, if we added the line ```int c = 0;``` 
+          position: 203
+        - add:  |
+                 [ to the previous example, ](open_file code/ch02/MemoryDiagram.java panel=0 ref="int c" count=1)
+
+          position: 203
+        - add: the memory diagram would look like Figure 2.2.
+          position: 203
     configuration:
       layout: 2-panels
       files:
@@ -171,11 +237,28 @@ sections:
   - name: "Printing Variables"
     type: section
     transformations:
+        - remove: 1
+          position: 217
+        - add: The following statements declare a variable named ```firstLine```, assign it the value ```"Hello, again!"```, and
+          position: 218
         - add:  |
-                 See the example java code in the left pane. To compile and run the code, press the "Run!"
-                 {Run!}(sh .guides/bg.sh javac code/ch02/PrintingVars.java java -cp code/ch02/ PrintingVars )
+                 [ display that value:](open_file code/ch02/PrintingVars.java panel=0 ref="String firstLine" count=2)
 
-          position: 269
+          position: 218
+        - remove: 1
+          position: 231
+        - add: To display the name of a variable, you have to put it in
+          position: 232
+        - add:  |
+                 [ quotes:](open_file code/ch02/PrintingVars.java panel=0 ref="The value" count=2)
+
+          position: 232
+        - remove: 1
+          position: 246
+        - add:  |
+                 [For example:](open_file code/ch02/PrintingVars.java panel=0 ref="int hour" count=7)
+
+          position: 247
     configuration:
       layout: 2-panels
       files:
@@ -186,19 +269,66 @@ sections:
             action: open
   - name: "Arithmetic Operators"
     type: section
-    configuration:
-      layout: 1-panel
+    transformations:
+        - remove: 1
+          position: 283
+        - add: The following program converts a time of day to
+          position: 284
+        - add:  |
+                 [ minutes:](open_file code/ch02/PrintingVars.java panel=0 ref="midnight:" count=2)
+
+          position: 284
+        - remove: 1
+          position: 315
+        - add: For example, the following fragment tries to compute the fraction of an hour that
+          position: 316
+        - add:  |
+                 [  has elapsed:](open_file code/ch02/PrintingVars.java panel=0 ref="Fraction of" count=2)
+
+          position: 316
+        - remove: 1
+          position: 336
+        - add: As an alternative, we can calculate a percentage rather than
+          position: 337
+        - add:  |
+                 [ a fraction:](open_file code/ch02/PrintingVars.java panel=0 ref="Percent of" count=2)
+
+          position: 337
+    configuration: 
+      layout: 2-panels
       files:
           - path: "#tabs"
             action: close
+          - path: "code/ch02/PrintingVars.java"
+            panel: 0
+            action: open
   - name: "Floating-Point Numbers"
     type: section
     transformations:
+        - remove: 1
+          position: 362
+        - add: You can create ```double``` variables and assign values to them the same way we did for the
+          position: 363
         - add:  |
-                 See the example java code in the left pane. To compile and run the code, press the "Run!"
-                 {Run!}(sh .guides/bg.sh javac code/ch02/FloatingPoint.java java -cp code/ch02/ FloatingPoint )
+                 [ other types:](open_file code/ch02/FloatingPoint.java panel=0 ref="double pi;" count=2)
 
-          position: 430
+          position: 363
+        - remove: 1
+          position: 372
+        - add: So we can solve the problem from the
+          position: 373
+        - add:  |
+                 [ previous section:](open_file code/ch02/FloatingPoint.java panel=0 ref="double minute" count=3)
+
+          position: 373
+        - remove: 1
+          position: 421
+        - add: The following sets ```y``` to ```0.333333```,
+          position: 422
+        - add:  |
+                 [ as expected:](open_file code/ch02/FloatingPoint.java panel=0 ref="double y" count=2)
+
+          position: 422
     configuration:
       layout: 2-panels
       files:
@@ -210,11 +340,30 @@ sections:
   - name: "Rounding Errors"
     type: section
     transformations:
+        - remove: 1
+          position: 440
+        - add: To represent these numbers, computers have to round off to the
+          position: 441
         - add:  |
-                 See the example java code in the left pane. To compile and run the code, press the "Run!"
-                 {Run!}(sh .guides/bg.sh javac code/ch02/FloatingPoint.java java -cp code/ch02/ FloatingPoint )
+                 [ nearest floating-point number.](open_file code/ch02/FloatingPoint.java panel=0 ref="0.1 * 10" count=3)
 
-          position: 492
+          position: 441
+        - remove: 1
+          position: 472
+        - add: For example, consider a bank account with a balance of
+          position: 473
+        - add:  |
+                 [ $123.45:](open_file code/ch02/FloatingPoint.java panel=0 ref="double balance" count=1)
+
+          position: 473
+        - remove: 1
+          position: 480
+        - add: You can avoid the problem by representing the balance as
+          position: 481
+        - add:  |
+                 [ an integer:](open_file code/ch02/FloatingPoint.java panel=0 ref="int balance" count=1)
+
+          position: 481
     configuration:
       layout: 2-panels
       files:
@@ -226,11 +375,23 @@ sections:
   - name: "Operators for Strings"
     type: section
     transformations:
+        - remove: 1
+          position: 514
+        - add: Since addition is defined for both numbers and strings, Java performs automatic conversions you may not
+          position: 515
         - add:  |
-                 See the example java code in the left pane. To compile and run the code, press the "Run!"
+                 [ expect:](open_file code/ch02/StringConcat.java panel=0 ref="System.out.println" count=5)
+
+          position: 515
+        - add:  |
+                 To compile and run the code, press the "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch02/StringConcat.java java -cp code/ch02/ StringConcat )
 
           position: 528
+        - remove: 1
+          position: 556
+        - add: See the official Java tutorials for a complete table of operator precedence ( [https://thinkjava.org/operators](open_preview https://thinkjava.org/operators panel=0) ).
+          position: 557
     configuration:
       layout: 2-panels
       files:
@@ -252,7 +413,7 @@ sections:
         - remove: 6
           position: 684 
         - add:  |
-                 See the example java code in the left pane. To compile and run the code, press the "Run!". 
+                 To compile and run the code, press the "Run!". 
                  {Run!}(sh .guides/bg.sh javac code/ch02/Hello.java java -cp code/ch02/ Hello )
 
           position: 683
@@ -273,6 +434,9 @@ sections:
             action: close
   - name: "Exercises"
     type: section
+    transformations:
+        - remove: 77
+          position: 788
     configuration:
       layout: 1-panel
       files:
@@ -356,32 +520,406 @@ sections:
     type: section
   - name: "Loops and Strings"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "The while Statement"
     type: section
+    transformations:
+        - remove: 1
+          position: 20
+        - add: Using a ```while``` statement, we can repeat the same code
+          position: 21
+        - add:  |
+                 [ multiple times:](open_file code/ch06/Loops.java panel=0 ref="countdown" count=7)
+                 
+          position: 21
+        - add:  |
+                 To see the output of this function, comment out all other functions besides the countdown function. Press "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch06/Loops.java java -cp code/ch06/ Loops )
+          
+          position: 31
+        - remove: 1
+          position: 89
+        - add: For example, this loop continues until ```n``` is 1 (which makes the condition
+          position: 90
+        - add:  |
+                 [ false):](open_file code/ch06/Loops.java panel=0 ref="sequence" count=11)
+
+          position: 90
+        - add:  |
+                 To see the output of this function, comment out all other functions besides the sequence function. Press "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch06/Loops.java java -cp code/ch06/ Loops )
+          
+          position: 102
+        - remove: 1
+          position: 113
+        - add: For more information, see [https://en.wikipedia.org/wiki/Collatz_conjecture](open_preview https://en.wikipedia.org/wiki/Collatz_conjecture) .
+          position: 114
+        - remove: 8
+          position: 35
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch06/Loops.java"
+            panel: 0
+            action: open
   - name: "Increment and Decrement"
     type: section
+    transformations:
+        - remove: 1
+          position: 119
+        
+        - add:  |
+                 Here is another ```while``` loop example; this one displays the numbers
+                 [ 1 to 5:](open_file code/ch06/Loops.java panel=0 ref="plusplus" count=7)
+
+          position: 120
+        - add:  |
+                 To see the output of this function, comment out all other functions besides the plusplus function. Press "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch06/Loops.java java -cp code/ch06/ Loops )
+
+          position: 129
+        - remove: 1
+          position: 140
+        - add:  |
+                 For example, ```i += 2``` increments 
+                 [ i by 2:](open_file code/ch06/Loops.java panel=0 ref="appreciate" count=9)
+
+          position: 141
+        - add:  |
+                 To see the output of this function, comment out all other functions besides the appreciate function. Press "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch06/Loops.java java -cp code/ch06/ Loops )
+
+          position: 151
+        - remove: 5
+          position: 151
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch06/Loops.java"
+            panel: 0
+            action: open
   - name: "The for Statement"
     type: section
+    transformations:
+        - remove: 1
+          position: 171
+        - add: For example, we can rewrite the 2-4-6-8 loop
+          position: 172
+        - add:  |
+                 [ this way:](open_file code/ch06/Loops.java panel=0 ref="appreciate2" count=6)
+
+          position: 172
+        - add:  |
+                 To see the output of this function, comment out all other functions besides the appreciate2 function. Press "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch06/Loops.java java -cp code/ch06/ Loops )
+
+          position: 180
+        - remove: 1
+          position: 220
+        - add: If you need to use a loop variable outside the loop, you have to declare it {\em outside} the loop,
+          position: 221
+        - add:  |
+                 [ like this:](open_file code/ch06/Loops.java panel=0 ref="loopvar" count=7)
+
+          position: 221
+        - add:  |
+                 To see the output of this function, comment out all other functions besides the loopvar function. Press "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch06/Loops.java java -cp code/ch06/ Loops )
+
+          position: 230
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch06/Loops.java"
+            panel: 0
+            action: open
   - name: "Nested Loops"
     type: section
+    transformations:
+        - remove: 1
+          position: 242
+        - add: For example, we can generate a ``multiplication table''
+          position: 243
+        - add:  |
+                 [ like this:](open_file code/ch06/Loops.java panel=0 ref="nested" count=8)
+
+          position: 243
+        - add:  |
+                 To see the output of this function, comment out all other functions besides the nested function. Press "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch06/Loops.java java -cp code/ch06/ Loops )
+
+          position: 253
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch06/Loops.java"
+            panel: 0
+            action: open
   - name: "Characters"
     type: section
+    transformations:
+        - remove: 1
+          position: 300
+        - add: It returns a ```char```, a data type that stores
+          position: 301
+        - add:  |
+                 [ an individual character (as opposed to strings of them):](open_file code/ch06/Strings.java panel=0 ref="fruit" count=2)
+
+          position: 301
+        - remove: 8
+          position: 311
+        - add: |
+
+                
+                | b  | a  | n  | a  |n   | a  |
+                |----|----|----|----|----|----|
+                |  0 |  1 |  2 |  3 |  4 | 5  |
+                
+          position: 320
+        - remove: 1
+          position: 321
+        - add: You can compare them using
+          position: 322
+        - add:  |
+                 [ relational operators:](open_file code/ch06/Strings.java panel=0 ref="if" count=3)
+
+          position: 322
+        - add:  |
+                 To compile and run this statement, press "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch06/Strings.java java -cp code/ch06/ Strings )
+
+          position: 329
+        - remove: 1
+          position: 337
+        - add: So this loop displays the letters of the
+          position: 338
+        - add:  |
+                 [ alphabet:](open_file code/ch06/Strings.java panel=0 ref="Roman" count=5)
+
+          position: 338
+        - add:  |
+                 To compile and run this statement, press "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch06/Strings.java java -cp code/ch06/ Strings )
+
+          position: 347
+        - remove: 5
+          position: 347
+        - remove: 1
+          position: 356
+        - add: You can read more about it at the Unicode website [https://unicode.org/](open_preview https://unicode.org/ panel=0) .
+          position: 357
+        - remove: 1
+          position: 359
+        - add: The code points for uppercase Greek letters run from 913 to 937, so we can display the Greek alphabet
+          position: 360
+        - add:  |
+                 [ like this:](open_file code/ch06/Strings.java panel=0 ref="Greek" count=5)
+
+          position: 360
+        - add:  |
+                 To compile and run this statement, press "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch06/Strings.java java -cp code/ch06/ Strings )
+
+          position: 369
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch06/Strings.java"
+            panel: 0
+            action: open
   - name: "Which Loop to Use"
     type: section
+    transformations:
+        - remove: 1
+          position: 396
+        - add: In this case, a ```while``` loop is more
+          position: 397
+        - add:  |
+                 [ appropriate:](open_file code/ch06/Strings.java panel=0 ref="Enter a number" count=7)
+
+          position: 397
+        - add: To test out the scanner, type ``` cd code/ch06``` into the terminal. Next, type ``` java Strings```. From here, follow the information provided by the code.
+          position: 409
+    configuration:
+      layout: 3-cell
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch06/Strings.java"
+            panel: 0
+            action: open
+          - path: "#terminal: echo \"hello\""
+            panel: 1
+            action: open
   - name: "String Iteration"
     type: section
+    transformations:
+        - remove: 1
+          position: 444
+        - add: To get the last character, you have to
+          position: 445
+        - add:  |
+                 [ subtract 1](open_file code/ch06/Strings.java panel=0 ref=" length " count=2)
+
+          position: 445
+        - add: from ```length``` .
+          position: 445
+        - remove: 1
+          position: 452
+        - add: For example, to reverse a string, we can concatenate one character
+          position: 453
+        - add:  |
+                 [ at a time:](open_file code/ch06/Strings.java panel=0 ref="String reverse" count=7)
+
+          position: 453
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch06/Strings.java"
+            panel: 0
+            action: open
   - name: "The indexOf Method"
     type: section
+    transformations:
+        - remove: 1
+          position: 478
+        - add: However, the ```String``` class already provides a method for doing
+          position: 479
+        - add:  |
+                 [ just that:](open_file code/ch06/Strings.java panel=0 ref="fruit.indexOf" count=1)
+
+          position: 479
+        - remove: 1
+          position: 489
+        - add: To find subsequent appearances, you can use another version of ```indexOf```, which takes a second argument that indicates where in the string to
+          position: 490
+        - add:  |
+                 [ start looking:](open_file code/ch06/Strings.java panel=0 ref=", 2)" count=1)
+
+          position: 490
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch06/Strings.java"
+            panel: 0
+            action: open
   - name: "Substrings"
     type: section
+    transformations:
+        - remove: 1
+          position: 533
+        - add: The ```substring``` method returns a new string that copies letters from an existing string, given a
+          position: 534
+        - add:  |
+                 [ pair of indexes:](open_file code/ch06/Strings.java panel=0 ref="fruit.substring" count=3)
+
+          position: 534
+        - remove: 1
+          position: 550
+        - add: If it is invoked with one argument, it returns the letters from that index
+          position: 551
+        - add:  |
+                 [ to the end:](open_file code/ch06/Strings.java panel=0 ref="fruit.substring" count=7)
+
+          position: 551
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch06/Strings.java"
+            panel: 0
+            action: open
   - name: "String Comparison"
     type: section
+    transformations:
+        - remove: 1
+          position: 574
+        - add: The following code compiles and runs, but it always displays ```Goodbye!``` regardless what the
+          position: 575
+        - add:  |
+                 [ user types.](open_file code/ch06/Strings.java panel=0 ref="Play again?" count=7)
+
+          position: 575
+        - remove: 1
+          position: 590
+        - add: The correct way to compare strings is with the ```equals``` method,
+          position: 591
+        - add:  |
+                 [ like this:](open_file code/ch06/Strings.java panel=0 ref="answer.equals" count=3)
+
+          position: 591
+        - remove: 1
+          position: 603
+        - add: If two strings differ, we can use \java{compareTo} to see which comes first in
+          position: 604
+        - add:  |
+                 [ alphabetical order:](open_file code/ch06/Strings.java panel=0 ref="Alan Turing" count=14)
+
+          position: 604
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch06/Strings.java"
+            panel: 0
+            action: open
   - name: "String Formatting"
     type: section
+    transformations:
+        - remove: 1
+          position: 638
+        - add: For example, the following method returns a time string in
+          position: 639
+        - add:  |
+                 [ 12-hour format:](open_file code/ch06/Format.java panel=0 ref="public static" count=13)
+
+          position: 639
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch06/Format.java"
+            panel: 0
+            action: open
   - name: "Vocabulary"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Exercises"
     type: section
+    transformations:
+        - remove: 138
+          position: 720
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+        
   - name: "Arrays and References"
     type: chapter
   - name: "Creating Arrays"
@@ -684,3 +1222,304 @@ sections:
     type: section
   - name: "Logic Errors"
     type: section
+insert_sections:
+  - name: Exercise 2.1
+    type: section
+    chapter: Variables and Operators
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex2.1
+
+      If you are using this book in a class, you might enjoy this exercise.
+      Find a partner and play {\it Stump the Chump}:
+
+      Start with a program that compiles and runs correctly.
+      One player looks away, while the other player adds an error to the program.
+      Then the first player tries to find and fix the error.
+      You get two points if you find the error without compiling the program, one point if you find it using the compiler, and your opponent gets a point if you don't find it.
+
+      \end{exercise}
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Exercise 2.2
+    type: section
+    chapter: Variables and Operators
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex2.2
+      \label{ex:date}
+
+      The point of this exercise is (1) to use string concatenation to display values with different types (\java{int} and \java{String}), and (2) to practice developing programs gradually by adding a few statements at a time.
+
+      \begin{enumerate}
+
+      \item Create a new program named {\it Date.java}.
+      Copy or type in something like the Hello World program and make sure you can compile and run it.
+
+      \item Following the example in Section~\ref{sec:printvar}, write a program that creates variables named \java{day}, \java{date}, \java{month}, and \java{year}.
+      The variable \java{day} will contain the day of the week (like Friday), and \java{date} will contain the day of the month (like the 13th).
+      %What type is each variable?
+      Assign values to those variables that represent today's date.
+
+      \item Display the value of each variable on a line by itself.
+      This is an intermediate step that is useful for checking that everything is working so far.
+      Compile and run your program before moving on.
+
+      \item Modify the program so that it displays the date in standard American format; for example: {\tt Thursday, July 18, 2019}.
+
+      \item Modify the program so it also displays the date in European format.
+      The final output should be as follows:
+
+      `
+      American format: Thursday, July 18, 2019
+      European format: Thursday 18 July 2019
+      `
+
+      {\em Hint:} You should be able to copy, paste, and modify the code from Step 4 when completing Step 5.
+      \end{enumerate}
+
+      \end{exercise} 
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close 
+  - name: Exercise 2.3
+    type: section
+    chapter: Variables and Operators
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  %%V6 Ex2.3
+
+      The point of this exercise is to (1) use some of the arithmetic operators, and (2) start thinking about compound entities (like time of day) that are represented with multiple values.
+
+      \begin{enumerate}
+
+      \item Create a new program called {\it Time.java}.
+      From now on, we won't remind you to start with a small, working program, but you should.
+
+      \item Following the example program in Section~\ref{sec:printvar}, create variables named \java{hour}, \java{minute}, and \java{second}.
+      Assign values that are roughly the current time.
+      Use a 24-hour clock so that at 2:00 PM the value of \java{hour} is \java{14}.
+
+      \item Make the program calculate and display the number of seconds since midnight.
+
+      \item Calculate and display the number of seconds remaining in the day.
+
+      \item Calculate and display the percentage of the day that has passed.
+      You might run into problems when computing percentages with integers, so consider using floating-point.
+
+      \item Change the values of \java{hour}, \java{minute}, and \java{second} to reflect the current time.
+      Then write code to compute the elapsed time since you started working on this exercise.
+
+      \end{enumerate}
+
+      {\em Hint:} You might want to use additional variables to hold values during the computation.
+      Variables that are used in a computation but never displayed are sometimes called ``intermediate'' or ``temporary'' variables.
+
+      \end{exercise}
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Exercise 6.1
+    type: section
+    chapter: Loops and Strings
+    section: Exercises
+    before: false
+    latex: |
+      \begin{exercise}  
+
+      Consider the following methods (\java{main} and \java{loop}):
+
+      \begin{enumerate}
+
+      \item Draw a table that shows the value of the variables \java{i} and \java{n} during the execution of \java{loop}.
+      The table should contain one column for each variable and one line for each iteration.
+
+      \item What is the output of this program?
+
+      \item Can you prove that this loop terminates for any positive value of \java{n}?
+
+      % If i is odd and we increment by 1, the result is even.  So the second
+      % branch is always followed by the first branch.
+      % If i is even and we divide by 2, the result might be odd.  So in the
+      % worst case, we might alternate between the branches.
+      % But we can't do more of the second branch than the first.
+      % So we divide at least as often as we add.
+
+      % If i is 1, we're done.
+      % If i is 2, we divide by 2 and we're done.
+      % If i is greater than 2, the first branch decreases more than the
+      % second branch increases.
+      % So if we do one of each, the net effect is a decrease.
+      % Therefore, the value of i has to decrease after any two steps.
+
+      \end{enumerate}
+
+      \begin{code}
+      public static void main(String[] args) {
+          loop(10);
+      }
+
+      public static void loop(int n) {
+          int i = n;
+          while (i > 1) {
+              System.out.println(i);
+              if (i % 2 == 0) {
+                  i = i / 2;
+              } else {
+                  i = i + 1;
+              }
+          }
+      }
+      \end{code}
+      \end{exercise}
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Exercise 6.2
+    type: section
+    chapter: Loops and Strings
+    section: Exercises
+    before: false
+    latex: |
+        \begin{exercise} 
+
+        Let's say you are given a number, $a$, and you want to find its square root.
+        One way to do that is to start with a rough guess about the answer, $x_0$, and then improve the guess by using this formula:
+        %
+        \[ x_1 =(x_0 + a/x_0) / 2 \]
+        %
+        For example, if we want to find the square root of 9, and we start with $x_0 = 6$, then $x_1 = (6 + 9/6) / 2 = 3.75$, which is closer.
+        We can repeat the procedure, using $x_1$ to calculate $x_2$, and so on.
+        In this case, $x_2 = 3.075$ and $x_3 = 3.00091$.
+        So the repetition converges quickly on the correct answer.
+
+        Write a method called \java{squareRoot} that takes a \java{double} and returns an approximation of the square root of the parameter, using this technique.
+        You should not use \java{Math.sqrt}.
+
+        As your initial guess, you should use $a/2$.
+        Your method should iterate until it gets two consecutive estimates that differ by less than 0.0001.
+        %In other words, return when the absolute value of $x_n - x_{n-1}$ is less than 0.0001.
+        You can use \java{Math.abs} to calculate the absolute value of the difference.
+
+        \end{exercise}
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close       
+  - name: Exercise 6.3
+    type: section
+    chapter: Loops and Strings
+    section: Exercises
+    before: false
+    latex: |
+        \begin{exercise}  
+
+        One way to evaluate $\exp(-x^2)$ is to use the infinite series expansion:
+        %
+        \[ \exp(-x^2) = 1 - x^2 + x^4/2 - x^6/6 + \ldots \]
+        %
+        The $i$th term in this series is $(-1)^i x^{2i} / i!$.
+        Write a method named \java{gauss} that takes \java{x} and \java{n} as arguments and returns the sum of the first \java{n} terms of the series.
+        You should not use \java{factorial} or \java{pow}.
+
+        \end{exercise}
+    configuration:
+       layout: 1-panel
+       files:
+           - path: "#tabs"
+             action: close 
+  - name: Exercise 6.4
+    type: section
+    chapter: Loops and Strings
+    section: Exercises
+    before: false
+    latex: |
+        \begin{exercise}  
+
+        \index{abecedarian}
+
+        A word is said to be ``abecedarian'' if the letters in the word appear in alphabetical order.
+        For example, the following are all six-letter English abecedarian words:
+
+        \begin{quote}
+        abdest, acknow, acorsy, adempt, adipsy, agnosy, befist, behint, %\\
+        beknow, bijoux, biopsy, cestuy, chintz, deflux, dehors, dehort, %\\
+        deinos, diluvy, dimpsy %\\
+        \end{quote}
+
+        Write a method called \java{isAbecedarian} that takes a \java{String} and returns a \java{boolean} indicating whether the word is abecedarian.
+        %Your method can be iterative or recursive.
+
+        \end{exercise}
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close 
+  - name: Exercise 6.5
+    type: section
+    chapter: Loops and Strings
+    section: Exercises
+    before: false
+    latex: |
+        \begin{exercise} 
+        \label{doubloon}
+
+        \index{doubloon}
+
+        A word is said to be a ``doubloon'' if every letter that appears in the word appears exactly twice.
+        Here are some example doubloons found in the dictionary:
+
+        \begin{quote}
+        Abba, Anna, appall, appearer, appeases, arraigning, beriberi, bilabial, boob, Caucasus, coco, Dada, deed, Emmett, Hannah, horseshoer, intestines, Isis, mama, Mimi, murmur, noon, Otto, papa, peep, reappear, redder, sees, Shanghaiings, Toto
+        \end{quote}
+
+        Write a method called \java{isDoubloon} that takes a string and checks whether it is a doubloon.
+        To ignore case, invoke the \java{toLowerCase} method before checking.
+        \end{exercise}
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close 
+  - name: Exercise 6.6
+    type: section
+    chapter: Loops and Strings
+    section: Exercises
+    before: false
+    latex: |
+        \begin{exercise}  
+
+        \index{Scrabble}
+
+        In Scrabble\footnote{Scrabble is a registered trademark owned in the USA and Canada by Hasbro Inc., and in the rest of the world by J.\ W.\ Spear \& Sons Limited of Maidenhead, Berkshire, England, a subsidiary of Mattel Inc.} each player has a set of tiles with letters on them.
+        The object of the game is to use those letters to spell words.
+        The scoring system is complex, but longer words are usually worth more than shorter words.
+
+        % Full credit to Marc Loy for getting this reference.
+
+        Imagine you are given your set of tiles as a string, like \java{"quijibo"}, and you are given another string to test, like \java{"jib"}.
+
+        Write a method called \java{canSpell} that takes two strings and checks whether the set of tiles can spell the word.
+        You might have more than one tile with the same letter, but you can use each tile only once.
+
+        \end{exercise}
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close 
+      

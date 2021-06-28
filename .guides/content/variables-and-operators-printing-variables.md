@@ -1,4 +1,5 @@
-You can display the current value of a variable by using `print` or `println`. The following statements declare a variable named `firstLine`, assign it the value `"Hello, again!"`, and display that value:
+You can display the current value of a variable by using `print` or `println`. The following statements declare a variable named ```firstLine```, assign it the value ```"Hello, again!"```, and [ display that value:](open_file code/ch02/PrintingVars.java panel=0 ref="String firstLine" count=2)
+
 
 ```code
 String firstLine = "Hello, again!";
@@ -6,7 +7,8 @@ System.out.println(firstLine);
 ```
 
 
-When we talk about displaying a variable, we generally mean the *value* of the variable. To display the *name* of a variable, you have to put it in quotes:
+When we talk about displaying a variable, we generally mean the *value* of the variable. To display the name of a variable, you have to put it in [ quotes:](open_file code/ch02/PrintingVars.java panel=0 ref="The value" count=2)
+
 
 ```code
 System.out.print("The value of firstLine is ");
@@ -19,7 +21,8 @@ For this example, the output is as follows:
 The value of firstLine is Hello, again!
 ```
 
-Conveniently, the code for displaying a variable is the same regardless of its type. For example:
+Conveniently, the code for displaying a variable is the same regardless of its type. [For example:](open_file code/ch02/PrintingVars.java panel=0 ref="int hour" count=7)
+
 
 ```code
 int hour = 11;
@@ -38,6 +41,3 @@ The current time is 11:59.
 ```
 
 To output multiple values on the same line, it's common to use several `print` statements followed by `println` at the end. But don't forget the `println`! On many computers, the output from `print` is stored without being displayed until `println` is run; then the entire line is displayed at once. If you omit the `println`, the program might display the stored output at unexpected times or even terminate without displaying anything.
-
-See the example java code in the left pane. To compile and run the code, press the "Run!"
-{Run!}(sh .guides/bg.sh javac code/ch02/PrintingVars.java java -cp code/ch02/ PrintingVars )

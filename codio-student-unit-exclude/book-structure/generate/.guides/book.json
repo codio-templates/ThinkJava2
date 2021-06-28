@@ -191,6 +191,24 @@
           "pageId": "variables-and-operators-exercises",
           "title": "Exercises",
           "type": "page"
+        },
+        {
+          "id": "variables-and-operators-exercise-2-1",
+          "pageId": "variables-and-operators-exercise-2-1",
+          "title": "Exercise 2.1",
+          "type": "page"
+        },
+        {
+          "id": "variables-and-operators-exercise-2-2",
+          "pageId": "variables-and-operators-exercise-2-2",
+          "title": "Exercise 2.2",
+          "type": "page"
+        },
+        {
+          "id": "variables-and-operators-exercise-2-3",
+          "pageId": "variables-and-operators-exercise-2-3",
+          "title": "Exercise 2.3",
+          "type": "page"
         }
       ],
       "id": "variables-and-operators",
@@ -510,6 +528,42 @@
           "id": "loops-and-strings-exercises",
           "pageId": "loops-and-strings-exercises",
           "title": "Exercises",
+          "type": "page"
+        },
+        {
+          "id": "loops-and-strings-exercise-6-1",
+          "pageId": "loops-and-strings-exercise-6-1",
+          "title": "Exercise 6.1",
+          "type": "page"
+        },
+        {
+          "id": "loops-and-strings-exercise-6-2",
+          "pageId": "loops-and-strings-exercise-6-2",
+          "title": "Exercise 6.2",
+          "type": "page"
+        },
+        {
+          "id": "loops-and-strings-exercise-6-3",
+          "pageId": "loops-and-strings-exercise-6-3",
+          "title": "Exercise 6.3",
+          "type": "page"
+        },
+        {
+          "id": "loops-and-strings-exercise-6-4",
+          "pageId": "loops-and-strings-exercise-6-4",
+          "title": "Exercise 6.4",
+          "type": "page"
+        },
+        {
+          "id": "loops-and-strings-exercise-6-5",
+          "pageId": "loops-and-strings-exercise-6-5",
+          "title": "Exercise 6.5",
+          "type": "page"
+        },
+        {
+          "id": "loops-and-strings-exercise-6-6",
+          "pageId": "loops-and-strings-exercise-6-6",
+          "title": "Exercise 6.6",
           "type": "page"
         }
       ],

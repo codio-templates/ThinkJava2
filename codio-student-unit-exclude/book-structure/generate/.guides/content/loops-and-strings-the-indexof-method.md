@@ -1,4 +1,5 @@
-To search for a specific character in a string, you could write a `for` loop and use `charAt` as in the previous section. However, the `String` class already provides a method for doing just that:
+To search for a specific character in a string, you could write a `for` loop and use `charAt` as in the previous section. However, the ```String``` class already provides a method for doing [ just that:](open_file code/ch06/Strings.java panel=0 ref="fruit.indexOf" count=1)
+
 
 ```code
 String fruit = "banana";
@@ -7,7 +8,8 @@ int index = fruit.indexOf('a');     // returns 1
 
 This example finds the index of `'a'` in the string. But the letter appears three times, so it's not obvious what `indexOf` might do. According to the documentation, it returns the index of the *first* appearance.
 
-To find subsequent appearances, you can use another version of `indexOf`, which takes a second argument that indicates where in the string to start looking:
+To find subsequent appearances, you can use another version of ```indexOf```, which takes a second argument that indicates where in the string to [ start looking:](open_file code/ch06/Strings.java panel=0 ref=", 2)" count=1)
+
 
 ```code
 int index = fruit.indexOf('a', 2);  // returns 3

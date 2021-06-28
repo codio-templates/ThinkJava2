@@ -18,14 +18,16 @@ char last = fruit.charAt(length);      // wrong!
 ```
 
 
-This code compiles and runs, but invoking the `charAt` method throws a `StringIndexOutOfBoundsException`. The problem is that there is no sixth letter in `"banana"`. Since we started counting at 0, the six letters are indexed from 0 to 5. To get the last character, you have to subtract 1 from `length`:
+This code compiles and runs, but invoking the `charAt` method throws a `StringIndexOutOfBoundsException`. The problem is that there is no sixth letter in `"banana"`. Since we started counting at 0, the six letters are indexed from 0 to 5. To get the last character, you have to [ subtract 1](open_file code/ch06/Strings.java panel=0 ref=" length " count=2)
+ from ```length``` .
 
 ```code
 int length = fruit.length();
 char last = fruit.charAt(length - 1);  // correct
 ```
 
-Many string algorithms involve reading one string and building another. For example, to reverse a string, we can concatenate one character at a time:
+Many string algorithms involve reading one string and building another. For example, to reverse a string, we can concatenate one character [ at a time:](open_file code/ch06/Strings.java panel=0 ref="String reverse" count=7)
+
 
 ```code
 public static String reverse(String s) {

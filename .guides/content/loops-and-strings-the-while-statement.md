@@ -1,4 +1,5 @@
-Using a `while` statement, we can repeat the same code multiple times:
+Using a ```while``` statement, we can repeat the same code [ multiple times:](open_file code/ch06/Loops.java panel=0 ref="countdown" count=7)
+
 
 ```code
 int n = 3;
@@ -9,16 +10,10 @@ while (n > 0) {
 System.out.println("Blastoff!");
 ```
 
-Reading the code in English sounds like this: “Start with `n` set to 3. While `n` is greater than 0, print the value of `n`, and reduce the value of `n` by 1. When you get to 0, print Blastoff!”
+To see the output of this function, comment out all other functions besides the countdown function. Press "Run!"
+{Run!}(sh .guides/bg.sh javac code/ch06/Loops.java java -cp code/ch06/ Loops )
+ Reading the code in English sounds like this: “Start with `n` set to 3. While `n` is greater than 0, print the value of `n`, and reduce the value of `n` by 1. When you get to 0, print Blastoff!”
 
-The output is shown here:
-
-```code
-3
-2
-1
-Blastoff!
-```
 
 The flow of execution for a `while` statement is as follows:
 
@@ -50,7 +45,8 @@ while (n > 0) {
 
 This example will print the number `3` forever, or at least until you terminate the program. An endless source of amusement for computer scientists is the observation that the directions on shampoo, “Lather, rinse, repeat,” are an infinite loop.
 
-In the first example, we can prove that the loop terminates when `n` is positive. But in general, it is not so easy to tell whether a loop terminates. For example, this loop continues until `n` is 1 (which makes the condition `false`):
+In the first example, we can prove that the loop terminates when `n` is positive. But in general, it is not so easy to tell whether a loop terminates. For example, this loop continues until ```n``` is 1 (which makes the condition [ false):](open_file code/ch06/Loops.java panel=0 ref="sequence" count=11)
+
 
 ```code
 while (n != 1) {
@@ -63,8 +59,10 @@ while (n != 1) {
 }
 ```
 
-Each time through the loop, the program displays the value of `n` and then checks whether it is even or odd. If it is even, the value of `n` is divided by 2. If it is odd, the value is replaced by $3n+1$. For example, if the starting value is 3, the resulting sequence is 3, 10, 5, 16, 8, 4, 2, 1.
+To see the output of this function, comment out all other functions besides the sequence function. Press "Run!"
+{Run!}(sh .guides/bg.sh javac code/ch06/Loops.java java -cp code/ch06/ Loops )
+ Each time through the loop, the program displays the value of `n` and then checks whether it is even or odd. If it is even, the value of `n` is divided by 2. If it is odd, the value is replaced by $3n+1$. For example, if the starting value is 3, the resulting sequence is 3, 10, 5, 16, 8, 4, 2, 1.
 
 Since `n` sometimes increases and sometimes decreases, there is no obvious proof that `n` will ever reach 1 and that the program will ever terminate. For some values of `n`, such as the powers of two, we can prove that it terminates. The previous example ends with such a sequence, starting when `n` is 16 (or $2^4$).
 
-The hard question is whether this program terminates for *all* values of `n`. So far, no one has been able to prove it *or* disprove it! For more information, see [https://en.wikipedia.org/wiki/Collatz_conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture).
+The hard question is whether this program terminates for *all* values of `n`. So far, no one has been able to prove it *or* disprove it! For more information, see [https://en.wikipedia.org/wiki/Collatz_conjecture](open_preview https://en.wikipedia.org/wiki/Collatz_conjecture) .

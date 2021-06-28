@@ -18,7 +18,7 @@ Error messages are very useful for debugging. The first line includes the name o
 The third type of error is a **logic error**. If your program has a logic error, it will compile and run without generating error messages, but it will not do the right thing. Instead, it will do exactly what you told it to do. For example, here is a version of the Hello World program with a logic error:
 
 
-See the example java code in the left pane. To compile and run the code, press the "Run!". 
+To compile and run the code, press the "Run!". 
 {Run!}(sh .guides/bg.sh javac code/ch02/Hello.java java -cp code/ch02/ Hello )
 
 

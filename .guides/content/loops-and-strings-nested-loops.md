@@ -1,4 +1,5 @@
-Like conditional statements, loops can be nested one inside the other. Nested loops allow you to iterate over two variables. For example, we can generate a “multiplication table” like this:
+Like conditional statements, loops can be nested one inside the other. Nested loops allow you to iterate over two variables. For example, we can generate a ``multiplication table'' [ like this:](open_file code/ch06/Loops.java panel=0 ref="nested" count=8)
+
 
 ```code
 for (int x = 1; x <= 10; x++) {
@@ -8,6 +9,9 @@ for (int x = 1; x <= 10; x++) {
     System.out.println();
 }
 ```
+
+To see the output of this function, comment out all other functions besides the nested function. Press "Run!"
+{Run!}(sh .guides/bg.sh javac code/ch06/Loops.java java -cp code/ch06/ Loops )
 
 
 Variables like `x` and `y` are called **loop variables**, because they control the execution of a loop. In this example, the first loop (`for x`) is known as the “outer loop”, and the second loop (`for y`) is known as the “inner loop”.

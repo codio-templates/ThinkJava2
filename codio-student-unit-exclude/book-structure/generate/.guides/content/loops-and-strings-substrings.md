@@ -1,4 +1,5 @@
-In addition to searching strings, we often need to extract parts of strings. The `substring` method returns a new string that copies letters from an existing string, given a pair of indexes:
+In addition to searching strings, we often need to extract parts of strings. The ```substring``` method returns a new string that copies letters from an existing string, given a [ pair of indexes:](open_file code/ch06/Strings.java panel=0 ref="fruit.substring" count=3)
+
 
 
 
@@ -11,7 +12,8 @@ In addition to searching strings, we often need to extract parts of strings. The
 Notice that the character indicated by the second index is *not* included. Defining `substring` this way simplifies some common operations. For example, to select a substring with length `len`, starting at index `i`, you could write `fruit.substring(i, i + len)`.
 
 
-Like most string methods, `substring` is **overloaded**. That is, there are other versions of `substring` that have different parameters. If it's invoked with one argument, it returns the letters from that index to the end:
+Like most string methods, `substring` is **overloaded**. That is, there are other versions of `substring` that have different parameters. If it is invoked with one argument, it returns the letters from that index [ to the end:](open_file code/ch06/Strings.java panel=0 ref="fruit.substring" count=7)
+
 
 
 
