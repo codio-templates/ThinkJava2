@@ -36,5 +36,5 @@ public static void main(String[] args) {
     System.out.println(mus(bob));
 }
 ```
-Test out these functions here.
+Test out these functions here by adding your own test cases.
 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/MakeDubMus.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ MakeDubMus )
