@@ -69,52 +69,11 @@
  },
  {
   "taskId": "fill-in-the-blanks-405612404",
-  "points": 20,
+  "points": 0,
   "state": {
-   "active": [
-    "false",
-    "error",
-    "true",
-    "true",
-    "false",
-    "true",
-    "false",
-    "error",
-    "true",
-    "false"
-   ]
+   "active": []
   },
-  "results": [
-   {
-    "guidance": "",
-    "current": [
-     "false",
-     "error",
-     "true",
-     "true",
-     "false",
-     "true",
-     "false",
-     "error",
-     "true",
-     "false"
-    ],
-    "right": [
-     "false",
-     "error",
-     "true",
-     "true",
-     "false",
-     "true",
-     "false",
-     "error",
-     "true",
-     "false"
-    ],
-    "timestamp": "2021-06-25T13:55:52.554Z",
-    "state": "pass"
-   }
-  ]
+  "results": []
  },
  {
   "taskId": "free-text-2095154106",

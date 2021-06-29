@@ -527,6 +527,12 @@ sections:
             action: close
   - name: "Exercises"
     type: section
+    transformations:
+        - remove: 184
+          position: 713
+        - add:  |
+                 The following exercises will give you a chance to check your knowledge of conditionals and logic before moving on.
+          position: 897
   - name: "Exercise 5.1"
     type: section
     configuration:
