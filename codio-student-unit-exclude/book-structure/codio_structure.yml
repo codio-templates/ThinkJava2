@@ -460,7 +460,7 @@ sections:
         - remove: 8
           position: 352
         - add:  |
-                We can prevent this situation from happening by checking `args` at the beginning of the program, as seen [on the left](open_file code/ch09/Max.java panel=0 ref="length" count=4) uses an enhanced `for` loop (see "Enhanced" section) to parse the arguments and find the largest value.
+                We can prevent this situation from happening by checking `args` at the beginning of the program, as seen [on the left.](open_file code/ch09/Max.java panel=0 ref="length" count=4)
  
           position: 360
     configuration:
@@ -474,11 +474,72 @@ sections:
           - path: "#terminal: cd code/ch09"
             panel: 1
             action: open
-            action: cd code
   - name: "Argument Validation"
     type: section
+    transformations:
+        - remove: 7
+          position: 388
+        - add:  |
+                We can write this method using the `Character` wrapper class, as [in the original version of the method at the left.](open_file code/ch09/ArgValid.java panel=0 ref="Old" count=4)
+                [Click to remove highlight](open_file code/ch09/ArgValid.java panel=0)
+                 
+          position: 395
+        - remove: 10
+          position: 414
+        - add:  |
+                If it's invalid, we return before executing the rest of the method, [as shown in the new version of the method at the left.](open_file code/ch09/ArgValid.java panel=0 ref="New" count=7)
+                [Click to remove highlight](open_file code/ch09/ArgValid.java panel=0)
+                Press "Run!" to see what happens on the four test cases in the `main` method. 
+                {Run!}(sh .guides/bg.sh javac code/ch09/ArgValid.java java -cp code/ch09/ ArgValid )
+                
+                 
+          position: 424
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch09/ArgValid.java"
+            panel: 0
+            action: open
   - name: "BigInteger Arithmetic"
     type: section
+    transformations:
+        - remove: 6
+          position: 472
+        - add:  |
+               The [code on the left](open_file code/ch09/BigInt.java panel=0 ref="long" count=3) converts a `long` to a `BigInteger`.
+               Press "Run!" to see what happens. 
+               {Run!}(sh .guides/bg.sh javac code/ch09/BigInt.java java -cp code/ch09/ BigInt 1)
+               [Click to remove highlight](open_file code/ch09/BigInt.java panel=0)
+                 
+          position: 478
+        - remove: 6
+          position: 480
+        - add:  |
+               The [code on the left](open_file code/ch09/BigInt.java panel=0 ref="String s" count=3) shows how this feature can help us handle a 20-digit integer that is too big to store using a `long`.
+               Remove the comment symbols and press "Run!" to see what happens. 
+               {Run!}(sh .guides/bg.sh javac code/ch09/BigInt.java java -cp code/ch09/ BigInt 2)
+               [Click to remove highlight](open_file code/ch09/BigInt.java panel=0)
+                 
+          position: 486
+        - remove: 7
+          position: 491
+        - add:  |
+               To add two BigIntegers, we invoke `add` on one and pass the other as an argument, as in the [code on the left.](open_file code/ch09/BigInt.java panel=0 ref="BigInteger a" count=4)
+               Remove the comment symbols and press "Run!" to see what happens. 
+               {Run!}(sh .guides/bg.sh javac code/ch09/BigInt.java java -cp code/ch09/ BigInt 3)
+               [Click to remove highlight](open_file code/ch09/BigInt.java panel=0)
+                 
+          position: 498
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch09/BigInt.java"
+            panel: 0
+            action: open
   - name: "Incremental Design"
     type: section
   - name: "More Generalization"

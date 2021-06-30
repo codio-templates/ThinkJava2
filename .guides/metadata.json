@@ -1454,7 +1454,7 @@
           "path": "code/ch09/Max.java"
         },
         {
-          "action": "cd code",
+          "action": "open",
           "panel": 1,
           "path": "#terminal: cd code/ch09"
         }
@@ -1471,8 +1471,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/immutable-objects-argument-validation.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch09/ArgValid.java"
+        }
+      ],
       "id": "immutable-objects-argument-validation",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1483,8 +1494,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/immutable-objects-biginteger-arithmetic.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch09/BigInt.java"
+        }
+      ],
       "id": "immutable-objects-biginteger-arithmetic",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],

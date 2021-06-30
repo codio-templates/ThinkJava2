@@ -37,7 +37,7 @@ The code [on the left](open_file code/ch09/Max.java panel=0 ref="int max" count=
 
 We begin by initializing `max` to the smallest (most negative) number an `int` can represent. That way, the first value we parse will replace `max`. As we find larger values, they will replace `max` as well.
 
-If `args` is empty, the result will be `MIN_VALUE`. We can prevent this situation from happening by checking `args` at the beginning of the program, as seen [on the left](open_file code/ch09/Max.java panel=0 ref="length" count=4) uses an enhanced `for` loop (see "Enhanced" section) to parse the arguments and find the largest value.
+If `args` is empty, the result will be `MIN_VALUE`. We can prevent this situation from happening by checking `args` at the beginning of the program, as seen [on the left.](open_file code/ch09/Max.java panel=0 ref="length" count=4)
 
 
 

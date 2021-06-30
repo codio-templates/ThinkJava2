@@ -5,29 +5,28 @@ It might not be clear at this point why you would ever need an integer object wh
 
 
 
-To use BigIntegers, you have to `import java.math.BigInteger` at the beginning of your program. There are several ways to create a BigInteger, but the simplest uses `valueOf`. The following code converts a `long` to a `BigInteger`:
+To use BigIntegers, you have to `import java.math.BigInteger` at the beginning of your program. There are several ways to create a BigInteger, but the simplest uses `valueOf`. The [code on the left](open_file code/ch09/BigInt.java panel=0 ref="long" count=3) converts a `long` to a `BigInteger`.
+Press "Run!" to see what happens. 
+{Run!}(sh .guides/bg.sh javac code/ch09/BigInt.java java -cp code/ch09/ BigInt 1)
+[Click to remove highlight](open_file code/ch09/BigInt.java panel=0)
+  
 
-```code
-long x = 17;
-BigInteger big = BigInteger.valueOf(x);
-```
 
-You can also create BigIntegers from strings. For example, here is a 20-digit integer that is too big to store using a `long`:
+You can also create BigIntegers from strings. The [code on the left](open_file code/ch09/BigInt.java panel=0 ref="String s" count=3) shows how this feature can help us handle a 20-digit integer that is too big to store using a `long`.
+Remove the comment symbols and press "Run!" to see what happens. 
+{Run!}(sh .guides/bg.sh javac code/ch09/BigInt.java java -cp code/ch09/ BigInt 2)
+[Click to remove highlight](open_file code/ch09/BigInt.java panel=0)
+  
 
-```code
-String s = "12345678901234567890";
-BigInteger bigger = new BigInteger(s);
-```
 
 Notice the difference in the previous two examples: you use `valueOf` to convert integers, and `new BigInteger` to convert strings.
 
-Since BigIntegers are not primitive types, the usual math operators don't work. Instead, we have to use methods like `add`. To add two BigIntegers, we invoke `add` on one and pass the other as an argument:
+Since BigIntegers are not primitive types, the usual math operators don't work. Instead, we have to use methods like `add`. To add two BigIntegers, we invoke `add` on one and pass the other as an argument, as in the [code on the left.](open_file code/ch09/BigInt.java panel=0 ref="BigInteger a" count=4)
+Remove the comment symbols and press "Run!" to see what happens. 
+{Run!}(sh .guides/bg.sh javac code/ch09/BigInt.java java -cp code/ch09/ BigInt 3)
+[Click to remove highlight](open_file code/ch09/BigInt.java panel=0)
+  
 
-```code
-BigInteger a = BigInteger.valueOf(17);
-BigInteger b = BigInteger.valueOf(1700000000);
-BigInteger c = a.add(b);
-```
 
 Like strings, `BigInteger` objects are immutable. Methods like `add`, `multiply`, and `pow` all return new BigIntegers, rather than modify an existing one.
 

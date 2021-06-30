@@ -3,6 +3,12 @@
  */
 public class ArgValid {
 
+       //Old version of the method
+//     public static boolean isCapitalized(String str) {
+//       return Character.isUpperCase(str.charAt(0));
+//     }
+  
+    //New version
     public static boolean isCapitalized(String str) {
         if (str == null || str.isEmpty()) {
             return false;

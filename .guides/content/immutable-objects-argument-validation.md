@@ -9,13 +9,10 @@ Programmers can make mistakes too. It's difficult to write bug-free software, es
 For all of these reasons, it's good practice to validate arguments passed to methods, including the `main` method. In the previous section, we did this by ensuring that `args.length` was not 0.
 
 
-As a further example, consider a method that checks whether the first word of a sentence is capitalized. We can write this method using the `Character` wrapper class:
+As a further example, consider a method that checks whether the first word of a sentence is capitalized. We can write this method using the `Character` wrapper class, as [in the original version of the method at the left.](open_file code/ch09/ArgValid.java panel=0 ref="Old" count=4)
+[Click to remove highlight](open_file code/ch09/ArgValid.java panel=0)
+ 
 
-```code
-public static boolean isCapitalized(String str) {
-    return Character.isUpperCase(str.charAt(0));
-}
-```
 
 The expression `str.charAt(0)` makes two assumptions: the string object referenced by `str` exists, and it has at least one character. What if these assumptions don't hold at run-time?
 
@@ -28,16 +25,13 @@ The expression `str.charAt(0)` makes two assumptions: the string object referenc
 
 
 
-We can prevent these exceptions by validating `str` *at the start* of the method. If it's invalid, we return before executing the rest of the method:
+We can prevent these exceptions by validating `str` *at the start* of the method. If it's invalid, we return before executing the rest of the method, [as shown in the new version of the method at the left.](open_file code/ch09/ArgValid.java panel=0 ref="New" count=7)
+[Click to remove highlight](open_file code/ch09/ArgValid.java panel=0)
+Press "Run!" to see what happens on the four test cases in the `main` method. 
+{Run!}(sh .guides/bg.sh javac code/ch09/ArgValid.java java -cp code/ch09/ ArgValid )
 
-```code
-public static boolean isCapitalized(String str) {
-    if (str == null || str.isEmpty()) {
-        return false;
-    }
-    return Character.isUpperCase(str.charAt(0));
-}
-```
+ 
+
 
 Notice that `null` and *empty* are different concepts, as shown in Figure 9.5. The variable `str1` is `null`, meaning that it doesn't reference an object. The variable `str2` refers to the empty string, an object that exists.
 
