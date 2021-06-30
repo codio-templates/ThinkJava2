@@ -1443,8 +1443,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/immutable-objects-command-line-arguments.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch09/Max.java"
+        },
+        {
+          "action": "cd code",
+          "panel": 1,
+          "path": "#terminal: cd code/ch09"
+        }
+      ],
       "id": "immutable-objects-command-line-arguments",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],

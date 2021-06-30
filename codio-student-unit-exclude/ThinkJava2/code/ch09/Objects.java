@@ -52,6 +52,7 @@ public class Objects {
 //         String str = "12345";
 //         int num = Integer.parseInt(str);
 
+           //using toString() to convert a number to string form
 //         num = 12345;
 //         str = Integer.toString(num);
     }

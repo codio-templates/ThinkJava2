@@ -399,8 +399,82 @@ sections:
           position: 190
   - name: "Wrapper Classes"
     type: section
+    transformations:
+        - remove: 6
+          position: 219
+        - add:  |
+                The wrapper class for `int` is named `Integer`, with a capital `I`. The above example works when you change the data type to `Integer`, as seen [on the left.](open_file code/ch09/Objects.java panel=0 ref="Integer" count=2)
+                Remove the comments from this code and press "Run!" to see what happens. 
+                {Run!}(sh .guides/bg.sh javac code/ch09/Objects.java java -cp code/ch09/ Objects )
+                [Click to remove highlight](open_file code/ch09/Objects.java panel=0)
+                 
+          position: 225
+        - remove: 12
+          position: 229
+        - add:  |
+                Like strings, objects from wrapper classes are immutable, and you have to use the `equals` method to compare them, as in the example [on the left.](open_file code/ch09/Objects.java panel=0 ref="Integer x" count=8)
+                Remove the comments from this code and press "Run!" to see what happens. 
+                {Run!}(sh .guides/bg.sh javac code/ch09/Objects.java java -cp code/ch09/ Objects )
+                [Click to remove highlight](open_file code/ch09/Objects.java panel=0)
+                **Note**: for some reason this is printing out the first statement even though the first condition should be false.
+                 
+          position: 241
+        - remove: 5
+          position: 254
+        - add:  |
+                For an example usage of `parseInt()`, look at the example [on the left.](open_file code/ch09/Objects.java panel=0 ref="String str" count=2)
+                Remove the comments from this code and press "Run!" to see what happens. 
+                {Run!}(sh .guides/bg.sh javac code/ch09/Objects.java java -cp code/ch09/ Objects )
+                [Click to remove highlight](open_file code/ch09/Objects.java panel=0)
+                 
+          position: 259
+        - remove: 6
+          position: 260
+        - add:  |
+                They also provide `toString`, which returns a string representation of a value, as seen [on the left.](open_file code/ch09/Objects.java panel=0 ref="toString" count=3)
+                Remove the comments from this code and press "Run!" to see what happens. 
+                {Run!}(sh .guides/bg.sh javac code/ch09/Objects.java java -cp code/ch09/ Objects )
+                [Click to remove highlight](open_file code/ch09/Objects.java panel=0)
+                 
+          position: 266
   - name: "Command-Line Arguments"
     type: section
+    transformations:
+        - remove: 10
+          position: 292
+        - add:  |
+                For a starting point, consider the program on the upper left, noting that any command line instructions will be typed into the terminal on the lower left. 
+                 
+          position: 302
+        - remove: 1
+          position: 324
+        - add:  |
+                 The first line of output, representing the initial array of arguments, is shown here: 
+          position: 325
+        - remove: 12
+          position: 334
+        - add:  |
+                The code [on the left](open_file code/ch09/Max.java panel=0 ref="int max" count=7) uses an enhanced `for` loop (see Section~\ref{enhanced}) to parse the arguments and find the largest value.
+ 
+          position: 346
+        - remove: 8
+          position: 352
+        - add:  |
+                We can prevent this situation from happening by checking `args` at the beginning of the program, as seen [on the left](open_file code/ch09/Max.java panel=0 ref="length" count=4) uses an enhanced `for` loop (see "Enhanced" section) to parse the arguments and find the largest value.
+ 
+          position: 360
+    configuration:
+      layout: 3-cell
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch09/Max.java"
+            panel: 0
+            action: open
+          - path: "#terminal: cd code/ch09"
+            panel: 1
+            action: open
+            action: cd code
   - name: "Argument Validation"
     type: section
   - name: "BigInteger Arithmetic"

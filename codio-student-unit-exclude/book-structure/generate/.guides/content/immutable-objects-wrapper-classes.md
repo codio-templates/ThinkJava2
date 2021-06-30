@@ -6,27 +6,22 @@ System.out.println(i.equals(5));  // compiler error
 ```
 
 
-But for each primitive type, there is a corresponding **wrapper class** in the Java library. The wrapper class for `int` is named `Integer`, with a capital `I`:
+But for each primitive type, there is a corresponding **wrapper class** in the Java library. The wrapper class for `int` is named `Integer`, with a capital `I`. The above example works when you change the data type to `Integer`, as seen [on the left.](open_file code/ch09/Objects.java panel=0 ref="Integer" count=2)
+Remove the comments from this code and press "Run!" to see what happens. 
+{Run!}(sh .guides/bg.sh javac code/ch09/Objects.java java -cp code/ch09/ Objects )
+[Click to remove highlight](open_file code/ch09/Objects.java panel=0)
+ 
 
-```code
-Integer i = Integer.valueOf(5);
-System.out.println(i.equals(5));  // displays true
-```
 
 Other wrapper classes include `Boolean`, `Character`, `Double`, and `Long`. They are in the `java.lang` package, so you can use them without importing them.
 
-Like strings, objects from wrapper classes are immutable, and you have to use the `equals` method to compare them:
+Like strings, objects from wrapper classes are immutable, and you have to use the `equals` method to compare them, as in the example [on the left.](open_file code/ch09/Objects.java panel=0 ref="Integer x" count=8)
+Remove the comments from this code and press "Run!" to see what happens. 
+{Run!}(sh .guides/bg.sh javac code/ch09/Objects.java java -cp code/ch09/ Objects )
+[Click to remove highlight](open_file code/ch09/Objects.java panel=0)
+**Note**: for some reason this is printing out the first statement even though the first condition should be false.
+ 
 
-```code
-Integer x = Integer.valueOf(123);
-Integer y = Integer.valueOf(123);
-if (x == y) {                     // false
-    System.out.println("x and y are the same object");
-}
-if (x.equals(y)) {                // true
-    System.out.println("x and y have the same value");
-}
-```
 
 Because `x` and `y` refer to different objects, this code displays only “x and y have the same value”.
 
@@ -35,17 +30,17 @@ Each wrapper class defines the constants `MIN_VALUE` and `MAX_VALUE`. For exampl
 
 Wrapper classes also provide methods for converting strings to and from primitive types. For example, `Integer.parseInt` converts a string to an `int`. In this context, **parse** means “read and translate”.
 
-```code
-String str = "12345";
-int num = Integer.parseInt(str);
-```
+For an example usage of `parseInt()`, look at the example [on the left.](open_file code/ch09/Objects.java panel=0 ref="String str" count=2)
+Remove the comments from this code and press "Run!" to see what happens. 
+{Run!}(sh .guides/bg.sh javac code/ch09/Objects.java java -cp code/ch09/ Objects )
+[Click to remove highlight](open_file code/ch09/Objects.java panel=0)
+ 
+ Other wrapper classes provide similar methods, like `Double.parseDouble` and `Boolean.parseBoolean`. They also provide `toString`, which returns a string representation of a value, as seen [on the left.](open_file code/ch09/Objects.java panel=0 ref="toString" count=3)
+Remove the comments from this code and press "Run!" to see what happens. 
+{Run!}(sh .guides/bg.sh javac code/ch09/Objects.java java -cp code/ch09/ Objects )
+[Click to remove highlight](open_file code/ch09/Objects.java panel=0)
+ 
 
-Other wrapper classes provide similar methods, like `Double.parseDouble` and `Boolean.parseBoolean`. They also provide `toString`, which returns a string representation of a value:
-
-```code
-int num = 12345;
-String str = Integer.toString(num);
-```
 
 The result is the `String` object `"12345"`.
 
