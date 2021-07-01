@@ -727,6 +727,42 @@
           "pageId": "immutable-objects-exercises",
           "title": "Exercises",
           "type": "page"
+        },
+        {
+          "id": "immutable-objects-exercise-9-1",
+          "pageId": "immutable-objects-exercise-9-1",
+          "title": "Exercise 9.1",
+          "type": "page"
+        },
+        {
+          "id": "immutable-objects-exercise-9-2",
+          "pageId": "immutable-objects-exercise-9-2",
+          "title": "Exercise 9.2",
+          "type": "page"
+        },
+        {
+          "id": "immutable-objects-exercise-9-3",
+          "pageId": "immutable-objects-exercise-9-3",
+          "title": "Exercise 9.3",
+          "type": "page"
+        },
+        {
+          "id": "immutable-objects-exercise-9-4",
+          "pageId": "immutable-objects-exercise-9-4",
+          "title": "Exercise 9.4",
+          "type": "page"
+        },
+        {
+          "id": "immutable-objects-exercise-9-5",
+          "pageId": "immutable-objects-exercise-9-5",
+          "title": "Exercise 9.5",
+          "type": "page"
+        },
+        {
+          "id": "immutable-objects-exercise-9-6",
+          "pageId": "immutable-objects-exercise-9-6",
+          "title": "Exercise 9.6",
+          "type": "page"
         }
       ],
       "id": "immutable-objects",

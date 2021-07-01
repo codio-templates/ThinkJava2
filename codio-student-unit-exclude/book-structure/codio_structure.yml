@@ -627,6 +627,11 @@ sections:
           
   - name: "Vocabulary"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Exercises"
     type: section
   - name: "Mutable Objects"
@@ -861,3 +866,46 @@ sections:
     type: section
   - name: "Logic Errors"
     type: section
+insert_sections:
+  - name: Exercise 9.1
+    type: section
+    chapter: Immutable Objects
+    section: Exercises
+    before: false
+    latex: |
+      hello latex
+  - name: Exercise 9.2
+    type: section
+    chapter: Immutable Objects
+    section: Exercises
+    before: false
+    markdown: |
+      hello markdown
+  - name: Exercise 9.3
+    type: section
+    chapter: Immutable Objects
+    section: Exercises
+    before: false
+    markdown: |
+      hello markdown
+  - name: Exercise 9.4
+    type: section
+    chapter: Immutable Objects
+    section: Exercises
+    before: false
+    markdown: |
+      hello markdown
+  - name: Exercise 9.5
+    type: section
+    chapter: Immutable Objects
+    section: Exercises
+    before: false
+    markdown: |
+      hello markdown
+  - name: Exercise 9.6
+    type: section
+    chapter: Immutable Objects
+    section: Exercises
+    before: false
+    markdown: |
+      hello markdown

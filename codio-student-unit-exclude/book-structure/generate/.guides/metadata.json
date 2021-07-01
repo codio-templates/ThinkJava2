@@ -1552,8 +1552,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/immutable-objects-vocabulary.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "immutable-objects-vocabulary",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1571,6 +1577,78 @@
       "reset": [],
       "teacherOnly": false,
       "title": "Exercises",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/immutable-objects-exercise-9-1.md",
+      "files": [],
+      "id": "immutable-objects-exercise-9-1",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 9.1",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/immutable-objects-exercise-9-2.md",
+      "files": [],
+      "id": "immutable-objects-exercise-9-2",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 9.2",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/immutable-objects-exercise-9-3.md",
+      "files": [],
+      "id": "immutable-objects-exercise-9-3",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 9.3",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/immutable-objects-exercise-9-4.md",
+      "files": [],
+      "id": "immutable-objects-exercise-9-4",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 9.4",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/immutable-objects-exercise-9-5.md",
+      "files": [],
+      "id": "immutable-objects-exercise-9-5",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 9.5",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/immutable-objects-exercise-9-6.md",
+      "files": [],
+      "id": "immutable-objects-exercise-9-6",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 9.6",
       "type": "markdown"
     },
     {
