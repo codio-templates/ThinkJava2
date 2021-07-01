@@ -21,8 +21,7 @@ After the loop, we call `println` to print a newline character. Remember that in
    2   4   6   8  10  12
 ```
 
-\end{code}
-The next step is to `encapsulate` the code; that is, we "wrap" the code in a method. Create a new method `public static void printRow()`, move the code in `main` into it, and call the method from `main`. Press "Run!" to see what happens. 
+The next step is to **encapsulate** the code; that is, we "wrap" the code in a method. Create a new method `public static void printRow()`, move the code in `main` into it, and call the method from `main`. Press "Run!" to see what happens. 
 {Run!}(sh .guides/bg.sh javac code/ch09/Tables.java java -cp code/ch09/ Tables 2)
 
 Here's what the code should look like when you're done. 

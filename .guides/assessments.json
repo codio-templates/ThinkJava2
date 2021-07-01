@@ -1,0 +1,122 @@
+[
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-2087744111",
+  "source": {
+   "name": "Table for Concatenating with +",
+   "showName": true,
+   "instructions": "",
+   "showValues": false,
+   "text": "||boolean|char|int|double|String|\n|-|-|-|-|-|-|\n|boolean|<<<Yes>>>|<<<No>>>|<<<No>>>|<<<No>>>|<<<No>>>|\n|char|<<<No>>>|<<<Yes>>>|<<<No>>>|<<<No>>>|<<<Yes>>>|\n|int|<<<No>>>|<<<No>>>|<<<Yes>>>|<<<Yes>>>|<<<No>>>|\n|double|<<<No>>>|<<<No>>>|<<<Yes>>>|<<<Yes>>>|<<<No>>>|\n|String|<<<No>>>|<<<Yes>>>|<<<No>>>|<<<No>>>|<<<Yes>>>|",
+   "distractors": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [
+     "code/ch09/Test.java"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/ch09/Test.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "Yes",
+     "No",
+     "No",
+     "No",
+     "No",
+     "No",
+     "Yes",
+     "No",
+     "No",
+     "Yes",
+     "No",
+     "No",
+     "Yes",
+     "Yes",
+     "No",
+     "No",
+     "No",
+     "Yes",
+     "Yes",
+     "No",
+     "No",
+     "Yes",
+     "No",
+     "No",
+     "Yes"
+    ],
+    "text": [
+     "||boolean|char|int|double|String|\n|-|-|-|-|-|-|\n|boolean|",
+     0,
+     "|",
+     0,
+     "|",
+     0,
+     "|",
+     0,
+     "|",
+     0,
+     "|\n|char|",
+     0,
+     "|",
+     0,
+     "|",
+     0,
+     "|",
+     0,
+     "|",
+     0,
+     "|\n|int|",
+     0,
+     "|",
+     0,
+     "|",
+     0,
+     "|",
+     0,
+     "|",
+     0,
+     "|\n|double|",
+     0,
+     "|",
+     0,
+     "|",
+     0,
+     "|",
+     0,
+     "|",
+     0,
+     "|\n|String|",
+     0,
+     "|",
+     0,
+     "|",
+     0,
+     "|",
+     0,
+     "|",
+     0,
+     "|"
+    ],
+    "regexPositions": []
+   }
+  }
+ }
+]

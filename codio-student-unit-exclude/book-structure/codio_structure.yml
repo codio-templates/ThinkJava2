@@ -549,10 +549,10 @@ sections:
                {Run!}(sh .guides/bg.sh javac code/ch09/Tables.java java -cp code/ch09/ Tables 1)
                
           position: 550
-        - remove: 10
+        - remove: 11
           position: 568
         - add:  |
-                 The next step is to `encapsulate` the code; that is, we "wrap" the code in a method. Create a new method `public static void printRow()`, move the code in `main` into it, and call the method from `main`. Press "Run!" to see what happens. 
+                 The next step is to **encapsulate** the code; that is, we "wrap" the code in a method. Create a new method `public static void printRow()`, move the code in `main` into it, and call the method from `main`. Press "Run!" to see what happens. 
                  {Run!}(sh .guides/bg.sh javac code/ch09/Tables.java java -cp code/ch09/ Tables 2)
 
                  Here's what the code should look like when you're done. 
@@ -572,7 +572,7 @@ sections:
                   }
                   ```
                 
-          position: 578
+          position: 579
         - add:  |
                Try generalizing the method, then press "Run!" to see what happens. (You'll have to pass an argument into the call in `main`.) {Run!}(sh .guides/bg.sh javac code/ch09/Tables.java java -cp code/ch09/ Tables 3)
                Here's what the code should look like when you're done.
@@ -634,6 +634,73 @@ sections:
             action: close
   - name: "Exercises"
     type: section
+    transformations:
+        - remove: 208
+          position: 781
+        - add:  |
+               The following exercises will give you a chance to check your knowledge of immutable objects before moving on.
+              
+          position: 989
+  - name: "Exercise 9.1"
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch09/Test.java"
+            panel: 0
+            action: open
+  - name: "Exercise 9.2"
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch09/Big.java"
+            panel: 0
+            action: open
+  - name: "Exercise 9.3"
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch09/Pow.java"
+            panel: 0
+            action: open
+  - name: "Exercise 9.4"
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch09/MoreExponents.java"
+            panel: 0
+            action: open
+  - name: "Exercise 9.5"
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch09/MoreExponents.java" # temp waiting for chapter 7 files
+            panel: 0
+            action: open
+  - name: "Exercise 9.6"
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch09/Parens.java"
+            panel: 0
+            action: open
   - name: "Mutable Objects"
     type: chapter
   - name: "Point Objects"
@@ -873,39 +940,194 @@ insert_sections:
     section: Exercises
     before: false
     latex: |
-      hello latex
+
+      The point of this exercise is to explore Java types and fill in some of the details that aren't covered in the chapter.
+
+      \index{concatenate}
+
+      \begin{enumerate}
+
+      \item In the program to the left, \java{Test.java}, write a \java{main} method that contains expressions that combine various types using the \java{+} operator.
+      For example, what happens when you ``add'' a \java{String} and a \java{char}?
+      Does it perform character addition or string concatenation?
+      What is the type of the result?
+      %(How can you determine the type of the result?)
+      
+      {Test your code}(sh .guides/bg.sh javac code/ch09/Test.java java -cp code/ch09/ Test 1)
+
+      \item Make a bigger copy of the following table and fill it in.
+      At the intersection of each pair of types, you should indicate whether it is legal to use the \java{+} operator with these types, the operation that is performed (addition or concatenation), and the type of the result.
+
+      {Check It!|assessment}(fill-in-the-blanks-2087744111)
+
+      \item Think about some of the choices the designers of Java made, based on this table.
+      How many of the entries seem unavoidable, as if there was no other choice?
+      How many seem like arbitrary choices from several equally reasonable possibilities?
+      Which entries seem most problematic?
+
+      \item Here's a puzzler: normally, the statement \java{x++} is exactly equivalent to \java{x = x + 1}.
+      But if \java{x} is a \java{char}, it's not exactly the same!
+      In that case, \java{x++} is legal, but \java{x = x + 1} causes an error.
+      Try it out.
+      See what the error message is, and then see if you can figure out what is going on.
+      
+      {Test your code}(sh .guides/bg.sh javac code/ch09/Test.java java -cp code/ch09/ Test 2)
+
+
+      \item What happens when you add \java{""} (the empty string) to the other types; for example, \java{"" + 5}?
+
+      %\item For each data type, what types of values can you assign to it?
+      %For example, you can assign an \java{int} to a \java{double} but not vice versa.
+
+      \end{enumerate}
+
   - name: Exercise 9.2
     type: section
     chapter: Immutable Objects
     section: Exercises
     before: false
-    markdown: |
-      hello markdown
+    latex: |
+
+      \index{factorial}
+
+      You might be sick of the \java{factorial} method by now, but we're going to do one more version.
+
+      \begin{enumerate}
+
+      \item Create a new program called {\it Big.java} and write an iterative version of \java{factorial} (using a \java{for} loop).
+
+      \item Display a table of the integers from 0 to 30 along with their factorials.
+      At some point around 15, you will probably see that the answers are not correct anymore.
+      Why not?
+
+      \item Convert \java{factorial} so that it performs its calculation using BigIntegers and returns a \java{BigInteger} as a result.
+      You can leave the parameter alone; it will still be an integer.
+
+      \item Try displaying the table again with your modified factorial method.
+      Is it correct up to 30?
+      How high can you make it go?
+      
+      {Test your code}(sh .guides/bg.sh javac code/ch09/Big.java java -cp code/ch09/ Big 1)
+
+      \end{enumerate}
+
   - name: Exercise 9.3
     type: section
     chapter: Immutable Objects
     section: Exercises
     before: false
-    markdown: |
-      hello markdown
+    latex: |
+
+      Many encryption algorithms depend on the ability to raise large integers to a power.
+      The class on the left contains a method `pow(int x, int n)` that implements an efficient algorithm for integer exponentiation.
+      
+      The problem with this method is that it works only if the result is small enough to be represented by an \java{int}.
+      Rewrite it so that the result is a \java{BigInteger}.
+      The parameters should still be integers, though.
+
+      You should use the \java{BigInteger} methods \java{add} and \java{multiply}.
+      But don't use \java{BigInteger.pow}; that would spoil the fun.
+      
+      {Test your code}(sh .guides/bg.sh javac code/ch09/Pow.java java -cp code/ch09/ Pow 1)
+
+
   - name: Exercise 9.4
     type: section
     chapter: Immutable Objects
     section: Exercises
     before: false
-    markdown: |
-      hello markdown
+    latex: |
+
+      %The purpose of this exercise is to practice using \java{BigInteger} and \java{BigDecimal}.
+
+      One way to calculate $e^x$ is to use the following infinite series expansion.
+      The $i$th term in the series is $x^i / i!$.
+      %
+      \[ e^x = 1 + x + x^2 / 2! + x^3 / 3! + x^4 / 4! + \ldots \]
+      %
+      \begin{enumerate}
+
+      \item Write a method called \java{myexp} that takes \java{x} and \java{n} as parameters and estimates $e^x$ by adding the first \java{n} terms of this series.
+      You can use the \java{factorial} method from Section~\ref{factorial} or your iterative version from the previous exercise.
+
+      {Test your code}(sh .guides/bg.sh javac code/ch09/MoreExponents.java java -cp code/ch09/ MoreExponents 1)
+      
+      \index{efficiency}
+
+      \item You can make this method more efficient by observing that the numerator of each term is the same as its predecessor multiplied by \java{x}, and the denominator is the same as its predecessor multiplied by \java{i}.
+
+      Use this observation to eliminate the use of \java{Math.pow} and \java{factorial}, and check that you get the same result.
+
+      \item Write a method called \java{check} that takes a parameter, \java{x}, and displays \java{x}, \java{myexp(x)}, and \java{Math.exp(x)}.
+      The output should look like this:
+
+      \begin{stdout}
+      1.0     2.708333333333333     2.718281828459045
+      \end{stdout}
+
+      Use the escape sequence \java{'\\t'} to display a tab character between each of the values.
+
+      \item Vary the number of terms in the series (the second argument that \java{check} sends to \java{myexp}) and see the effect on the accuracy of the result.
+      Adjust this value until the estimated value agrees with the correct answer when \java{x} is 1.
+      
+      {Test your code}(sh .guides/bg.sh javac code/ch09/MoreExponents.java java -cp code/ch09/ MoreExponents 2)
+      
+      \item Write a loop in \java{main} that invokes \java{check} with the values 0.1, 1.0, 10.0, and 100.0.
+      How does the accuracy of the result vary as \java{x} varies?
+      Compare the number of digits of agreement rather than the difference between the actual and estimated values.
+
+      \item Add a loop in \java{main} that checks \java{myexp} with the values -0.1, -1.0, -10.0, and -100.0.
+      Comment on the accuracy.
+      
+      \end{enumerate}
+      
+      {Test your code}(sh .guides/bg.sh javac code/ch09/MoreExponents.java java -cp code/ch09/ MoreExponents 3)
+      
   - name: Exercise 9.5
     type: section
     chapter: Immutable Objects
     section: Exercises
     before: false
-    markdown: |
-      hello markdown
+    latex: |
+
+      The goal of this exercise is to practice encapsulation and generalization using some of the examples in previous chapters.
+
+      \begin{enumerate}
+
+      \item Starting with the code in Section~\ref{traversal}, write a method called \java{powArray} that takes a \java{double} array, \java{a}, and returns a new array that contains the elements of \java{a} squared.
+      Generalize it to take a second argument and raise the elements of \java{a} to the given power.
+
+      \item Starting with the code in Section~\ref{enhanced}, write a method called \java{histogram} that takes an \java{int} array of scores from 0 to (but not including) 100, and returns a histogram of 100 counters.
+      Generalize it to take the number of counters as an argument.
+
+      \end{enumerate}
+      
+      {Test your code}(sh .guides/bg.sh javac code/ch09/MoreExponents.java java -cp code/ch09/ MoreExponents 1)
+      
+
   - name: Exercise 9.6
     type: section
     chapter: Immutable Objects
     section: Exercises
     before: false
-    markdown: |
-      hello markdown
+    latex: |
+
+      \index{encapsulation}
+      \index{generalization}
+
+      %The purpose of this exercise is to review encapsulation and generalization (see Section~\ref{encapsulation}).
+      The code to the left traverses a string and checks whether it has the same number of opening and closing parentheses. However, it is currently in the main method.
+
+      \begin{enumerate}
+
+      \item Move the code out of the main method. Instead, encapsulate it in a method that takes a string argument and returns the final value of \java{count}.
+
+      \item Test your method with multiple strings, including some that are balanced and some that are not.
+
+      \item Generalize the code so that it works on any string. What could you do to generalize it more?
+
+      \end{enumerate}
+      
+      {Test your code}(sh .guides/bg.sh javac code/ch09/Parens.java java -cp code/ch09/ Parens 1)
+      
+
