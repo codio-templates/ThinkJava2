@@ -1,4 +1,8 @@
-The previous result is similar to the “nested loops” approach in Section 6.4. However, the inner loop is now encapsulated in the `printRow` method. We can encapsulate the outer loop in a method too:
+The previous result is similar to the “nested loops” approach in Section 6.4. However, the inner loop is now encapsulated in the `printRow` method. We can encapsulate the outer loop in a method too. Try creating `public static void printTable()` with the code currently in the main method as the body of the function. Call the method from `main`. 
+Press "Run!" to see what happens. 
+{Run!}(sh .guides/bg.sh javac code/ch09/Tables.java java -cp code/ch09/ Tables 2)
+Here's what the code should look like when you're done: 
+
 
 ```code
 public static void printTable() {
@@ -8,7 +12,11 @@ public static void printTable() {
 }
 ```
 
-The initial version of `printTable` always displays six rows. We can generalize it by replacing the literal `6` with a parameter:
+The initial version of `printTable` always displays six rows. We can generalize it by replacing the literal `6` with a parameter, int `rows`. See if you can print different times tables by changing the argument in the method call. 
+Press "Run!" to see what happens. 
+{Run!}(sh .guides/bg.sh javac code/ch09/Tables.java java -cp code/ch09/ Tables 3)
+Here's what the method should look like when you're done:
+
 
 ```code
 public static void printTable(int rows) {
@@ -51,7 +59,10 @@ public static void printTable(int rows) {
 }
 ```
 
-When this line executes, it evaluates `rows` and passes the value, which is `7` in this example, as an argument. In `printRow`, this value is assigned to `cols`. As a result, the number of columns equals the number of rows, so we get a square \mbox{7 x 7} table, instead of the previous \mbox{7 x 6} table.
+When this line executes, it evaluates `rows` and passes the value, which is `7` in this example, as an argument. In `printRow`, this value is assigned to `cols`. As a result, the number of columns equals the number of rows, so we get a square 7 x 7 table, instead of the previous 7 x 6 table.
+Once you've made both of the above changes, press "Run!" to see what happens. 
+{Run!}(sh .guides/bg.sh javac code/ch09/Tables.java java -cp code/ch09/ Tables 4)
+
 
 
 When you generalize a method appropriately, you often find that it has capabilities you did not plan. For example, you might notice that the multiplication table is symmetric. Since $ab = ba$, all the entries in the table appear twice. You could save ink by printing half of the table, and you would have to change only *one line* of `printTable`:
@@ -72,4 +83,6 @@ This means the length of each row is the same as its row number. The result is a
    7  14  21  28  35  42  49
 ```
 
-Generalization makes code more versatile, more likely to be reused, and sometimes easier to write.
+Press "Run!" to see what happens. 
+{Run!}(sh .guides/bg.sh javac code/ch09/Tables.java java -cp code/ch09/ Tables 5)
+ Generalization makes code more versatile, more likely to be reused, and sometimes easier to write.

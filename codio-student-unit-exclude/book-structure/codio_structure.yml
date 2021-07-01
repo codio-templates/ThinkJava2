@@ -492,7 +492,6 @@ sections:
                 Press "Run!" to see what happens on the four test cases in the `main` method. 
                 {Run!}(sh .guides/bg.sh javac code/ch09/ArgValid.java java -cp code/ch09/ ArgValid )
                 
-                 
           position: 424
     configuration:
       layout: 2-panels
@@ -542,8 +541,90 @@ sections:
             action: open
   - name: "Incremental Design"
     type: section
+    transformations:
+        - remove: 9
+          position: 541
+        - add:  |
+               The starter code at the left is a loop that displays the multiples of two, all on one line. Press "Run!" to see what happens. 
+               {Run!}(sh .guides/bg.sh javac code/ch09/Tables.java java -cp code/ch09/ Tables 1)
+               
+          position: 550
+        - remove: 10
+          position: 568
+        - add:  |
+                 The next step is to `encapsulate` the code; that is, we "wrap" the code in a method. Create a new method `public static void printRow()`, move the code in `main` into it, and call the method from `main`. Press "Run!" to see what happens. 
+                 {Run!}(sh .guides/bg.sh javac code/ch09/Tables.java java -cp code/ch09/ Tables 2)
+
+                 Here's what the code should look like when you're done. 
+                   ```
+                   public class Tables {
+                    public static void main(String[] args) {
+                      printRow();
+                    }
+
+                    public static void printRow() {
+                      for (int i = 1; i <= 6; i++) {
+                        System.out.printf("%4d", 2 * i);
+                      }
+                      System.out.println();
+                    }
+
+                  }
+                  ```
+                
+          position: 578
+        - add:  |
+               Try generalizing the method, then press "Run!" to see what happens. (You'll have to pass an argument into the call in `main`.) {Run!}(sh .guides/bg.sh javac code/ch09/Tables.java java -cp code/ch09/ Tables 3)
+               Here's what the code should look like when you're done.
+          position: 584
+        - add:  |
+               Try copying that loop into the main method, and press "Run!" to see what happens. {Run!}(sh .guides/bg.sh javac code/ch09/Tables.java java -cp code/ch09/ Tables 4)
+               Here's what the code should look like when you're done.
+          position: 629
+          
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch09/Tables.java"
+            panel: 0
+            action: open
   - name: "More Generalization"
     type: section
+    transformations:
+        - remove: 1
+          position: 634
+        - add:  |
+               We can encapsulate the outer loop in a method too. Try creating `public static void printTable()` with the code currently in the main method as the body of the function. Call the method from `main`. 
+               Press "Run!" to see what happens. 
+               {Run!}(sh .guides/bg.sh javac code/ch09/Tables.java java -cp code/ch09/ Tables 2)
+               Here's what the code should look like when you're done: 
+               
+          position: 635
+        - remove: 1
+          position: 645
+        - add:  |
+               We can generalize it by replacing the literal `6` with a parameter, int `rows`. See if you can print different times tables by changing the argument in the method call. 
+               Press "Run!" to see what happens. 
+               {Run!}(sh .guides/bg.sh javac code/ch09/Tables.java java -cp code/ch09/ Tables 3)
+               Here's what the method should look like when you're done:
+               
+          position: 646
+        - remove: 1
+          position: 692
+        - add:  |
+               As a result, the number of columns equals the number of rows, so we get a square 7 x 7 table, instead of the previous 7 x 6 table.
+               Once you've made both of the above changes, press "Run!" to see what happens. 
+               {Run!}(sh .guides/bg.sh javac code/ch09/Tables.java java -cp code/ch09/ Tables 4)
+              
+          position: 693
+        - add:  |
+               Press "Run!" to see what happens. 
+               {Run!}(sh .guides/bg.sh javac code/ch09/Tables.java java -cp code/ch09/ Tables 5)
+              
+          position: 726
+          
   - name: "Vocabulary"
     type: section
   - name: "Exercises"
