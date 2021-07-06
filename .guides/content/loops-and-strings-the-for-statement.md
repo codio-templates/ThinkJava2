@@ -2,6 +2,7 @@ The loops we have written so far have three parts in common. They start by initi
 
 
 Running the same code multiple times is called **iteration**. It's so common that there is another statement, the `for` loop, that expresses it more concisely. For example, we can rewrite the 2-4-6-8 loop [ this way:](open_file code/ch06/Loops.java panel=0 ref="appreciate2" count=6)
+ [REMOVE HIGHLIGHT](open_file code/ch06/Loops.java panel=0 count=6)
 
 
 ```code
@@ -11,7 +12,7 @@ for (int i = 2; i <= 8; i += 2) {
 System.out.println("Who do we appreciate?");
 ```
 
-To see the output of this function, comment out all other functions besides the appreciate2 function. Press "Run!"
+To see the output of this function, comment out all other code in the main function besides lines 79 and 80. Press "Run!"
 {Run!}(sh .guides/bg.sh javac code/ch06/Loops.java java -cp code/ch06/ Loops )
  `for` loops have three components in parentheses, separated by semicolons: the initializer, the condition, and the update:
 
@@ -40,6 +41,7 @@ System.out.println("n is now " + n);  // compiler error
 ```
 
 The last line tries to display `n` (for no reason other than demonstration), but it won't work. If you need to use a loop variable outside the loop, you have to declare it {\em outside} the loop, [ like this:](open_file code/ch06/Loops.java panel=0 ref="loopvar" count=7)
+ [REMOVE HIGHLIGHT](open_file code/ch06/Loops.java panel=0 count=7)
 
 
 ```code
@@ -50,6 +52,6 @@ for (n = 3; n > 0; n--) {
 System.out.println("n is now " + n);
 ```
 
-To see the output of this function, comment out all other functions besides the loopvar function. Press "Run!"
+To see the output of this function, comment out all other code in the main function besides lines 82 and 83. Press "Run!"
 {Run!}(sh .guides/bg.sh javac code/ch06/Loops.java java -cp code/ch06/ Loops )
  Notice that the `for` statement does not say `int n = 3`. Rather, it simply initializes the existing variable `n`.

@@ -1,0 +1,30 @@
+[
+ {
+  "taskId": "multiple-choice-1484106663",
+  "points": 20,
+  "state": {
+   "active": "a652fdc1-f6dc-fa4c-afd9-e467a277f7f8"
+  },
+  "results": [
+   {
+    "guidance": "",
+    "current": [
+     "a652fdc1-f6dc-fa4c-afd9-e467a277f7f8"
+    ],
+    "right": [
+     "a652fdc1-f6dc-fa4c-afd9-e467a277f7f8"
+    ],
+    "timestamp": "2021-06-28T15:41:16.402Z",
+    "state": "pass"
+   }
+  ]
+ },
+ {
+  "taskId": "free-text-3069842210",
+  "points": 0,
+  "state": {
+   "text": ""
+  },
+  "results": []
+ }
+]

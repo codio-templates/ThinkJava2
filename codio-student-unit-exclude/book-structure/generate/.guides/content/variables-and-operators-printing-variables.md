@@ -1,4 +1,5 @@
 You can display the current value of a variable by using `print` or `println`. The following statements declare a variable named ```firstLine```, assign it the value ```"Hello, again!"```, and [ display that value:](open_file code/ch02/PrintingVars.java panel=0 ref="String firstLine" count=2)
+ [REMOVE HIGHLIGHT](open_file code/ch02/PrintingVars.java panel=0 count=2)
 
 
 ```code
@@ -8,6 +9,7 @@ System.out.println(firstLine);
 
 
 When we talk about displaying a variable, we generally mean the *value* of the variable. To display the name of a variable, you have to put it in [ quotes:](open_file code/ch02/PrintingVars.java panel=0 ref="The value" count=2)
+ [REMOVE HIGHLIGHT](open_file code/ch02/PrintingVars.java panel=0 count=2)
 
 
 ```code
@@ -22,6 +24,7 @@ The value of firstLine is Hello, again!
 ```
 
 Conveniently, the code for displaying a variable is the same regardless of its type. [For example:](open_file code/ch02/PrintingVars.java panel=0 ref="int hour" count=7)
+ [REMOVE HIGHLIGHT](open_file code/ch02/PrintingVars.java panel=0 count=7)
 
 
 ```code

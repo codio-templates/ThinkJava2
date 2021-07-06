@@ -1,4 +1,5 @@
 A more general solution is to use **floating-point** numbers, which represent values with decimal places. In Java, the default floating-point type is called `double`, which is short for “double-precision”. You can create ```double``` variables and assign values to them the same way we did for the [ other types:](open_file code/ch02/FloatingPoint.java panel=0 ref="double pi;" count=2)
+ [REMOVE HIGHLIGHT](open_file code/ch02/FloatingPoint.java panel=0 count=2)
 
 
 ```code
@@ -8,6 +9,7 @@ pi = 3.14159;
 
 
 Java performs *floating-point division* when one or more operands are `double` values. So we can solve the problem from the [ previous section:](open_file code/ch02/FloatingPoint.java panel=0 ref="double minute" count=3)
+ [REMOVE HIGHLIGHT](open_file code/ch02/FloatingPoint.java panel=0 count=3)
 
 
 ```code
@@ -47,6 +49,7 @@ double y = 1 / 3;  // common mistake
 You might expect the variable `y` to get the value `0.333333`, which is a legal floating-point value. But instead it gets the value `0.0`. The expression on the right divides two integers, so Java does integer division, which yields the `int` value `0`. Converted to `double`, the value assigned to `y` is `0.0`.
 
 One way to solve this problem (once you figure out the bug) is to make the right-hand side a floating-point expression. The following sets ```y``` to ```0.333333```, [ as expected:](open_file code/ch02/FloatingPoint.java panel=0 ref="double y" count=2)
+ [REMOVE HIGHLIGHT](open_file code/ch02/FloatingPoint.java panel=0 count=2)
 
 
 ```code

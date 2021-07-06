@@ -1,4 +1,5 @@
 Like conditional statements, loops can be nested one inside the other. Nested loops allow you to iterate over two variables. For example, we can generate a ``multiplication table'' [ like this:](open_file code/ch06/Loops.java panel=0 ref="nested" count=8)
+ [REMOVE HIGHLIGHT](open_file code/ch06/Loops.java panel=0 count=8)
 
 
 ```code
@@ -10,7 +11,7 @@ for (int x = 1; x <= 10; x++) {
 }
 ```
 
-To see the output of this function, comment out all other functions besides the nested function. Press "Run!"
+To see the output of this function, comment out all other code in the main function besides lines 85 and 86. Press "Run!"
 {Run!}(sh .guides/bg.sh javac code/ch06/Loops.java java -cp code/ch06/ Loops )
 
 

@@ -10,6 +10,7 @@ The `+` operator works with strings, but it might not do what you expect. For st
 Likewise if you have a variable called `name` that has type `String`, the expression `"Hello, " + name` appends the value of `name` to the hello string, which creates a personalized greeting.
 
 Since addition is defined for both numbers and strings, Java performs automatic conversions you may not [ expect:](open_file code/ch02/StringConcat.java panel=0 ref="System.out.println" count=5)
+ [REMOVE HIGHLIGHT](open_file code/ch02/StringConcat.java panel=0 count=5)
 
 
 ```code

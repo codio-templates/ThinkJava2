@@ -12,7 +12,9 @@ if (answer == "yes") {                 // wrong!
 
 The problem is that the `==` operator checks whether the two operands refer to the *same object*. Even if the answer is `"yes"`, it will refer to a different object in memory than the literal string `"yes"` in the code. You'll learn more about objects and references in the next chapter.
 
-The correct way to compare strings is with the `equals` method, like this:
+The correct way to compare strings is with the ```equals``` method, [ like this:](open_file code/ch06/Strings6.java panel=0 ref="answer.equals" count=3)
+ [REMOVE HIGHLIGHT](open_file code/ch06/Strings6.java panel=0 count=3)
+
 
 ```code
 if (answer.equals("yes")) {
@@ -23,7 +25,9 @@ if (answer.equals("yes")) {
 This example invokes `equals` on `answer` and passes `"yes"` as an argument. The `equals` method returns `true` if the strings contain the same characters; otherwise, it returns `false`.
 
 
-If two strings differ, we can use `compareTo` to see which comes first in alphabetical order:
+If two strings differ, we can use ```compareTo``` to see which comes first in [ alphabetical order:](open_file code/ch06/Strings6.java panel=0 ref="Alan Turing" count=14)
+ [REMOVE HIGHLIGHT](open_file code/ch06/Strings6.java panel=0 count=14)
+
 
 ```code
 String name1 = "Alan Turing";
@@ -44,3 +48,6 @@ If the first string (the one on which the method is invoked) comes earlier in th
 
 
 Both `equals` and `compareTo` are case-sensitive. In Unicode, uppercase letters come before lowercase letters. So `"Ada"` comes before `"ada"`.
+
+To compile and run this statement, press "Try It!"
+{try it|terminal}(javac code/ch06/Strings6.java &&java -cp code/ch06 Strings6 ) 
