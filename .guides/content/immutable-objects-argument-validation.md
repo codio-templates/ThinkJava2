@@ -28,7 +28,7 @@ The expression `str.charAt(0)` makes two assumptions: the string object referenc
 We can prevent these exceptions by validating `str` *at the start* of the method. If it's invalid, we return before executing the rest of the method, [as shown in the new version of the method at the left.](open_file code/ch09/ArgValid.java panel=0 ref="New" count=7)
 [Click to remove highlight](open_file code/ch09/ArgValid.java panel=0)
 Press "Run!" to see what happens on the four test cases in the `main` method. 
-{Run!}(sh .guides/bg.sh javac code/ch09/ArgValid.java java -cp code/ch09/ ArgValid )
+{Run!}(sh .guides/bg.sh javac code/ch09/ArgValid.java java -cp code/ch09/ ArgValid 0)
 
 
 Notice that `null` and *empty* are different concepts, as shown in Figure 9.5. The variable `str1` is `null`, meaning that it doesn't reference an object. The variable `str2` refers to the empty string, an object that exists.

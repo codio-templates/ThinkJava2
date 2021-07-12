@@ -14,7 +14,7 @@ The value `null` is represented in memory diagrams by a small box with no arrow,
 
 If you try to use a variable that is `null` by invoking a method or accessing an element, Java throws a `NullPointerException`, as in the two cases [on the left.](open_file code/ch09/Objects.java panel=0 ref="NullPointerException" count=2)
 To see what a NullPointerException looks like, try removing the comments from the two lines of code and clicking "Run!" below.
-{Run!}(sh .guides/bg.sh javac code/ch09/Objects.java java -cp code/ch09/ Objects )
+{Run!}(sh .guides/bg.sh javac code/ch09/Objects.java java -cp code/ch09/ Objects 0)
 [Click to remove highlight](open_file code/ch09/Objects.java panel=0)
 
 

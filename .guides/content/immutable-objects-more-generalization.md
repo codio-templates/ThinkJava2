@@ -1,6 +1,6 @@
 The previous result is similar to the “nested loops” approach in Section 6.4. However, the inner loop is now encapsulated in the `printRow` method. We can encapsulate the outer loop in a method too. Try creating `public static void printTable()` with the code currently in the main method as the body of the function. Call the method from `main`. 
 Press "Run!" to see what happens. 
-{Run!}(sh .guides/bg.sh javac code/ch09/Tables.java java -cp code/ch09/ Tables 2)
+{Run!}(sh .guides/bg.sh javac code/ch09/Tables.java java -cp code/ch09/ Tables 5)
 Here's what the code should look like when you're done: 
 
 
@@ -14,7 +14,7 @@ public static void printTable() {
 
 The initial version of `printTable` always displays six rows. We can generalize it by replacing the literal `6` with a parameter, int `rows`. See if you can print different times tables by changing the argument in the method call. 
 Press "Run!" to see what happens. 
-{Run!}(sh .guides/bg.sh javac code/ch09/Tables.java java -cp code/ch09/ Tables 3)
+{Run!}(sh .guides/bg.sh javac code/ch09/Tables.java java -cp code/ch09/ Tables 6)
 Here's what the method should look like when you're done:
 
 
@@ -61,7 +61,7 @@ public static void printTable(int rows) {
 
 When this line executes, it evaluates `rows` and passes the value, which is `7` in this example, as an argument. In `printRow`, this value is assigned to `cols`. As a result, the number of columns equals the number of rows, so we get a square 7 x 7 table, instead of the previous 7 x 6 table.
 Once you've made both of the above changes, press "Run!" to see what happens. 
-{Run!}(sh .guides/bg.sh javac code/ch09/Tables.java java -cp code/ch09/ Tables 4)
+{Run!}(sh .guides/bg.sh javac code/ch09/Tables.java java -cp code/ch09/ Tables 7)
 
 
 
@@ -84,5 +84,5 @@ This means the length of each row is the same as its row number. The result is a
 ```
 
 Press "Run!" to see what happens. 
-{Run!}(sh .guides/bg.sh javac code/ch09/Tables.java java -cp code/ch09/ Tables 5)
+{Run!}(sh .guides/bg.sh javac code/ch09/Tables.java java -cp code/ch09/ Tables 8)
  Generalization makes code more versatile, more likely to be reused, and sometimes easier to write.
