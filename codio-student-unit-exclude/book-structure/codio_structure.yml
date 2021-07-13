@@ -1261,32 +1261,201 @@ sections:
     type: section
   - name: "Mutable Objects"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Point Objects"
     type: section
+    transformations:
+        - remove: 1
+          position: 30
+        - add: In order to use the ```Point``` class, you have to
+          position: 31
+        - add:  |
+                 [ import it:](open_file code/ch10/PointObjects.java panel=0 ref="java.awt.Point" count=1)
+
+          position: 31
+        - add:  |
+                 [REMOVE HIGHLIGHT](open_file code/ch10/PointObjects.java panel=0 count=1)
+
+          position: 36
+        - remove: 1
+          position: 39
+        - add: Then, to create a new point, you use the ```new```
+          position: 40
+        - add:  |
+                 [ operator:](open_file code/ch10/PointObjects.java panel=0 ref="Point blank" count=2)
+
+          position: 40
+        - add:  |
+                 [REMOVE HIGHLIGHT](open_file code/ch10/PointObjects.java panel=0 count=1)
+
+          position: 46
+        - remove: 1
+          position: 80
+        - add:  |
+                 [For example:](open_file code/ch10/PointObjects.java panel=0 ref="int x" count=1)
+
+          position: 81
+        - add:  |
+                 [REMOVE HIGHLIGHT](open_file code/ch10/PointObjects.java panel=0 count=1)
+
+          position: 86
+        - remove: 1
+          position: 93
+        - add:  |
+                 [For example:](open_file code/ch10/PointObjects.java panel=0 ref="System" count=2)
+
+          position: 94
+        - add:  |
+                 [REMOVE HIGHLIGHT](open_file code/ch10/PointObjects.java panel=0 count=1)
+
+          position: 100
+        - add:  |
+                 To compile and run this statement, press "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch10/PointObjects.java java -cp code/ch10/ PointObjects )
+
+          position: 100
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch10/PointObjects.java"
+            panel: 0
+            action: open
   - name: "Objects as Parameters"
     type: section
+    transformations:
+        - remove: 1
+          position: 110
+        - add:  |
+                 [For example:](open_file code/ch10/ObjectPar.java panel=0 ref="printPoint" count=3)
+
+          position: 111
+        - add:  |
+                 [REMOVE HIGHLIGHT](open_file code/ch10/ObjectPar.java panel=0 count=1)
+
+          position: 120
+        - remove: 1
+          position: 123
+        - add: As another example, we can rewrite the ```distance``` method from Section 4.6 so that it takes two ```Point```s as parameters instead of
+          position: 124
+        - add:  |
+                 [ four doubles:](open_file code/ch10/ObjectPar.java panel=0 ref="double distance" count=4)
+
+          position: 124
+        - add:  |
+                 [REMOVE HIGHLIGHT](open_file code/ch10/ObjectPar.java panel=0 count=4)
+
+          position: 133
+        - remove: 1
+          position: 136
+        - add: To compute the distance between two points, we invoke ```distance``` on one and pass the other as
+          position: 137
+        - add:  |
+                 [ an argument:](open_file code/ch10/ObjectPar.java panel=0 ref="Point p1" count=5)
+
+          position: 137
+        - add:  |
+                 [REMOVE HIGHLIGHT](open_file code/ch10/ObjectPar.java panel=0 count=5)
+
+          position: 144
+        - add:  |
+                 To compile and run the highlighted statement, press "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch10/ObjectPar.java java -cp code/ch10/ ObjectPar )
+
+          position: 144
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch10/ObjectPar.java"
+            panel: 0
+            action: open
   - name: "Objects as Return Values"
     type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch10/ObjectReturn.java"
+            panel: 0
+            action: open          
   - name: "Rectangles Are Mutable"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Aliasing Revisited"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Java Library Source"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Class Diagrams"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Scope Revisited"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Garbage Collection"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Mutable vs Immutable"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "StringBuilder Objects"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Vocabulary"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Exercises"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Designing Classes"
     type: chapter
   - name: "The Time Class"

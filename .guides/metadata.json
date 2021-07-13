@@ -1978,8 +1978,14 @@
     {
       "chapter": true,
       "content-file": ".guides/content/mutable-objects.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "mutable-objects",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1990,8 +1996,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/mutable-objects-point-objects.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch10/PointObjects.java"
+        }
+      ],
       "id": "mutable-objects-point-objects",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2002,8 +2019,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/mutable-objects-objects-as-parameters.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch10/ObjectPar.java"
+        }
+      ],
       "id": "mutable-objects-objects-as-parameters",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2014,8 +2042,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/mutable-objects-objects-as-return-values.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch10/ObjectReturn.java"
+        }
+      ],
       "id": "mutable-objects-objects-as-return-values",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2026,8 +2065,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/mutable-objects-rectangles-are-mutable.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "mutable-objects-rectangles-are-mutable",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2038,8 +2083,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/mutable-objects-aliasing-revisited.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "mutable-objects-aliasing-revisited",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2050,8 +2101,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/mutable-objects-java-library-source.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "mutable-objects-java-library-source",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2062,8 +2119,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/mutable-objects-class-diagrams.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "mutable-objects-class-diagrams",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2074,8 +2137,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/mutable-objects-scope-revisited.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "mutable-objects-scope-revisited",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2086,8 +2155,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/mutable-objects-garbage-collection.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "mutable-objects-garbage-collection",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2098,8 +2173,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/mutable-objects-mutable-vs-immutable.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "mutable-objects-mutable-vs-immutable",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2110,8 +2191,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/mutable-objects-stringbuilder-objects.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "mutable-objects-stringbuilder-objects",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2122,8 +2209,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/mutable-objects-vocabulary.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "mutable-objects-vocabulary",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2134,8 +2227,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/mutable-objects-exercises.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "mutable-objects-exercises",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
