@@ -955,9 +955,7 @@ insert_sections:
       
       {Test your code}(sh .guides/bg.sh javac code/ch09/Test.java java -cp code/ch09/ Test 1)
 
-      \item Make a bigger copy of the following table and fill it in.
-      At the intersection of each pair of types, you should indicate whether it is legal to use the \java{+} operator with these types, the operation that is performed (addition or concatenation), and the type of the result.
-
+      \item  Make a bigger copy of the following table and fill it in. At the intersection of each pair of types, you should indicate whether it is legal to use the `+` operator with these types by indicating `Yes` or `No` in the table. (For the `String` type, exclude empty-string concatenation for now. This is a special case that you should try in #5.) Also, consider for each case - is this addition or concatenation? What is the data type of the result?
       {Check It!|assessment}(fill-in-the-blanks-2087744111)
 
       \item Think about some of the choices the designers of Java made, based on this table.
@@ -1027,6 +1025,8 @@ insert_sections:
 
       You should use the \java{BigInteger} methods \java{add} and \java{multiply}.
       But don't use \java{BigInteger.pow}; that would spoil the fun.
+      
+      Add a main method and some function calls, then test your code using the class below.
       
       {Test your code}(sh .guides/bg.sh javac code/ch09/Pow.java java -cp code/ch09/ Pow 1)
 
