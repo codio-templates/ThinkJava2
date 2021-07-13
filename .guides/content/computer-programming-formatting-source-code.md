@@ -26,13 +26,14 @@ So even the code on the lower left is legal. To compile and run the code, press 
 
 It still works, but the program is getting harder and harder to read. Newlines and spaces are important for visually organizing your program, making it easier to understand the program and find errors when they occur.
 
-Many editors will automatically format source code with consistent indenting and line breaks. For example, in DrJava (see Appendix 18.1) you can indent your code by selecting all text (**Ctrl+A**) and pressing the **Tab** key.
+Many editors will automatically format source code with consistent indenting and line breaks.
 
 
 
 
 
 
-Organizations that do a lot of software development usually have strict guidelines on how to format source code. For example, Google publishes its Java coding standards for use in open source projects: [https://google.github.io/styleguide/javaguide.html](https://google.github.io/styleguide/javaguide.html).
+Organizations that do a lot of software development usually have strict guidelines on how to format source code. For example, Google publishes its Java coding standards for use in open source projects: [click here](open_link https://google.github.io/styleguide/javaguide.html panel=0) to learn more.
+
 
 You probably won't understand these guidelines now, because they refer to language features you haven't yet seen. But you might want to refer to them periodically as you read this book.

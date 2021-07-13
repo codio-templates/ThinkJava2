@@ -184,6 +184,14 @@ sections:
                  {Run!}(sh .guides/bg.sh javac code/2/Goodbye.java java -cp code/2/ Goodbye )
 
           position: 362
+        - remove: 1
+          position: 372
+        - remove: 1
+          position: 389
+        - add: |
+                 For example, Google publishes its Java coding standards for use in open source projects: [click here](open_link https://google.github.io/styleguide/javaguide.html panel=0) to learn more.
+
+          position: 390
     configuration:
       layout: 3-cell
       files:
@@ -207,6 +215,15 @@ sections:
                  {Run!}(sh .guides/bg.sh javac code/ch01/Hello3.java java -cp code/ch01/ Hello3 1)
 
           position: 405
+        - remove: 5
+          position: 416
+        - add: |
+                 
+                 ```java
+                  Hello!
+                  How are you doing?
+                  ```
+          position: 421
         - remove: 5
           position: 448
         - add: |

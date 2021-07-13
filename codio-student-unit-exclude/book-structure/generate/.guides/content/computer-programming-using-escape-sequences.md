@@ -6,12 +6,12 @@ To compile and run the code, comment out line 5 using a `//` and press the "Run!
 
 
 
-The output is two lines, each ending with a newline character:
+The output is two lines, each ending with a newline character: 
+```java
+ Hello!
+ How are you doing?
+ ```
 
-```code
-Hello!
-How are you doing?
-```
 
 
 Each `\n` is an **escape sequence**, or two characters of source code that represent a single character. (The backslash allows you to *escape* the string to write special characters.) Notice there is no space between `\n` and `How`. If you add a space there, there will be a space at the beginning of the second line.
