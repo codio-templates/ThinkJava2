@@ -24,4 +24,5 @@ And then the song (finally) ends.
 Write a program that displays the entire lyrics of “99 Bottles of Beer”. 
 Your program should include a recursive method that does the hard part, but you might want to write additional methods to separate other parts of the program.
 As you develop your code, test it with a small number of verses, like `3`.
+Once you have written your function and added test cases, run your code here.
 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ ExerciseScript )

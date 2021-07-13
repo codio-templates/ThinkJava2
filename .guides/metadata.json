@@ -2362,8 +2362,14 @@
     {
       "chapter": true,
       "content-file": ".guides/content/arrays-of-objects.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "arrays-of-objects",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2374,8 +2380,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-of-objects-card-objects.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch12/CardClass.java"
+        }
+      ],
       "id": "arrays-of-objects-card-objects",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2386,8 +2403,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-of-objects-card-tostring.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch12/Card1.java"
+        }
+      ],
       "id": "arrays-of-objects-card-tostring",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2398,8 +2426,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-of-objects-class-variables.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch12/Card2.java"
+        }
+      ],
       "id": "arrays-of-objects-class-variables",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2410,8 +2449,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-of-objects-the-compareto-method.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch12/Card4.java"
+        }
+      ],
       "id": "arrays-of-objects-the-compareto-method",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2422,8 +2472,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-of-objects-cards-are-immutable.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch12/Card.java"
+        }
+      ],
       "id": "arrays-of-objects-cards-are-immutable",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2434,8 +2495,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-of-objects-arrays-of-cards.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch12/Search6.java"
+        }
+      ],
       "id": "arrays-of-objects-arrays-of-cards",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],

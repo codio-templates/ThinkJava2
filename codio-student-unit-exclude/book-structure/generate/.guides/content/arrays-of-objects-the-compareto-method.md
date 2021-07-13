@@ -1,4 +1,6 @@
-As you saw in Section 11.7, it's helpful to create an `equals` method to test whether two objects are equivalent:
+As you saw in Section 11.7, it’s helpful [to create an equals method to test whether two objects are equivalent:](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Card4.java panel=0 ref="public boolean equals" count=4)
+[Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Card4.java panel=0)
+
 
 ```code
 public boolean equals(Card that) {
@@ -18,7 +20,9 @@ Some types are “totally ordered”, which means that you can compare any two v
 The set of playing cards is “partially ordered”, which means that sometimes we can compare cards and sometimes not. For example, we know that the 3 of Clubs is higher than the 2 of Clubs, and the 3 of Diamonds is higher than the 3 of Clubs. But which is better, the 3 of Clubs or the 2 of Diamonds? One has a higher rank, but the other has a higher suit.
 
 
-To make cards comparable, we have to decide which is more important: rank or suit. The choice is arbitrary, and it might be different for different games. But when you buy a new deck of cards, it comes sorted with all the Clubs together, followed by all the Diamonds, and so on. So for now, let's say that suit is more important. With that decided, we can write `compareTo` as follows:
+To make cards comparable, we have to decide which is more important: rank or suit. The choice is arbitrary, and it might be different for different games. But when you buy a new deck of cards, it comes sorted with all the Clubs together, followed by all the Diamonds, and so on. So for now, let's say that suit is more important. [With that decided, we can write compareTo as follows:](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Card4.java panel=0 ref="public int compareTo" count=15)
+[Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Card4.java panel=0)
+
 
 ```code
 public int compareTo(Card that) {
@@ -39,3 +43,6 @@ public int compareTo(Card that) {
 ```
 
 `compareTo` returns `-1` if `this` is a lower card, `+1` if `this` is a higher card, and `0` if `this` and `that` are equivalent. It compares suits first. If the suits are the same, it compares ranks. If the ranks are also the same, it returns `0`.
+
+Try it out here.
+{Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch12/Card4.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch12/ Card4 )

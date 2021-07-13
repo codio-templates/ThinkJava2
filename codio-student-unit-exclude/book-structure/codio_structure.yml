@@ -1054,18 +1054,170 @@ sections:
     type: section
   - name: "Arrays of Objects"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Card Objects"
     type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "codio-student-unit-exclude/ThinkJava2/code/ch12/CardClass.java"
+            panel: 0
+            action: open
   - name: "Card toString"
     type: section
+    transformations:
+       - remove: 1
+         position: 134
+       - add:  |
+                 Or we can [create the array and initialize the elements at the same time,](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Card1.java panel=0 ref="public static final String[] SUITS" count=2) as you saw in Section 7.3.
+                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Card1.java panel=0)
+
+         position: 135
+       - remove: 1
+         position: 156
+       - add:  |
+                 [We also need an array to decode the ranks:](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Card1.java panel=0 ref="public static final String[] RANKS" count=3)
+                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Card1.java panel=0)
+
+         position: 157
+       - remove: 1
+         position: 166
+       - add:  |
+                 Using these arrays [we can create a meaningful String](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Card1.java panel=0 ref="return RANKS[this.rank]" count=1) by using ``suit`` and ``rank`` as indexes.
+                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Card1.java panel=0)
+
+         position: 167
+       - remove: 1
+         position: 175
+       - add:  |
+                 [Now we can wrap all the previous code in a toString method:](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Card1.java panel=0 ref="public String toString" count=3)
+                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Card1.java panel=0)
+
+         position: 176
+       - remove: 1
+         position: 188
+       - add:  |
+                 The output of the [following code](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Card1.java panel=0 ref="Card card" count=2) is ``Jack`` of ``Diamonds``.
+                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Card1.java panel=0)
+
+         position: 189
+       - add:  |
+                 Give it a shot here.
+                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch12/Card1.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch12/ Card1 )
+
+         position: 195
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "codio-student-unit-exclude/ThinkJava2/code/ch12/Card1.java"
+            panel: 0
+            action: open
   - name: "Class Variables"
     type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "codio-student-unit-exclude/ThinkJava2/code/ch12/Card2.java"
+            panel: 0
+            action: open
   - name: "The compareTo Method"
     type: section
+    transformations:
+       - remove: 1
+         position: 258
+       - add:  |
+                 As you saw in Section 11.7, it’s helpful [to create an equals method to test whether two objects are equivalent:](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Card4.java panel=0 ref="public boolean equals" count=4)
+                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Card4.java panel=0)
+
+         position: 259
+       - remove: 1
+         position: 298
+       - add:  |
+                 [With that decided, we can write compareTo as follows:](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Card4.java panel=0 ref="public int compareTo" count=15)
+                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Card4.java panel=0)
+
+         position: 299
+       - add:  |
+                 Try it out here.
+                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch12/Card4.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch12/ Card4 )
+
+         position: 323
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "codio-student-unit-exclude/ThinkJava2/code/ch12/Card4.java"
+            panel: 0
+            action: open
   - name: "Cards Are Immutable"
     type: section
+    transformations:
+       - remove: 1
+         position: 327
+       - add:  |
+                 We can provide [getters](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Card.java panel=0 ref="* Gets the card's rank." count=12) to allow other classes to read the rank and suit values:
+                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Card.java panel=0)
+
+         position: 328
+       - remove: 1
+         position: 350
+       - add:  |
+                 We can prevent that possibility by declaring the instance variables [final:](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Card.java panel=0 ref="private final int" count=3)
+                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Card.java panel=0)
+
+         position: 351
+         
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "codio-student-unit-exclude/ThinkJava2/code/ch12/Card.java"
+            panel: 0
+            action: open
   - name: "Arrays of Cards"
     type: section
+    transformations:
+       - remove: 1
+         position: 382
+       - add:  |
+                 [The following statement](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Search6.java panel=0 ref="Card[] cards" count=1) creates an array of 52 cards.
+                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Search6.java panel=0)
+
+         position: 383
+       - remove: 1
+         position: 425
+       - add:  |
+                 One way to populate the array [is to write nested for loops:](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Search6.java panel=0 ref="int index = 0;" count=7)
+                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Search6.java panel=0)
+
+         position: 426
+       - remove: 1
+         position: 455
+       - add:  |
+                 You have seen the pattern for traversing an array several times, [so the following method should be familiar:](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Search6.java panel=0 ref="public static void printDeck" count=5)
+                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Search6.java panel=0)
+
+         position: 456
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "codio-student-unit-exclude/ThinkJava2/code/ch12/Search6.java"
+            panel: 0
+            action: open
   - name: "Sequential Search"
     type: section
   - name: "Binary Search"
