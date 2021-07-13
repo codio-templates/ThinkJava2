@@ -19,8 +19,8 @@ public class Objects {
 
         String name0 = null;
         int[] combo = null;
-//         System.out.println(name0.length());  // NullPointerException
-//         System.out.println(combo[0]);        // NullPointerException
+        // System.out.println(name0.length());  // NullPointerException
+        // System.out.println(combo[0]);        // NullPointerException
 
         // Strings are immutable
 

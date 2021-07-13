@@ -1,98 +1,10 @@
 [
  {
   "taskId": "fill-in-the-blanks-2087744111",
-  "points": 20,
+  "points": 0,
   "state": {
-   "active": [
-    "Yes",
-    "No",
-    "No",
-    "No",
-    "No",
-    "No",
-    "Yes",
-    "No",
-    "No",
-    "Yes",
-    "No",
-    "No",
-    "Yes",
-    "Yes",
-    "No",
-    "No",
-    "No",
-    "Yes",
-    "Yes",
-    "No",
-    "No",
-    "Yes",
-    "No",
-    "No",
-    "Yes"
-   ]
+   "active": []
   },
-  "results": [
-   {
-    "points": 20,
-    "guidance": "",
-    "attemptsCount": 0,
-    "timestamp": "2021-07-13T13:09:51.719Z",
-    "current": [
-     "Yes",
-     "No",
-     "No",
-     "No",
-     "No",
-     "No",
-     "Yes",
-     "No",
-     "No",
-     "Yes",
-     "No",
-     "No",
-     "Yes",
-     "Yes",
-     "No",
-     "No",
-     "No",
-     "Yes",
-     "Yes",
-     "No",
-     "No",
-     "Yes",
-     "No",
-     "No",
-     "Yes"
-    ],
-    "right": [
-     "Yes",
-     "No",
-     "No",
-     "No",
-     "No",
-     "No",
-     "Yes",
-     "No",
-     "No",
-     "Yes",
-     "No",
-     "No",
-     "Yes",
-     "Yes",
-     "No",
-     "No",
-     "No",
-     "Yes",
-     "Yes",
-     "No",
-     "No",
-     "Yes",
-     "No",
-     "No",
-     "Yes"
-    ],
-    "state": "pass"
-   }
-  ]
+  "results": []
  }
 ]
