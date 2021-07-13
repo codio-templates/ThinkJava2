@@ -4,4 +4,6 @@ The problem with this method is that it works only if the result is small enough
 
 You should use the `BigInteger` methods `add` and `multiply`. But don't use `BigInteger.pow`; that would spoil the fun.
 
+Add a main method and some function calls, then test your code using the class below.
+
 {Test your code}(sh .guides/bg.sh javac code/ch09/Pow.java java -cp code/ch09/ Pow 1)
