@@ -10,6 +10,9 @@ public class GuessStarter {
         Random random = new Random();
         int number = random.nextInt(100) + 1;
         System.out.println(number);
+      
+      
+      
     }
 
 }
