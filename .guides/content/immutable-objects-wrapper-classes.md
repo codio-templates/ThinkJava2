@@ -8,7 +8,7 @@ System.out.println(i.equals(5));  // compiler error
 
 But for each primitive type, there is a corresponding **wrapper class** in the Java library. The wrapper class for `int` is named `Integer`, with a capital `I`. The above example works when you change the data type to `Integer`, as seen [on the left.](open_file code/ch09/Objects.java panel=0 ref="Integer" count=2)
 Remove the comments from this code and press "Run!" to see what happens. 
-{Run!}(sh .guides/bg.sh javac code/ch09/Objects.java java -cp code/ch09/ Objects )
+{Run!}(sh .guides/bg.sh javac code/ch09/Objects.java java -cp code/ch09/ Objects 5)
 [Click to remove highlight](open_file code/ch09/Objects.java panel=0)
  
 
@@ -17,7 +17,7 @@ Other wrapper classes include `Boolean`, `Character`, `Double`, and `Long`. They
 
 Like strings, objects from wrapper classes are immutable, and you have to use the `equals` method to compare them, as in the example [on the left.](open_file code/ch09/Objects.java panel=0 ref="Integer x" count=8)
 Remove the comments from this code and press "Run!" to see what happens. 
-{Run!}(sh .guides/bg.sh javac code/ch09/Objects.java java -cp code/ch09/ Objects )
+{Run!}(sh .guides/bg.sh javac code/ch09/Objects.java java -cp code/ch09/ Objects 6)
 [Click to remove highlight](open_file code/ch09/Objects.java panel=0)
 **Note**: for some reason this is printing out the first statement even though the first condition should be false.
  
@@ -32,12 +32,12 @@ Wrapper classes also provide methods for converting strings to and from primitiv
 
 For an example usage of `parseInt()`, look at the example [on the left.](open_file code/ch09/Objects.java panel=0 ref="String str" count=2)
 Remove the comments from this code and press "Run!" to see what happens. 
-{Run!}(sh .guides/bg.sh javac code/ch09/Objects.java java -cp code/ch09/ Objects )
+{Run!}(sh .guides/bg.sh javac code/ch09/Objects.java java -cp code/ch09/ Objects 7)
 [Click to remove highlight](open_file code/ch09/Objects.java panel=0)
  
  Other wrapper classes provide similar methods, like `Double.parseDouble` and `Boolean.parseBoolean`. They also provide `toString`, which returns a string representation of a value, as seen [on the left.](open_file code/ch09/Objects.java panel=0 ref="toString" count=3)
 Remove the comments from this code and press "Run!" to see what happens. 
-{Run!}(sh .guides/bg.sh javac code/ch09/Objects.java java -cp code/ch09/ Objects )
+{Run!}(sh .guides/bg.sh javac code/ch09/Objects.java java -cp code/ch09/ Objects 8)
 [Click to remove highlight](open_file code/ch09/Objects.java panel=0)
  
 

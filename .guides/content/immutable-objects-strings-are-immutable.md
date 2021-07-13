@@ -11,18 +11,18 @@ You'll need to remove the comments from these lines of code in order to run the 
 
 After these statements run, `upperName` refers to the string `"ALAN TURING"`. But `name` still refers to `"Alan Turing"`. A common mistake is to assume that `toUpperCase` somehow affects the original string, as in [this code on the left.](open_file code/ch09/Objects.java panel=0 ref="ignores" count=2)
 Remove the comments from this code and press "Run!" to see what happens. 
-{Run!}(sh .guides/bg.sh javac code/ch09/Objects.java java -cp code/ch09/ Objects )
+{Run!}(sh .guides/bg.sh javac code/ch09/Objects.java java -cp code/ch09/ Objects 2)
 [Click to remove highlight](open_file code/ch09/Objects.java panel=0)
  The previous code displays `"Alan Turing"`, because the value of `name`, which refers to the original `String` object, never changes. If you want to change `name` to be uppercase, then you need to assign the return value: as in [this code on the left.](open_file code/ch09/Objects.java panel=0 ref="references" count=2)
 Remove the comments from this code and press "Run!" to see what happens. 
-{Run!}(sh .guides/bg.sh javac code/ch09/Objects.java java -cp code/ch09/ Objects )
+{Run!}(sh .guides/bg.sh javac code/ch09/Objects.java java -cp code/ch09/ Objects 3)
 [Click to remove highlight](open_file code/ch09/Objects.java panel=0)
 
 
 
 A similar method is `replace`, which finds and replaces instances of one string within another. [This example](open_file code/ch09/Objects.java panel=0 ref="Computer Science" count=2) replaces `"Computer Science"` with `"CS"`.
 Remove the comments from this code and press "Run!" to see what happens. 
-{Run!}(sh .guides/bg.sh javac code/ch09/Objects.java java -cp code/ch09/ Objects )
+{Run!}(sh .guides/bg.sh javac code/ch09/Objects.java java -cp code/ch09/ Objects 4)
 [Click to remove highlight](open_file code/ch09/Objects.java panel=0)
 
 
