@@ -454,7 +454,7 @@ sections:
         - remove: 12
           position: 334
         - add:  |
-                The code [on the left](open_file code/ch09/Max.java panel=0 ref="int max" count=7) uses an enhanced `for` loop (see Section~\ref{enhanced}) to parse the arguments and find the largest value.
+                The code [on the left](open_file code/ch09/Max.java panel=0 ref="int max" count=7) uses an enhanced `for` loop (see Section 7.8) to parse the arguments and find the largest value.
  
           position: 346
         - remove: 8
