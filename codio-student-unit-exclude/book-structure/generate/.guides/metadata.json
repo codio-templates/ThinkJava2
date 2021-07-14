@@ -1954,8 +1954,14 @@
     {
       "chapter": true,
       "content-file": ".guides/content/objects-of-arrays.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "objects-of-arrays",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1966,8 +1972,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/objects-of-arrays-decks-of-cards.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch13/Deck.java"
+        }
+      ],
       "id": "objects-of-arrays-decks-of-cards",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
