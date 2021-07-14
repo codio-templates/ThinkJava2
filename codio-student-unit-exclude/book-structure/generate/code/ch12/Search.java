@@ -46,7 +46,6 @@ public class Search {
         int low = 0;
         int high = cards.length - 1;
         while (low <= high) {
-            System.out.println(low + ", " + high);
 
             int mid = (low + high) / 2;                 // step 1
             int comp = cards[mid].compareTo(target);

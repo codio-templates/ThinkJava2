@@ -1105,7 +1105,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples1.java"
+          "path": "code/ch07/ArrayExamples1.java"
         }
       ],
       "id": "arrays-and-references-creating-arrays",
@@ -1128,7 +1128,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples2.java"
+          "path": "code/ch07/ArrayExamples2.java"
         }
       ],
       "id": "arrays-and-references-accessing-elements",
@@ -1151,7 +1151,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples3.java"
+          "path": "code/ch07/ArrayExamples3.java"
         }
       ],
       "id": "arrays-and-references-displaying-arrays",
@@ -1174,7 +1174,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples4.java"
+          "path": "code/ch07/ArrayExamples4.java"
         }
       ],
       "id": "arrays-and-references-copying-arrays",
@@ -1197,7 +1197,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples5.java"
+          "path": "code/ch07/ArrayExamples5.java"
         }
       ],
       "id": "arrays-and-references-traversing-arrays",
@@ -1220,7 +1220,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch07/RandomNum.java"
+          "path": "code/ch07/RandomNum.java"
         }
       ],
       "id": "arrays-and-references-random-numbers",
@@ -1243,7 +1243,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch07/Histogram.java"
+          "path": "code/ch07/Histogram.java"
         }
       ],
       "id": "arrays-and-references-building-a-histogram",
@@ -1266,7 +1266,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples6.java"
+          "path": "code/ch07/ArrayExamples6.java"
         }
       ],
       "id": "arrays-and-references-the-enhanced-for-loop",
@@ -1348,7 +1348,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch07/Fruit.java"
+          "path": "code/ch07/Fruit.java"
         }
       ],
       "id": "arrays-and-references-exercise-7-1",
@@ -1371,7 +1371,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch07/MakeDubMus.java"
+          "path": "code/ch07/MakeDubMus.java"
         }
       ],
       "id": "arrays-and-references-exercise-7-2",
@@ -1394,7 +1394,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch07/ExerciseScript3.java"
+          "path": "code/ch07/ExerciseScript3.java"
         }
       ],
       "id": "arrays-and-references-exercise-7-3",
@@ -1417,7 +1417,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch07/ExerciseScript4.java"
+          "path": "code/ch07/ExerciseScript4.java"
         }
       ],
       "id": "arrays-and-references-exercise-7-4",
@@ -1440,7 +1440,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch07/ExerciseScript5.java"
+          "path": "code/ch07/ExerciseScript5.java"
         }
       ],
       "id": "arrays-and-references-exercise-7-5",
@@ -1463,7 +1463,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch07/ExerciseScript6.java"
+          "path": "code/ch07/ExerciseScript6.java"
         }
       ],
       "id": "arrays-and-references-exercise-7-6",
@@ -1486,7 +1486,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch07/ExerciseScript7.java"
+          "path": "code/ch07/ExerciseScript7.java"
         }
       ],
       "id": "arrays-and-references-exercise-7-7",
@@ -1509,7 +1509,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch07/ExerciseScript8.java"
+          "path": "code/ch07/ExerciseScript8.java"
         }
       ],
       "id": "arrays-and-references-exercise-7-8",
@@ -1550,7 +1550,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch08/Examples1.java"
+          "path": "code/ch08/Examples1.java"
         }
       ],
       "id": "recursive-methods-recursive-void-methods",
@@ -1573,7 +1573,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch08/Examples2.java"
+          "path": "code/ch08/Examples2.java"
         }
       ],
       "id": "recursive-methods-recursive-stack-diagrams",
@@ -1596,7 +1596,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch08/Series1.java"
+          "path": "code/ch08/Series1.java"
         }
       ],
       "id": "recursive-methods-value-returning-methods",
@@ -1619,7 +1619,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch08/Series2.java"
+          "path": "code/ch08/Series2.java"
         }
       ],
       "id": "recursive-methods-the-leap-of-faith",
@@ -1642,7 +1642,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch08/Examples3.java"
+          "path": "code/ch08/Examples3.java"
         }
       ],
       "id": "recursive-methods-counting-up-recursively",
@@ -1683,7 +1683,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch08/Examples4.java"
+          "path": "code/ch08/Examples4.java"
         }
       ],
       "id": "recursive-methods-recursive-binary-method",
@@ -1706,7 +1706,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch08/CodingBat.java"
+          "path": "code/ch08/CodingBat.java"
         }
       ],
       "id": "recursive-methods-codingbat-problems",
@@ -1765,7 +1765,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript1.java"
+          "path": "code/ch08/ExerciseScript1.java"
         }
       ],
       "id": "recursive-methods-exercise-8-1",
@@ -1788,7 +1788,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript2.java"
+          "path": "code/ch08/ExerciseScript2.java"
         }
       ],
       "id": "recursive-methods-exercise-8-2",
@@ -1811,7 +1811,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript3.java"
+          "path": "code/ch08/ExerciseScript3.java"
         }
       ],
       "id": "recursive-methods-exercise-8-3",
@@ -1834,7 +1834,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript4.java"
+          "path": "code/ch08/ExerciseScript4.java"
         }
       ],
       "id": "recursive-methods-exercise-8-4",
@@ -1857,7 +1857,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript5.java"
+          "path": "code/ch08/ExerciseScript5.java"
         }
       ],
       "id": "recursive-methods-exercise-8-5",
@@ -1880,7 +1880,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript6.java"
+          "path": "code/ch08/ExerciseScript6.java"
         }
       ],
       "id": "recursive-methods-exercise-8-6",
@@ -1903,7 +1903,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch08/Recurse.java"
+          "path": "code/ch08/Recurse.java"
         }
       ],
       "id": "recursive-methods-exercise-8-7",
@@ -2388,7 +2388,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch12/CardClass.java"
+          "path": "code/ch12/CardClass.java"
         }
       ],
       "id": "arrays-of-objects-card-objects",
@@ -2411,7 +2411,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch12/Card1.java"
+          "path": "code/ch12/Card1.java"
         }
       ],
       "id": "arrays-of-objects-card-tostring",
@@ -2434,7 +2434,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch12/Card2.java"
+          "path": "code/ch12/Card2.java"
         }
       ],
       "id": "arrays-of-objects-class-variables",
@@ -2457,7 +2457,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch12/Card4.java"
+          "path": "code/ch12/Card4.java"
         }
       ],
       "id": "arrays-of-objects-the-compareto-method",
@@ -2480,7 +2480,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch12/Card.java"
+          "path": "code/ch12/Card.java"
         }
       ],
       "id": "arrays-of-objects-cards-are-immutable",
@@ -2503,7 +2503,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch12/Search6.java"
+          "path": "code/ch12/Search6.java"
         }
       ],
       "id": "arrays-of-objects-arrays-of-cards",
@@ -2526,7 +2526,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch12/Search.java"
+          "path": "code/ch12/Search.java"
         }
       ],
       "id": "arrays-of-objects-sequential-search",
@@ -2549,7 +2549,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch12/Search.java"
+          "path": "code/ch12/Search.java"
         }
       ],
       "id": "arrays-of-objects-binary-search",
@@ -2572,7 +2572,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch12/Search.java"
+          "path": "code/ch12/Search.java"
         }
       ],
       "id": "arrays-of-objects-tracing-the-code",
@@ -2631,30 +2631,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch12/ExerciseScript1.java"
-        }
-      ],
-      "id": "arrays-of-objects-exercise-12-1",
-      "layout": "2-panels",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exercise 12.1",
-      "type": "markdown"
-    },
-    {
-      "chapter": false,
-      "content-file": ".guides/content/arrays-of-objects-exercise-12-1.md",
-      "files": [
-        {
-          "action": "close",
-          "path": "#tabs"
-        },
-        {
-          "action": "open",
-          "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch12/ExerciseScript1.java"
+          "path": "code/ch12/ExerciseScript1.java"
         }
       ],
       "id": "arrays-of-objects-exercise-12-1",
@@ -2677,7 +2654,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch12/ExerciseScript2.java"
+          "path": "code/ch12/ExerciseScript2.java"
         }
       ],
       "id": "arrays-of-objects-exercise-12-2",
@@ -2700,7 +2677,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch12/ExerciseScript3.java"
+          "path": "code/ch12/ExerciseScript3.java"
         }
       ],
       "id": "arrays-of-objects-exercise-12-3",
@@ -2723,7 +2700,7 @@
         {
           "action": "open",
           "panel": 0,
-          "path": "codio-student-unit-exclude/ThinkJava2/code/ch12/CardTable.java"
+          "path": "code/ch12/CardTable.java"
         }
       ],
       "id": "arrays-of-objects-exercise-12-4",

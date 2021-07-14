@@ -2,8 +2,8 @@ If these values were exam scores---and they would be pretty bad exam scores in t
 
 For exam scores, we might have 10 counters to keep track of how many students scored in the 90s, the 80s, etc. To do that, we can traverse the array and count the number of elements that fall in a given range.
 
-[The following method](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/Histogram.java panel=0 ref="* Computes the number" count=11) takes an array and two integers.
-[Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/Histogram.java panel=0)
+[The following method](open_file code/ch07/Histogram.java panel=0 ref="* Computes the number" count=11) takes an array and two integers.
+[Remove highlighting](open_file code/ch07/Histogram.java panel=0)
  It returns the number of elements that fall in the range from `low` to `high - 1`:
 
 ```code
@@ -20,11 +20,11 @@ public static int inRange(int[] a, int low, int high) {
 
 
 Try comparing the results from the `inRange` function calls and the `randomArray` named `scores` to see how this function works.
-{Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/*.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ Histogram )
+{Run!}(sh .guides/bg.sh javac code/ch07/*.java java -cp code/ch07/ Histogram )
  This pattern should look familiar: it is another reduce operation. Notice that `low` is included in the range (`>=`), but `high` is excluded (`<`). This design keeps us from counting any scores twice.
 
-Now we can count the number of scores in each grade range. We add [the following code](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/Histogram.java panel=0 ref="int[] scores" count=6) to our `main` method:
-[Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/Histogram.java panel=0)
+Now we can count the number of scores in each grade range. We add [the following code](open_file code/ch07/Histogram.java panel=0 ref="int[] scores" count=6) to our `main` method:
+[Remove highlighting](open_file code/ch07/Histogram.java panel=0)
 
 
 ```code
@@ -62,8 +62,8 @@ Notice that we are using the loop variable `i` three times: as an index into the
 
 The code works, but it is not as efficient as it could be. Every time the loop invokes `inRange`, it traverses the entire array. It would be better to make a single pass through the `scores` array.
 
-For each score, we already know which range it falls in---the score itself. We can use that value to increment the corresponding counter. [This code](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/Histogram.java panel=0 ref="// making a histogram" count=6) traverses the array of scores only once to generate the histogram:
-[Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/Histogram.java panel=0)
+For each score, we already know which range it falls in---the score itself. We can use that value to increment the corresponding counter. [This code](open_file code/ch07/Histogram.java panel=0 ref="// making a histogram" count=6) traverses the array of scores only once to generate the histogram:
+[Remove highlighting](open_file code/ch07/Histogram.java panel=0)
 
 
 ```code
@@ -75,8 +75,8 @@ for (int i = 0; i < scores.length; i++) {
 ```
 
 Try printing the array `counts` after running the above lines of code to see how a complete histogram is built up.
-{Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/*.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ Histogram )
+{Run!}(sh .guides/bg.sh javac code/ch07/*.java java -cp code/ch07/ Histogram )
  Each time through the loop, it selects one element from `scores` and uses it as an index to increment the corresponding element of `counts`. Because this code traverses the array of scores only once, it is much more efficient.
 
 Putting together all the above code fragments, and adding some comments and test cases, see the complete example java code in the left pane. To compile and run the code, press "Run!"
-{Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/*.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ Histogram )
+{Run!}(sh .guides/bg.sh javac code/ch07/*.java java -cp code/ch07/ Histogram )

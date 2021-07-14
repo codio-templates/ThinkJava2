@@ -53,4 +53,4 @@ eeffoc
 > A single letter is a palindrome, a two-letter word is a palindrome if the letters are the same, and any other word is a palindrome if the first letter is the same as the last and the middle is a palindrome.
  
  Write a recursive method named `isPalindrome` that takes a `String` and returns a `boolean` indicating whether the word is a palindrome.
-{Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/Recurse.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ Recurse )
+{Run!}(sh .guides/bg.sh javac code/ch08/Recurse.java java -cp code/ch08/ Recurse )

@@ -265,20 +265,20 @@ sections:
        - remove: 1
          position: 66
        - add:  |
-                 Of course, you can also declare the variable and create the array with a [single line of code:](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples1.java panel=0 ref="int size" count=4)
-                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples1.java panel=0)
+                 Of course, you can also declare the variable and create the array with a [single line of code:](open_file code/ch07/ArrayExamples1.java panel=0 ref="int size" count=4)
+                 [Remove highlighting](open_file code/ch07/ArrayExamples1.java panel=0)
 
          position: 67
        - remove: 1
          position: 80
        - add:  |
-                 You can initialize an array with a comma-separated sequence of elements enclosed in braces, [like this:](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples1.java panel=0 ref="// displaying arrays" count=3)
-                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples1.java panel=0)
+                 You can initialize an array with a comma-separated sequence of elements enclosed in braces, [like this:](open_file code/ch07/ArrayExamples1.java panel=0 ref="// displaying arrays" count=3)
+                 [Remove highlighting](open_file code/ch07/ArrayExamples1.java panel=0)
 
          position: 81
        - add:  |
                  See the example java code in the left pane. To print the array using the printArray method, press the "Run!". Feel free to edit the existing array or create a new one. 
-                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples1.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ArrayExamples1 )
+                 {Run!}(sh .guides/bg.sh javac code/ch07/ArrayExamples1.java java -cp code/ch07/ ArrayExamples1 )
 
          position: 88
     configuration:
@@ -286,7 +286,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples1.java"
+          - path: "code/ch07/ArrayExamples1.java"
             panel: 0
             action: open
   - name: "Accessing Elements"
@@ -295,27 +295,27 @@ sections:
        - remove: 1
          position: 125
        - add:  |
-                 You can use the `[]` operator anywhere in an [expression:](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples2.java panel=0 ref="counts[0]" count=4)
-                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples2.java panel=0)
+                 You can use the `[]` operator anywhere in an [expression:](open_file code/ch07/ArrayExamples2.java panel=0 ref="counts[0]" count=4)
+                 [Remove highlighting](open_file code/ch07/ArrayExamples2.java panel=0)
 
          position: 126
        - remove: 1
          position: 146
        - add:  |
-                 [For example:](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples2.java panel=0 ref="// traversal with a while loop" count=6)
-                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples2.java panel=0)
+                 [For example:](open_file code/ch07/ArrayExamples2.java panel=0 ref="// traversal with a while loop" count=6)
+                 [Remove highlighting](open_file code/ch07/ArrayExamples2.java panel=0)
 
          position: 147
        - remove: 1
          position: 165
        - add:  |
-                 This type of array processing is usually written as a [for loop:](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples2.java panel=0 ref="// traversal with a for loop" count=4)
-                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples2.java panel=0)
+                 This type of array processing is usually written as a [for loop:](open_file code/ch07/ArrayExamples2.java panel=0 ref="// traversal with a for loop" count=4)
+                 [Remove highlighting](open_file code/ch07/ArrayExamples2.java panel=0)
 
          position: 166
        - add:  |
                  See how the `printArray` function works by pressing "Run!".
-                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples3.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ArrayExamples3 )
+                 {Run!}(sh .guides/bg.sh javac code/ch07/ArrayExamples3.java java -cp code/ch07/ ArrayExamples3 )
 
          position: 120
     configuration:
@@ -323,7 +323,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples2.java"
+          - path: "code/ch07/ArrayExamples2.java"
             panel: 0
             action: open
   - name: "Displaying Arrays"
@@ -332,37 +332,37 @@ sections:
        - remove: 1
          position: 186
        - add:  |
-                 For example, say you print an array [like this:](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples3.java panel=0 ref="// displaying" count=3)
-                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples3.java panel=0)
+                 For example, say you print an array [like this:](open_file code/ch07/ArrayExamples3.java panel=0 ref="// displaying" count=3)
+                 [Remove highlighting](open_file code/ch07/ArrayExamples3.java panel=0)
 
          position: 187
        - remove: 1
          position: 201
        - add:  |
-                 If we want to [display the elements of the array](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples3.java panel=0 ref="* Prints the elements of an array." count=9), we can do it ourselves:
-                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples3.java panel=0)
+                 If we want to [display the elements of the array](open_file code/ch07/ArrayExamples3.java panel=0 ref="* Prints the elements of an array." count=9), we can do it ourselves:
+                 [Remove highlighting](open_file code/ch07/ArrayExamples3.java panel=0)
 
          position: 202
        - remove: 1
          position: 226
        - add:  |
-                 After importing `Arrays`, we can invoke `toString` [like this:](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples3.java panel=0 ref="// printing with Arrays class" count=2)
-                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples3.java panel=0)
+                 After importing `Arrays`, we can invoke `toString` [like this:](open_file code/ch07/ArrayExamples3.java panel=0 ref="// printing with Arrays class" count=2)
+                 [Remove highlighting](open_file code/ch07/ArrayExamples3.java panel=0)
 
          position: 227
        - add:  |
                  Try it out here.
-                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples3.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ArrayExamples3 )
+                 {Run!}(sh .guides/bg.sh javac code/ch07/ArrayExamples3.java java -cp code/ch07/ ArrayExamples3 )
 
          position: 199
        - add:  |
                  Try out the `printArray` function here.
-                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples3.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ArrayExamples3 )
+                 {Run!}(sh .guides/bg.sh javac code/ch07/ArrayExamples3.java java -cp code/ch07/ ArrayExamples3 )
 
          position: 221
        - add:  |
                  Run your code here.
-                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples3.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ArrayExamples3 )
+                 {Run!}(sh .guides/bg.sh javac code/ch07/ArrayExamples3.java java -cp code/ch07/ ArrayExamples3 )
 
          position: 238
     configuration:
@@ -370,7 +370,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples3.java"
+          - path: "code/ch07/ArrayExamples3.java"
             panel: 0
             action: open
   - name: "Copying Arrays"
@@ -379,29 +379,29 @@ sections:
        - remove: 1
          position: 312
        - add:  |
-                 We can do that by replacing the magic number, `3`, [with a.length:](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples4.java panel=0 ref="// copying an array" count=6)
+                 We can do that by replacing the magic number, `3`, [with a.length:](open_file code/ch07/ArrayExamples4.java panel=0 ref="// copying an array" count=6)
 
          position: 313
        - remove: 1
          position: 328
        - add:  |
-                 Of course, we can replace the loop altogether by using `Arrays.copyOf` and `a.length` [for the second argument.](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples4.java panel=0 ref="// copying with Arrays class" count=2)
-                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples4.java panel=0)
+                 Of course, we can replace the loop altogether by using `Arrays.copyOf` and `a.length` [for the second argument.](open_file code/ch07/ArrayExamples4.java panel=0 ref="// copying with Arrays class" count=2)
+                 [Remove highlighting](open_file code/ch07/ArrayExamples4.java panel=0)
 
          position: 328
        - add:  |
                  Try adding the code snippets above to the editor on the left to see how the mechanics of copying arrays work. To print the arrays and see what changes you are making you can use the `printArray` method. Run your code here.
-                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples4.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ArrayExamples4 )
+                 {Run!}(sh .guides/bg.sh javac code/ch07/ArrayExamples4.java java -cp code/ch07/ ArrayExamples4 )
 
          position: 275
        - add:  |
                  Copy both of these methods to the panel on the left within the `main` method to give them a try. To print the arrays and see what changes you are making you can use the `printArray` method. Run your code here.
-                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples4.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ArrayExamples4 )
+                 {Run!}(sh .guides/bg.sh javac code/ch07/ArrayExamples4.java java -cp code/ch07/ ArrayExamples4 )
 
          position: 293
        - add:  |
                  Give both of the code snippets above a try by copying them to the `main` method on the left. To print the arrays and see what changes you are making you can use the `printArray` method. Run your code here.
-                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples4.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ArrayExamples4 )
+                 {Run!}(sh .guides/bg.sh javac code/ch07/ArrayExamples4.java java -cp code/ch07/ ArrayExamples4 )
 
          position: 335
     configuration:
@@ -409,7 +409,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples4.java"
+          - path: "code/ch07/ArrayExamples4.java"
             panel: 0
             action: open
   - name: "Traversing Arrays"
@@ -418,37 +418,37 @@ sections:
        - remove: 1
          position: 345
        - add:  |
-                 Looping through the elements of an array is called a [traversal:](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples5.java panel=0 ref="// traversing arrays" count=4)
-                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples5.java panel=0)
+                 Looping through the elements of an array is called a [traversal:](open_file code/ch07/ArrayExamples5.java panel=0 ref="// traversing arrays" count=4)
+                 [Remove highlighting](open_file code/ch07/ArrayExamples5.java panel=0)
 
          position: 346
        - remove: 1
          position: 360
        - add:  |
-                 For example, [the following method](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples5.java panel=0 ref="* Returns the index" count=11) takes an array and a value, and it returns the index where the value appears:
-                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples5.java panel=0)
+                 For example, [the following method](open_file code/ch07/ArrayExamples5.java panel=0 ref="* Returns the index" count=11) takes an array and a value, and it returns the index where the value appears:
+                 [Remove highlighting](open_file code/ch07/ArrayExamples5.java panel=0)
 
          position: 361
        - remove: 1
          position: 392
        - add:  |
-                 [The following method](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples5.java panel=0 ref="* Returns the total" count=10) takes an array and returns the sum of its elements:
-                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples5.java panel=0)
+                 [The following method](open_file code/ch07/ArrayExamples5.java panel=0 ref="* Returns the total" count=10) takes an array and returns the sum of its elements:
+                 [Remove highlighting](open_file code/ch07/ArrayExamples5.java panel=0)
 
          position: 393
        - add:  |
                  Try it out yourself and don't forget to print the array using the `printArray` method. Run your code here.
-                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples5.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ArrayExamples5 )
+                 {Run!}(sh .guides/bg.sh javac code/ch07/ArrayExamples5.java java -cp code/ch07/ ArrayExamples5 )
 
          position: 355
        - add:  |
                  Test it out in the main method of the code on the left. Run your code here.
-                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples5.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ArrayExamples5 )
+                 {Run!}(sh .guides/bg.sh javac code/ch07/ArrayExamples5.java java -cp code/ch07/ ArrayExamples5 )
 
          position: 388
        - add:  |
                  Test it out in the main method of the code on the left. Run your code here.
-                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples5.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ArrayExamples5 )
+                 {Run!}(sh .guides/bg.sh javac code/ch07/ArrayExamples5.java java -cp code/ch07/ ArrayExamples5 )
 
          position: 411
     configuration:
@@ -456,7 +456,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples5.java"
+          - path: "code/ch07/ArrayExamples5.java"
             panel: 0
             action: open
   - name: "Random Numbers"
@@ -465,25 +465,25 @@ sections:
        - remove: 1
          position: 442
        - add:  |
-                   [The following method](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/RandomNum.java panel=0 ref="* Returns an array of random integers." count=10) creates an `int` array and fills it with random numbers between 0 and 99.
-                   [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/RandomNum.java panel=0)
+                   [The following method](open_file code/ch07/RandomNum.java panel=0 ref="* Returns an array of random integers." count=10) creates an `int` array and fills it with random numbers between 0 and 99.
+                   [Remove highlighting](open_file code/ch07/RandomNum.java panel=0)
 
          position: 443
        - remove: 1
          position: 456
        - add:  |
-                   [The following main method](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/RandomNum.java panel=0 ref="public static void main" count=4) generates an array and displays it by using the `printArray` method from Section 7.3.
-                   [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/RandomNum.java panel=0)
+                   [The following main method](open_file code/ch07/RandomNum.java panel=0 ref="public static void main" count=4) generates an array and displays it by using the `printArray` method from Section 7.3.
+                   [Remove highlighting](open_file code/ch07/RandomNum.java panel=0)
 
          position: 457
        - add:  |
                    Try it out here.
-                   {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/*.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ RandomNum )
+                   {Run!}(sh .guides/bg.sh javac code/ch07/*.java java -cp code/ch07/ RandomNum )
 
          position: 443
        - add:  |
                    Try it out yourself here.
-                   {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/*.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ RandomNum )
+                   {Run!}(sh .guides/bg.sh javac code/ch07/*.java java -cp code/ch07/ RandomNum )
 
          position: 473
     configuration:
@@ -491,7 +491,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch07/RandomNum.java"
+          - path: "code/ch07/RandomNum.java"
             panel: 0
             action: open
   - name: "Building a Histogram"
@@ -500,37 +500,37 @@ sections:
        - remove: 1
          position: 486
        - add:  |
-                   [The following method](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/Histogram.java panel=0 ref="* Computes the number" count=11) takes an array and two integers.
-                   [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/Histogram.java panel=0)
+                   [The following method](open_file code/ch07/Histogram.java panel=0 ref="* Computes the number" count=11) takes an array and two integers.
+                   [Remove highlighting](open_file code/ch07/Histogram.java panel=0)
 
          position: 487
        - remove: 1
          position: 508
        - add:  |
-                   We add [the following code](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/Histogram.java panel=0 ref="int[] scores" count=6) to our `main` method:
-                   [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/Histogram.java panel=0)
+                   We add [the following code](open_file code/ch07/Histogram.java panel=0 ref="int[] scores" count=6) to our `main` method:
+                   [Remove highlighting](open_file code/ch07/Histogram.java panel=0)
 
          position: 509
        - remove: 1
          position: 555
        - add:  |
-                   [This code](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/Histogram.java panel=0 ref="// making a histogram" count=6) traverses the array of scores only once to generate the histogram:
-                   [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/Histogram.java panel=0)
+                   [This code](open_file code/ch07/Histogram.java panel=0 ref="// making a histogram" count=6) traverses the array of scores only once to generate the histogram:
+                   [Remove highlighting](open_file code/ch07/Histogram.java panel=0)
 
          position: 556
        - add:  |
                  Putting together all the above code fragments, and adding some comments and test cases, see the complete example java code in the left pane. To compile and run the code, press "Run!"
-                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/*.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ Histogram )
+                 {Run!}(sh .guides/bg.sh javac code/ch07/*.java java -cp code/ch07/ Histogram )
 
          position: 568
        - add:  |
                  Try comparing the results from the `inRange` function calls and the `randomArray` named `scores` to see how this function works.
-                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/*.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ Histogram )
+                 {Run!}(sh .guides/bg.sh javac code/ch07/*.java java -cp code/ch07/ Histogram )
 
          position: 503
        - add:  |
                  Try printing the array `counts` after running the above lines of code to see how a complete histogram is built up.
-                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/*.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ Histogram )
+                 {Run!}(sh .guides/bg.sh javac code/ch07/*.java java -cp code/ch07/ Histogram )
 
          position: 565
     configuration:
@@ -538,7 +538,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch07/Histogram.java"
+          - path: "code/ch07/Histogram.java"
             panel: 0
             action: open
   - name: "The Enhanced for Loop"
@@ -548,12 +548,12 @@ sections:
          position: 600
        - add:  |
                    Using the enhanced `for` loop, and removing the temporary variable, [we can write the histogram code](open_file code/ch07/Histogram.java panel=0 ref="// histogram" count=5) from the previous section more concisely:
-                   [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples6.java panel=0)
+                   [Remove highlighting](open_file code/ch07/ArrayExamples6.java panel=0)
 
          position: 601
        - add:  |
                    Give the above enhanced for loop a try by pressing run and see what is printed.
-                   {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples6.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ArrayExamples6 )
+                   {Run!}(sh .guides/bg.sh javac code/ch07/ArrayExamples6.java java -cp code/ch07/ ArrayExamples6 )
 
          position: 600
     configuration:
@@ -561,7 +561,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples6.java"
+          - path: "code/ch07/ArrayExamples6.java"
             panel: 0
             action: open
   - name: "Counting Characters"
@@ -571,7 +571,7 @@ sections:
          position: 633
        - add:  |
                    [We convert the string to lowercase,](open_file code/ch07/Doubloon.java panel=0 ref="// count the number" count=3) so that we can treat `'A'` and `'a'` (for example) as the same letter.
-                   [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/Doubloon.java panel=0)
+                   [Remove highlighting](open_file code/ch07/Doubloon.java panel=0)
              
 
          position: 634
@@ -579,14 +579,14 @@ sections:
          position: 661
        - add:  |
                    We can simplify this code with an enhanced for loop, but it doesn’t work with strings; we have to convert lower to an array of characters, [like this:](open_file code/ch07/Doubloon.java panel=0 ref="// count the number" count=7)
-                   [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/Doubloon.java panel=0)
+                   [Remove highlighting](open_file code/ch07/Doubloon.java panel=0)
 
          position: 662
        - remove: 1
          position: 670
        - add:  |
                    Once we have the counts, [we can use a second for loop](open_file code/ch07/Doubloon.java panel=0 ref="// determine whether the given word is a doubloon" count=8) to check whether each letter appears zero or two times:
-                   [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/Doubloon.java panel=0)
+                   [Remove highlighting](open_file code/ch07/Doubloon.java panel=0)
 
          position: 671
        - remove: 1
@@ -628,7 +628,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch07/Fruit.java"
+          - path: "code/ch07/Fruit.java"
             panel: 0
             action: open
   - name: Exercise 7.2
@@ -638,7 +638,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch07/MakeDubMus.java"
+          - path: "code/ch07/MakeDubMus.java"
             panel: 0
             action: open
   - name: Exercise 7.3
@@ -648,7 +648,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch07/ExerciseScript3.java"
+          - path: "code/ch07/ExerciseScript3.java"
             panel: 0
             action: open
   - name: Exercise 7.4
@@ -658,7 +658,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch07/ExerciseScript4.java"
+          - path: "code/ch07/ExerciseScript4.java"
             panel: 0
             action: open
   - name: Exercise 7.5
@@ -668,7 +668,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch07/ExerciseScript5.java"
+          - path: "code/ch07/ExerciseScript5.java"
             panel: 0
             action: open
   - name: Exercise 7.6
@@ -678,7 +678,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch07/ExerciseScript6.java"
+          - path: "code/ch07/ExerciseScript6.java"
             panel: 0
             action: open
   - name: Exercise 7.7
@@ -688,7 +688,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch07/ExerciseScript7.java"
+          - path: "code/ch07/ExerciseScript7.java"
             panel: 0
             action: open   
   - name: Exercise 7.8
@@ -698,7 +698,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch07/ExerciseScript8.java"
+          - path: "code/ch07/ExerciseScript8.java"
             panel: 0
             action: open          
   - name: "Recursive Methods"
@@ -714,26 +714,26 @@ sections:
        - remove: 1
          position: 19
        - add:  |
-                   [Consider the following example:](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Examples1.java panel=0 ref="public static void countdown" count=8)
-                   [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Examples1.java panel=0)
+                   [Consider the following example:](open_file code/ch08/Examples1.java panel=0 ref="public static void countdown" count=8)
+                   [Remove highlighting](open_file code/ch08/Examples1.java panel=0)
 
          position: 20
        - remove: 1
          position: 84
        - add:  |
-                   A more general alternative would be [the following:](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Examples1.java panel=0 ref="public static void nLines" count=6)
-                   [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Examples1.java panel=0)
+                   A more general alternative would be [the following:](open_file code/ch08/Examples1.java panel=0 ref="public static void nLines" count=6)
+                   [Remove highlighting](open_file code/ch08/Examples1.java panel=0)
 
          position: 85
        - add:  |
                  Give the function a try here.
-                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/Examples1.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ Examples1 )
+                 {Run!}(sh .guides/bg.sh javac code/ch08/Examples1.java java -cp code/ch08/ Examples1 )
 
          position: 66
        - add:  |
-                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Examples1.java panel=0)
+                 [Remove highlighting](open_file code/ch08/Examples1.java panel=0)
                  Give the `nLines` function a try here.
-                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/Examples1.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ Examples1 )
+                 {Run!}(sh .guides/bg.sh javac code/ch08/Examples1.java java -cp code/ch08/ Examples1 )
 
          position: 95
     configuration:
@@ -741,7 +741,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch08/Examples1.java"
+          - path: "code/ch08/Examples1.java"
             panel: 0
             action: open
   - name: "Recursive Stack Diagrams"
@@ -750,13 +750,13 @@ sections:
        - remove: 1
          position: 139
        - add:  |
-                   For example, [here](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Examples2.java panel=0 ref="public static void forever" count=4) is a recursive method without a base case:
-                   [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Examples2.java panel=0)
+                   For example, [here](open_file code/ch08/Examples2.java panel=0 ref="public static void forever" count=4) is a recursive method without a base case:
+                   [Remove highlighting](open_file code/ch08/Examples2.java panel=0)
 
          position: 140
        - add:  |
                  Give the `nLines` function a try here.
-                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/Examples2.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ Examples2 )
+                 {Run!}(sh .guides/bg.sh javac code/ch08/Examples2.java java -cp code/ch08/ Examples2 )
 
          position: 152
     configuration:
@@ -764,7 +764,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch08/Examples2.java"
+          - path: "code/ch08/Examples2.java"
             panel: 0
             action: open
   - name: "Value-Returning Methods"
@@ -773,20 +773,20 @@ sections:
        - remove: 1
          position: 212
        - add:  |
-                   If the argument happens to be 0, [we return 1:](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Series1.java panel=0 ref="public static int factorial" count=4)
-                   [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Series1.java panel=0)
+                   If the argument happens to be 0, [we return 1:](open_file code/ch08/Series1.java panel=0 ref="public static int factorial" count=4)
+                   [Remove highlighting](open_file code/ch08/Series1.java panel=0)
 
          position: 213
        - remove: 1
          position: 223
        - add:  |
-                   Otherwise, and this is the interesting part, [we have to make a recursive call](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Series1.java panel=0 ref="int recurse" count=3) to find the factorial of n−1, and then multiply it by n:
-                   [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Series1.java panel=0)
+                   Otherwise, and this is the interesting part, [we have to make a recursive call](open_file code/ch08/Series1.java panel=0 ref="int recurse" count=3) to find the factorial of n−1, and then multiply it by n:
+                   [Remove highlighting](open_file code/ch08/Series1.java panel=0)
 
          position: 224
        - add:  |
                  Pulling together all of the above code fragments, and adding some test cases, run the complete example java code in the left pane. To compile and run the code, press "Run!".
-                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/Series1.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ Series1 )
+                 {Run!}(sh .guides/bg.sh javac code/ch08/Series1.java java -cp code/ch08/ Series1 )
 
          position: 275
     configuration:
@@ -794,7 +794,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch08/Series1.java"
+          - path: "code/ch08/Series1.java"
             panel: 0
             action: open
   - name: "The Leap of Faith"
@@ -803,13 +803,13 @@ sections:
        - remove: 1
          position: 344
        - add:  |
-                   Translated into Java, [this function is as follows:](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Series2.java panel=0 ref="public static int fibonacci" count=6)
-                   [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Series2.java panel=0)
+                   Translated into Java, [this function is as follows:](open_file code/ch08/Series2.java panel=0 ref="public static int fibonacci" count=6)
+                   [Remove highlighting](open_file code/ch08/Series2.java panel=0)
 
          position: 345
        - add:  |
                  Run the complete example java code and fibonacci function in the left pane. To compile and run the code, press "Run!"
-                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/Series2.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ Series2 )
+                 {Run!}(sh .guides/bg.sh javac code/ch08/Series2.java java -cp code/ch08/ Series2 )
 
          position: 358
     configuration:
@@ -817,7 +817,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch08/Series2.java"
+          - path: "code/ch08/Series2.java"
             panel: 0
             action: open
   - name: "Counting Up Recursively"
@@ -826,13 +826,13 @@ sections:
        - remove: 1
          position: 363
        - add:  |
-                   What do you think happens if you reverse steps 2 and 3, [making the recursive call before displaying?](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Examples3.java panel=0 ref="public static void countup" count=8)
-                   [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Examples3.java panel=0)
+                   What do you think happens if you reverse steps 2 and 3, [making the recursive call before displaying?](open_file code/ch08/Examples3.java panel=0 ref="public static void countup" count=8)
+                   [Remove highlighting](open_file code/ch08/Examples3.java panel=0)
 
          position: 364
        - add:  |
                  Test and run both the `countup` and `countdown` functions here.
-                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/Examples3.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ Examples3 )
+                 {Run!}(sh .guides/bg.sh javac code/ch08/Examples3.java java -cp code/ch08/ Examples3 )
 
          position: 388
     configuration:
@@ -840,7 +840,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch08/Examples3.java"
+          - path: "code/ch08/Examples3.java"
             panel: 0
             action: open
   - name: "Binary Number System"
@@ -856,13 +856,13 @@ sections:
        - remove: 1
          position: 499
        - add:  |
-                   [Here](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Examples4.java panel=0 ref="public static void displayBinary" count=6) is a recursive method that displays any positive integer in binary:
-                   [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Examples4.java panel=0)
+                   [Here](open_file code/ch08/Examples4.java panel=0 ref="public static void displayBinary" count=6) is a recursive method that displays any positive integer in binary:
+                   [Remove highlighting](open_file code/ch08/Examples4.java panel=0)
 
          position: 500
        - add:  |
                  Test and run the code here.
-                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/Examples4.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ Examples4 )
+                 {Run!}(sh .guides/bg.sh javac code/ch08/Examples4.java java -cp code/ch08/ Examples4 )
 
          position: 535
     configuration:
@@ -870,7 +870,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch08/Examples4.java"
+          - path: "code/ch08/Examples4.java"
             panel: 0
             action: open
   - name: "CodingBat Problems"
@@ -892,7 +892,7 @@ sections:
          position: 609
        - add:  |
                  See both solved CodingBat problems in java in the left pane. To compile and run the code, press "Run!"
-                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/CodingBat.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ CodingBat )
+                 {Run!}(sh .guides/bg.sh javac code/ch08/CodingBat.java java -cp code/ch08/ CodingBat )
 
          position: 654
     configuration:
@@ -900,7 +900,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch08/CodingBat.java"
+          - path: "code/ch08/CodingBat.java"
             panel: 0
             action: open
   - name: "Vocabulary"
@@ -927,7 +927,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript1.java"
+          - path: "code/ch08/ExerciseScript1.java"
             panel: 0
             action: open
   - name: Exercise 8.2
@@ -937,7 +937,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript2.java"
+          - path: "code/ch08/ExerciseScript2.java"
             panel: 0
             action: open
   - name: Exercise 8.3
@@ -947,7 +947,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript3.java"
+          - path: "code/ch08/ExerciseScript3.java"
             panel: 0
             action: open
   - name: Exercise 8.4
@@ -957,7 +957,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript4.java"
+          - path: "code/ch08/ExerciseScript4.java"
             panel: 0
             action: open
   - name: Exercise 8.5
@@ -967,7 +967,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript5.java"
+          - path: "code/ch08/ExerciseScript5.java"
             panel: 0
             action: open
   - name: Exercise 8.6
@@ -977,7 +977,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript6.java"
+          - path: "code/ch08/ExerciseScript6.java"
             panel: 0
             action: open
   - name: Exercise 8.7
@@ -987,7 +987,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch08/Recurse.java"
+          - path: "code/ch08/Recurse.java"
             panel: 0
             action: open
   - name: "Immutable Objects"
@@ -1078,7 +1078,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch12/CardClass.java"
+          - path: "code/ch12/CardClass.java"
             panel: 0
             action: open
   - name: "Card toString"
@@ -1087,41 +1087,41 @@ sections:
        - remove: 1
          position: 134
        - add:  |
-                 Or we can [create the array and initialize the elements at the same time,](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Card1.java panel=0 ref="public static final String[] SUITS" count=2) as you saw in Section 7.3.
-                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Card1.java panel=0)
+                 Or we can [create the array and initialize the elements at the same time,](open_file code/ch12/Card1.java panel=0 ref="public static final String[] SUITS" count=2) as you saw in Section 7.3.
+                 [Remove highlighting](open_file code/ch12/Card1.java panel=0)
 
          position: 135
        - remove: 1
          position: 156
        - add:  |
-                 [We also need an array to decode the ranks:](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Card1.java panel=0 ref="public static final String[] RANKS" count=3)
-                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Card1.java panel=0)
+                 [We also need an array to decode the ranks:](open_file code/ch12/Card1.java panel=0 ref="public static final String[] RANKS" count=3)
+                 [Remove highlighting](open_file code/ch12/Card1.java panel=0)
 
          position: 157
        - remove: 1
          position: 166
        - add:  |
-                 Using these arrays [we can create a meaningful String](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Card1.java panel=0 ref="return RANKS[this.rank]" count=1) by using ``suit`` and ``rank`` as indexes.
-                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Card1.java panel=0)
+                 Using these arrays [we can create a meaningful String](open_file code/ch12/Card1.java panel=0 ref="return RANKS[this.rank]" count=1) by using ``suit`` and ``rank`` as indexes.
+                 [Remove highlighting](open_file code/ch12/Card1.java panel=0)
 
          position: 167
        - remove: 1
          position: 175
        - add:  |
-                 [Now we can wrap all the previous code in a toString method:](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Card1.java panel=0 ref="public String toString" count=3)
-                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Card1.java panel=0)
+                 [Now we can wrap all the previous code in a toString method:](open_file code/ch12/Card1.java panel=0 ref="public String toString" count=3)
+                 [Remove highlighting](open_file code/ch12/Card1.java panel=0)
 
          position: 176
        - remove: 1
          position: 188
        - add:  |
-                 The output of the [following code](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Card1.java panel=0 ref="Card card" count=2) is ``Jack`` of ``Diamonds``.
-                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Card1.java panel=0)
+                 The output of the [following code](open_file code/ch12/Card1.java panel=0 ref="Card card" count=2) is ``Jack`` of ``Diamonds``.
+                 [Remove highlighting](open_file code/ch12/Card1.java panel=0)
 
          position: 189
        - add:  |
                  Give it a shot here.
-                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch12/Card1.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch12/ Card1 )
+                 {Run!}(sh .guides/bg.sh javac code/ch12/Card1.java java -cp code/ch12/ Card1 )
 
          position: 195
     configuration:
@@ -1129,7 +1129,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch12/Card1.java"
+          - path: "code/ch12/Card1.java"
             panel: 0
             action: open
   - name: "Class Variables"
@@ -1139,7 +1139,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch12/Card2.java"
+          - path: "code/ch12/Card2.java"
             panel: 0
             action: open
   - name: "The compareTo Method"
@@ -1148,20 +1148,20 @@ sections:
        - remove: 1
          position: 258
        - add:  |
-                 As you saw in Section 11.7, it’s helpful [to create an equals method to test whether two objects are equivalent:](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Card4.java panel=0 ref="public boolean equals" count=4)
-                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Card4.java panel=0)
+                 As you saw in Section 11.7, it’s helpful [to create an equals method to test whether two objects are equivalent:](open_file code/ch12/Card4.java panel=0 ref="public boolean equals" count=4)
+                 [Remove highlighting](open_file code/ch12/Card4.java panel=0)
 
          position: 259
        - remove: 1
          position: 298
        - add:  |
-                 [With that decided, we can write compareTo as follows:](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Card4.java panel=0 ref="public int compareTo" count=15)
-                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Card4.java panel=0)
+                 [With that decided, we can write compareTo as follows:](open_file code/ch12/Card4.java panel=0 ref="public int compareTo" count=15)
+                 [Remove highlighting](open_file code/ch12/Card4.java panel=0)
 
          position: 299
        - add:  |
                  Try it out here.
-                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch12/Card4.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch12/ Card4 )
+                 {Run!}(sh .guides/bg.sh javac code/ch12/Card4.java java -cp code/ch12/ Card4 )
 
          position: 323
     configuration:
@@ -1169,7 +1169,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch12/Card4.java"
+          - path: "code/ch12/Card4.java"
             panel: 0
             action: open
   - name: "Cards Are Immutable"
@@ -1178,15 +1178,15 @@ sections:
        - remove: 1
          position: 327
        - add:  |
-                 We can provide [getters](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Card.java panel=0 ref="* Gets the card's rank." count=12) to allow other classes to read the rank and suit values:
-                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Card.java panel=0)
+                 We can provide [getters](open_file code/ch12/Card.java panel=0 ref="* Gets the card's rank." count=12) to allow other classes to read the rank and suit values:
+                 [Remove highlighting](open_file code/ch12/Card.java panel=0)
 
          position: 328
        - remove: 1
          position: 350
        - add:  |
-                 We can prevent that possibility by declaring the instance variables [final:](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Card.java panel=0 ref="private final int" count=3)
-                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Card.java panel=0)
+                 We can prevent that possibility by declaring the instance variables [final:](open_file code/ch12/Card.java panel=0 ref="private final int" count=3)
+                 [Remove highlighting](open_file code/ch12/Card.java panel=0)
 
          position: 351
          
@@ -1195,7 +1195,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch12/Card.java"
+          - path: "code/ch12/Card.java"
             panel: 0
             action: open
   - name: "Arrays of Cards"
@@ -1204,27 +1204,27 @@ sections:
        - remove: 1
          position: 382
        - add:  |
-                 [The following statement](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Search6.java panel=0 ref="Card[] cards" count=1) creates an array of 52 cards.
-                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Search6.java panel=0)
+                 [The following statement](open_file code/ch12/Search6.java panel=0 ref="Card[] cards" count=1) creates an array of 52 cards.
+                 [Remove highlighting](open_file code/ch12/Search6.java panel=0)
 
          position: 383
        - remove: 1
          position: 425
        - add:  |
-                 One way to populate the array [is to write nested for loops:](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Search6.java panel=0 ref="int index = 0;" count=7)
-                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Search6.java panel=0)
+                 One way to populate the array [is to write nested for loops:](open_file code/ch12/Search6.java panel=0 ref="int index = 0;" count=7)
+                 [Remove highlighting](open_file code/ch12/Search6.java panel=0)
 
          position: 426
        - remove: 1
          position: 455
        - add:  |
-                 You have seen the pattern for traversing an array several times, [so the following method should be familiar:](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Search6.java panel=0 ref="public static void printDeck" count=5)
-                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Search6.java panel=0)
+                 You have seen the pattern for traversing an array several times, [so the following method should be familiar:](open_file code/ch12/Search6.java panel=0 ref="public static void printDeck" count=5)
+                 [Remove highlighting](open_file code/ch12/Search6.java panel=0)
 
          position: 456
        - add:  |
                  Try it out here.
-                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch12/*.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch12/ Search6 )
+                 {Run!}(sh .guides/bg.sh javac code/ch12/*.java java -cp code/ch12/ Search6 )
 
          position: 488
     configuration:
@@ -1232,7 +1232,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch12/Search6.java"
+          - path: "code/ch12/Search6.java"
             panel: 0
             action: open
   - name: "Sequential Search"
@@ -1241,16 +1241,21 @@ sections:
        - remove: 1
          position: 493
        - add:  |
-                 [The next method we’ll write is search](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Search.java panel=0 ref="* Sequential search" count=10) , which takes an array of cards and a Card object as parameters. 
-                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Search6.java panel=0)
+                 [The next method we’ll write is search](open_file code/ch12/Search.java panel=0 ref="* Sequential search" count=10) , which takes an array of cards and a Card object as parameters. 
+                 [Remove highlighting](open_file code/ch12/Search.java panel=0)
 
          position: 494
+       - add:  |
+                 See how sequential ``search`` works here. See the test cases in the ``main`` class to understand what is being outputted. Add test cases for yourself to see how it works.
+                 {Run!}(sh .guides/bg.sh javac code/ch12/*.java java -cp code/ch12/ Search )
+
+         position: 527
     configuration:
       layout: 2-panels
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch12/Search.java"
+          - path: "code/ch12/Search.java"
             panel: 0
             action: open
   - name: "Binary Search"
@@ -1259,13 +1264,13 @@ sections:
        - remove: 1
          position: 553
        - add:  |
-                 Getting back to the array of cards, [we can write a faster version of search if we know the cards are in order:](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Search.java panel=0 ref="* Binary search" count=21)
-                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Search.java panel=0)
+                 Getting back to the array of cards, [we can write a faster version of search if we know the cards are in order:](open_file code/ch12/Search.java panel=0 ref="* Binary search" count=21)
+                 [Remove highlighting](open_file code/ch12/Search.java panel=0)
 
          position: 554
        - add:  |
                  See how both sequential ``search`` and ``binarySearch`` work here. See the test cases in the ``main`` class to understand what is being outputted.
-                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch12/*.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch12/ Search )
+                 {Run!}(sh .guides/bg.sh javac code/ch12/*.java java -cp code/ch12/ Search )
 
          position: 595
     configuration:
@@ -1273,17 +1278,23 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch12/Search.java"
+          - path: "code/ch12/Search.java"
             panel: 0
             action: open
   - name: "Tracing the Code"
     type: section
+    transformations:
+       - add:  |
+                 Give it a shot here and see how ``binarySearch`` works here. Add the print statement from above to your code to better understand how ``binarySearch()`` works.
+                 {Run!}(sh .guides/bg.sh javac code/ch12/*.java java -cp code/ch12/ Search )
+
+         position: 654
     configuration:
       layout: 2-panels
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch12/Search.java"
+          - path: "code/ch12/Search.java"
             panel: 0
             action: open
   - name: "Vocabulary"
@@ -1310,7 +1321,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch12/ExerciseScript1.java"
+          - path: "code/ch12/ExerciseScript1.java"
             panel: 0
             action: open
   - name: Exercise 12.2
@@ -1320,7 +1331,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch12/ExerciseScript2.java"
+          - path: "code/ch12/ExerciseScript2.java"
             panel: 0
             action: open
   - name: Exercise 12.3
@@ -1330,7 +1341,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch12/ExerciseScript3.java"
+          - path: "code/ch12/ExerciseScript3.java"
             panel: 0
             action: open
   - name: Exercise 12.4
@@ -1340,7 +1351,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-          - path: "codio-student-unit-exclude/ThinkJava2/code/ch12/CardTable.java"
+          - path: "code/ch12/CardTable.java"
             panel: 0
             action: open
   - name: "Objects of Arrays"
@@ -1547,7 +1558,7 @@ insert_sections:
       }
       ```
       Test out these functions here by adding your own test cases.
-      {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/Fruit.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ Fruit )
+      {Run!}(sh .guides/bg.sh javac code/ch07/Fruit.java java -cp code/ch07/ Fruit )
   - name: Exercise 7.2
     type: section
     chapter: Arrays and References
@@ -1592,7 +1603,7 @@ insert_sections:
       }
       ```
       Test out these functions here by adding your own test cases.
-      {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/MakeDubMus.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ MakeDubMus )
+      {Run!}(sh .guides/bg.sh javac code/ch07/MakeDubMus.java java -cp code/ch07/ MakeDubMus )
   - name: Exercise 7.3
     type: section
     chapter: Arrays and References
@@ -1602,7 +1613,7 @@ insert_sections:
       Write a method called `indexOfMax` that takes an array of integers and returns the index of the largest element.
       Can you write this method by using an enhanced `for` loop? Why or why not?
       Once you have written your function and added test cases, run your code here.
-      {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ExerciseScript3.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ExerciseScript3 )
+      {Run!}(sh .guides/bg.sh javac code/ch07/ExerciseScript3.java java -cp code/ch07/ ExerciseScript3 )
   - name: Exercise 7.4
     type: section
     chapter: Arrays and References
@@ -1611,7 +1622,7 @@ insert_sections:
     markdown: |
       The Sieve of Eratosthenes is “a simple, ancient algorithm for finding all prime numbers up to any given limit” ([https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)).
       Once you have written your function and added test cases, run your code here.
-      {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ExerciseScript4.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ExerciseScript4 )
+      {Run!}(sh .guides/bg.sh javac code/ch07/ExerciseScript4.java java -cp code/ch07/ ExerciseScript4 )
   - name: Exercise 7.5
     type: section
     chapter: Arrays and References
@@ -1620,7 +1631,7 @@ insert_sections:
     markdown: | 
       Write a method named `areFactors` that takes an integer `n` and an array of integers, and returns `true` if the numbers in the array are all factors of `n` (which is to say that `n` is divisible by all of them).
       Once you have written your function and added test cases, run your code here.
-      {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ExerciseScript5.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ExerciseScript5 )
+      {Run!}(sh .guides/bg.sh javac code/ch07/ExerciseScript5.java java -cp code/ch07/ ExerciseScript5 )
   - name: Exercise 7.6
     type: section
     chapter: Arrays and References
@@ -1629,7 +1640,7 @@ insert_sections:
     markdown: |
       Write a method named `arePrimeFactors` that takes an integer `n` and an array of integers, and that returns `true` if the numbers in the array are all prime *and* their product is `n`.
       Once you have written your function and added test cases, run your code here.
-      {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ExerciseScript6.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ExerciseScript6 )
+      {Run!}(sh .guides/bg.sh javac code/ch07/ExerciseScript6.java java -cp code/ch07/ ExerciseScript6 )
   - name: Exercise 7.7
     type: section
     chapter: Arrays and References
@@ -1640,7 +1651,7 @@ insert_sections:
       The zeroth element of the histogram should contain the number of a's in the string (upper- and lowercase); the 25th element should contain the number of z's. 
       Your solution should traverse the string only once.
       Once you have written your function and added test cases, run your code here.
-      {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ExerciseScript7.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ExerciseScript7 )
+      {Run!}(sh .guides/bg.sh javac code/ch07/ExerciseScript7.java java -cp code/ch07/ ExerciseScript7 )
   - name: Exercise 7.8
     type: section
     chapter: Arrays and References
@@ -1651,7 +1662,7 @@ insert_sections:
       For example, “stop” is an anagram of “pots”, “allen downey” is an anagram of “well annoyed”, and “christopher mayfield” is an anagram of “hi prof the camel is dry”.
       Write a method that takes two strings and checks whether they are anagrams of each other.
       Once you have written your function and added test cases, run your code here.
-      {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ExerciseScript8.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ExerciseScript8 )
+      {Run!}(sh .guides/bg.sh javac code/ch07/ExerciseScript8.java java -cp code/ch07/ ExerciseScript8 )
   - name: Exercise 8.1
     type: section
     chapter: Recursive Methods
@@ -1684,7 +1695,7 @@ insert_sections:
       Your program should include a recursive method that does the hard part, but you might want to write additional methods to separate other parts of the program.
       As you develop your code, test it with a small number of verses, like `3`.
       Once you have written your function and added test cases, run your code here.
-      {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript1.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ ExerciseScript1 )
+      {Run!}(sh .guides/bg.sh javac code/ch08/ExerciseScript1.java java -cp code/ch08/ ExerciseScript1 )
   - name: Exercise 8.2
     type: section
     chapter: Recursive Methods
@@ -1694,7 +1705,7 @@ insert_sections:
       Write a recursive method named `oddSum` that takes a positive odd integer `n` and returns the sum of odd integers from 1 to `n`.
       Start with a base case, and use temporary variables to debug your solution.
       You might find it helpful to print the value of `n` each time `oddSum` is invoked.
-      {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript2.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ ExerciseScript2 )
+      {Run!}(sh .guides/bg.sh javac code/ch08/ExerciseScript2.java java -cp code/ch08/ ExerciseScript2 )
   - name: Exercise 8.3
     type: section
     chapter: Recursive Methods
@@ -1726,7 +1737,7 @@ insert_sections:
       1. Explain in a few words what `prod` does (without getting into the details of how it works).
       1. Rewrite `prod` without the temporary variables `recurse` and `result`. *Hint:* You need only one line for the `else` branch.
       
-      {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript3.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ ExerciseScript3 )
+      {Run!}(sh .guides/bg.sh javac code/ch08/ExerciseScript3.java java -cp code/ch08/ ExerciseScript3 )
   - name: Exercise 8.4
     type: section
     chapter: Recursive Methods
@@ -1747,7 +1758,7 @@ insert_sections:
       Test your implementation of Ackermann by invoking it from `main` and displaying the return value.
       Note the return value gets very big very quickly.
       You should try it only for small values of $m$ and $n$ (not bigger than 3).
-      {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript4.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ ExerciseScript4 )
+      {Run!}(sh .guides/bg.sh javac code/ch08/ExerciseScript4.java java -cp code/ch08/ ExerciseScript4 )
   - name: Exercise 8.5
     type: section
     chapter: Recursive Methods
@@ -1759,7 +1770,7 @@ insert_sections:
       *Hint:* A recursive definition of this operation is $x^n = x \cdot x^{n-1}$. Also, remember that anything raised to the zeroth power is 1.
 
       Optional challenge: you can make this method more efficient, when `n` is even, using $x^n = \left( x^{n/2} \right)^2$.
-      {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript5.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ ExerciseScript5 )
+      {Run!}(sh .guides/bg.sh javac code/ch08/ExerciseScript5.java java -cp code/ch08/ ExerciseScript5 )
   - name: Exercise 8.6
     type: section
     chapter: Recursive Methods
@@ -1774,7 +1785,7 @@ insert_sections:
       1. Methods like `maxInRange` can be awkward to use. To find the largest element in an array, we have to provide the range for the entire array: ```code
       double max = maxInRange(a, 0, a.length - 1);
       ``` Write a method called `max` that takes an array and uses `maxInRange` to find and return the largest element.
-      {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript6.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ ExerciseScript6 )
+      {Run!}(sh .guides/bg.sh javac code/ch08/ExerciseScript6.java java -cp code/ch08/ ExerciseScript6 )
   - name: Exercise 8.7
     type: section
     chapter: Recursive Methods
@@ -1836,17 +1847,7 @@ insert_sections:
       > A single letter is a palindrome, a two-letter word is a palindrome if the letters are the same, and any other word is a palindrome if the first letter is the same as the last and the middle is a palindrome.
        
        Write a recursive method named `isPalindrome` that takes a `String` and returns a `boolean` indicating whether the word is a palindrome.
-      {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/Recurse.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ Recurse )
-  - name: Exercise 12.1
-    type: section
-    chapter: Arrays of Objects
-    section: Exercises
-    before: false
-    markdown: |
-      Write a method called `indexOfMax` that takes an array of integers and returns the index of the largest element.
-      Can you write this method by using an enhanced `for` loop? Why or why not?
-      Once you have written your function and added test cases, run your code here.
-      {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/ExerciseScript.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ExerciseScript )
+      {Run!}(sh .guides/bg.sh javac code/ch08/Recurse.java java -cp code/ch08/ Recurse )
   - name: Exercise 12.1
     type: section
     chapter: Arrays of Objects
@@ -1855,7 +1856,7 @@ insert_sections:
     markdown: |
       Encapsulate the deck-building code from Section 12.6 in a method called `makeDeck` that takes no parameters and returns a fully populated array of `Card`s.
       Once you have written your function and added test cases, run your code here.
-      {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch12/*.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ExerciseScript1 )
+      {Run!}(sh .guides/bg.sh javac code/ch12/*.java java -cp code/ch12/ ExerciseScript1 )
   - name: Exercise 12.2
     type: section
     chapter: Arrays of Objects
@@ -1864,7 +1865,7 @@ insert_sections:
     markdown: |
       In some card games, Aces are ranked higher than Kings. Modify the `compareTo` method to implement this ordering.
       Once you have written your function and added test cases, run your code here.
-      {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch12/*.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ExerciseScript2 )
+      {Run!}(sh .guides/bg.sh javac code/ch12/*.java java -cp code/ch12/ ExerciseScript2 )
   - name: Exercise 12.3
     type: section
     chapter: Arrays of Objects
@@ -1880,7 +1881,7 @@ insert_sections:
       1. Write a method called `hasFlush` that takes an array of cards as a parameter and returns `true` if the hand contains a flush (and `false` otherwise).
       1. A “royal flush” includes the Ace, King, Queen, Jack, and 10 (all in the same suit). Write a method called `hasRoyal` that determines whether an array of cards contains a royal flush.
       Once you have written your function and added test cases, run your code here.
-      {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch12/*.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ ExerciseScript3 )
+      {Run!}(sh .guides/bg.sh javac code/ch12/*.java java -cp code/ch12/ ExerciseScript3 )
   - name: Exercise 12.4
     type: section
     chapter: Arrays of Objects
@@ -1938,4 +1939,4 @@ insert_sections:
 
       You can get the image for the back of the card by reading the file *back192.gif*.
       Once you have written your function and added test cases, run your code here.
-      {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch12/*.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ CardTable )
+      {Run!}(sh .guides/bg.sh javac code/ch12/*.java java -cp code/ch12/ CardTable )

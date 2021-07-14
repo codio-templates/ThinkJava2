@@ -36,4 +36,4 @@ public static void main(String[] args) {
 }
 ```
 Test out these functions here by adding your own test cases.
-{Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/MakeDubMus.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ MakeDubMus )
+{Run!}(sh .guides/bg.sh javac code/ch07/MakeDubMus.java java -cp code/ch07/ MakeDubMus )

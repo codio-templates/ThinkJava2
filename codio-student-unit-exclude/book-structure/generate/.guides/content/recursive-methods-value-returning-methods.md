@@ -29,8 +29,8 @@ public static int factorial(int n) {
 }
 ```
 
-Next, we think about the base case. If the argument happens to be 0, [we return 1:](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Series1.java panel=0 ref="public static int factorial" count=4)
-[Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Series1.java panel=0)
+Next, we think about the base case. If the argument happens to be 0, [we return 1:](open_file code/ch08/Series1.java panel=0 ref="public static int factorial" count=4)
+[Remove highlighting](open_file code/ch08/Series1.java panel=0)
 
 
 ```code
@@ -42,8 +42,8 @@ public static int factorial(int n) {
 }
 ```
 
-Otherwise, and this is the interesting part, [we have to make a recursive call](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Series1.java panel=0 ref="int recurse" count=3) to find the factorial of n−1, and then multiply it by n:
-[Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Series1.java panel=0)
+Otherwise, and this is the interesting part, [we have to make a recursive call](open_file code/ch08/Series1.java panel=0 ref="int recurse" count=3) to find the factorial of n−1, and then multiply it by n:
+[Remove highlighting](open_file code/ch08/Series1.java panel=0)
 
 
 ```code
@@ -85,4 +85,4 @@ Figure 8.2 shows what the stack diagram looks like for this sequence of method i
 
 **Figure 8.2 Stack diagram for the `factorial` method.**
 Pulling together all of the above code fragments, and adding some test cases, run the complete example java code in the left pane. To compile and run the code, press "Run!".
-{Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/Series1.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ Series1 )
+{Run!}(sh .guides/bg.sh javac code/ch08/Series1.java java -cp code/ch08/ Series1 )

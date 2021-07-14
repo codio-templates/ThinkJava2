@@ -10,14 +10,13 @@ public class CardtoString {
     public static final String[] SUITS = {
         "Clubs", "Diamonds", "Hearts", "Spades"};
 
-    private final int rank;
-
-    private final int suit;
-
     /**
      * Constructs a card of the given rank and suit.
      */
-    public Card(int rank, int suit) {
+  private final int rank;
+  private final int suit;
+  
+  public CardtoString(int rank, int suit) {
         this.rank = rank;
         this.suit = suit;
     }
@@ -27,7 +26,7 @@ public class CardtoString {
     }
   
   public static void main(String[] args) {
-    Card card = new Card(11, 1);
+    CardtoString card = new CardtoString(11, 1);
     System.out.println(card);
   }
 }

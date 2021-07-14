@@ -8,7 +8,7 @@ We now return to the example from the beginning of the chapter and present a sol
 
 
 Based on the approach from Section 7.7, we will create an array of 26 integers to count how many times each letter appears. [We convert the string to lowercase,](open_file code/ch07/Doubloon.java panel=0 ref="// count the number" count=3) so that we can treat `'A'` and `'a'` (for example) as the same letter.
-[Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/Doubloon.java panel=0)
+[Remove highlighting](open_file code/ch07/Doubloon.java panel=0)
 
 
 ```code
@@ -32,7 +32,7 @@ Then we use `index` to increment the corresponding element of `counts`. At the e
 
 
 We can simplify this code with an enhanced for loop, but it doesn’t work with strings; we have to convert lower to an array of characters, [like this:](open_file code/ch07/Doubloon.java panel=0 ref="// count the number" count=7)
-[Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/Doubloon.java panel=0)
+[Remove highlighting](open_file code/ch07/Doubloon.java panel=0)
 
 
 ```code
@@ -43,7 +43,7 @@ for (char letter : lower.toCharArray()) {
 ```
 
 Once we have the counts, [we can use a second for loop](open_file code/ch07/Doubloon.java panel=0 ref="// determine whether the given word is a doubloon" count=8) to check whether each letter appears zero or two times:
-[Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/Doubloon.java panel=0)
+[Remove highlighting](open_file code/ch07/Doubloon.java panel=0)
 
 
 ```code

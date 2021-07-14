@@ -6,7 +6,6 @@ public class ExerciseScript1 {
   
   public static void main(String[] args) {
         //Test your code here
-    
     }
 
 }

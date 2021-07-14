@@ -1,5 +1,5 @@
-The `countdown` example in Section 8.1 has three parts: (1) it checks the base case, (2) it displays something, and (3) it makes a recursive call. What do you think happens if you reverse steps 2 and 3, [making the recursive call before displaying?](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Examples3.java panel=0 ref="public static void countup" count=8)
-[Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Examples3.java panel=0)
+The `countdown` example in Section 8.1 has three parts: (1) it checks the base case, (2) it displays something, and (3) it makes a recursive call. What do you think happens if you reverse steps 2 and 3, [making the recursive call before displaying?](open_file code/ch08/Examples3.java panel=0 ref="public static void countup" count=8)
+[Remove highlighting](open_file code/ch08/Examples3.java panel=0)
 
 
 ```code
@@ -23,4 +23,4 @@ Blastoff!
 ```
 
 Keep this in mind for the next example, which displays numbers in binary. Test and run both the `countup` and `countdown` functions here.
-{Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/Examples3.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ Examples3 )
+{Run!}(sh .guides/bg.sh javac code/ch08/Examples3.java java -cp code/ch08/ Examples3 )

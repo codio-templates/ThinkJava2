@@ -23,4 +23,4 @@ public static int prod(int m, int n) {
 1. Explain in a few words what `prod` does (without getting into the details of how it works).
 1. Rewrite `prod` without the temporary variables `recurse` and `result`. *Hint:* You need only one line for the `else` branch.
 
-{Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript3.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ ExerciseScript3 )
+{Run!}(sh .guides/bg.sh javac code/ch08/ExerciseScript3.java java -cp code/ch08/ ExerciseScript3 )

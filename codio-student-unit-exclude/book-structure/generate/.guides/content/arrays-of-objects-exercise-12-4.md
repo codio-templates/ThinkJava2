@@ -49,4 +49,4 @@ As a starting place, try placing cards on the table in the starting configuratio
 
 You can get the image for the back of the card by reading the file *back192.gif*.
 Once you have written your function and added test cases, run your code here.
-{Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch12/*.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ CardTable )
+{Run!}(sh .guides/bg.sh javac code/ch12/*.java java -cp code/ch12/ CardTable )

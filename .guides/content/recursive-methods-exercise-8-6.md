@@ -6,4 +6,4 @@ Many of the patterns you have seen for traversing arrays can also be written rec
 1. Methods like `maxInRange` can be awkward to use. To find the largest element in an array, we have to provide the range for the entire array: ```code
 double max = maxInRange(a, 0, a.length - 1);
 ``` Write a method called `max` that takes an array and uses `maxInRange` to find and return the largest element.
-{Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript6.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ ExerciseScript6 )
+{Run!}(sh .guides/bg.sh javac code/ch08/ExerciseScript6.java java -cp code/ch08/ ExerciseScript6 )

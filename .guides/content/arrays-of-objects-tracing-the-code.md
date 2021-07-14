@@ -37,3 +37,6 @@ You can see the range of cards shrinking as the `while` loop runs, until eventua
 Each time through the loop, we cut the distance between `low` and `high` in half. After $k$ iterations, the number of remaining cards is $52 / 2^k$. To find the number of iterations it takes to complete, we set $52 / 2^k = 1$ and solve for $k$. The result is $\log_2 52$, which is about 5.7. So we might have to look at 5 or 6 cards, as opposed to all 52 if we did a sequential search.
 
 More generally, if the array contains $n$ elements, binary search requires $\log_2 n$ comparisons, and sequential search requires $n$. For large values of $n$, binary search is substantially faster.
+
+Give it a shot here and see how ``binarySearch`` works here. Add the print statement from above to your code to better understand how ``binarySearch()`` works.
+{Run!}(sh .guides/bg.sh javac code/ch12/*.java java -cp code/ch12/ Search )

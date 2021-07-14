@@ -37,4 +37,4 @@ public static int pineapple(int[] a, int apple) {
 }
 ```
 Test out these functions here by adding your own test cases.
-{Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch07/Fruit.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch07/ Fruit )
+{Run!}(sh .guides/bg.sh javac code/ch07/Fruit.java java -cp code/ch07/ Fruit )

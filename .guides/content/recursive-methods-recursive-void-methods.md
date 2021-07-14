@@ -1,5 +1,5 @@
-[Consider the following example:](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Examples1.java panel=0 ref="public static void countdown" count=8)
-[Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Examples1.java panel=0)
+[Consider the following example:](open_file code/ch08/Examples1.java panel=0 ref="public static void countdown" count=8)
+[Remove highlighting](open_file code/ch08/Examples1.java panel=0)
 
 
 ```code
@@ -44,7 +44,7 @@ Blastoff!
 ```
 
 Give the function a try here.
-{Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/Examples1.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ Examples1 )
+{Run!}(sh .guides/bg.sh javac code/ch08/Examples1.java java -cp code/ch08/ Examples1 )
  As a second example, we'll rewrite the methods `newLine` and `threeLine` from Section 4.1. Here they are again:
 
 ```code
@@ -60,8 +60,8 @@ public static void threeLine() {
 ```
 
 
-Although these methods work, they would not help if we wanted to display two newlines, or maybe 100. A more general alternative would be [the following:](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Examples1.java panel=0 ref="public static void nLines" count=6)
-[Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Examples1.java panel=0)
+Although these methods work, they would not help if we wanted to display two newlines, or maybe 100. A more general alternative would be [the following:](open_file code/ch08/Examples1.java panel=0 ref="public static void nLines" count=6)
+[Remove highlighting](open_file code/ch08/Examples1.java panel=0)
 
 
 ```code
@@ -73,7 +73,7 @@ public static void nLines(int n) {
 }
 ```
 
-[Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Examples1.java panel=0)
+[Remove highlighting](open_file code/ch08/Examples1.java panel=0)
 Give the `nLines` function a try here.
-{Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/Examples1.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ Examples1 )
+{Run!}(sh .guides/bg.sh javac code/ch08/Examples1.java java -cp code/ch08/ Examples1 )
  This method takes an integer, `n`, as a parameter and displays `n` newlines. The structure is similar to `countdown`. As long as $n$ is greater than 0, it displays a newline and then invokes itself to display $(n-1)$ additional newlines. The total number of newlines is $1 + (n - 1)$, which is just what we wanted: $n$.
