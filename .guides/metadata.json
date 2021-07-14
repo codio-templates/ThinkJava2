@@ -2518,8 +2518,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-of-objects-sequential-search.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch12/Search.java"
+        }
+      ],
       "id": "arrays-of-objects-sequential-search",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2530,8 +2541,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-of-objects-binary-search.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch12/Search.java"
+        }
+      ],
       "id": "arrays-of-objects-binary-search",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2542,8 +2564,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-of-objects-tracing-the-code.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch12/Search.java"
+        }
+      ],
       "id": "arrays-of-objects-tracing-the-code",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2554,8 +2587,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-of-objects-vocabulary.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "arrays-of-objects-vocabulary",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],

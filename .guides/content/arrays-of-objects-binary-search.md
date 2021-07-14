@@ -11,7 +11,9 @@ When you look for a word in a dictionary, you don't search page by page from fro
 
 This algorithm is much faster than sequential search, because it rules out half of the remaining words each time you make a comparison. If at any point you find two adjacent words on the page, and your word comes between them, you can conclude that your word is not in the dictionary.
 
-Getting back to the array of cards, we can write a faster version of `search` if we know the cards are in order:
+Getting back to the array of cards, [we can write a faster version of search if we know the cards are in order:](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Search.java panel=0 ref="* Binary search" count=21)
+[Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Search.java panel=0)
+
 
 ```code
 public static int binarySearch(Card[] cards, Card target) {
@@ -48,4 +50,5 @@ Inside the `while` loop, we repeat the four steps of binary search:
 
 If `low` exceeds `high`, there are no cards in the range, so we terminate the loop and return `-1`.
 
-This algorithm depends on only the `compareTo` method of the object, so we can use this code with any object type that provides `compareTo`.
+This algorithm depends on only the `compareTo` method of the object, so we can use this code with any object type that provides `compareTo`. See how both sequential ``search`` and ``binarySearch`` work here. See the test cases in the ``main`` class to understand what is being outputted.
+{Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch12/*.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch12/ Search )

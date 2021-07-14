@@ -75,3 +75,6 @@ Then again, we don't have to write our own `printDeck` method. The `Arrays` clas
 ```code
 System.out.println(Arrays.toString(cards))
 ```
+
+Try it out here.
+{Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch12/*.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch12/ Search6 )

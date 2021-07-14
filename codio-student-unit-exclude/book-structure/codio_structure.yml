@@ -892,7 +892,6 @@ sections:
             action: open
   - name: "Vocabulary"
     type: section
-    type: section
     configuration:
       layout: 1-panel
       files:
@@ -1210,6 +1209,11 @@ sections:
                  [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Search6.java panel=0)
 
          position: 456
+       - add:  |
+                 Try it out here.
+                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch12/*.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch12/ Search6 )
+
+         position: 488
     configuration:
       layout: 2-panels
       files:
@@ -1220,12 +1224,62 @@ sections:
             action: open
   - name: "Sequential Search"
     type: section
+    transformations:
+       - remove: 1
+         position: 493
+       - add:  |
+                 [The next method we’ll write is search](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Search.java panel=0 ref="* Sequential search" count=10) , which takes an array of cards and a Card object as parameters. 
+                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Search6.java panel=0)
+
+         position: 494
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "codio-student-unit-exclude/ThinkJava2/code/ch12/Search.java"
+            panel: 0
+            action: open
   - name: "Binary Search"
     type: section
+    transformations:
+       - remove: 1
+         position: 553
+       - add:  |
+                 Getting back to the array of cards, [we can write a faster version of search if we know the cards are in order:](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Search.java panel=0 ref="* Binary search" count=21)
+                 [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch12/Search.java panel=0)
+
+         position: 554
+       - add:  |
+                 See how both sequential ``search`` and ``binarySearch`` work here. See the test cases in the ``main`` class to understand what is being outputted.
+                 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch12/*.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch12/ Search )
+
+         position: 595
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "codio-student-unit-exclude/ThinkJava2/code/ch12/Search.java"
+            panel: 0
+            action: open
   - name: "Tracing the Code"
     type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "codio-student-unit-exclude/ThinkJava2/code/ch12/Search.java"
+            panel: 0
+            action: open
   - name: "Vocabulary"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Exercises"
     type: section
   - name: "Objects of Arrays"
