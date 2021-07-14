@@ -2605,13 +2605,134 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arrays-of-objects-exercises.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "arrays-of-objects-exercises",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
       "teacherOnly": false,
       "title": "Exercises",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/arrays-of-objects-exercise-12-1.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch12/ExerciseScript1.java"
+        }
+      ],
+      "id": "arrays-of-objects-exercise-12-1",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 12.1",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/arrays-of-objects-exercise-12-1.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch12/ExerciseScript1.java"
+        }
+      ],
+      "id": "arrays-of-objects-exercise-12-1",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 12.1",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/arrays-of-objects-exercise-12-2.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch12/ExerciseScript2.java"
+        }
+      ],
+      "id": "arrays-of-objects-exercise-12-2",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 12.2",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/arrays-of-objects-exercise-12-3.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch12/ExerciseScript3.java"
+        }
+      ],
+      "id": "arrays-of-objects-exercise-12-3",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 12.3",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/arrays-of-objects-exercise-12-4.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "codio-student-unit-exclude/ThinkJava2/code/ch12/CardTable.java"
+        }
+      ],
+      "id": "arrays-of-objects-exercise-12-4",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 12.4",
       "type": "markdown"
     },
     {
