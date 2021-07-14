@@ -23,6 +23,7 @@ Notice how the single line `for (int value : values)` replaces the first two lin
 
 
 Using the enhanced `for` loop, and removing the temporary variable, [we can write the histogram code](open_file code/ch07/Histogram.java panel=0 ref="// histogram" count=5) from the previous section more concisely:
+[Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch07/ArrayExamples6.java panel=0)
 
 
 ```code

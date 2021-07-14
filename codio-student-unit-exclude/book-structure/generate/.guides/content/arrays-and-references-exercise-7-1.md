@@ -1,4 +1,3 @@
-**Exercise 7.1:**
 The purpose of this exercise is to practice reading code and recognizing the traversal patterns in this chapter. The following methods are hard to read, because instead of using meaningful names for the variables and methods, they use names of fruit.
 
 For each method, write one sentence that describes what the method does, without getting into the details of how it works. And for each variable, identify the role it plays.

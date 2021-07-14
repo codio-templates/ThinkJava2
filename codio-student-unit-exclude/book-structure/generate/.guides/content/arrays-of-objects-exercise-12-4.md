@@ -1,4 +1,3 @@
-**Exercise 12.4:**
 Working with cards is more fun if you can display them on the screen. If you have not already read Appendix 20 about 2D graphics, you should read it before working on this exercise. In the code directory for this chapter, *ch12*, you will find the following:
 
 

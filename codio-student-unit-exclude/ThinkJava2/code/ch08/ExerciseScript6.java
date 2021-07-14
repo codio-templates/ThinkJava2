@@ -1,7 +1,7 @@
 /**
  * Exercise.
  */
-public class ExerciseScript {
+public class ExerciseScript6 {
   // Create your functions here
   
   public static void main(String[] args) {

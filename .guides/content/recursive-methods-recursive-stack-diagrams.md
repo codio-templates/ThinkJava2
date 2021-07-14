@@ -15,6 +15,7 @@ There are four frames for `countdown`, each with a different value for the param
 If there is no base case in a recursive method, or if the base case is never reached, the stack would grow forever---at least in theory. In practice, the size of the stack is limited. If you exceed the limit, you get a `StackOverflowError`.
 
 For example, [here](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Examples2.java panel=0 ref="public static void forever" count=4) is a recursive method without a base case:
+[Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Examples2.java panel=0)
 
 
 ```code
@@ -25,6 +26,5 @@ public static void forever(String s) {
 ```
 
 
-This method displays the given string until the stack overflows, at which point it throws an error. Try this example on your computer---you might be surprised by how long the error message is! [Remove highlighting](open_file codio-student-unit-exclude/ThinkJava2/code/ch08/Examples2.java panel=0)
-Give the `nLines` function a try here.
+This method displays the given string until the stack overflows, at which point it throws an error. Try this example on your computer---you might be surprised by how long the error message is! Give the `nLines` function a try here.
 {Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/Examples2.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ Examples2 )

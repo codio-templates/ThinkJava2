@@ -1,4 +1,3 @@
-**Exercise 8.4:**
 The goal of this exercise is to translate a recursive definition into a Java method. The Ackermann function is defined for non-negative integers as follows:
 $$
 A(m, n) = \begin{cases}
@@ -13,4 +12,4 @@ Write a recursive method called `ack` that takes two `int`s as parameters and th
 Test your implementation of Ackermann by invoking it from `main` and displaying the return value.
 Note the return value gets very big very quickly.
 You should try it only for small values of $m$ and $n$ (not bigger than 3).
-{Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ ExerciseScript )
+{Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript4.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ ExerciseScript4 )

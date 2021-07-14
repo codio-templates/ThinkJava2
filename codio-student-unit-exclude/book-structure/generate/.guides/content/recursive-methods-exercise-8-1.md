@@ -1,4 +1,3 @@
-**Exercise 8.1:**
 The purpose of this exercise is to take a problem and break it into smaller problems, and to solve the smaller problems by writing simple methods. Consider the first verse of the song “99 Bottles of Beer”:
 
 
@@ -25,4 +24,4 @@ Write a program that displays the entire lyrics of “99 Bottles of Beer”.
 Your program should include a recursive method that does the hard part, but you might want to write additional methods to separate other parts of the program.
 As you develop your code, test it with a small number of verses, like `3`.
 Once you have written your function and added test cases, run your code here.
-{Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ ExerciseScript )
+{Run!}(sh .guides/bg.sh javac codio-student-unit-exclude/ThinkJava2/code/ch08/ExerciseScript1.java java -cp codio-student-unit-exclude/ThinkJava2/code/ch08/ ExerciseScript1 )

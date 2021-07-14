@@ -1,4 +1,3 @@
-**Exercise 7.2:**
 What is the output of the following program? Describe in a few words what `mus` does. Draw a stack diagram just before `mus` returns.
 
 ```code
