@@ -308,6 +308,12 @@ sections:
           position: 30
         - add:  |
                  Figure 1 shows how the computer stores the results of [this assignment code to the left](open_file code/ch09/Objects.java panel=0 ref="int" count=2) in memory. 
+                 
+                 ```
+                  int number = -2;
+                  char symbol = '!';
+                 ```
+                 
                  [Click to remove highlight](open_file code/ch09/Objects.java panel=0)
                  
           position: 36
@@ -315,6 +321,11 @@ sections:
           position: 50
         - add:  |
                  For example, [this code to the left](open_file code/ch09/Objects.java panel=0 ref="char[]" count=1) declares a variable named `array` and creates an array of three characters.
+                 
+                 ```
+                 char[] array = {'c', 'a', 't'};
+                 ```
+                 
                  [Click to remove highlight](open_file code/ch09/Objects.java panel=0)
                  
           position: 55
@@ -322,6 +333,11 @@ sections:
           position: 67
         - add:  |
                 For example, [this line](open_file code/ch09/Objects.java panel=0 ref="String word" count=1) declares a `String` variable named `word` and creates a `String` object, as shown in the below figure.
+                
+                ```
+                String word = "dog";
+                ```
+                
                 [Click to remove highlight](open_file code/ch09/Objects.java panel=0)
                  
           position: 72
@@ -329,6 +345,12 @@ sections:
           position: 82
         - add:  |
                 For convenience, you don't have to use `new` to create strings:, as shown [on the left.](open_file code/ch09/Objects.java panel=0 ref="String word1" count=2)
+                
+                ```
+                String word1 = new String("dog");  // creates a string object
+                String word2 = "dog";  // implicitly creates a string object
+                ```
+                
                 [Click to remove highlight](open_file code/ch09/Objects.java panel=0)
                  
           position: 88
@@ -347,6 +369,12 @@ sections:
           position: 107
         - add:  |
                  You can initialize object and array variables using `null` as shown [on the left.](open_file code/ch09/Objects.java panel=0 ref="null" count=4)
+                 
+                 ```
+                  String name0 = null;
+                  int[] combo = null;
+                 ```
+                 
                  [Click to remove highlight](open_file code/ch09/Objects.java panel=0)
                  
           position: 113
@@ -354,6 +382,12 @@ sections:
           position: 127
         - add:  |
                  If you try to use a variable that is `null` by invoking a method or accessing an element, Java throws a `NullPointerException`, as in the two cases [on the left.](open_file code/ch09/Objects.java panel=0 ref="NullPointerException" count=2)
+                 
+                 ```
+                  System.out.println(name0.length());  // NullPointerException
+                  System.out.println(combo[0]);        // NullPointerException
+                 ```
+                 
                  To see what a NullPointerException looks like, try removing the comments from the two lines of code and clicking "Run!" below.
                  {Run!}(sh .guides/bg.sh javac code/ch09/Objects.java java -cp code/ch09/ Objects 1)
                  [Click to remove highlight](open_file code/ch09/Objects.java panel=0)
@@ -366,6 +400,12 @@ sections:
           position: 153
         - add:  |
                  For example, consider [this code on the left.](open_file code/ch09/Objects.java panel=0 ref="immutable" count=4)
+                 
+                 ```
+                  String name = "Alan Turing";
+                  String upperName = name.toUpperCase();
+                 ```
+                 
                  You'll need to remove the comments from these lines of code in order to run the next steps. (You'll also need to re-comment out the NullPointerException lines.)
                  [Click to remove highlight](open_file code/ch09/Objects.java panel=0)
                  
@@ -374,6 +414,12 @@ sections:
           position: 164
         - add:  |
                  A common mistake is to assume that `toUpperCase` somehow affects the original string, as in [this code on the left.](open_file code/ch09/Objects.java panel=0 ref="ignores" count=2)
+                 
+                 ```
+                  name.toUpperCase();           // ignores the return value
+                  System.out.println(name);
+                 ```
+                 
                  Remove the comments from this code and press "Run!" to see what happens. 
                  {Run!}(sh .guides/bg.sh javac code/ch09/Objects.java java -cp code/ch09/ Objects 2)
                  [Click to remove highlight](open_file code/ch09/Objects.java panel=0)
@@ -383,6 +429,12 @@ sections:
           position: 173
         - add:  |
                  If you want to change `name` to be uppercase, then you need to assign the return value: as in [this code on the left.](open_file code/ch09/Objects.java panel=0 ref="references" count=2)
+                 
+                 ```
+                  name = name.toUpperCase();    // references the new string
+                  System.out.println(name);
+                 ```
+                 
                  Remove the comments from this code and press "Run!" to see what happens. 
                  {Run!}(sh .guides/bg.sh javac code/ch09/Objects.java java -cp code/ch09/ Objects 3)
                  [Click to remove highlight](open_file code/ch09/Objects.java panel=0)
@@ -392,6 +444,12 @@ sections:
           position: 184
         - add:  |
                  [This example](open_file code/ch09/Objects.java panel=0 ref="Computer Science" count=2) replaces `"Computer Science"` with `"CS"`.
+                 
+                 ```
+                  String text = "Computer Science is fun!";
+                  text = text.replace("Computer Science", "CS");
+                 ```
+                 
                  Remove the comments from this code and press "Run!" to see what happens. 
                  {Run!}(sh .guides/bg.sh javac code/ch09/Objects.java java -cp code/ch09/ Objects 4)
                  [Click to remove highlight](open_file code/ch09/Objects.java panel=0)
@@ -404,6 +462,12 @@ sections:
           position: 219
         - add:  |
                 The wrapper class for `int` is named `Integer`, with a capital `I`. The above example works when you change the data type to `Integer`, as seen [on the left.](open_file code/ch09/Objects.java panel=0 ref="Integer" count=2)
+                
+                ```
+                  Integer i = Integer.valueOf(5);
+                  System.out.println(i.equals(5));  // displays true
+                ```
+                
                 Remove the comments from this code and press "Run!" to see what happens. 
                 {Run!}(sh .guides/bg.sh javac code/ch09/Objects.java java -cp code/ch09/ Objects 5)
                 [Click to remove highlight](open_file code/ch09/Objects.java panel=0)
@@ -413,6 +477,18 @@ sections:
           position: 229
         - add:  |
                 Like strings, objects from wrapper classes are immutable, and you have to use the `equals` method to compare them, as in the example [on the left.](open_file code/ch09/Objects.java panel=0 ref="Integer x" count=8)
+                
+                ```
+                  Integer x = Integer.valueOf(123);
+                  Integer y = Integer.valueOf(123);
+                  if (x == y) {                     // false
+                      System.out.println("x and y are the same object");
+                  }
+                  if (x.equals(y)) {                // true
+                      System.out.println("x and y have the same value");
+                  }
+                ```
+                
                 Remove the comments from this code and press "Run!" to see what happens. 
                 {Run!}(sh .guides/bg.sh javac code/ch09/Objects.java java -cp code/ch09/ Objects 6)
                 [Click to remove highlight](open_file code/ch09/Objects.java panel=0)
@@ -423,6 +499,12 @@ sections:
           position: 254
         - add:  |
                 For an example usage of `parseInt()`, look at the example [on the left.](open_file code/ch09/Objects.java panel=0 ref="String str" count=2)
+                
+                ```
+                String str = "12345";
+                int num = Integer.parseInt(str);
+                ```
+                
                 Remove the comments from this code and press "Run!" to see what happens. 
                 {Run!}(sh .guides/bg.sh javac code/ch09/Objects.java java -cp code/ch09/ Objects 7)
                 [Click to remove highlight](open_file code/ch09/Objects.java panel=0)
@@ -432,6 +514,12 @@ sections:
           position: 260
         - add:  |
                 They also provide `toString`, which returns a string representation of a value, as seen [on the left.](open_file code/ch09/Objects.java panel=0 ref="toString" count=3)
+                
+                ```
+                  num = 12345;
+                  str = Integer.toString(num);
+                ```
+                
                 Remove the comments from this code and press "Run!" to see what happens. 
                 {Run!}(sh .guides/bg.sh javac code/ch09/Objects.java java -cp code/ch09/ Objects 8)
                 [Click to remove highlight](open_file code/ch09/Objects.java panel=0)
@@ -455,7 +543,16 @@ sections:
           position: 334
         - add:  |
                 The code [on the left](open_file code/ch09/Max.java panel=0 ref="int max" count=7) uses an enhanced `for` loop (see Section 7.8) to parse the arguments and find the largest value.
- 
+                ```
+                int max = Integer.MIN_VALUE;
+                for (String arg : args) {
+                    int value = Integer.parseInt(arg);
+                    if (value > max) {
+                        max = value;
+                    }
+                }
+                System.out.println("The max is " + max);
+                ```
           position: 346
         - remove: 8
           position: 352

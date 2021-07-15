@@ -2,6 +2,12 @@ Often when you declare an object variable, you assign it to reference an object.
 
 
 In Java, the keyword `null` is a special value that means “no object”. You can initialize object and array variables using `null` as shown [on the left.](open_file code/ch09/Objects.java panel=0 ref="null" count=4)
+
+```
+ String name0 = null;
+ int[] combo = null;
+```
+
 [Click to remove highlight](open_file code/ch09/Objects.java panel=0)
 
 
@@ -13,6 +19,12 @@ The value `null` is represented in memory diagrams by a small box with no arrow,
 
 
 If you try to use a variable that is `null` by invoking a method or accessing an element, Java throws a `NullPointerException`, as in the two cases [on the left.](open_file code/ch09/Objects.java panel=0 ref="NullPointerException" count=2)
+
+```
+ System.out.println(name0.length());  // NullPointerException
+ System.out.println(combo[0]);        // NullPointerException
+```
+
 To see what a NullPointerException looks like, try removing the comments from the two lines of code and clicking "Run!" below.
 {Run!}(sh .guides/bg.sh javac code/ch09/Objects.java java -cp code/ch09/ Objects 1)
 [Click to remove highlight](open_file code/ch09/Objects.java panel=0)

@@ -33,6 +33,16 @@ The first line of output, representing the initial array of arguments, is shown 
 It's not clear from the output, but the elements of `args` are strings. So `args` is the array `{"10", "-3", "55", "0", "14"\`}. To find the maximum number, we have to convert the arguments to integers.
 
 The code [on the left](open_file code/ch09/Max.java panel=0 ref="int max" count=7) uses an enhanced `for` loop (see Section 7.8) to parse the arguments and find the largest value.
+```
+int max = Integer.MIN_VALUE;
+for (String arg : args) {
+    int value = Integer.parseInt(arg);
+    if (value > max) {
+        max = value;
+    }
+}
+System.out.println("The max is " + max);
+```
 
 
 We begin by initializing `max` to the smallest (most negative) number an `int` can represent. That way, the first value we parse will replace `max`. As we find larger values, they will replace `max` as well.
