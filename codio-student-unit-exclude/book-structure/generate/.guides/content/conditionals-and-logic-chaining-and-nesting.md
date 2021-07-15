@@ -1,7 +1,13 @@
 Sometimes you want to check related conditions and choose one of several actions. One way to do this is by **chaining** a series of `if` and `else` blocks: [Click here to see an example on the left.](open_file code/ch05/ChainNest.java panel=0 ref="if" count=7) 
 
 ```
-
+ if (x > 0) {
+     System.out.println("x is positive");
+ } else if (x < 0) {
+     System.out.println("x is negative");
+ } else {
+     System.out.println("x is zero");
+ }
 ```
 
 [Click here to remove highlight](open_file code/ch05/ChainNest.java panel=0)
@@ -16,6 +22,20 @@ Notice that the last branch is simply `else`, not `else if (x == 0)`. At this po
 
 
 In addition to chaining, you can also make complex decisions by **nesting** one conditional statement inside another. [We could have written it this way instead.](open_file code/ch05/ChainNest.java panel=0 ref="alternate way" count=10)
+
+```
+ //alternate way
+ if (x > 0) {
+     System.out.println("x is positive");
+ } else {
+     if (x < 0) {
+         System.out.println("x is negative");
+     } else {
+         System.out.println("x is zero");
+     }
+ }
+```
+
 [Click here to remove highlight](open_file code/ch05/ChainNest.java panel=0)
 Remove the comment symbols in front of the code and then press the "Run!"
 {Run!}(sh .guides/bg.sh javac code/ch05/ChainNest.java java -cp code/ch05/ ChainNest 2)

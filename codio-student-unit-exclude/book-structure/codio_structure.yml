@@ -293,6 +293,8 @@ sections:
                  {Run!}(sh .guides/bg.sh javac code/ch05/IfElse.java java -cp code/ch05/ IfElse 5)
 
           position: 151
+        - remove: 1
+          position: 169
     configuration:
       layout: 2-panels
       files:
@@ -676,15 +678,14 @@ sections:
         - add:  |
                  [Click to see an example at the left.](open_file code/ch05/DigitUtil.java panel=0 ref="main" count=3) 
                  
-                ```
-                public static void main(String[] args) {
+                 ```
+                 public static void main(String[] args) {
                     System.out.println(isSingleDigit(2));
                     boolean bigFlag = !isSingleDigit(17);
-
                     //...
-                }
-
-                ```
+                 }
+                 
+                 ```
                  
                  [Click here to remove highlights](open_file code/ch05/DigitUtil.java panel=0)
                  To compile and run the code, press the "Run!"
@@ -704,7 +705,6 @@ sections:
                       System.out.println("z is big");
                   }
                  ```
-                 
                  [Click here to remove highlights](open_file code/ch05/DigitUtil.java panel=0)
                  Remove the comment symbols in front of the code and then press the "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch05/DigitUtil.java java -cp code/ch05/ DigitUtil 4)
