@@ -1,4 +1,10 @@
 To write useful programs, we almost always need to check conditions and react accordingly. **Conditional statements** give us this ability. The simplest conditional statement in Java is the `if` statement: [Click here to see an example on the left.](open_file code/ch05/IfElse.java panel=0 ref="if" count=3) 
+```
+if (x > 0) {
+  System.out.println("x is positive");
+}
+```
+
 [Click here to remove highlight](open_file code/ch05/IfElse.java panel=0)
 Remove the comment symbols in front of the code and then press the "Run!"
 {Run!}(sh .guides/bg.sh javac code/ch05/IfElse.java java -cp code/ch05/ IfElse 1)
@@ -9,6 +15,14 @@ The expression in parentheses is called the *condition*. If it is true, the stat
 
 
 A second form of conditional statement has two possibilities, indicated by `if` and `else`. The possibilities are called **branches**, and the condition determines which branch gets executed: [Click here to see an example on the left.](open_file code/ch05/IfElse.java panel=0 ref="x % 2" count=5) 
+```
+ if (x % 2 == 0) {
+     System.out.println("x is even");
+ } else {
+     System.out.println("x is odd");
+ }
+```
+
 [Click here to remove highlight](open_file code/ch05/IfElse.java panel=0)
 Remove the comment symbols in front of the code and then press the "Run!"
 {Run!}(sh .guides/bg.sh javac code/ch05/IfElse.java java -cp code/ch05/ IfElse 2)
@@ -18,12 +32,28 @@ Remove the comment symbols in front of the code and then press the "Run!"
 If the remainder when `x` is divided by 2 is 0, we know that `x` is even, and the program displays a message to that effect. If the condition is false, the second print statement is executed instead. Since the condition must be true or false, exactly one of the branches will run.
 
 The braces are optional for branches that have only one statement. So we could have written the previous example [this way.](open_file code/ch05/IfElse.java panel=0 ref="look" count=6) 
+
+```
+ // look, no braces...bad idea!
+ if (x % 2 == 0)
+     System.out.println("x is even");
+ else
+     System.out.println("x is odd");
+```
+
+
 [Click here to remove highlight](open_file code/ch05/IfElse.java panel=0)                 
 Remove the comment symbols in front of the code and then press the "Run!"
 {Run!}(sh .guides/bg.sh javac code/ch05/IfElse.java java -cp code/ch05/ IfElse 3)
 
 
 However, it's better to use braces---even when they are optional---to avoid making the mistake of adding statements to a one-line `if` or `else` block. [This code](open_file code/ch05/IfElse.java panel=0 ref="logic" count=4) is misleading because it's not indented correctly.
+```
+ if (x > 0)
+     System.out.println("x is positive");
+     System.out.println("x is not zero");
+```
+
 [Click here to remove highlight](open_file code/ch05/IfElse.java panel=0)                 
 Remove the comment symbols in front of the code and then press the "Run!"
 {Run!}(sh .guides/bg.sh javac code/ch05/IfElse.java java -cp code/ch05/ IfElse 4) Then try changing x to 0 and see if the code works as expected. 
@@ -41,7 +71,14 @@ if (x > 0) {
 As a result, the second `println` runs no matter what. Even experienced programmers make this mistake; search the web for Apple's “goto fail” bug.
 
 
-In all previous examples, notice that there is no semicolon at the end of the `if` or `else` lines. Instead, a new block should be defined using braces. Another common mistake is to put a semicolon after the condition, like [this.](open_file code/ch05/IfElse.java panel=0 ref="incorrect semicolon" count=3) 
+In all previous examples, notice that there is no semicolon at the end of the `if` or `else` lines. Instead, a new block should be defined using braces. Another common mistake is to put a semicolon after the condition, like [this.](open_file code/ch05/IfElse.java panel=0 ref="incorrect semicolon" count=3)
+
+```
+     if (x % 2 == 0); { // incorrect semicolon
+         System.out.println("x is even");
+     }
+```
+
 [Click here to remove highlight](open_file code/ch05/IfElse.java panel=0)                 
 Remove the comment symbols in front of the code and then press the "Run!"
 {Run!}(sh .guides/bg.sh javac code/ch05/IfElse.java java -cp code/ch05/ IfElse 5)

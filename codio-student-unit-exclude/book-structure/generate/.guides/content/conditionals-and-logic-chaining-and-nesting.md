@@ -1,4 +1,9 @@
 Sometimes you want to check related conditions and choose one of several actions. One way to do this is by **chaining** a series of `if` and `else` blocks: [Click here to see an example on the left.](open_file code/ch05/ChainNest.java panel=0 ref="if" count=7) 
+
+```
+
+```
+
 [Click here to remove highlight](open_file code/ch05/ChainNest.java panel=0)
 Remove the comment symbols in front of the code and then press the "Run!"
 {Run!}(sh .guides/bg.sh javac code/ch05/ChainNest.java java -cp code/ch05/ ChainNest 1)

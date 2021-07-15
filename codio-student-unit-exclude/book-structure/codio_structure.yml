@@ -215,6 +215,12 @@ sections:
           position: 76
         - add:  |
                  [Click here to see an example on the left.](open_file code/ch05/IfElse.java panel=0 ref="if" count=3) 
+                 ```
+                 if (x > 0) {
+                   System.out.println("x is positive");
+                 }
+                 ```
+                 
                  [Click here to remove highlight](open_file code/ch05/IfElse.java panel=0)
                  Remove the comment symbols in front of the code and then press the "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch05/IfElse.java java -cp code/ch05/ IfElse 1)
@@ -224,6 +230,14 @@ sections:
           position: 95
         - add:  |
                  [Click here to see an example on the left.](open_file code/ch05/IfElse.java panel=0 ref="x % 2" count=5) 
+                 ```
+                  if (x % 2 == 0) {
+                      System.out.println("x is even");
+                  } else {
+                      System.out.println("x is odd");
+                  }
+                 ```
+                 
                  [Click here to remove highlight](open_file code/ch05/IfElse.java panel=0)
                  Remove the comment symbols in front of the code and then press the "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch05/IfElse.java java -cp code/ch05/ IfElse 2)
@@ -233,6 +247,16 @@ sections:
           position: 108
         - add:  |
                  So we could have written the previous example [this way.](open_file code/ch05/IfElse.java panel=0 ref="look" count=6) 
+                 
+                 ```
+                  // look, no braces...bad idea!
+                  if (x % 2 == 0)
+                      System.out.println("x is even");
+                  else
+                      System.out.println("x is odd");
+                 ```
+                 
+                 
                  [Click here to remove highlight](open_file code/ch05/IfElse.java panel=0)                 
                  Remove the comment symbols in front of the code and then press the "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch05/IfElse.java java -cp code/ch05/ IfElse 3)
@@ -242,6 +266,12 @@ sections:
           position: 118
         - add:  |
                  [This code](open_file code/ch05/IfElse.java panel=0 ref="logic" count=4) is misleading because it's not indented correctly.
+                 ```
+                  if (x > 0)
+                      System.out.println("x is positive");
+                      System.out.println("x is not zero");
+                 ```
+                 
                  [Click here to remove highlight](open_file code/ch05/IfElse.java panel=0)                 
                  Remove the comment symbols in front of the code and then press the "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch05/IfElse.java java -cp code/ch05/ IfElse 4) Then try changing x to 0 and see if the code works as expected. 
@@ -250,7 +280,14 @@ sections:
         - remove: 8
           position: 143 
         - add:  |
-                 Another common mistake is to put a semicolon after the condition, like [this.](open_file code/ch05/IfElse.java panel=0 ref="incorrect semicolon" count=3) 
+                 Another common mistake is to put a semicolon after the condition, like [this.](open_file code/ch05/IfElse.java panel=0 ref="incorrect semicolon" count=3)
+                 
+                 ```
+                      if (x % 2 == 0); { // incorrect semicolon
+                          System.out.println("x is even");
+                      }
+                 ```
+                 
                  [Click here to remove highlight](open_file code/ch05/IfElse.java panel=0)                 
                  Remove the comment symbols in front of the code and then press the "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch05/IfElse.java java -cp code/ch05/ IfElse 5)
@@ -271,6 +308,17 @@ sections:
           position: 179
         - add:  |
                  [Click here to see an example on the left.](open_file code/ch05/ChainNest.java panel=0 ref="if" count=7) 
+                 
+                 ```
+                  if (x > 0) {
+                      System.out.println("x is positive");
+                  } else if (x < 0) {
+                      System.out.println("x is negative");
+                  } else {
+                      System.out.println("x is zero");
+                  }
+                 ```
+                 
                  [Click here to remove highlight](open_file code/ch05/ChainNest.java panel=0)
                  Remove the comment symbols in front of the code and then press the "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch05/ChainNest.java java -cp code/ch05/ ChainNest 1)
@@ -281,6 +329,20 @@ sections:
           position: 200
         - add:  |
                  [We could have written it this way instead.](open_file code/ch05/ChainNest.java panel=0 ref="alternate way" count=10)
+                 
+                 ```
+                  //alternate way
+                  if (x > 0) {
+                      System.out.println("x is positive");
+                  } else {
+                      if (x < 0) {
+                          System.out.println("x is negative");
+                      } else {
+                          System.out.println("x is zero");
+                      }
+                  }
+                 ```
+                 
                  [Click here to remove highlight](open_file code/ch05/ChainNest.java panel=0)
                  Remove the comment symbols in front of the code and then press the "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch05/ChainNest.java java -cp code/ch05/ ChainNest 2)
@@ -301,6 +363,23 @@ sections:
           position: 227
         - add:  |
                  For example, consider the first part of the program on the left. [Click to view.](open_file code/ch05/Switch.java panel=0 ref="if" count=14)
+                 
+                 ```
+                  // if-else-if
+
+                  if (number == 1) {
+                      word = "one";
+                  } else if (number == 2) {
+                      word = "two";
+                  } else if (number == 3) {
+                      word = "three";
+                  } else {
+                      word = "unknown";
+                  }
+                  System.out.println(number);
+                  System.out.println(word);
+                 ```
+                 
                  [Click here to remove highlight](open_file code/ch05/Switch.java panel=0)
                  It converts integers like `1`,`2`, and `3` into words like `"one"`, `"two"`, and `"three"`. Remove the comment symbols in front of the code and then press the "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch05/Switch.java java -cp code/ch05/ Switch 1)
@@ -311,23 +390,55 @@ sections:
         - add:  |
                  
                  An alternative way to evaluate many possible values of an expression is to use a ```switch``` statement:, as shown [on the left.](open_file code/ch05/Switch.java panel=0 ref="same" count=18)
+                 ```
+                  // same result as above
+
+                  switch (number) {
+                      case 1:
+                          word = "one";
+                          break;
+                      case 2:
+                          word = "two";
+                          break;
+                      case 3:
+                          word = "three";
+                          break;
+                      default:
+                          word = "unknown";
+                          break;
+                  }
+                  System.out.println(number);
+                  System.out.println(word);
+                 ```
+                 
                  [Click here to remove highlight](open_file code/ch05/Switch.java panel=0)
                  Remove the comment symbols in front of the code and then press the "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch05/Switch.java java -cp code/ch05/ Switch 2)
 
 
           position: 263
-        - add:  |
-                 
-                 
-                 
-          position: 263
         - remove: 17
           position: 268
         - add:  |
-                 
-                 
+             
                  Although `switch` statements appear longer than chained `else if` blocks, they are particularly useful when multiple cases can be grouped, as seen [on the left.](open_file code/ch05/Switch.java panel=0 ref="fall" count=15)
+                 ```
+                  // switch blocks fall through
+
+                  String food = "apple";
+                  switch (food) {
+                      case "apple":
+                      case "banana":
+                      case "cherry":
+                          System.out.println("Fruit!");
+                          break;
+                      case "asparagus":
+                      case "broccoli":
+                      case "carrot":
+                          System.out.println("Vegetable!");
+                          break;
+                  }
+                 ```
                  [Click here to remove highlight](open_file code/ch05/Switch.java panel=0)
                  Remove the comment symbols in front of the code and then press the "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch05/Switch.java java -cp code/ch05/ Switch 3)
@@ -348,6 +459,23 @@ sections:
           position: 315
         - add:  |
                  For example, [this code at the left](open_file code/ch05/LogicalOpers.java panel=0 ref="nested" count=6) can be rewritten with a single condition, to look [like this](open_file code/ch05/LogicalOpers.java panel=0 ref="combined" count=4) 
+                 
+                 ```
+                  // nested
+                  if (x == 0) {
+                      if (y == 0) {
+                          System.out.println("Both x and y are zero");
+                      }
+                  }
+                 ```
+                 
+                 ```
+                  // combined
+                  if (x == 0 && y == 0) {
+                      System.out.println("Both x and y are zero");
+                  }
+                 ```
+                 
                  [Click here to remove highlight](open_file code/ch05/LogicalOpers.java panel=0)
                  Remove the comment symbols in front of the code and then press the "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch05/LogicalOpers.java java -cp code/ch05/ LogicalOpers 1)
@@ -358,6 +486,24 @@ sections:
         - add:  |
                  Likewise, the `||` operator can simplify chained `if` statements, such as the one [at the left](open_file code/ch05/LogicalOpers.java panel=0 ref="chained" count=6). Since the branches are the same, there is no need to duplicate [this line of code](open_file code/ch05/LogicalOpers.java panel=0 ref="Either" count=1).  
                  Therefore, we can combine them [like this](open_file code/ch05/LogicalOpers.java panel=0 ref="can make things easier" count=4) 
+                
+                 ```
+                  // chained
+                  if (x == 0) {
+                      System.out.println("Either x or y is zero");
+                  } else if (y == 0) {
+                      System.out.println("Either x or y is zero");
+                  }
+                 ```
+                 
+                 ```
+                 
+                  // combined -- using || can make things easier
+                  if (x == 0 || y == 0) {
+                      System.out.println("Either x or y is zero");
+                  }
+                 ```
+                 
                  [Click here to remove highlights](open_file code/ch05/LogicalOpers.java panel=0)
                  Remove the comment symbols in front of the code and then press the "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch05/LogicalOpers.java java -cp code/ch05/ LogicalOpers 2)
@@ -378,6 +524,14 @@ sections:
           position: 368
         - add:  |
                  For example, to test if `x` and `y` are both nonzero, you could write [this code at the left.](open_file code/ch05/LogicalOpers.java panel=0 ref="!" count=3) 
+                 
+                 ```
+                  if (!(x == 0 || y == 0)) {
+                      System.out.println("Neither x nor y is zero");
+                  }
+                  
+                 ```
+                 
                  [Click here to remove highlights](open_file code/ch05/LogicalOpers.java panel=0)
                  Remove the comment symbols in front of the code and then press the "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch05/LogicalOpers.java java -cp code/ch05/ LogicalOpers 1) This code won't print anything, because the condition is false. 
@@ -387,6 +541,13 @@ sections:
           position: 402
         - add:  |
                  The logic is the same, and the source code is easier to read, as seen [here at the left.](open_file code/ch05/LogicalOpers.java panel=0 ref="x !" count=3) 
+                 
+                 ```
+                 if (x != 0 && y != 0) {
+                      System.out.println("Neither x nor y is zero");
+                 }
+                 ```
+                 
                  [Click here to remove highlights](open_file code/ch05/LogicalOpers.java panel=0)
                  Remove the comment symbols in front of the code and then press the "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch05/LogicalOpers.java java -cp code/ch05/ LogicalOpers 2) This code still won't print anything, because the condition is still false. 
@@ -407,6 +568,14 @@ sections:
           position: 418
         - add:  |
                  In the example at the left, the first line is a variable declaration, the second is an assignment, and the third is both. [Click to view.](open_file code/ch05/LogicalOpers.java panel=0 ref="boolean" count=4)
+                 
+                 ```
+                  // boolean variables
+                  boolean flag;
+                  flag = true;
+                  boolean testResult = false;
+                 ```
+                 
                  [Click here to remove highlights](open_file code/ch05/LogicalOpers.java panel=0)
                  Remove the comment symbols in front of the code and then press the "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch05/LogicalOpers.java java -cp code/ch05/ LogicalOpers 1) This won't print anything because there are no print statements: the code is only saving boolean values into memory and labeling them. 
@@ -416,6 +585,12 @@ sections:
           position: 429
         - add:  |
                  Since relational and logical operators evaluate to a `boolean` value, you can store the result of a comparison in a variable, as is done [here at the left.](open_file code/ch05/LogicalOpers.java panel=0 ref="even" count=2)
+                 
+                 ```
+                 boolean evenFlag = (x % 2 == 0);    // true if x is even
+                 boolean positiveFlag = (x > 0);     // true if x is positive
+                 ```
+                 
                  [Click here to remove highlights](open_file code/ch05/LogicalOpers.java panel=0)
                  Remove the comment symbols in front of the code and then press the "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch05/LogicalOpers.java java -cp code/ch05/ LogicalOpers 2) This still doesn't print anything. Be sure **NOT** to re-comment these lines out before moving on to the next code snippet. 
@@ -425,6 +600,13 @@ sections:
           position: 441
         - add:  |
                  You can even use flag variables as part of a conditional statement, [like this.](open_file code/ch05/LogicalOpers.java panel=0 ref="evenFlag)" count=3) 
+                 
+                 ```
+                 if (evenFlag) {
+                     System.out.println("n was even when I checked it");
+                 }
+                 ```
+                 
                  [Click here to remove highlights](open_file code/ch05/LogicalOpers.java panel=0)
                  Remove the comment symbols in front of the code and then press the "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch05/LogicalOpers.java java -cp code/ch05/ LogicalOpers 3)
@@ -434,6 +616,13 @@ sections:
           position: 454
         - add:  |
                  To check if a flag is `false`, we simply negate the flag [like this.](open_file code/ch05/LogicalOpers.java panel=0 ref="!evenFlag" count=3) 
+                 
+                 ```
+                  if (!evenFlag) {
+                      System.out.println("n was odd when I checked it");
+                  }
+                 ```
+                 
                  [Click here to remove highlights](open_file code/ch05/LogicalOpers.java panel=0)
                  Remove the comment symbols in front of the code and then press the "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch05/LogicalOpers.java java -cp code/ch05/ LogicalOpers 4)
@@ -453,7 +642,18 @@ sections:
         - remove: 11
           position: 473
         - add:  |
-                 [Click to see an example at the left.](open_file code/ch05/DigitUtil.java panel=0 ref="isSingleDigit" count=7) 
+                 [Click to see an example at the left.](open_file code/ch05/DigitUtil.java panel=0 ref="isSingleDigit" count=7)
+                 
+                 ```
+                  public static boolean isSingleDigit(int x) {
+                      if (x > -10 && x < 10) {
+                          return true;
+                      } else {
+                          return false;
+                      }
+                  }
+                 ```
+                 
                  [Click here to remove highlights](open_file code/ch05/DigitUtil.java panel=0)
 
           position: 484
@@ -461,6 +661,13 @@ sections:
           position: 492
         - add:  |
                  [Click to see an example at the left.](open_file code/ch05/DigitUtil.java panel=0 ref="isSingleDigit2" count=3)
+                 
+                 ```
+                 public static boolean isSingleDigit2(int x) {
+                     return x > -10 && x < 10;
+                 }
+                 ```
+                 
                  [Click here to remove highlights](open_file code/ch05/DigitUtil.java panel=0)
 
           position: 497
@@ -468,6 +675,17 @@ sections:
           position: 500
         - add:  |
                  [Click to see an example at the left.](open_file code/ch05/DigitUtil.java panel=0 ref="main" count=3) 
+                 
+                ```
+                public static void main(String[] args) {
+                    System.out.println(isSingleDigit(2));
+                    boolean bigFlag = !isSingleDigit(17);
+
+                    //...
+                }
+
+                ```
+                 
                  [Click here to remove highlights](open_file code/ch05/DigitUtil.java panel=0)
                  To compile and run the code, press the "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch05/DigitUtil.java java -cp code/ch05/ DigitUtil 3)
@@ -477,6 +695,16 @@ sections:
           position: 510
         - add:  |
                  [Click to see an example at the left.](open_file code/ch05/DigitUtil.java panel=0 ref="z" count=6)
+                 
+                 ```
+                  int z = 9;
+                  if (isSingleDigit(z)) {
+                      System.out.println("z is small");
+                  } else {
+                      System.out.println("z is big");
+                  }
+                 ```
+                 
                  [Click here to remove highlights](open_file code/ch05/DigitUtil.java panel=0)
                  Remove the comment symbols in front of the code and then press the "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch05/DigitUtil.java java -cp code/ch05/ DigitUtil 4)
