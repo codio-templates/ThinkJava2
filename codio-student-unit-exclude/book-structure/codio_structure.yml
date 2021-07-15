@@ -266,16 +266,22 @@ sections:
          position: 66
        - add:  |
                  Of course, you can also declare the variable and create the array with a [single line of code:](open_file code/ch07/ArrayExamples1.java panel=0 ref="int size" count=4)
-                 [Remove highlighting](open_file code/ch07/ArrayExamples1.java panel=0)
 
          position: 67
+       - add:  |
+                 [Click to remove the highlight.](open_file code/ch07/ArrayExamples1.java panel=0)
+
+         position: 73
        - remove: 1
          position: 80
        - add:  |
                  You can initialize an array with a comma-separated sequence of elements enclosed in braces, [like this:](open_file code/ch07/ArrayExamples1.java panel=0 ref="// displaying arrays" count=3)
-                 [Remove highlighting](open_file code/ch07/ArrayExamples1.java panel=0)
 
          position: 81
+       - add:  |
+                 [Click to remove the highlight.](open_file code/ch07/ArrayExamples1.java panel=0)
+
+         position: 86
        - add:  |
                  See the example java code in the left pane. To print the array using the printArray method, press the "Run!". Feel free to edit the existing array or create a new one. 
                  {Run!}(sh .guides/bg.sh javac code/ch07/ArrayExamples1.java java -cp code/ch07/ ArrayExamples1 )
@@ -296,23 +302,32 @@ sections:
          position: 125
        - add:  |
                  You can use the `[]` operator anywhere in an [expression:](open_file code/ch07/ArrayExamples2.java panel=0 ref="counts[0]" count=4)
-                 [Remove highlighting](open_file code/ch07/ArrayExamples2.java panel=0)
 
          position: 126
+       - add:  |
+                 [Click to remove the highlight.](open_file code/ch07/ArrayExamples2.java panel=0)
+
+         position: 134
        - remove: 1
          position: 146
        - add:  |
                  [For example:](open_file code/ch07/ArrayExamples2.java panel=0 ref="// traversal with a while loop" count=6)
-                 [Remove highlighting](open_file code/ch07/ArrayExamples2.java panel=0)
 
          position: 147
+       - add:  |
+                 [Click to remove the highlight.](open_file code/ch07/ArrayExamples2.java panel=0)
+
+         position: 156
        - remove: 1
          position: 165
        - add:  |
                  This type of array processing is usually written as a [for loop:](open_file code/ch07/ArrayExamples2.java panel=0 ref="// traversal with a for loop" count=4)
-                 [Remove highlighting](open_file code/ch07/ArrayExamples2.java panel=0)
 
          position: 166
+       - add:  |
+                 [Click to remove the highlight.](open_file code/ch07/ArrayExamples2.java panel=0)
+
+         position: 176
        - add:  |
                  See how the `printArray` function works by pressing "Run!".
                  {Run!}(sh .guides/bg.sh javac code/ch07/ArrayExamples3.java java -cp code/ch07/ ArrayExamples3 )
@@ -333,23 +348,32 @@ sections:
          position: 186
        - add:  |
                  For example, say you print an array [like this:](open_file code/ch07/ArrayExamples3.java panel=0 ref="// displaying" count=3)
-                 [Remove highlighting](open_file code/ch07/ArrayExamples3.java panel=0)
 
          position: 187
+       - add:  |
+                 [Click to remove the highlight.](open_file code/ch07/ArrayExamples3.java panel=0)
+
+         position: 199
        - remove: 1
          position: 201
        - add:  |
                  If we want to [display the elements of the array](open_file code/ch07/ArrayExamples3.java panel=0 ref="* Prints the elements of an array." count=9), we can do it ourselves:
-                 [Remove highlighting](open_file code/ch07/ArrayExamples3.java panel=0)
 
          position: 202
+       - add:  |
+                 [Click to remove the highlight.](open_file code/ch07/ArrayExamples3.java panel=0)
+
+         position: 220
        - remove: 1
          position: 226
        - add:  |
                  After importing `Arrays`, we can invoke `toString` [like this:](open_file code/ch07/ArrayExamples3.java panel=0 ref="// printing with Arrays class" count=2)
-                 [Remove highlighting](open_file code/ch07/ArrayExamples3.java panel=0)
 
          position: 227
+       - add:  |
+                 [Click to remove the highlight.](open_file code/ch07/ArrayExamples3.java panel=0)
+
+         position: 238
        - add:  |
                  Try it out here.
                  {Run!}(sh .guides/bg.sh javac code/ch07/ArrayExamples3.java java -cp code/ch07/ ArrayExamples3 )
@@ -386,9 +410,16 @@ sections:
          position: 328
        - add:  |
                  Of course, we can replace the loop altogether by using `Arrays.copyOf` and `a.length` [for the second argument.](open_file code/ch07/ArrayExamples4.java panel=0 ref="// copying with Arrays class" count=2)
-                 [Remove highlighting](open_file code/ch07/ArrayExamples4.java panel=0)
 
          position: 328
+       - add:  |
+                 [Click to remove the highlight.](open_file code/ch07/ArrayExamples4.java panel=0)
+
+         position: 335
+       - add:  |
+                 [Click to remove the highlight.](open_file code/ch07/ArrayExamples4.java panel=0)
+
+         position: 321
        - add:  |
                  Try adding the code snippets above to the editor on the left to see how the mechanics of copying arrays work. To print the arrays and see what changes you are making you can use the `printArray` method. Run your code here.
                  {Run!}(sh .guides/bg.sh javac code/ch07/ArrayExamples4.java java -cp code/ch07/ ArrayExamples4 )
@@ -419,23 +450,32 @@ sections:
          position: 345
        - add:  |
                  Looping through the elements of an array is called a [traversal:](open_file code/ch07/ArrayExamples5.java panel=0 ref="// traversing arrays" count=4)
-                 [Remove highlighting](open_file code/ch07/ArrayExamples5.java panel=0)
 
          position: 346
+       - add:  |
+                 [Click to remove the highlight.](open_file code/ch07/ArrayExamples5.java panel=0)
+
+         position: 354
        - remove: 1
          position: 360
        - add:  |
                  For example, [the following method](open_file code/ch07/ArrayExamples5.java panel=0 ref="* Returns the index" count=11) takes an array and a value, and it returns the index where the value appears:
-                 [Remove highlighting](open_file code/ch07/ArrayExamples5.java panel=0)
 
          position: 361
+       - add:  |
+                 [Click to remove the highlight.](open_file code/ch07/ArrayExamples5.java panel=0)
+
+         position: 375
        - remove: 1
          position: 392
        - add:  |
                  [The following method](open_file code/ch07/ArrayExamples5.java panel=0 ref="* Returns the total" count=10) takes an array and returns the sum of its elements:
-                 [Remove highlighting](open_file code/ch07/ArrayExamples5.java panel=0)
 
          position: 393
+       - add:  |
+                 [Click to remove the highlight.](open_file code/ch07/ArrayExamples5.java panel=0)
+
+         position: 404
        - add:  |
                  Try it out yourself and don't forget to print the array using the `printArray` method. Run your code here.
                  {Run!}(sh .guides/bg.sh javac code/ch07/ArrayExamples5.java java -cp code/ch07/ ArrayExamples5 )
@@ -466,21 +506,27 @@ sections:
          position: 442
        - add:  |
                    [The following method](open_file code/ch07/RandomNum.java panel=0 ref="* Returns an array of random integers." count=10) creates an `int` array and fills it with random numbers between 0 and 99.
-                   [Remove highlighting](open_file code/ch07/RandomNum.java panel=0)
 
          position: 443
-       - remove: 1
+       - add:  |
+                   [Click to remove the highlight.](open_file code/ch07/RandomNum.java panel=0)
+
          position: 456
+       - remove: 1
+         position: 458
        - add:  |
                    [The following main method](open_file code/ch07/RandomNum.java panel=0 ref="public static void main" count=4) generates an array and displays it by using the `printArray` method from Section 7.3.
-                   [Remove highlighting](open_file code/ch07/RandomNum.java panel=0)
 
-         position: 457
+         position: 456
+       - add:  |
+                   [Click to remove the highlight.](open_file code/ch07/RandomNum.java panel=0)
+
+         position: 466
        - add:  |
                    Try it out here.
                    {Run!}(sh .guides/bg.sh javac code/ch07/*.java java -cp code/ch07/ RandomNum )
 
-         position: 443
+         position: 457
        - add:  |
                    Try it out yourself here.
                    {Run!}(sh .guides/bg.sh javac code/ch07/*.java java -cp code/ch07/ RandomNum )
@@ -501,23 +547,32 @@ sections:
          position: 486
        - add:  |
                    [The following method](open_file code/ch07/Histogram.java panel=0 ref="* Computes the number" count=11) takes an array and two integers.
-                   [Remove highlighting](open_file code/ch07/Histogram.java panel=0)
 
          position: 487
+       - add:  |
+                   [Click to remove the highlight.](open_file code/ch07/Histogram.java panel=0)
+
+         position: 501
        - remove: 1
          position: 508
        - add:  |
                    We add [the following code](open_file code/ch07/Histogram.java panel=0 ref="int[] scores" count=6) to our `main` method:
-                   [Remove highlighting](open_file code/ch07/Histogram.java panel=0)
 
          position: 509
+       - add:  |
+                   [Click to remove the highlight.](open_file code/ch07/Histogram.java panel=0)
+
+         position: 519
        - remove: 1
          position: 555
        - add:  |
                    [This code](open_file code/ch07/Histogram.java panel=0 ref="// making a histogram" count=6) traverses the array of scores only once to generate the histogram:
-                   [Remove highlighting](open_file code/ch07/Histogram.java panel=0)
 
          position: 556
+       - add:  |
+                   [Click to remove the highlight.](open_file code/ch07/Histogram.java panel=0)
+
+         position: 565
        - add:  |
                  Putting together all the above code fragments, and adding some comments and test cases, see the complete example java code in the left pane. To compile and run the code, press "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch07/*.java java -cp code/ch07/ Histogram )
@@ -527,7 +582,7 @@ sections:
                  Try comparing the results from the `inRange` function calls and the `randomArray` named `scores` to see how this function works.
                  {Run!}(sh .guides/bg.sh javac code/ch07/*.java java -cp code/ch07/ Histogram )
 
-         position: 503
+         position: 501
        - add:  |
                  Try printing the array `counts` after running the above lines of code to see how a complete histogram is built up.
                  {Run!}(sh .guides/bg.sh javac code/ch07/*.java java -cp code/ch07/ Histogram )
@@ -548,14 +603,19 @@ sections:
          position: 600
        - add:  |
                    Using the enhanced `for` loop, and removing the temporary variable, [we can write the histogram code](open_file code/ch07/Histogram.java panel=0 ref="// histogram" count=5) from the previous section more concisely:
-                   [Remove highlighting](open_file code/ch07/ArrayExamples6.java panel=0)
+                   [Click to remove the highlight.](open_file code/ch07/ArrayExamples6.java panel=0)
 
          position: 601
        - add:  |
                    Give the above enhanced for loop a try by pressing run and see what is printed.
                    {Run!}(sh .guides/bg.sh javac code/ch07/ArrayExamples6.java java -cp code/ch07/ ArrayExamples6 )
 
-         position: 600
+         position: 610
+       - add:  |
+                   [Click to remove the highlight.](open_file code/ch07/ArrayExamples6.java panel=0)
+
+         position: 609
+       
     configuration:
       layout: 2-panels
       files:
@@ -571,24 +631,33 @@ sections:
          position: 633
        - add:  |
                    [We convert the string to lowercase,](open_file code/ch07/Doubloon.java panel=0 ref="// count the number" count=3) so that we can treat `'A'` and `'a'` (for example) as the same letter.
-                   [Remove highlighting](open_file code/ch07/Doubloon.java panel=0)
              
 
          position: 634
+       - add:  |
+                   [Click to remove the highlight.](open_file code/ch07/Doubloon.java panel=0)
+
+         position: 640
        - remove: 1
          position: 661
        - add:  |
                    We can simplify this code with an enhanced for loop, but it doesn’t work with strings; we have to convert lower to an array of characters, [like this:](open_file code/ch07/Doubloon.java panel=0 ref="// count the number" count=7)
-                   [Remove highlighting](open_file code/ch07/Doubloon.java panel=0)
 
          position: 662
+       - add:  |
+                   [Click to remove the highlight.](open_file code/ch07/Doubloon.java panel=0)
+
+         position: 670
        - remove: 1
          position: 670
        - add:  |
                    Once we have the counts, [we can use a second for loop](open_file code/ch07/Doubloon.java panel=0 ref="// determine whether the given word is a doubloon" count=8) to check whether each letter appears zero or two times:
-                   [Remove highlighting](open_file code/ch07/Doubloon.java panel=0)
 
          position: 671
+       - add:  |
+                   [Click to remove the highlight.](open_file code/ch07/Doubloon.java panel=0)
+
+         position: 681
        - remove: 1
          position: 684
        - add:  |
@@ -715,14 +784,14 @@ sections:
          position: 19
        - add:  |
                    [Consider the following example:](open_file code/ch08/Examples1.java panel=0 ref="public static void countdown" count=8)
-                   [Remove highlighting](open_file code/ch08/Examples1.java panel=0)
+                   [Click to remove the highlight.](open_file code/ch08/Examples1.java panel=0)
 
          position: 20
        - remove: 1
          position: 84
        - add:  |
                    A more general alternative would be [the following:](open_file code/ch08/Examples1.java panel=0 ref="public static void nLines" count=6)
-                   [Remove highlighting](open_file code/ch08/Examples1.java panel=0)
+                   [Click to remove the highlight.](open_file code/ch08/Examples1.java panel=0)
 
          position: 85
        - add:  |
@@ -731,7 +800,7 @@ sections:
 
          position: 66
        - add:  |
-                 [Remove highlighting](open_file code/ch08/Examples1.java panel=0)
+                 [Click to remove the highlight.](open_file code/ch08/Examples1.java panel=0)
                  Give the `nLines` function a try here.
                  {Run!}(sh .guides/bg.sh javac code/ch08/Examples1.java java -cp code/ch08/ Examples1 )
 
@@ -751,7 +820,7 @@ sections:
          position: 139
        - add:  |
                    For example, [here](open_file code/ch08/Examples2.java panel=0 ref="public static void forever" count=4) is a recursive method without a base case:
-                   [Remove highlighting](open_file code/ch08/Examples2.java panel=0)
+                   [Click to remove the highlight.](open_file code/ch08/Examples2.java panel=0)
 
          position: 140
        - add:  |
@@ -774,14 +843,14 @@ sections:
          position: 212
        - add:  |
                    If the argument happens to be 0, [we return 1:](open_file code/ch08/Series1.java panel=0 ref="public static int factorial" count=4)
-                   [Remove highlighting](open_file code/ch08/Series1.java panel=0)
+                   [Click to remove the highlight.](open_file code/ch08/Series1.java panel=0)
 
          position: 213
        - remove: 1
          position: 223
        - add:  |
                    Otherwise, and this is the interesting part, [we have to make a recursive call](open_file code/ch08/Series1.java panel=0 ref="int recurse" count=3) to find the factorial of n−1, and then multiply it by n:
-                   [Remove highlighting](open_file code/ch08/Series1.java panel=0)
+                   [Click to remove the highlight.](open_file code/ch08/Series1.java panel=0)
 
          position: 224
        - add:  |
@@ -804,7 +873,7 @@ sections:
          position: 344
        - add:  |
                    Translated into Java, [this function is as follows:](open_file code/ch08/Series2.java panel=0 ref="public static int fibonacci" count=6)
-                   [Remove highlighting](open_file code/ch08/Series2.java panel=0)
+                   [Click to remove the highlight.](open_file code/ch08/Series2.java panel=0)
 
          position: 345
        - add:  |
@@ -827,7 +896,7 @@ sections:
          position: 363
        - add:  |
                    What do you think happens if you reverse steps 2 and 3, [making the recursive call before displaying?](open_file code/ch08/Examples3.java panel=0 ref="public static void countup" count=8)
-                   [Remove highlighting](open_file code/ch08/Examples3.java panel=0)
+                   [Click to remove the highlight.](open_file code/ch08/Examples3.java panel=0)
 
          position: 364
        - add:  |
@@ -857,7 +926,7 @@ sections:
          position: 499
        - add:  |
                    [Here](open_file code/ch08/Examples4.java panel=0 ref="public static void displayBinary" count=6) is a recursive method that displays any positive integer in binary:
-                   [Remove highlighting](open_file code/ch08/Examples4.java panel=0)
+                   [Click to remove the highlight.](open_file code/ch08/Examples4.java panel=0)
 
          position: 500
        - add:  |
@@ -1088,35 +1157,35 @@ sections:
          position: 134
        - add:  |
                  Or we can [create the array and initialize the elements at the same time,](open_file code/ch12/Card1.java panel=0 ref="public static final String[] SUITS" count=2) as you saw in Section 7.3.
-                 [Remove highlighting](open_file code/ch12/Card1.java panel=0)
+                 [Click to remove the highlight.](open_file code/ch12/Card1.java panel=0)
 
          position: 135
        - remove: 1
          position: 156
        - add:  |
                  [We also need an array to decode the ranks:](open_file code/ch12/Card1.java panel=0 ref="public static final String[] RANKS" count=3)
-                 [Remove highlighting](open_file code/ch12/Card1.java panel=0)
+                 [Click to remove the highlight.](open_file code/ch12/Card1.java panel=0)
 
          position: 157
        - remove: 1
          position: 166
        - add:  |
                  Using these arrays [we can create a meaningful String](open_file code/ch12/Card1.java panel=0 ref="return RANKS[this.rank]" count=1) by using ``suit`` and ``rank`` as indexes.
-                 [Remove highlighting](open_file code/ch12/Card1.java panel=0)
+                 [Click to remove the highlight.](open_file code/ch12/Card1.java panel=0)
 
          position: 167
        - remove: 1
          position: 175
        - add:  |
                  [Now we can wrap all the previous code in a toString method:](open_file code/ch12/Card1.java panel=0 ref="public String toString" count=3)
-                 [Remove highlighting](open_file code/ch12/Card1.java panel=0)
+                 [Click to remove the highlight.](open_file code/ch12/Card1.java panel=0)
 
          position: 176
        - remove: 1
          position: 188
        - add:  |
                  The output of the [following code](open_file code/ch12/Card1.java panel=0 ref="Card card" count=2) is ``Jack`` of ``Diamonds``.
-                 [Remove highlighting](open_file code/ch12/Card1.java panel=0)
+                 [Click to remove the highlight.](open_file code/ch12/Card1.java panel=0)
 
          position: 189
        - add:  |
@@ -1149,14 +1218,14 @@ sections:
          position: 258
        - add:  |
                  As you saw in Section 11.7, it’s helpful [to create an equals method to test whether two objects are equivalent:](open_file code/ch12/Card4.java panel=0 ref="public boolean equals" count=4)
-                 [Remove highlighting](open_file code/ch12/Card4.java panel=0)
+                 [Click to remove the highlight.](open_file code/ch12/Card4.java panel=0)
 
          position: 259
        - remove: 1
          position: 298
        - add:  |
                  [With that decided, we can write compareTo as follows:](open_file code/ch12/Card4.java panel=0 ref="public int compareTo" count=15)
-                 [Remove highlighting](open_file code/ch12/Card4.java panel=0)
+                 [Click to remove the highlight.](open_file code/ch12/Card4.java panel=0)
 
          position: 299
        - add:  |
@@ -1179,14 +1248,14 @@ sections:
          position: 327
        - add:  |
                  We can provide [getters](open_file code/ch12/Card.java panel=0 ref="* Gets the card's rank." count=12) to allow other classes to read the rank and suit values:
-                 [Remove highlighting](open_file code/ch12/Card.java panel=0)
+                 [Click to remove the highlight.](open_file code/ch12/Card.java panel=0)
 
          position: 328
        - remove: 1
          position: 350
        - add:  |
                  We can prevent that possibility by declaring the instance variables [final:](open_file code/ch12/Card.java panel=0 ref="private final int" count=3)
-                 [Remove highlighting](open_file code/ch12/Card.java panel=0)
+                 [Click to remove the highlight.](open_file code/ch12/Card.java panel=0)
 
          position: 351
          
@@ -1205,21 +1274,21 @@ sections:
          position: 382
        - add:  |
                  [The following statement](open_file code/ch12/Search6.java panel=0 ref="Card[] cards" count=1) creates an array of 52 cards.
-                 [Remove highlighting](open_file code/ch12/Search6.java panel=0)
+                 [Click to remove the highlight.](open_file code/ch12/Search6.java panel=0)
 
          position: 383
        - remove: 1
          position: 425
        - add:  |
                  One way to populate the array [is to write nested for loops:](open_file code/ch12/Search6.java panel=0 ref="int index = 0;" count=7)
-                 [Remove highlighting](open_file code/ch12/Search6.java panel=0)
+                 [Click to remove the highlight.](open_file code/ch12/Search6.java panel=0)
 
          position: 426
        - remove: 1
          position: 455
        - add:  |
                  You have seen the pattern for traversing an array several times, [so the following method should be familiar:](open_file code/ch12/Search6.java panel=0 ref="public static void printDeck" count=5)
-                 [Remove highlighting](open_file code/ch12/Search6.java panel=0)
+                 [Click to remove the highlight.](open_file code/ch12/Search6.java panel=0)
 
          position: 456
        - add:  |
@@ -1242,7 +1311,7 @@ sections:
          position: 493
        - add:  |
                  [The next method we’ll write is search](open_file code/ch12/Search.java panel=0 ref="* Sequential search" count=10) , which takes an array of cards and a Card object as parameters. 
-                 [Remove highlighting](open_file code/ch12/Search.java panel=0)
+                 [Click to remove the highlight.](open_file code/ch12/Search.java panel=0)
 
          position: 494
        - add:  |
@@ -1265,7 +1334,7 @@ sections:
          position: 553
        - add:  |
                  Getting back to the array of cards, [we can write a faster version of search if we know the cards are in order:](open_file code/ch12/Search.java panel=0 ref="* Binary search" count=21)
-                 [Remove highlighting](open_file code/ch12/Search.java panel=0)
+                 [Click to remove the highlight.](open_file code/ch12/Search.java panel=0)
 
          position: 554
        - add:  |

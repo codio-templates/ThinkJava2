@@ -42,7 +42,7 @@ $$
 && fibonacci(n) = fibonacci(n-1) + fibonacci(n-2)
 $$
 Notice that each Fibonacci number is the sum of the two preceding Fibonacci numbers. Translated into Java, [this function is as follows:](open_file code/ch08/Series2.java panel=0 ref="public static int fibonacci" count=6)
-[Remove highlighting](open_file code/ch08/Series2.java panel=0)
+[Click to remove the highlight.](open_file code/ch08/Series2.java panel=0)
 
 
 ```code

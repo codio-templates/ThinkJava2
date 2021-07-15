@@ -1,5 +1,5 @@
 The instance variables of `Card` are `private`, so they can't be accessed from other classes. We can provide [getters](open_file code/ch12/Card.java panel=0 ref="* Gets the card's rank." count=12) to allow other classes to read the rank and suit values:
-[Remove highlighting](open_file code/ch12/Card.java panel=0)
+[Click to remove the highlight.](open_file code/ch12/Card.java panel=0)
 
 
 ```code
@@ -17,7 +17,7 @@ Whether or not to provide setters is a design decision. If we did, cards would b
 
 
 That's easy enough, but it is not foolproof, because a fool might come along later and add a modifier. We can prevent that possibility by declaring the instance variables [final:](open_file code/ch12/Card.java panel=0 ref="private final int" count=3)
-[Remove highlighting](open_file code/ch12/Card.java panel=0)
+[Click to remove the highlight.](open_file code/ch12/Card.java panel=0)
 
 
 ```code

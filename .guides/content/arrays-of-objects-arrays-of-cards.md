@@ -1,5 +1,5 @@
 Just as you can create an array of `String` objects, you can create an array of `Card` objects. [The following statement](open_file code/ch12/Search6.java panel=0 ref="Card[] cards" count=1) creates an array of 52 cards.
-[Remove highlighting](open_file code/ch12/Search6.java panel=0)
+[Click to remove the highlight.](open_file code/ch12/Search6.java panel=0)
  Figure 12.2 shows the memory diagram for this array.
 
 ```code
@@ -31,7 +31,7 @@ System.out.println(cards[0].rank);  // NullPointerException
 
 
 That code won't work until we put cards in the array. One way to populate the array [is to write nested for loops:](open_file code/ch12/Search6.java panel=0 ref="int index = 0;" count=7)
-[Remove highlighting](open_file code/ch12/Search6.java panel=0)
+[Click to remove the highlight.](open_file code/ch12/Search6.java panel=0)
 
 
 ```code
@@ -54,7 +54,7 @@ We use a separate variable `index` to keep track of where in the array the next 
 **Figure 12.3 Memory diagram of a `Card` array with two cards.**
 
 When you work with arrays, it is convenient to have a method that displays the contents. You have seen the pattern for traversing an array several times, [so the following method should be familiar:](open_file code/ch12/Search6.java panel=0 ref="public static void printDeck" count=5)
-[Remove highlighting](open_file code/ch12/Search6.java panel=0)
+[Click to remove the highlight.](open_file code/ch12/Search6.java panel=0)
 
 
 

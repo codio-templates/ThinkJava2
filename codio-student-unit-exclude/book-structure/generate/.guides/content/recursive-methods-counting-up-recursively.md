@@ -1,5 +1,5 @@
 The `countdown` example in Section 8.1 has three parts: (1) it checks the base case, (2) it displays something, and (3) it makes a recursive call. What do you think happens if you reverse steps 2 and 3, [making the recursive call before displaying?](open_file code/ch08/Examples3.java panel=0 ref="public static void countup" count=8)
-[Remove highlighting](open_file code/ch08/Examples3.java panel=0)
+[Click to remove the highlight.](open_file code/ch08/Examples3.java panel=0)
 
 
 ```code

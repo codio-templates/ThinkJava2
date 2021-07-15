@@ -12,7 +12,7 @@ When you look for a word in a dictionary, you don't search page by page from fro
 This algorithm is much faster than sequential search, because it rules out half of the remaining words each time you make a comparison. If at any point you find two adjacent words on the page, and your word comes between them, you can conclude that your word is not in the dictionary.
 
 Getting back to the array of cards, [we can write a faster version of search if we know the cards are in order:](open_file code/ch12/Search.java panel=0 ref="* Binary search" count=21)
-[Remove highlighting](open_file code/ch12/Search.java panel=0)
+[Click to remove the highlight.](open_file code/ch12/Search.java panel=0)
 
 
 ```code

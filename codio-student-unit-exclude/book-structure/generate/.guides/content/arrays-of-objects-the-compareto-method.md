@@ -1,5 +1,5 @@
 As you saw in Section 11.7, it’s helpful [to create an equals method to test whether two objects are equivalent:](open_file code/ch12/Card4.java panel=0 ref="public boolean equals" count=4)
-[Remove highlighting](open_file code/ch12/Card4.java panel=0)
+[Click to remove the highlight.](open_file code/ch12/Card4.java panel=0)
 
 
 ```code
@@ -21,7 +21,7 @@ The set of playing cards is “partially ordered”, which means that sometimes 
 
 
 To make cards comparable, we have to decide which is more important: rank or suit. The choice is arbitrary, and it might be different for different games. But when you buy a new deck of cards, it comes sorted with all the Clubs together, followed by all the Diamonds, and so on. So for now, let's say that suit is more important. [With that decided, we can write compareTo as follows:](open_file code/ch12/Card4.java panel=0 ref="public int compareTo" count=15)
-[Remove highlighting](open_file code/ch12/Card4.java panel=0)
+[Click to remove the highlight.](open_file code/ch12/Card4.java panel=0)
 
 
 ```code

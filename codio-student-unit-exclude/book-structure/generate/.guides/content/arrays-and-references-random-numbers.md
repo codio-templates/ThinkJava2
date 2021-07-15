@@ -11,9 +11,6 @@ If you did Exercise 3.4, you have already seen `java.util.Random`, which generat
 If you generate a long series of random numbers, every value should appear, at least approximately, the same number of times. One way to test this behavior of `nextInt` is to generate a large number of values, store them in an array, and count the number of times each value occurs.
 
 [The following method](open_file code/ch07/RandomNum.java panel=0 ref="* Returns an array of random integers." count=10) creates an `int` array and fills it with random numbers between 0 and 99.
-[Remove highlighting](open_file code/ch07/RandomNum.java panel=0)
- Try it out here.
-{Run!}(sh .guides/bg.sh javac code/ch07/*.java java -cp code/ch07/ RandomNum )
  The argument specifies the desired size of the array, and the return value is a reference to the new array:
 
 ```code
@@ -27,18 +24,19 @@ public static int[] randomArray(int size) {
 }
 ```
 
-[The following main method](open_file code/ch07/RandomNum.java panel=0 ref="public static void main" count=4) generates an array and displays it by using the `printArray` method from Section 7.3.
-[Remove highlighting](open_file code/ch07/RandomNum.java panel=0)
- We could have used `Arrays.toString`, but we like seeing curly braces instead of square brackets:
-
-```code
+[Click to remove the highlight.](open_file code/ch07/RandomNum.java panel=0)
+ [The following main method](open_file code/ch07/RandomNum.java panel=0 ref="public static void main" count=4) generates an array and displays it by using the `printArray` method from Section 7.3.
+ The following `main` method generates an array and displays it by using the `printArray` method from Section 7.3. Try it out here.
+{Run!}(sh .guides/bg.sh javac code/ch07/*.java java -cp code/ch07/ RandomNum )
+ We could have used `Arrays.toString`, but we like seeing curly braces instead of square brackets: ```code
 public static void main(String[] args) {
     int[] array = randomArray(8);
     printArray(array);
 }
 ```
 
-Each time you run the program, you should get different values. The output will look something like this:
+[Click to remove the highlight.](open_file code/ch07/RandomNum.java panel=0)
+ Each time you run the program, you should get different values. The output will look something like this:
 
 ```code
 {15, 62, 46, 74, 67, 52, 51, 10}

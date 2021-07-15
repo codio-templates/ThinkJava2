@@ -54,10 +54,10 @@ for (int i = 0; i < a.length; i++) {
 }
 ```
 
-All arrays have a built-in constant, `length`, that stores the number of elements. In contrast to `String.length()`, which is a method, `a.length` is a constant. The expression `a.length` may look like a method invocation, but there are no parentheses and no arguments.
+[Click to remove the highlight.](open_file code/ch07/ArrayExamples4.java panel=0)
+ All arrays have a built-in constant, `length`, that stores the number of elements. In contrast to `String.length()`, which is a method, `a.length` is a constant. The expression `a.length` may look like a method invocation, but there are no parentheses and no arguments.
 
 The last time the loop gets executed, `i` is `a.length - 1`, which is the index of the last element. When `i` is equal to `a.length`, the condition fails and the body is not executed---which is a good thing, because trying to access `a[a.length]` would throw an exception. Of course, we can replace the loop altogether by using `Arrays.copyOf` and `a.length` [for the second argument.](open_file code/ch07/ArrayExamples4.java panel=0 ref="// copying with Arrays class" count=2)
-[Remove highlighting](open_file code/ch07/ArrayExamples4.java panel=0)
 
 
 The following line produces the same result shown in Figure 7.4:
@@ -66,6 +66,7 @@ The following line produces the same result shown in Figure 7.4:
 double[] b = Arrays.copyOf(a, a.length);
 ```
 
-Give both of the code snippets above a try by copying them to the `main` method on the left. To print the arrays and see what changes you are making you can use the `printArray` method. Run your code here.
+[Click to remove the highlight.](open_file code/ch07/ArrayExamples4.java panel=0)
+ Give both of the code snippets above a try by copying them to the `main` method on the left. To print the arrays and see what changes you are making you can use the `printArray` method. Run your code here.
 {Run!}(sh .guides/bg.sh javac code/ch07/ArrayExamples4.java java -cp code/ch07/ ArrayExamples4 )
  The `Arrays` class provides many other useful methods like `Arrays.compare`, `Arrays.equals`, `Arrays.fill`, and `Arrays.sort`. Take a moment to read the documentation by searching the web for `java.util.Arrays`.

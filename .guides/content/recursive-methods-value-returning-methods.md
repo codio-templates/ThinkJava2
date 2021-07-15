@@ -30,7 +30,7 @@ public static int factorial(int n) {
 ```
 
 Next, we think about the base case. If the argument happens to be 0, [we return 1:](open_file code/ch08/Series1.java panel=0 ref="public static int factorial" count=4)
-[Remove highlighting](open_file code/ch08/Series1.java panel=0)
+[Click to remove the highlight.](open_file code/ch08/Series1.java panel=0)
 
 
 ```code
@@ -43,7 +43,7 @@ public static int factorial(int n) {
 ```
 
 Otherwise, and this is the interesting part, [we have to make a recursive call](open_file code/ch08/Series1.java panel=0 ref="int recurse" count=3) to find the factorial of n−1, and then multiply it by n:
-[Remove highlighting](open_file code/ch08/Series1.java panel=0)
+[Click to remove the highlight.](open_file code/ch08/Series1.java panel=0)
 
 
 ```code

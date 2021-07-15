@@ -1,5 +1,5 @@
 [The next method we’ll write is search](open_file code/ch12/Search.java panel=0 ref="* Sequential search" count=10) , which takes an array of cards and a Card object as parameters. 
-[Remove highlighting](open_file code/ch12/Search.java panel=0)
+[Click to remove the highlight.](open_file code/ch12/Search.java panel=0)
  It returns the index where the `Card` appears in the array, or `-1` if it doesn't. This version of `search` uses the algorithm in Section 7.5, which is called **sequential search**:
 
 
