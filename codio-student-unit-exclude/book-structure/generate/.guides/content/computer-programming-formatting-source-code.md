@@ -33,7 +33,7 @@ Many editors will automatically format source code with consistent indenting and
 
 
 
-Organizations that do a lot of software development usually have strict guidelines on how to format source code. For example, Google publishes its Java coding standards for use in open source projects: [click here](open_link https://google.github.io/styleguide/javaguide.html panel=0) to learn more.
+Organizations that do a lot of software development usually have strict guidelines on how to format source code. For example, Google publishes its Java coding standards for use in open source projects: [click here](open_preview https://google.github.io/styleguide/javaguide.html panel=0) to learn more.
 
 
 You probably won't understand these guidelines now, because they refer to language features you haven't yet seen. But you might want to refer to them periodically as you read this book.

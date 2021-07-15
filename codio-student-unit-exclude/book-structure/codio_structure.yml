@@ -72,6 +72,12 @@ sections:
             action: close
   - name: "What Is a Computer?"
     type: section
+    transformations:
+        - remove: 3
+          position: 24
+        - add: |
+                Not surprisingly, searching for “computer” on Google Images ([https://images.google.com/](open_preview https://images.google.com/ panel=0)) displays rows and rows of these types of machines.
+          position: 25
     configuration:
       layout: 1-panel
       files:
@@ -92,22 +98,26 @@ sections:
         - add: |
                  See the example java code in the left pane. To compile and run the code, press the "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch01/Hello.java java -cp code/ch01/ Hello )
-
           position: 105
-        - remove: 6
+        - remove: 1
           position: 128
         - add: |
                   In the Hello World program, line 5 is a **print statement** that displays a message to the user. [Click here to view.](open_file code/ch01/Hello.java panel=0 ref="System" count=1)
-                  [Click to remove the highlight.](open_file code/ch01/Hello.java panel=0)
 
-          position: 133
-        - remove: 5
+          position: 129
+        - add: |
+                  [Click to remove the highlight.](open_file code/ch01/Hello.java panel=0)
+          position: 134
+        - remove: 1
           position: 151
         - add: |
                   This program defines one method named `main`. [Click to view.](open_file code/ch01/Hello.java panel=0 ref="static" count=1)
+
+          position: 152
+        - add: |
                   [Click to remove the highlight.](open_file code/ch01/Hello.java panel=0)
 
-          position: 156
+          position: 157
         - remove: 1
           position: 164
         - add: |
@@ -151,6 +161,11 @@ sections:
           position: 308
         - add: |
                  For example, take a look at Goodbye.java in the bottom left corner. [Click to view the print statement without the newline.](open_file code/ch01/Goodbye.java panel=1 ref="Goodbye," count=1)
+                 
+                 ```
+                 System.out.print("Goodbye, ");
+                 ```
+                 
                  [Click to remove the highlight.](open_file code/ch01/Goodbye.java panel=1)
                  To compile and run the code, press the "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch01/Goodbye.java java -cp code/ch01/ Goodbye )
@@ -189,7 +204,7 @@ sections:
         - remove: 1
           position: 389
         - add: |
-                 For example, Google publishes its Java coding standards for use in open source projects: [click here](open_link https://google.github.io/styleguide/javaguide.html panel=0) to learn more.
+                 For example, Google publishes its Java coding standards for use in open source projects: [click here](open_preview https://google.github.io/styleguide/javaguide.html panel=0) to learn more.
 
           position: 390
     configuration:
@@ -210,6 +225,14 @@ sections:
           position: 404
         - add: |
                  You just have to tell Java where to put the line breaks. For example, take a look at [line 4 on the code on the left (click).](open_file code/ch01/Hello3.java panel=0 ref="System" count=1)
+                 ```
+                  public class Hello3 {
+
+                      public static void main(String[] args) {
+                          System.out.print("Hello!\nHow are you doing?\n");
+                      }
+                  }
+                 ``` 
                  [Click to remove the highlight.](open_file code/ch01/Hello3.java panel=0)
                  To compile and run the code, comment out line 5 using a `//` and press the "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch01/Hello3.java java -cp code/ch01/ Hello3 1)
@@ -228,6 +251,11 @@ sections:
           position: 448
         - add: |
                  For example, to write quotation marks inside of strings, you need to escape them with a backslash, as in [line 5](open_file code/ch01/Hello3.java panel=0 ref="println" count=1) on the code on the left. 
+                 
+                 ```
+                 System.out.println("She said \"Hello!\" to me.");
+                 ```
+                 
                  [Click to remove the highlight.](open_file code/ch01/Hello3.java panel=0)
                  To compile and run the code, remove the comment from line 5, comment out line 4 using a `//` and press the "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch01/Hello3.java java -cp code/ch01/ Hello3 2)

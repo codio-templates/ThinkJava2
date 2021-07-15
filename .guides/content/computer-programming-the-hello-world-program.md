@@ -18,9 +18,15 @@ Notice that the output does not include the quotation marks.
 
 
 
-Java programs are made up of *class* and *method* definitions, and methods are made up of *statements*. In the Hello World program, line 5 is a **print statement** that displays a message to the user. [Click here to view.](open_file code/ch01/Hello.java panel=0 ref="System" count=1)
+Java programs are made up of *class* and *method* definitions, and methods are made up of *statements*. A **statement** is a line of code that performs a basic action. In the Hello World program, line 5 is a **print statement** that displays a message to the user. [Click here to view.](open_file code/ch01/Hello.java panel=0 ref="System" count=1)
+
+
+```code
+System.out.println("Hello, World!");
+```
+
 [Click to remove the highlight.](open_file code/ch01/Hello.java panel=0)
- A **statement** is a line of code that performs a basic action.
+
 
 `System.out.println` displays results on the screen; the name `println` stands for “print line”. Confusingly, *print* can mean both “display on the screen” and “send to the printer”. In this book, we'll try to say “display” when we mean output to the screen. Like most statements, the print statement ends with a semicolon (`;`).
 
@@ -29,8 +35,13 @@ Java is “case-sensitive”, which means that uppercase and lowercase are not t
 
 
 A **method** is a named sequence of statements. This program defines one method named `main`. [Click to view.](open_file code/ch01/Hello.java panel=0 ref="static" count=1)
-[Click to remove the highlight.](open_file code/ch01/Hello.java panel=0)
 
+
+```code
+public static void main(String[] args)
+```
+
+[Click to remove the highlight.](open_file code/ch01/Hello.java panel=0)
 
 
 The name and format of `main` is special: when the program runs, it starts at the first statement in `main` and ends when it finishes the last statement. Later, you will see programs that define more than one method.
