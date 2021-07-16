@@ -10,6 +10,13 @@ For all of these reasons, it's good practice to validate arguments passed to met
 
 
 As a further example, consider a method that checks whether the first word of a sentence is capitalized. We can write this method using the `Character` wrapper class, as [in the original version of the method at the left.](open_file code/ch09/ArgValid.java panel=0 ref="Old" count=4)
+
+```
+public static boolean isCapitalized(String str) {
+  return Character.isUpperCase(str.charAt(0));
+}
+```
+
 [Click to remove highlight](open_file code/ch09/ArgValid.java panel=0)
  
 
@@ -26,6 +33,15 @@ The expression `str.charAt(0)` makes two assumptions: the string object referenc
 
 
 We can prevent these exceptions by validating `str` *at the start* of the method. If it's invalid, we return before executing the rest of the method, [as shown in the new version of the method at the left.](open_file code/ch09/ArgValid.java panel=0 ref="New" count=7)
+```
+  public static boolean isCapitalized(String str) {
+      if (str == null || str.isEmpty()) {
+          return false;
+      }
+      return Character.isUpperCase(str.charAt(0));
+  }
+```               
+
 [Click to remove highlight](open_file code/ch09/ArgValid.java panel=0)
 Press "Run!" to see what happens on the four test cases in the `main` method. 
 {Run!}(sh .guides/bg.sh javac code/ch09/ArgValid.java java -cp code/ch09/ ArgValid 1)
