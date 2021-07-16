@@ -59,33 +59,41 @@ public class Deck {
      * Randomly permutes the array of cards.
      */
     public void shuffle() {
+        //for each index i 
+            // choose a random number between i and length - 1
+            // swap the ith card and the randomly-chosen card
+        
     }
 
     /**
      * Chooses a random number between low and high, including both.
      */
     private static int randomInt(int low, int high) {
-        return 0;
+        
     }
 
     /**
      * Swaps the cards at indexes i and j.
      */
     private void swapCards(int i, int j) {
+        
     }
 
     /**
      * Sorts the cards (in place) using selection sort.
      */
     public void selectionSort() {
+        for each index i {
+            // find the lowest card at or to the right of i
+            // swap the ith card and the lowest card found
+        }
     }
-
     /**
      * Finds the index of the lowest card
      * between low and high inclusive.
      */
     private int indexLowest(int low, int high) {
-        return 0;
+        // find the lowest card between low and high
     }
 
     /**
@@ -103,21 +111,45 @@ public class Deck {
      * Combines two previously sorted subdecks.
      */
     private static Deck merge(Deck d1, Deck d2) {
-        return null;
+        // create a new deck, d3, big enough for all the cards
+
+        // use the index i to keep track of where we are at in
+        // the first deck, and the index j for the second deck
+        int i = 0;
+        int j = 0;
+
+        // the index k traverses the result deck
+        for (int k = 0; k < d3.length; k++) {
+            // if d1 is empty, use top card from d2
+            // if d2 is empty, use top card from d1
+            // otherwise, compare the top two cards
+
+            // add lowest card to the new deck at k
+            // increment i or j (depending on card)
+        }
+        // return the new deck
     }
 
     /**
      * Returns a sorted copy of the deck using selection sort.
      */
     public Deck almostMergeSort() {
-        return this;
+      // divide the deck into two subdecks
+      // sort the subdecks using selectionSort
+      // merge the subdecks, return the result
+      return this;
     }
 
     /**
      * Returns a sorted copy of the deck using merge sort.
      */
     public Deck mergeSort() {
-        return this;
+      // if the deck has 0 or 1 cards, return it
+      // otherwise, divide the deck into two subdecks
+      // sort the subdecks using mergeSort
+      // merge the subdecks
+      // return the result
+      return this;
     }
 
     /**

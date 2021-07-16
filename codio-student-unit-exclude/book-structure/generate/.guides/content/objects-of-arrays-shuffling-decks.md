@@ -18,7 +18,8 @@ public void shuffle() {
 ```
 
 
-The nice thing about pseudocode is that it often makes clear what other methods you are going to need. In this case, we need a method that chooses a random integer in a given range and a method that takes two indexes and swaps the cards at those positions:
+The nice thing about pseudocode is that it often makes clear what other methods you are going to need. In this case, we need a method that chooses a random integer in a given range and a method that takes two indexes and swaps the cards at those positions. [These stub methods are in the code file on the left](open_file code/ch13/Deck.java panel=0 ref="randomInt" count=10)
+
 
 ```code
 private static int randomInt(int low, int high) {
