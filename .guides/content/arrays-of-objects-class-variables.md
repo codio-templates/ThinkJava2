@@ -2,7 +2,8 @@ So far you have seen local variables, which are declared inside a method, and in
 
 
 
-Like instance variables, class variables are defined in a class definition, before the method definitions. But they are identified by the keyword `static`. Here is a version of `Card` in which `RANKS` and `SUITS` are defined as class variables:
+Like instance variables, class variables are defined in a class definition, before the method definitions. But they are identified by the keyword `static`. Here is a version of ``Card`` in which [RANKS and SUITS are defined as class variables:](open_file code/ch12/Card2.java panel=0 ref="public static final String[] RANKS" count=6)
+
 
 ```code
 public class Card {
@@ -23,7 +24,8 @@ public class Card {
 ```
 
 
-Class variables are allocated when the program begins and persist until the program ends. In contrast, instance variables like `rank` and `suit` are allocated when the program creates `new` objects, and they are deleted when the object is garbage-collected (see Section 10.9).
+[Click to remove the highlight.](open_file code/ch12/Card2.java panel=0)
+ Class variables are allocated when the program begins and persist until the program ends. In contrast, instance variables like `rank` and `suit` are allocated when the program creates `new` objects, and they are deleted when the object is garbage-collected (see Section 10.9).
 
 
 Class variables are often used to store constant values that are needed in several places. In that case, they should also be declared as `final`. Note that whether a variable is `static` or `final` involves two separate considerations: `static` means the variable is *shared*, and `final` means the variable (or in this case, the reference) is *constant*.

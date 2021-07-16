@@ -1177,42 +1177,57 @@ sections:
          position: 134
        - add:  |
                  Or we can [create the array and initialize the elements at the same time,](open_file code/ch12/Card1.java panel=0 ref="public static final String[] SUITS" count=2) as you saw in Section 7.3.
-                 [Click to remove the highlight.](open_file code/ch12/Card1.java panel=0)
 
          position: 135
+       - add:  |
+                 [Click to remove the highlight.](open_file code/ch12/Card1.java panel=0)
+
+         position: 140
        - remove: 1
          position: 156
        - add:  |
                  [We also need an array to decode the ranks:](open_file code/ch12/Card1.java panel=0 ref="public static final String[] RANKS" count=3)
-                 [Click to remove the highlight.](open_file code/ch12/Card1.java panel=0)
 
          position: 157
+       - add:  |
+                 [Click to remove the highlight.](open_file code/ch12/Card1.java panel=0)
+
+         position: 163
        - remove: 1
          position: 166
        - add:  |
                  Using these arrays [we can create a meaningful String](open_file code/ch12/Card1.java panel=0 ref="return RANKS[this.rank]" count=1) by using ``suit`` and ``rank`` as indexes.
-                 [Click to remove the highlight.](open_file code/ch12/Card1.java panel=0)
 
          position: 167
+       - add:  |
+                 [Click to remove the highlight.](open_file code/ch12/Card1.java panel=0)
+
+         position: 172
        - remove: 1
          position: 175
        - add:  |
                  [Now we can wrap all the previous code in a toString method:](open_file code/ch12/Card1.java panel=0 ref="public String toString" count=3)
-                 [Click to remove the highlight.](open_file code/ch12/Card1.java panel=0)
 
          position: 176
+       - add:  |
+                 [Click to remove the highlight.](open_file code/ch12/Card1.java panel=0)
+
+         position: 187
        - remove: 1
          position: 188
        - add:  |
                  The output of the [following code](open_file code/ch12/Card1.java panel=0 ref="Card card" count=2) is ``Jack`` of ``Diamonds``.
-                 [Click to remove the highlight.](open_file code/ch12/Card1.java panel=0)
 
          position: 189
+       - add:  |
+                 [Click to remove the highlight.](open_file code/ch12/Card1.java panel=0)
+
+         position: 195
        - add:  |
                  Give it a shot here.
                  {Run!}(sh .guides/bg.sh javac code/ch12/Card1.java java -cp code/ch12/ Card1 )
 
-         position: 195
+         position: 196
     configuration:
       layout: 2-panels
       files:
@@ -1223,6 +1238,17 @@ sections:
             action: open
   - name: "Class Variables"
     type: section
+    transformations:
+       - remove: 1
+         position: 213
+       - add:  |
+                 Here is a version of ``Card`` in which [RANKS and SUITS are defined as class variables:](open_file code/ch12/Card2.java panel=0 ref="public static final String[] RANKS" count=6)
+
+         position: 214
+       - add:  |
+                 [Click to remove the highlight.](open_file code/ch12/Card2.java panel=0)
+
+         position: 235
     configuration:
       layout: 2-panels
       files:
@@ -1238,16 +1264,22 @@ sections:
          position: 258
        - add:  |
                  As you saw in Section 11.7, it’s helpful [to create an equals method to test whether two objects are equivalent:](open_file code/ch12/Card4.java panel=0 ref="public boolean equals" count=4)
-                 [Click to remove the highlight.](open_file code/ch12/Card4.java panel=0)
 
          position: 259
+       - add:  |
+                 [Click to remove the highlight.](open_file code/ch12/Card4.java panel=0)
+
+         position: 270
        - remove: 1
          position: 298
        - add:  |
                  [With that decided, we can write compareTo as follows:](open_file code/ch12/Card4.java panel=0 ref="public int compareTo" count=15)
-                 [Click to remove the highlight.](open_file code/ch12/Card4.java panel=0)
 
          position: 299
+       - add:  |
+                 [Click to remove the highlight.](open_file code/ch12/Card4.java panel=0)
+
+         position: 318
        - add:  |
                  Try it out here.
                  {Run!}(sh .guides/bg.sh javac code/ch12/Card4.java java -cp code/ch12/ Card4 )
@@ -1268,17 +1300,22 @@ sections:
          position: 327
        - add:  |
                  We can provide [getters](open_file code/ch12/Card.java panel=0 ref="* Gets the card's rank." count=12) to allow other classes to read the rank and suit values:
-                 [Click to remove the highlight.](open_file code/ch12/Card.java panel=0)
 
          position: 328
+       - add:  |
+                 [Click to remove the highlight.](open_file code/ch12/Card.java panel=0)
+
+         position: 341
        - remove: 1
          position: 350
        - add:  |
                  We can prevent that possibility by declaring the instance variables [final:](open_file code/ch12/Card.java panel=0 ref="private final int" count=3)
-                 [Click to remove the highlight.](open_file code/ch12/Card.java panel=0)
 
          position: 351
-         
+       - add:  |
+                 [Click to remove the highlight.](open_file code/ch12/Card.java panel=0)
+
+         position: 361
     configuration:
       layout: 2-panels
       files:
@@ -1294,23 +1331,32 @@ sections:
          position: 382
        - add:  |
                  [The following statement](open_file code/ch12/Search6.java panel=0 ref="Card[] cards" count=1) creates an array of 52 cards.
-                 [Click to remove the highlight.](open_file code/ch12/Search6.java panel=0)
 
          position: 383
+       - add:  |
+                 [Click to remove the highlight.](open_file code/ch12/Search6.java panel=0)
+
+         position: 389
        - remove: 1
          position: 425
        - add:  |
                  One way to populate the array [is to write nested for loops:](open_file code/ch12/Search6.java panel=0 ref="int index = 0;" count=7)
-                 [Click to remove the highlight.](open_file code/ch12/Search6.java panel=0)
 
          position: 426
+       - add:  |
+                 [Click to remove the highlight.](open_file code/ch12/Search6.java panel=0)
+
+         position: 437
        - remove: 1
          position: 455
        - add:  |
                  You have seen the pattern for traversing an array several times, [so the following method should be familiar:](open_file code/ch12/Search6.java panel=0 ref="public static void printDeck" count=5)
-                 [Click to remove the highlight.](open_file code/ch12/Search6.java panel=0)
 
          position: 456
+       - add:  |
+                 [Click to remove the highlight.](open_file code/ch12/Search6.java panel=0)
+
+         position: 478
        - add:  |
                  Try it out here.
                  {Run!}(sh .guides/bg.sh javac code/ch12/*.java java -cp code/ch12/ Search6 )
@@ -1331,9 +1377,12 @@ sections:
          position: 493
        - add:  |
                  [The next method we’ll write is search](open_file code/ch12/Search.java panel=0 ref="* Sequential search" count=10) , which takes an array of cards and a Card object as parameters. 
-                 [Click to remove the highlight.](open_file code/ch12/Search.java panel=0)
 
          position: 494
+       - add:  | 
+                 [Click to remove the highlight.](open_file code/ch12/Search.java panel=0)
+
+         position: 514
        - add:  |
                  See how sequential ``search`` works here. See the test cases in the ``main`` class to understand what is being outputted. Add test cases for yourself to see how it works.
                  {Run!}(sh .guides/bg.sh javac code/ch12/*.java java -cp code/ch12/ Search )
@@ -1354,9 +1403,12 @@ sections:
          position: 553
        - add:  |
                  Getting back to the array of cards, [we can write a faster version of search if we know the cards are in order:](open_file code/ch12/Search.java panel=0 ref="* Binary search" count=21)
-                 [Click to remove the highlight.](open_file code/ch12/Search.java panel=0)
 
          position: 554
+       - add:  |
+                 [Click to remove the highlight.](open_file code/ch12/Search.java panel=0)
+
+         position: 575
        - add:  |
                  See how both sequential ``search`` and ``binarySearch`` work here. See the test cases in the ``main`` class to understand what is being outputted.
                  {Run!}(sh .guides/bg.sh javac code/ch12/*.java java -cp code/ch12/ Search )
