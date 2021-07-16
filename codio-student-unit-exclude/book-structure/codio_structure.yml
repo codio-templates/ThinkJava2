@@ -468,10 +468,25 @@ sections:
     type: section
     transformations:
         - remove: 1
+          position: 120
+        - add:  |
+                 For more on this, see [https://en.wikipedia.org/wiki/Faro_shuffle](open_preview https://en.wikipedia.org/wiki/Faro_shuffle panel=0).
+          position: 121
+        - remove: 1
+          position: 126
+        - add:  |
+                 This technique is sometimes called **pseudocode**, and it is also found as a series of comments within the stub method [at the left.](open_file code/ch13/Deck.java panel=0 ref="shuffle" count=6)
+          position: 127
+        - remove: 1
           position: 143
         - add:  |
-                 In this case, we need a method that chooses a random integer in a given range and a method that takes two indexes and swaps the cards at those positions. [These stub methods are in the code file on the left](open_file code/ch13/Deck.java panel=0 ref="randomInt" count=10)
+                 In this case, we need a method that chooses a random integer in a given range and a method that takes two indexes and swaps the cards at those positions. These stub methods are in the code file [on the left.](open_file code/ch13/Deck.java panel=0 ref="int low" count=10)
           position: 144
+        - remove: 1
+          position: 165
+        - add:  |
+                 The process of writing pseudocode first and then writing helper methods to make it work is a kind of **top-down design** (see [https://en.wikipedia.org/wiki/Top-down_and_bottom-up_design](open_preview https://en.wikipedia.org/wiki/Top-down_and_bottom-up_design panel=0)).
+          position: 166
   - name: "Selection Sort"
     type: section
     transformations:
