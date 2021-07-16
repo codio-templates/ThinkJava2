@@ -784,14 +784,16 @@ sections:
          position: 19
        - add:  |
                    [Consider the following example:](open_file code/ch08/Examples1.java panel=0 ref="public static void countdown" count=8)
-                   [Click to remove the highlight.](open_file code/ch08/Examples1.java panel=0)
 
          position: 20
+       - add:  |
+                   [Click to remove the highlight.](open_file code/ch08/Examples1.java panel=0)
+
+         position: 32
        - remove: 1
          position: 84
        - add:  |
                    A more general alternative would be [the following:](open_file code/ch08/Examples1.java panel=0 ref="public static void nLines" count=6)
-                   [Click to remove the highlight.](open_file code/ch08/Examples1.java panel=0)
 
          position: 85
        - add:  |
@@ -820,9 +822,12 @@ sections:
          position: 139
        - add:  |
                    For example, [here](open_file code/ch08/Examples2.java panel=0 ref="public static void forever" count=4) is a recursive method without a base case:
-                   [Click to remove the highlight.](open_file code/ch08/Examples2.java panel=0)
 
          position: 140
+       - add:  |
+                   [Click to remove the highlight.](open_file code/ch08/Examples2.java panel=0)
+
+         position: 150
        - add:  |
                  Give the `nLines` function a try here.
                  {Run!}(sh .guides/bg.sh javac code/ch08/Examples2.java java -cp code/ch08/ Examples2 )
@@ -843,16 +848,22 @@ sections:
          position: 212
        - add:  |
                    If the argument happens to be 0, [we return 1:](open_file code/ch08/Series1.java panel=0 ref="public static int factorial" count=4)
-                   [Click to remove the highlight.](open_file code/ch08/Series1.java panel=0)
 
          position: 213
        - remove: 1
          position: 223
        - add:  |
-                   Otherwise, and this is the interesting part, [we have to make a recursive call](open_file code/ch08/Series1.java panel=0 ref="int recurse" count=3) to find the factorial of n−1, and then multiply it by n:
                    [Click to remove the highlight.](open_file code/ch08/Series1.java panel=0)
 
          position: 224
+       - add:  |
+                   Otherwise, and this is the interesting part, [we have to make a recursive call](open_file code/ch08/Series1.java panel=0 ref="int recurse" count=3) to find the factorial of n−1, and then multiply it by n:
+
+         position: 225
+       - add:  |
+                   [Click to remove the highlight.](open_file code/ch08/Series1.java panel=0)
+
+         position: 236
        - add:  |
                  Pulling together all of the above code fragments, and adding some test cases, run the complete example java code in the left pane. To compile and run the code, press "Run!".
                  {Run!}(sh .guides/bg.sh javac code/ch08/Series1.java java -cp code/ch08/ Series1 )
@@ -872,10 +883,13 @@ sections:
        - remove: 1
          position: 344
        - add:  |
-                   Translated into Java, [this function is as follows:](open_file code/ch08/Series2.java panel=0 ref="public static int fibonacci" count=6)
-                   [Click to remove the highlight.](open_file code/ch08/Series2.java panel=0)
+                 Translated into Java, [this function is as follows:](open_file code/ch08/Series2.java panel=0 ref="public static int fibonacci" count=6)
 
          position: 345
+       - add:  |
+                 [Click to remove the highlight.](open_file code/ch08/Series2.java panel=0)
+
+         position: 355
        - add:  |
                  Run the complete example java code and fibonacci function in the left pane. To compile and run the code, press "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch08/Series2.java java -cp code/ch08/ Series2 )
@@ -895,10 +909,13 @@ sections:
        - remove: 1
          position: 363
        - add:  |
-                   What do you think happens if you reverse steps 2 and 3, [making the recursive call before displaying?](open_file code/ch08/Examples3.java panel=0 ref="public static void countup" count=8)
-                   [Click to remove the highlight.](open_file code/ch08/Examples3.java panel=0)
+                 What do you think happens if you reverse steps 2 and 3, [making the recursive call before displaying?](open_file code/ch08/Examples3.java panel=0 ref="public static void countup" count=8)
 
          position: 364
+       - add:  |
+                 [Click to remove the highlight.](open_file code/ch08/Examples3.java panel=0)
+
+         position: 376
        - add:  |
                  Test and run both the `countup` and `countdown` functions here.
                  {Run!}(sh .guides/bg.sh javac code/ch08/Examples3.java java -cp code/ch08/ Examples3 )
@@ -926,9 +943,12 @@ sections:
          position: 499
        - add:  |
                    [Here](open_file code/ch08/Examples4.java panel=0 ref="public static void displayBinary" count=6) is a recursive method that displays any positive integer in binary:
-                   [Click to remove the highlight.](open_file code/ch08/Examples4.java panel=0)
 
          position: 500
+       - add:  |
+                   [Click to remove the highlight.](open_file code/ch08/Examples4.java panel=0)
+
+         position: 510
        - add:  |
                  Test and run the code here.
                  {Run!}(sh .guides/bg.sh javac code/ch08/Examples4.java java -cp code/ch08/ Examples4 )
