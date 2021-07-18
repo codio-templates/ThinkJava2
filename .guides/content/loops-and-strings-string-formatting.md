@@ -1,5 +1,4 @@
 In Section 3.5, we learned how to use `System.out.printf` to display formatted output. Sometimes programs need to create strings that are formatted a certain way, but not display them immediately (or ever). For example, the following method returns a time string in [ 12-hour format:](open_file code/ch06/Format.java panel=0 ref="public static" count=13)
- [REMOVE HIGHLIGHT](open_file code/ch06/Format.java panel=0 count=13)
 
 
 ```code
@@ -17,6 +16,8 @@ public static String timeString(int hour, int minute) {
     return String.format("%02d:%02d %s", hour, minute, ampm);
 }
 ```
+
+[Click to remove the highlight](open_file code/ch06/Format.java panel=0 count=13)
 
 
 `String.format` takes the same arguments as `System.out.printf`: a format specifier followed by a sequence of values. The main difference is that `System.out.printf` *displays* the result on the screen. `String.format` creates a new string but does not display anything.

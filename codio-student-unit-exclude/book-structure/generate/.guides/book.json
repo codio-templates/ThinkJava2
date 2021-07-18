@@ -867,6 +867,24 @@
           "pageId": "mutable-objects-exercises",
           "title": "Exercises",
           "type": "page"
+        },
+        {
+          "id": "mutable-objects-exercise-10-1",
+          "pageId": "mutable-objects-exercise-10-1",
+          "title": "Exercise 10.1",
+          "type": "page"
+        },
+        {
+          "id": "mutable-objects-exercise-10-2",
+          "pageId": "mutable-objects-exercise-10-2",
+          "title": "Exercise 10.2",
+          "type": "page"
+        },
+        {
+          "id": "mutable-objects-exercise-10-3",
+          "pageId": "mutable-objects-exercise-10-3",
+          "title": "Exercise 10.3",
+          "type": "page"
         }
       ],
       "id": "mutable-objects",
@@ -1144,6 +1162,30 @@
           "id": "extending-classes-exercises",
           "pageId": "extending-classes-exercises",
           "title": "Exercises",
+          "type": "page"
+        },
+        {
+          "id": "extending-classes-exercise-14-1",
+          "pageId": "extending-classes-exercise-14-1",
+          "title": "Exercise 14.1",
+          "type": "page"
+        },
+        {
+          "id": "extending-classes-exercise-14-2",
+          "pageId": "extending-classes-exercise-14-2",
+          "title": "Exercise 14.2",
+          "type": "page"
+        },
+        {
+          "id": "extending-classes-exercise-14-3",
+          "pageId": "extending-classes-exercise-14-3",
+          "title": "Exercise 14.3",
+          "type": "page"
+        },
+        {
+          "id": "extending-classes-exercise-14-4",
+          "pageId": "extending-classes-exercise-14-4",
+          "title": "Exercise 14.4",
           "type": "page"
         }
       ],

@@ -1,4 +1,5 @@
-To begin the game, we need to deal cards to each of the players. And during the game, we need to move cards between hands and piles. If we add the following method to `CardCollection`, it can meet both of these requirements:
+To begin the game, we need to deal cards to each of the players. And during the game, we need to move cards between hands and piles. If we add the following method to CardCollection, it can meet both of these [ requirements:](open_file code/ch14/CardCollection.java panel=0 ref="deal" count=6)
+
 
 ```code
 public void deal(CardCollection that, int n) {
@@ -9,7 +10,9 @@ public void deal(CardCollection that, int n) {
 }
 ```
 
-The `deal` method removes cards from the collection it is invoked on, `this`, and adds them to the collection it gets as a parameter, `that`. The second parameter, `n`, is the number of cards to deal. We will use this method to implement `dealAll`, which deals (or moves) all of the remaining cards:
+[Click to remove the highlight](open_file code/ch14/CardCollection.java panel=0 count=5)
+ The `deal` method removes cards from the collection it is invoked on, `this`, and adds them to the collection it gets as a parameter, `that`. The second parameter, `n`, is the number of cards to deal. We will use this method to implement `dealAll`, which deals (or moves) all of the [  remaining cards:](open_file code/ch14/CardCollection.java panel=0 ref="dealAll" count=4)
+
 
 ```code
 public void dealAll(CardCollection that) {
@@ -18,7 +21,9 @@ public void dealAll(CardCollection that) {
 }
 ```
 
-At this point, we can create a `Deck` and start dealing cards. Here's a simple example that deals five cards to a hand, and deals the rest into a draw pile:
+[Click to remove the highlight](open_file code/ch14/CardCollection.java panel=0 count=5)
+ At this point, we can create a `Deck` and start dealing cards. We will use this method to implement `dealAll`, which deals (or moves) all of the [  remaining cards:](open_file code/ch14/Test.java panel=1 ref="new Deck" count=11)
+
 
 ```code
 Deck deck = new Deck("Deck");
@@ -34,7 +39,8 @@ System.out.printf("Draw Pile has %d cards.\n",
                   drawPile.size());
 ```
 
-Because the deck is shuffled randomly, you should get a different hand each time you run this example. The output will look something like this:
+[Click to remove the highlight](open_file code/ch14/Test.java panel=0 count=5)
+ Because the deck is shuffled randomly, you should get a different hand each time you run this example. The output will look something like this:
 
 ```code
 Hand:
@@ -47,14 +53,16 @@ Ace of Hearts
 Draw Pile has 47 cards.
 ```
 
-If you are a careful reader, you might notice something strange about this example. Take another look at the definition of `deal`. Notice that the first parameter is supposed to be a `CardCollection`. But we invoked it like this:
+If you are a careful reader, you might notice something strange about this example. Take another look at the definition of `deal`. Notice that the first parameter is supposed to be a `CardCollection`. But we invoked it [ like this:](open_file code/ch14/Test.java panel=1 ref="new Hand" count=2)
+
 
 ```code
 Hand hand = new Hand("Hand");
 deck.deal(hand, 5);
 ```
 
-The argument is a `Hand`, not a `CardCollection`. So why is this example legal?
+[Click to remove the highlight](open_file code/ch14/Test.java panel=1 count=5)
+ The argument is a `Hand`, not a `CardCollection`. So why is this example legal?
 
 It's because `Hand` is a subclass of `CardCollection`, so a `Hand` object is also considered to be a `CardCollection` object. If a method expects a `CardCollection`, you can give it a `Hand`, a `Deck`, or a `CardCollection`.
 

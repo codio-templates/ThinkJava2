@@ -1,5 +1,4 @@
-A more general solution is to use **floating-point** numbers, which represent values with decimal places. In Java, the default floating-point type is called `double`, which is short for “double-precision”. You can create ```double``` variables and assign values to them the same way we did for the [ other types:](open_file code/ch02/FloatingPoint.java panel=0 ref="double pi;" count=2)
- [REMOVE HIGHLIGHT](open_file code/ch02/FloatingPoint.java panel=0 count=2)
+A more general solution is to use **floating-point** numbers, which represent values with decimal places. In Java, the default floating-point type is called `double`, which is short for “double-precision”. You can create ```double``` variables and assign values to them the same way we did for the [ other types:](open_file code/ch02/Floating_Point.java panel=0 ref="double pi;" count=2)
 
 
 ```code
@@ -7,9 +6,12 @@ double pi;
 pi = 3.14159;
 ```
 
+[Click to remove the highlight](open_file code/ch02/Floating_Point.java panel=0 count=2)
+ To compile and run the code, remove the proper comment and press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/ch02/Floating_Point.java java -cp code/ch02/ Floating_Point 1)
 
-Java performs *floating-point division* when one or more operands are `double` values. So we can solve the problem from the [ previous section:](open_file code/ch02/FloatingPoint.java panel=0 ref="double minute" count=3)
- [REMOVE HIGHLIGHT](open_file code/ch02/FloatingPoint.java panel=0 count=3)
+
+Java performs *floating-point division* when one or more operands are `double` values. So we can solve the problem from the [ previous section:](open_file code/ch02/Floating_Point.java panel=0 ref="double minute" count=3)
 
 
 ```code
@@ -18,7 +20,10 @@ System.out.print("Fraction of the hour that has passed: ");
 System.out.println(minute / 60.0);
 ```
 
-The output is shown here:
+[Click to remove the highlight](open_file code/ch02/Floating_Point.java panel=0 count=3)
+ To compile and run the code, remove the proper comment and press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/ch02/Floating_Point.java java -cp code/ch02/ Floating_Point 2)
+ The output is shown here:
 
 ```code
 Fraction of the hour that has passed: 0.9833333333333333
@@ -48,12 +53,14 @@ double y = 1 / 3;  // common mistake
 
 You might expect the variable `y` to get the value `0.333333`, which is a legal floating-point value. But instead it gets the value `0.0`. The expression on the right divides two integers, so Java does integer division, which yields the `int` value `0`. Converted to `double`, the value assigned to `y` is `0.0`.
 
-One way to solve this problem (once you figure out the bug) is to make the right-hand side a floating-point expression. The following sets ```y``` to ```0.333333```, [ as expected:](open_file code/ch02/FloatingPoint.java panel=0 ref="double y" count=2)
- [REMOVE HIGHLIGHT](open_file code/ch02/FloatingPoint.java panel=0 count=2)
+One way to solve this problem (once you figure out the bug) is to make the right-hand side a floating-point expression. The following sets ```y``` to ```0.333333```, [ as expected:](open_file code/ch02/Floating_Point.java panel=0 ref="double y" count=1)
 
 
 ```code
 double y = 1.0 / 3.0;  // correct
 ```
 
-As a matter of style, you should always assign floating-point values to floating-point variables. The compiler won't make you do it, but you never know when a simple mistake will come back and haunt you.
+[Click to remove the highlight](open_file code/ch02/Floating_Point.java panel=0 count=2)
+ To compile and run the code, remove the proper comment and press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/ch02/Floating_Point.java java -cp code/ch02/ Floating_Point 3)
+ As a matter of style, you should always assign floating-point values to floating-point variables. The compiler won't make you do it, but you never know when a simple mistake will come back and haunt you.

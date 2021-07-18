@@ -5,4 +5,4 @@ A word is said to be a “doubloon” if every letter that appears in the word a
 > Abba, Anna, appall, appearer, appeases, arraigning, beriberi, bilabial, boob, Caucasus, coco, Dada, deed, Emmett, Hannah, horseshoer, intestines, Isis, mama, Mimi, murmur, noon, Otto, papa, peep, reappear, redder, sees, Shanghaiings, Toto
 
 
-Write a method called `isDoubloon` that takes a string and checks whether it is a doubloon. To ignore case, invoke the `toLowerCase` method before checking.  {Run!}(sh .guides/bg.sh javac code/ch06/exercise6_5.java java -cp code/ch06/ exercise6_5 )
+Write a method called `isDoubloon` that takes a string and checks whether it is a doubloon. To ignore case, invoke the `toLowerCase` method before checking.  To compile and run your code, press "Run!" {Run!}(sh .guides/bg.sh javac code/ch06/exercise6_5.java java -cp code/ch06/ exercise6_5 )

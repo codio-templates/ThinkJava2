@@ -4,4 +4,4 @@ Write a method called `squareRoot` that takes a `double` and returns an approxim
 
 As your initial guess, you should use $a/2$. Your method should iterate until it gets two consecutive estimates that differ by less than 0.0001. You can use `Math.abs` to calculate the absolute value of the difference.
 
-{Run!}(sh .guides/bg.sh javac code/ch06/exercise6_2.java java -cp code/ch06/ exercise6_2 )
+To compile and run your code, press "Run!" {Run!}(sh .guides/bg.sh javac code/ch06/exercise6_2.java java -cp code/ch06/ exercise6_2 )

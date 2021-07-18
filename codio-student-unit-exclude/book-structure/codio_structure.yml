@@ -141,9 +141,9 @@ sections:
 
           position: 30
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch02/DeclareAssign.java panel=0 count=1)
+                 [Click to remove the highlight](open_file code/ch02/DeclareAssign.java panel=0 count=1)
 
-          position: 30
+          position: 37
         - remove: 1
           position: 52
         - add: To declare an integer variable named x, see the 
@@ -153,11 +153,9 @@ sections:
 
           position: 52
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch02/DeclareAssign.java panel=0 count=1)
+                 [Click to remove the highlight](open_file code/ch02/DeclareAssign.java panel=0 count=1)
 
-          position: 52
-        - add: and below.
-          position: 52
+          position: 58
         - remove: 1
           position: 59
         - add: In general, you should use names that indicate what the variables
@@ -167,9 +165,9 @@ sections:
 
           position: 60
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch02/DeclareAssign.java panel=0 count=3)
+                 [Click to remove the highlight](open_file code/ch02/DeclareAssign.java panel=0 count=3)
 
-          position: 60
+          position: 68
         - remove: 1
           position: 84
         - add: You can see the full list of keywords at [https://thinkjava.org/keywords](open_preview https://thinkjava.org/keywords panel=0).
@@ -194,9 +192,9 @@ sections:
 
           position: 100
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch02/DeclareAssign.java panel=0 count=3)
+                 [Click to remove the highlight](open_file code/ch02/DeclareAssign.java panel=0 count=3)
 
-          position: 100
+          position: 107
         - remove: 1
           position: 125
         - add: But that is not the same thing as the integer ```123``` as shown below and
@@ -206,9 +204,9 @@ sections:
 
           position: 126
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch02/DeclareAssign.java panel=0 count=2)
+                 [Click to remove the highlight](open_file code/ch02/DeclareAssign.java panel=0 count=2)
 
-          position: 126
+          position: 134
         - remove: 1
           position: 136
         - add: You can also declare and initialize on the
@@ -218,9 +216,9 @@ sections:
 
           position: 137
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch02/DeclareAssign.java panel=0 count=3)
+                 [Click to remove the highlight](open_file code/ch02/DeclareAssign.java panel=0 count=3)
 
-          position: 137
+          position: 144
     configuration:
       layout: 2-panels
       files:
@@ -241,9 +239,9 @@ sections:
 
           position: 173
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch02/MemoryDiagram.java panel=0 count=3)
+                 [Click to remove the highlight](open_file code/ch02/MemoryDiagram.java panel=0 count=3)
 
-          position: 173
+          position: 180
         - remove: 1
           position: 202
         - add: For example, if we added the line ```int c = 0;``` 
@@ -253,7 +251,7 @@ sections:
 
           position: 203
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch02/MemoryDiagram.java panel=0 count=1)
+                 [(click to remove the highlight)](open_file code/ch02/MemoryDiagram.java panel=0 count=1)
 
           position: 203
         - add: the memory diagram would look like Figure 2.2.
@@ -274,41 +272,56 @@ sections:
         - add: The following statements declare a variable named ```firstLine```, assign it the value ```"Hello, again!"```, and
           position: 218
         - add:  |
-                 [ display that value:](open_file code/ch02/PrintingVars.java panel=0 ref="String firstLine" count=2)
+                 [ display that value:](open_file code/ch02/Printing_Vars.java panel=0 ref="String firstLine" count=2)
 
           position: 218
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch02/PrintingVars.java panel=0 count=2)
+                 [Click to remove the highlight](open_file code/ch02/Printing_Vars.java panel=0 count=2)
 
-          position: 218
+          position: 224
+        - add:  |
+                 To compile and run the code, remove the proper comment and press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch02/Printing_Vars.java java -cp code/ch02/ Printing_Vars 1)
+
+          position: 224
         - remove: 1
           position: 231
         - add: To display the name of a variable, you have to put it in
           position: 232
         - add:  |
-                 [ quotes:](open_file code/ch02/PrintingVars.java panel=0 ref="The value" count=2)
+                 [ quotes:](open_file code/ch02/Printing_Vars.java panel=0 ref="The value" count=2)
 
           position: 232
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch02/PrintingVars.java panel=0 count=2)
+                 [Click to remove the highlight](open_file code/ch02/Printing_Vars.java panel=0 count=2)
 
-          position: 232
+          position: 239
+        - add:  |
+                 To compile and run the code, remove the proper comment and press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch02/Printing_Vars.java java -cp code/ch02/ Printing_Vars 2)
+
+          position: 239
         - remove: 1
           position: 246
         - add:  |
-                 [For example:](open_file code/ch02/PrintingVars.java panel=0 ref="int hour" count=7)
+                 [For example:](open_file code/ch02/Printing_Vars.java panel=0 ref="int hour" count=8)
 
           position: 247
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch02/PrintingVars.java panel=0 count=7)
+                 [Click to remove the highlight](open_file code/ch02/Printing_Vars.java panel=0 count=7)
 
-          position: 247
+          position: 258
+        - add:  |
+                 To compile and run the code, remove the proper comment and press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch02/Printing_Vars.java java -cp code/ch02/ Printing_Vars 3)
+
+          position: 258
     configuration:
       layout: 2-panels
       files:
           - path: "#tabs"
             action: close
-          - path: "code/ch02/PrintingVars.java"
+          - path: "code/ch02/Printing_Vars.java"
             panel: 0
             action: open
   - name: "Arithmetic Operators"
@@ -319,43 +332,58 @@ sections:
         - add: The following program converts a time of day to
           position: 284
         - add:  |
-                 [ minutes:](open_file code/ch02/PrintingVars.java panel=0 ref="midnight:" count=2)
+                 [ minutes:](open_file code/ch02/Printing_Vars.java panel=0 ref="midnight:" count=2)
 
           position: 284
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch02/PrintingVars.java panel=0 count=2)
+                 [Click to remove the highlight](open_file code/ch02/Printing_Vars.java panel=0 count=2)
 
-          position: 284
+          position: 292
+        - add:  |
+                 To compile and run the code, remove the proper comment and press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch02/Printing_Vars.java java -cp code/ch02/ Printing_Vars 1)
+
+          position: 292
         - remove: 1
           position: 315
         - add: For example, the following fragment tries to compute the fraction of an hour that
           position: 316
         - add:  |
-                 [  has elapsed:](open_file code/ch02/PrintingVars.java panel=0 ref="Fraction of" count=2)
+                 [  has elapsed:](open_file code/ch02/Printing_Vars.java panel=0 ref="Fraction of" count=2)
 
           position: 316
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch02/PrintingVars.java panel=0 count=2)
+                 [Click to remove the highlight](open_file code/ch02/Printing_Vars.java panel=0 count=2)
 
-          position: 316
+          position: 322
+        - add:  |
+                 To compile and run the code, remove the proper comment and press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch02/Printing_Vars.java java -cp code/ch02/ Printing_Vars 2)
+
+          position: 322
         - remove: 1
           position: 336
         - add: As an alternative, we can calculate a percentage rather than
           position: 337
         - add:  |
-                 [ a fraction:](open_file code/ch02/PrintingVars.java panel=0 ref="Percent of" count=2)
+                 [ a fraction:](open_file code/ch02/Printing_Vars.java panel=0 ref="Percent of" count=2)
 
           position: 337
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch02/PrintingVars.java panel=0 count=2)
+                 [Click to remove the highlight](open_file code/ch02/Printing_Vars.java panel=0 count=2)
 
-          position: 337
+          position: 343
+        - add:  |
+                 To compile and run the code, remove the proper comment and press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch02/Printing_Vars.java java -cp code/ch02/ Printing_Vars 3)
+
+          position: 343
     configuration: 
       layout: 2-panels
       files:
           - path: "#tabs"
             action: close
-          - path: "code/ch02/PrintingVars.java"
+          - path: "code/ch02/Printing_Vars.java"
             panel: 0
             action: open
   - name: "Floating-Point Numbers"
@@ -366,78 +394,111 @@ sections:
         - add: You can create ```double``` variables and assign values to them the same way we did for the
           position: 363
         - add:  |
-                 [ other types:](open_file code/ch02/FloatingPoint.java panel=0 ref="double pi;" count=2)
+                 [ other types:](open_file code/ch02/Floating_Point.java panel=0 ref="double pi;" count=2)
 
           position: 363
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch02/FloatingPoint.java panel=0 count=2)
+                 [Click to remove the highlight](open_file code/ch02/Floating_Point.java panel=0 count=2)
 
-          position: 363
+          position: 369
+        - add:  |
+                 To compile and run the code, remove the proper comment and press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch02/Floating_Point.java java -cp code/ch02/ Floating_Point 1)
+
+          position: 369
         - remove: 1
           position: 372
         - add: So we can solve the problem from the
           position: 373
         - add:  |
-                 [ previous section:](open_file code/ch02/FloatingPoint.java panel=0 ref="double minute" count=3)
+                 [ previous section:](open_file code/ch02/Floating_Point.java panel=0 ref="double minute" count=3)
 
           position: 373
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch02/FloatingPoint.java panel=0 count=3)
+                 [Click to remove the highlight](open_file code/ch02/Floating_Point.java panel=0 count=3)
 
-          position: 373
+          position: 380
+        - add:  |
+                 To compile and run the code, remove the proper comment and press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch02/Floating_Point.java java -cp code/ch02/ Floating_Point 2)
+
+          position: 380
         - remove: 1
           position: 421
         - add: The following sets ```y``` to ```0.333333```,
           position: 422
         - add:  |
-                 [ as expected:](open_file code/ch02/FloatingPoint.java panel=0 ref="double y" count=2)
+                 [ as expected:](open_file code/ch02/Floating_Point.java panel=0 ref="double y" count=1)
 
           position: 422
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch02/FloatingPoint.java panel=0 count=2)
+                 [Click to remove the highlight](open_file code/ch02/Floating_Point.java panel=0 count=2)
 
-          position: 422
+          position: 427
+        - add:  |
+                 To compile and run the code, remove the proper comment and press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch02/Floating_Point.java java -cp code/ch02/ Floating_Point 3)
+
+          position: 427
     configuration:
       layout: 2-panels
       files:
           - path: "#tabs"
             action: close
-          - path: "code/ch02/FloatingPoint.java"
+          - path: "code/ch02/Floating_Point.java"
             panel: 0
             action: open
   - name: "Rounding Errors"
     type: section
     transformations:
         - remove: 1
+          position: 451
+        - add:  |
+                 For example, the following two statements should
+                 [ be equivalent:](open_file code/ch02/Floating_Point.java panel=0 ref="* 10" count=3)
+
+          position: 452
+        - add:  |
+                 [Click to remove the highlight](open_file code/ch02/Floating_Point.java panel=0 count=1)
+
+          position: 459
+        - add:  |
+                 To compile and run the code, remove the proper comment and press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch02/Floating_Point.java java -cp code/ch02/ Floating_Point 3)
+
+          position: 459
+        - remove: 4
+          position: 461
+        - remove: 1
           position: 472
         - add: For example, consider a bank account with a balance of
           position: 473
         - add:  |
-                 [ $123.45:](open_file code/ch02/FloatingPoint.java panel=0 ref="double balance" count=1)
+                 [ $123.45:](open_file code/ch02/Floating_Point.java panel=0 ref="double balance" count=1)
 
           position: 473
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch02/FloatingPoint.java panel=0 count=1)
+                 [Click to remove the highlight](open_file code/ch02/Floating_Point.java panel=0 count=1)
 
-          position: 473
+          position: 478
         - remove: 1
           position: 480
         - add: You can avoid the problem by representing the balance as
           position: 481
         - add:  |
-                 [ an integer:](open_file code/ch02/FloatingPoint.java panel=0 ref="int balance" count=1)
+                 [ an integer:](open_file code/ch02/Floating_Point.java panel=0 ref="int balance" count=1)
 
           position: 481
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch02/FloatingPoint.java panel=0 count=1)
+                 [Click to remove the highlight](open_file code/ch02/Floating_Point.java panel=0 count=1)
 
-          position: 481
+          position: 486
     configuration:
       layout: 2-panels
       files:
           - path: "#tabs"
             action: close
-          - path: "code/ch02/FloatingPoint.java"
+          - path: "code/ch02/Floating_Point.java"
             panel: 0
             action: open
   - name: "Operators for Strings"
@@ -452,9 +513,9 @@ sections:
 
           position: 515
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch02/StringConcat.java panel=0 count=5)
+                 [Click to remove the highlight](open_file code/ch02/StringConcat.java panel=0 count=5)
 
-          position: 515
+          position: 524
         - add:  |
                  To compile and run the code, press the "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch02/StringConcat.java java -cp code/ch02/ StringConcat )
@@ -507,8 +568,8 @@ sections:
   - name: "Exercises"
     type: section
     transformations:
-        - remove: 77
-          position: 788
+        - remove: 81
+          position: 784
     configuration:
       layout: 1-panel
       files:
@@ -639,9 +700,9 @@ sections:
                  
           position: 21
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch06/Loops.java panel=0 count=7)
+                 [Click to remove the highlight](open_file code/ch06/Loops.java panel=0 count=7)
                  
-          position: 21
+          position: 31
         - add:  |
                  To see the output of this function, comment out all other code in the main function besides lines 67 and 68. Press "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch06/Loops.java java -cp code/ch06/ Loops )
@@ -656,9 +717,9 @@ sections:
 
           position: 90
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch06/Loops.java panel=0 count=11)
+                 [Click to remove the highlight](open_file code/ch06/Loops.java panel=0 count=11)
 
-          position: 90
+          position: 102
         - add:  |
                  To see the output of this function, comment out all other code in the main function besides lines 70 and 71. Press "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch06/Loops.java java -cp code/ch06/ Loops )
@@ -690,9 +751,9 @@ sections:
 
           position: 120
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch06/Loops.java panel=0 count=7)
+                 [Click to remove the highlight](open_file code/ch06/Loops.java panel=0 count=7)
 
-          position: 120
+          position: 129
         - add:  |
                  To see the output of this function, comment out all other code in the main function besides lines 73 and 74. Press "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch06/Loops.java java -cp code/ch06/ Loops )
@@ -706,9 +767,9 @@ sections:
 
           position: 141
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch06/Loops.java panel=0 count=9)
+                 [Click to remove the highlight](open_file code/ch06/Loops.java panel=0 count=9)
 
-          position: 141
+          position: 151
         - add:  |
                  To see the output of this function, comment out all other code in the main function besides lines 76 and 77. Press "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch06/Loops.java java -cp code/ch06/ Loops )
@@ -736,9 +797,9 @@ sections:
 
           position: 172
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch06/Loops.java panel=0 count=6)
+                 [Click to remove the highlight](open_file code/ch06/Loops.java panel=0 count=6)
 
-          position: 172
+          position: 180
         - add:  |
                  To see the output of this function, comment out all other code in the main function besides lines 79 and 80. Press "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch06/Loops.java java -cp code/ch06/ Loops )
@@ -753,9 +814,9 @@ sections:
 
           position: 221
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch06/Loops.java panel=0 count=7)
+                 [Click to remove the highlight](open_file code/ch06/Loops.java panel=0 count=7)
 
-          position: 221
+          position: 230
         - add:  |
                  To see the output of this function, comment out all other code in the main function besides lines 82 and 83. Press "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch06/Loops.java java -cp code/ch06/ Loops )
@@ -774,16 +835,16 @@ sections:
     transformations:
         - remove: 1
           position: 242
-        - add: For example, we can generate a ``multiplication table''
+        - add: For example, we can generate a "multiplication table"
           position: 243
         - add:  |
                  [ like this:](open_file code/ch06/Loops.java panel=0 ref="nested" count=8)
 
           position: 243
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch06/Loops.java panel=0 count=8)
+                 [Click to remove the highlight](open_file code/ch06/Loops.java panel=0 count=8)
 
-          position: 243
+          position: 253
         - add:  |
                  To see the output of this function, comment out all other code in the main function besides lines 85 and 86. Press "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch06/Loops.java java -cp code/ch06/ Loops )
@@ -809,8 +870,8 @@ sections:
 
           position: 301
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch06/Strings1.java panel=0 count=2)
-          position: 301
+                 [Click to remove the highlight](open_file code/ch06/Strings1.java panel=0 count=2)
+          position: 307
         - remove: 8
           position: 311
         - add: |
@@ -830,9 +891,9 @@ sections:
 
           position: 322
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch06/Strings1.java panel=0 count=3)
+                 [Click to remove the highlight](open_file code/ch06/Strings1.java panel=0 count=3)
 
-          position: 322
+          position: 329
         - add:  |
                  To compile and run this statement, press "Run!". Edit the index value for ```fruit.charAt(0);``` to see how the output may change.
                  {Run!}(sh .guides/bg.sh javac code/ch06/Strings1.java java -cp code/ch06/ Strings1 )
@@ -843,13 +904,13 @@ sections:
         - add: So this loop displays the letters of the
           position: 338
         - add:  |
-                 [ alphabet:](open_file code/ch06/Strings2.java panel=0 ref="Roman" count=5)
+                 [ alphabet:](open_file code/ch06/Strings1.java panel=0 ref="Roman" count=5)
 
           position: 338
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch06/Strings2.java panel=0 count=5)
+                 [Click to remove the highlight](open_file code/ch06/Strings1.java panel=0 count=5)
 
-          position: 338          
+          position: 347        
         - remove: 5
           position: 347
         - remove: 1
@@ -861,16 +922,16 @@ sections:
         - add: The code points for uppercase Greek letters run from 913 to 937, so we can display the Greek alphabet
           position: 360
         - add:  |
-                 [ like this:](open_file code/ch06/Strings2.java panel=0 ref="Greek" count=5)
+                 [ like this:](open_file code/ch06/Strings1.java panel=0 ref="Greek" count=5)
 
           position: 360
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch06/Strings2.java panel=0 count=5)
+                 [Click to remove the highlight](open_file code/ch06/Strings1.java panel=0 count=5)
 
-          position: 360
+          position: 369
         - add:  |
                  To compile and run this statement, press "Run!"
-                 {Run!}(sh .guides/bg.sh javac code/ch06/Strings2.java java -cp code/ch06/ Strings2 )
+                 {Run!}(sh .guides/bg.sh javac code/ch06/Strings1.java java -cp code/ch06/ Strings1 )
 
           position: 369
     configuration:
@@ -880,10 +941,7 @@ sections:
             action: close
           - path: "code/ch06/Strings1.java"
             panel: 0
-            action: open      
-          - path: "code/ch06/Strings2.java"
-            panel: 0
-            action: open  
+            action: open       
   - name: "Which Loop to Use"
     type: section
     transformations:
@@ -896,12 +954,12 @@ sections:
 
           position: 397
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch06/Strings3.java panel=0 count=7)
+                 [Click to remove the highlight](open_file code/ch06/Strings3.java panel=0 count=7)
 
-          position: 397
+          position: 408
         - add:  |
                  To compile and run this statement, press "Run!"
-                 {try it|terminal}(javac code/ch06/Strings3.java &&java -cp code/ch06/ Strings3 )
+                 {Run!|terminal}(javac code/ch06/Strings3.java &&java -cp code/ch06/ Strings3 )
 
           position: 409
     configuration:
@@ -927,23 +985,26 @@ sections:
 
           position: 417
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch06/Strings4.java panel=0 count=4)
+                 [Click to remove the highlight](open_file code/ch06/Strings4.java panel=0 count=4)
 
-          position: 417
+          position: 425
+        - add:  |
+                 To compile and run the code, remove the proper comment and press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch06/Strings4.java java -cp code/ch06/ Strings4 1)
+
+          position: 425
         - remove: 1
           position: 444
-        - add: To get the last character, you have to
+        - add: To get the last character, you have to subtract 1
           position: 445
         - add:  |
-                 [ subtract 1:](open_file code/ch06/Strings4.java panel=0 ref=" length " count=2)
+                 [ from length:](open_file code/ch06/Strings4.java panel=0 ref=" length " count=2)
 
           position: 445
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch06/Strings4.java panel=0 count=2)
+                 [Click to remove the highlight](open_file code/ch06/Strings4.java panel=0 count=2)
 
-          position: 445
-        - add: from ```length``` .
-          position: 445
+          position: 451
         - remove: 1
           position: 452
         - add: For example, to reverse a string, we can concatenate one character
@@ -953,12 +1014,12 @@ sections:
 
           position: 453
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch06/Strings4.java panel=0 count=7)
+                 [Click to remove the highlight](open_file code/ch06/Strings4.java panel=0 count=7)
 
-          position: 453
+          position: 466
         - add:  |
-                 To compile and run this statement, press "Run!"
-                 {Run!}(sh .guides/bg.sh javac code/ch06/Strings4.java java -cp code/ch06/ Strings4 )
+                 To compile and run the code, remove the proper comment and press the "Run!"
+                 {Run!}(sh .guides/bg.sh javac code/ch06/Strings4.java java -cp code/ch06/ Strings4 2)
 
           position: 466
     configuration:
@@ -981,9 +1042,9 @@ sections:
 
           position: 479
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch06/Strings5.java panel=0 count=1)
+                 [Click to remove the highlight](open_file code/ch06/Strings5.java panel=0 count=1)
 
-          position: 479
+          position: 485
         - remove: 1
           position: 489
         - add: To find subsequent appearances, you can use another version of ```indexOf```, which takes a second argument that indicates where in the string to
@@ -993,9 +1054,9 @@ sections:
 
           position: 490
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch06/Strings5.java panel=0 count=1)
+                 [Click to remove the highlight](open_file code/ch06/Strings5.java panel=0 count=1)
 
-          position: 490
+          position: 495
     configuration:
       layout: 2-panels
       files:
@@ -1016,9 +1077,9 @@ sections:
 
           position: 534
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch06/Strings5.java panel=0 count=3)
+                 [Click to remove the highlight](open_file code/ch06/Strings5.java panel=0 count=3)
 
-          position: 534
+          position: 541
         - remove: 1
           position: 550
         - add: If it is invoked with one argument, it returns the letters from that index
@@ -1028,9 +1089,9 @@ sections:
 
           position: 551
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch06/Strings5.java panel=0 count=7)
+                 [Click to remove the highlight](open_file code/ch06/Strings5.java panel=0 count=7)
 
-          position: 551
+          position: 558
         - add:  |
                  To compile and run this statement, press "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch06/Strings5.java java -cp code/ch06/ Strings5 )
@@ -1056,9 +1117,9 @@ sections:
 
           position: 591
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch06/Strings6.java panel=0 count=3)
+                 [Click to remove the highlight](open_file code/ch06/Strings6.java panel=0 count=3)
 
-          position: 591
+          position: 598
         - remove: 1
           position: 603
         - add: If two strings differ, we can use ```compareTo``` to see which comes first in
@@ -1068,12 +1129,12 @@ sections:
 
           position: 604
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch06/Strings6.java panel=0 count=14)
+                 [Click to remove the highlight](open_file code/ch06/Strings6.java panel=0 count=14)
 
-          position: 604
+          position: 618
         - add:  |
-                 To compile and run this statement, press "Try It!"
-                 {try it|terminal}(javac code/ch06/Strings6.java &&java -cp code/ch06 Strings6 ) 
+                 To compile and run this statement, press "Run!"
+                 {Run!|terminal}(javac code/ch06/Strings6.java &&java -cp code/ch06 Strings6 ) 
                  
           position: 631
     configuration:
@@ -1099,9 +1160,9 @@ sections:
 
           position: 639
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch06/Format.java panel=0 count=13)
+                 [Click to remove the highlight](open_file code/ch06/Format.java panel=0 count=13)
 
-          position: 639
+          position: 656
         - add:  |
                  To compile and run this statement, press "Run!"
                  {Run!}(sh .guides/bg.sh javac code/ch06/Format.java java -cp code/ch06/ Format )
@@ -1125,8 +1186,8 @@ sections:
   - name: "Exercises"
     type: section
     transformations:
-        - remove: 138
-          position: 720
+        - remove: 142
+          position: 716
     configuration:
       layout: 1-panel
       files:
@@ -1278,7 +1339,7 @@ sections:
 
           position: 31
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch10/PointObjects.java panel=0 count=1)
+                 [Click to remove the highlight](open_file code/ch10/PointObjects.java panel=0 count=1)
 
           position: 36
         - remove: 1
@@ -1290,7 +1351,7 @@ sections:
 
           position: 40
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch10/PointObjects.java panel=0 count=1)
+                 [Click to remove the highlight](open_file code/ch10/PointObjects.java panel=0 count=1)
 
           position: 46
         - remove: 1
@@ -1300,7 +1361,7 @@ sections:
 
           position: 81
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch10/PointObjects.java panel=0 count=1)
+                 [Click to remove the highlight](open_file code/ch10/PointObjects.java panel=0 count=1)
 
           position: 86
         - remove: 1
@@ -1310,7 +1371,7 @@ sections:
 
           position: 94
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch10/PointObjects.java panel=0 count=1)
+                 [Click to remove the highlight](open_file code/ch10/PointObjects.java panel=0 count=1)
 
           position: 100
         - add:  |
@@ -1336,7 +1397,7 @@ sections:
 
           position: 111
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch10/ObjectPar.java panel=0 count=1)
+                 [Click to remove the highlight](open_file code/ch10/ObjectPar.java panel=0 count=1)
 
           position: 120
         - remove: 1
@@ -1348,7 +1409,7 @@ sections:
 
           position: 124
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch10/ObjectPar.java panel=0 count=4)
+                 [Click to remove the highlight](open_file code/ch10/ObjectPar.java panel=0 count=4)
 
           position: 133
         - remove: 1
@@ -1360,7 +1421,7 @@ sections:
 
           position: 137
         - add:  |
-                 [REMOVE HIGHLIGHT](open_file code/ch10/ObjectPar.java panel=0 count=5)
+                 [Click to remove the highlight](open_file code/ch10/ObjectPar.java panel=0 count=5)
 
           position: 144
         - add:  |
@@ -1378,6 +1439,43 @@ sections:
             action: open
   - name: "Objects as Return Values"
     type: section
+    transformations:
+        - remove: 1
+          position: 163
+        - add: To use it, you have to
+          position: 164
+        - add:  |
+                   [  import it:](open_file code/ch10/ObjectReturn.java panel=0 ref="Rectangle" count=1)
+
+          position: 164
+        - add:  |
+                   [Click to remove the highlight](open_file code/ch10/ObjectReturn.java panel=0 count=5)
+
+          position: 169
+        - remove: 1
+          position: 170
+        - add: The following example creates a `Rectangle` object and makes the variable `box`
+          position: 171
+        - add:  |
+                   [  refer to it:](open_file code/ch10/ObjectReturn.java panel=0 ref="Rectangle box" count=1)
+
+          position: 171
+        - add:  |
+                   [Click to remove the highlight](open_file code/ch10/ObjectReturn.java panel=0 count=5)
+
+          position: 176
+        - remove: 1
+          position: 198
+        - add: For example, `findCenter` takes a `Rectangle` as an argument and returns a `Point` with the coordinates of the center of
+          position: 199
+        - add:  |
+                   [  the rectangle:](open_file code/ch10/ObjectReturn.java panel=0 ref="Point findCenter" count=5)
+
+          position: 199
+        - add:  |
+                   [Click to remove the highlight](open_file code/ch10/ObjectReturn.java panel=0 count=5)
+
+          position: 208
     configuration:
       layout: 2-panels
       files:
@@ -1388,18 +1486,85 @@ sections:
             action: open          
   - name: "Rectangles Are Mutable"
     type: section
+    transformations:
+        - remove: 1
+          position: 241
+        - add:  |
+                   We can encapsulate this code in a method and generalize it to move the rectangle by
+                   [ any amount:](open_file code/ch10/PointRect.java panel=0 ref="Rectangle box, int dx, int dy" count=4)
+
+          position: 242
+        - add:  |
+                   [Click to remove the highlight](open_file code/ch10/PointRect.java panel=0 count=5)
+
+          position: 250
+        - remove: 1
+          position: 251
+        - add: Invoking this method has the effect of modifying the `Rectangle` that is passed as
+          position: 252
+        - add:  |
+                   [ an argument:](open_file code/ch10/PointRect.java panel=0 ref="box, 50, 100" count=1)
+
+          position: 252
+        - add:  |
+                   [Click to remove the highlight](open_file code/ch10/PointRect.java panel=0 count=5)
+
+          position: 258
+        - remove: 1
+          position: 264
+        - add: For example, `translate` has the same effect as `moveRect`, but instead of passing the rectangle as an argument, you use
+          position: 265
+        - add:  |
+                   [ dot notation:](open_file code/ch10/PointRect.java panel=0 ref="box.translate" count=1)
+
+          position: 265
+        - add:  |
+                   [Click to remove the highlight](open_file code/ch10/PointRect.java panel=0 count=5)
+
+          position: 270
     configuration:
-      layout: 1-panel
+      layout: 2-panels
       files:
           - path: "#tabs"
             action: close
+          - path: "code/ch10/PointRect.java"
+            panel: 0
+            action: open
   - name: "Aliasing Revisited"
     type: section
+    transformations:
+        - remove: 1
+          position: 284
+        - add: For example, this code creates two variables that refer to the
+          position: 285
+        - add:  |
+                   [ same Rectangle:](open_file code/ch10/PointRect.java panel=0 ref="Rectangle box1 " count=2)
+
+          position: 285
+        - add:  |
+                   [Click to remove the highlight](open_file code/ch10/PointRect.java panel=0 count=5)
+
+          position: 291  
+        - remove: 1
+          position: 302
+        - add:  It decreases `x` and `y` by 50, and it increases `height` and `width` 
+          position: 303
+        - add:  |
+                   [ by 100:](open_file code/ch10/PointRect.java panel=0 ref="box1.grow" count=1)
+
+          position: 303
+        - add:  |
+                   [Click to remove the highlight](open_file code/ch10/PointRect.java panel=0 count=5)
+
+          position: 308
     configuration:
-      layout: 1-panel
+      layout: 2-panels
       files:
           - path: "#tabs"
             action: close
+          - path: "code/ch10/PointRect.java"
+            panel: 0
+            action: open
   - name: "Java Library Source"
     type: section
     configuration:
@@ -1437,11 +1602,64 @@ sections:
             action: close
   - name: "StringBuilder Objects"
     type: section
+    transformations:
+        - remove: 1
+          position: 618
+        - add: For example, consider the following program, which reads 10 lines from `System.in` and concatenates them into
+          position: 619
+        - add:  |
+                   [ a single String:](open_file code/ch10/builder.java panel=0 ref="String slow " count=6)
+
+          position: 619
+        - add:  |
+                   [Click to remove the highlight](open_file code/ch10/builder.java panel=0 count=5)
+
+          position: 629  
+        - add:  |
+                   To compile and run the statement, remove the comment and press "Run!"
+                   {Run!|terminal}(sh .guides/bg.sh javac code/ch10/builder.java java -cp code/ch10/ builder 1)
+
+          position: 630
+        - remove: 1
+          position: 642
+        - add: Here's a version of the program that uses
+          position: 643
+        - add:  |
+                   [ StringBuilder:](open_file code/ch10/builder.java panel=0 ref="StringBuilder text " count=7)
+
+          position: 643
+        - add:  |
+                   [Click to remove the highlight](open_file code/ch10/builder.java panel=0 count=5)
+
+          position: 654
+        - add:  |
+                   To compile and run the statement, remove the comment and press "Run!"
+                   {Run!|terminal}(sh .guides/bg.sh javac code/ch10/builder.java java -cp code/ch10/ builder 2)
+
+          position: 654
+        - remove: 1
+          position: 657
+        - add: If needed, you can return the StringBuilder's contents as a string by calling the
+          position: 658
+        - add:  |
+                   [ toString method:](open_file code/ch10/builder.java panel=0 ref="result" count=1)
+
+          position: 658
+        - add:  |
+                   [Click to remove the highlight](open_file code/ch10/builder.java panel=0 count=5)
+
+          position: 663
     configuration:
-      layout: 1-panel
+      layout: 3-cell
       files:
           - path: "#tabs"
             action: close
+          - path: "code/ch10/builder.java"
+            panel: 0
+            action: open
+          - path: "#terminal: echo \"hello\""
+            panel: 1
+            action: open
   - name: "Vocabulary"
     type: section
     configuration:
@@ -1450,6 +1668,30 @@ sections:
           - path: "#tabs"
             action: close
   - name: "Exercises"
+    type: section
+    transformations:
+        - remove: 106
+          position: 703
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: "Exercise 10.1"
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: "Exercise 10.2"
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: "Exercise 10.3"
     type: section
     configuration:
       layout: 1-panel
@@ -1530,22 +1772,447 @@ sections:
     type: section
   - name: "Extending Classes"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "CardCollection"
     type: section
+    transformations:
+        - remove: 1
+          position: 50
+        - add: Since this class will represent different piles and hands of cards, we'll add a `label` attribute to tell
+          position: 51
+        - add:  |
+                   [ them apart:](open_file code/ch14/CardCollection.java panel=0 ref="CardCollection " count=12)
+
+          position: 51
+        - add:  |
+                   [Click to remove the highlight](open_file code/ch14/CardCollection.java panel=0 count=5)
+
+          position: 67
+        - remove: 1
+          position: 83
+        - add: So from here on, we will
+          position: 84
+        - add:  |
+                   [ drop it:](open_file code/ch14/CardCollection.java panel=0 ref="addCard" count=3)
+
+          position: 84
+        - add:  |
+                   [Click to remove the highlight](open_file code/ch14/CardCollection.java panel=0 count=5)
+
+          position: 91 
+        - remove: 1
+          position: 92
+        - add: The following method takes an index, removes the card at that location, and shifts the following cards left to
+          position: 93
+        - add:  |
+                   [ fill the gap:](open_file code/ch14/CardCollection.java panel=0 ref="popCard" count=3)
+
+          position: 93
+        - add:  |
+                   [Click to remove the highlight](open_file code/ch14/CardCollection.java panel=0 count=5)
+
+          position: 102
+        - remove: 1
+          position: 104
+        - add: Here is an overloaded version of `popCard` that removes and returns
+          position: 105
+        - add:  |
+                   [ the last card:](open_file code/ch14/CardCollection.java panel=0 ref="popCard" count=11)
+
+          position: 105
+        - add:  |
+                   [Click to remove the highlight](open_file code/ch14/CardCollection.java panel=0 count=5)
+
+          position: 113
+        - remove: 1
+          position: 113
+        - add: The class `CardCollection` also provides `isEmpty`, which returns `true` if there are no cards left, and `size`, which returns the
+          position: 114
+        - add:  |
+                   [ number of cards:](open_file code/ch14/CardCollection.java panel=0 ref="isEmpty" count=10)
+
+          position: 114
+        - add:  |
+                   [Click to remove the highlight](open_file code/ch14/CardCollection.java panel=0 count=5)
+
+          position: 127
+        - remove: 1
+          position: 129
+        - add: Here is a wrapper
+          position: 130
+        - add:  |
+                   [ for get:](open_file code/ch14/CardCollection.java panel=0 ref="getCard" count=3)
+
+          position: 130
+        - add:  |
+                   [Click to remove the highlight](open_file code/ch14/CardCollection.java panel=0 count=5)
+
+          position: 137
+        - remove: 1
+          position: 137
+        - add: The method `lastCard` gets the last card
+          position: 138
+        - add:  |
+                   [ (but doesn’t remove it):](open_file code/ch14/CardCollection.java panel=0 ref="lastCard" count=4)
+
+          position: 138
+        - add:  |
+                   [Click to remove the highlight](open_file code/ch14/CardCollection.java panel=0 count=5)
+
+          position: 146
+        - remove: 1
+          position: 150
+        - add: The only modifiers we provide are the two versions of `popCard` and the following version of
+          position: 151
+        - add:  |
+                   [ swapCards:](open_file code/ch14/CardCollection.java panel=0 ref="swapCards" count=5)
+
+          position: 151
+        - add:  |
+                   [Click to remove the highlight](open_file code/ch14/CardCollection.java panel=0 count=5)
+
+          position: 160
+        - remove: 1
+          position: 160
+        - add: Finally, we use `swapCards` to implement `shuffle`, which we described in
+          position: 161
+        - add:  |
+                   [  Section 13.2:](open_file code/ch14/CardCollection.java panel=0 ref="shuffle" count=7)
+
+          position: 161
+        - add:  |
+                   [Click to remove the highlight](open_file code/ch14/CardCollection.java panel=0 count=5)
+
+          position: 172
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch14/CardCollection.java"
+            panel: 0
+            action: open
   - name: "Inheritance"
     type: section
+    configuration:
+      layout: 3-cell
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch14/Deck.java"
+            panel: 0
+            action: open
+          - path: "code/ch14/Hand.java"
+            panel: 1
+            action: open
   - name: "Dealing Cards"
     type: section
+    transformations:
+        - remove: 1
+          position: 281
+        - add: If we add the following method to CardCollection, it can meet both of these
+          position: 282
+        - add:  |
+                   [ requirements:](open_file code/ch14/CardCollection.java panel=0 ref="deal" count=6)
+
+          position: 282
+        - add:  |
+                   [Click to remove the highlight](open_file code/ch14/CardCollection.java panel=0 count=5)
+
+          position: 292
+        - remove: 1
+          position: 294
+        - add: We will use this method to implement `dealAll`, which deals (or moves) all of the
+          position: 295
+        - add:  |
+                   [  remaining cards:](open_file code/ch14/CardCollection.java panel=0 ref="dealAll" count=4)
+
+          position: 295
+        - add:  |
+                   [Click to remove the highlight](open_file code/ch14/CardCollection.java panel=0 count=5)
+
+          position: 303
+        - remove: 1
+          position: 304
+        - add: We will use this method to implement `dealAll`, which deals (or moves) all of the
+          position: 305
+        - add:  |
+                   [  remaining cards:](open_file code/ch14/Test.java panel=1 ref="new Deck" count=11)
+
+          position: 305
+        - add:  |
+                   [Click to remove the highlight](open_file code/ch14/Test.java panel=0 count=5)
+
+          position: 320
+        - remove: 1
+          position: 337
+        - add: But we invoked it
+          position: 338
+        - add:  |
+                   [ like this:](open_file code/ch14/Test.java panel=1 ref="new Hand" count=2)
+
+          position: 338
+        - add:  |
+                   [Click to remove the highlight](open_file code/ch14/Test.java panel=1 count=5)
+
+          position: 344
+    configuration:
+      layout: 3-cell
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch14/CardCollection.java"
+            panel: 0
+            action: open
+          - path: "code/ch14/Test.java"
+            panel: 1
+            action: open
   - name: "The Player Class"
     type: section
+    transformations:
+        - remove: 1
+          position: 368
+        - add: Here is the beginning of the `Player`
+          position: 369
+        - add:  |
+                   [  definition:](open_file code/ch14/Player.java panel=0 ref="public class Player" count=12)
+
+          position: 369
+        - add:  |
+                   [Click to remove the highlight](open_file code/ch14/Player.java panel=0 count=5)
+
+          position: 384
+        - remove: 1
+          position: 368
+        - add: The primary method that `Player` provides is `play`, which decides which card to discard during
+          position: 388
+        - add:  |
+                   [  each turn:](open_file code/ch14/Player.java panel=0 ref="public Card play" count=7)
+
+          position: 389
+        - add:  |
+                   [Click to remove the highlight](open_file code/ch14/Player.java panel=0 count=5)
+
+          position: 400
+        - remove: 1
+          position: 406
+        - add: Here’s searchForMatch, which looks in the player’s hand for a card that matches the previously
+          position: 407
+        - add:  |
+                   [  played card:](open_file code/ch14/Player.java panel=0 ref="public Card searchForMatch" count=9)
+
+          position: 407
+        - add:  |
+                   [Click to remove the highlight](open_file code/ch14/Player.java panel=0 count=5)
+
+          position: 420
+        - remove: 1
+          position: 422
+        - add: In that case, we have to draw cards until we get a match, which is what `drawForMatch`
+          position: 423
+        - add:  |
+                   [ does:](open_file code/ch14/Player.java panel=0 ref="public Card drawForMatch" count=9)
+
+          position: 423
+        - add:  |
+                   [Click to remove the highlight](open_file code/ch14/Player.java panel=0 count=5)
+
+          position: 437
+        - remove: 1
+          position: 443
+        - add: This method is a straightforward translation of the rules
+          position: 444
+        - add:  |
+                   [ of the game:](open_file code/ch14/Player.java panel=0 ref="public static boolean cardMatches" count=5)
+
+          position: 444
+        - add:  |
+                   [Click to remove the highlight](open_file code/ch14/Player.java panel=0 count=5)
+
+          position: 453
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch14/Player.java"
+            panel: 0
+            action: open
   - name: "The Eights Class"
     type: section
+    transformations:
+        - remove: 1
+          position: 504
+        - add: Here is the beginning of the class definition for `Eights`, which encapsulates the state
+          position: 505
+        - add:  |
+                   [ of the game:](open_file code/ch14/Eights.java panel=0 ref="public class Eights" count=7)
+
+          position: 505
+        - add:  |
+                   [Click to remove the highlight](open_file code/ch14/Eights.java panel=0 count=5)
+
+          position: 518
+        - remove: 1
+          position: 547
+        - add: If either hand is empty,
+          position: 548
+        - add:  |
+                   [ we’re done:](open_file code/ch14/Eights.java panel=0 ref="public boolean isDone" count=3)
+
+          position: 548
+        - add:  |
+                   [Click to remove the highlight](open_file code/ch14/Eights.java panel=0 count=5)
+
+          position: 555
+        - remove: 1
+          position: 556
+        - add: Here is a method
+          position: 557
+        - add:  |
+                   [ for that:](open_file code/ch14/Eights.java panel=0 ref="public void reshuffle" count=13)
+
+          position: 557
+        - add:  |
+                   [Click to remove the highlight](open_file code/ch14/Eights.java panel=0 count=5)
+
+          position: 567
+        - remove: 1
+          position: 570
+        - add: We can use `reshuffle` as part of the `draw`
+          position: 571
+        - add:  |
+                   [ method:](open_file code/ch14/Eights.java panel=0 ref="public Card drawCard" count=6)
+
+          position: 571
+        - add:  |
+                   [Click to remove the highlight](open_file code/ch14/Eights.java panel=0 count=5)
+
+          position: 581
+        - remove: 1
+          position: 582
+        - add: The `nextPlayer` method takes the current player as a parameter and returns the player
+          position: 583
+        - add:  |
+                   [ who should go next:](open_file code/ch14/Eights.java panel=0 ref="public Player nextPlayer" count=7)
+
+          position: 583
+        - add:  |
+                   [Click to remove the highlight](open_file code/ch14/Eights.java panel=0 count=5)
+
+          position: 594
+        - remove: 1
+          position: 596
+        - add: Finally, it waits for the user to press the
+          position: 597
+        - add:  |
+                   [ Enter key:](open_file code/ch14/Eights.java panel=0 ref="public void displayState" count=8)
+
+          position: 597
+        - add:  |
+                   [Click to remove the highlight](open_file code/ch14/Eights.java panel=0 count=5)
+
+          position: 609
+        - remove: 1
+          position: 611
+        - add: The result is the card the player chose, which is added to the
+          position: 612
+        - add:  |
+                   [ discard pile:](open_file code/ch14/Eights.java panel=0 ref="public void takeTurn" count=8)
+
+          position: 612
+        - add:  |
+                   [Click to remove the highlight](open_file code/ch14/Eights.java panel=0 count=5)
+
+          position: 624
+        - remove: 1
+          position: 624
+        - add: Finally, we use `takeTurn` and the other methods to write
+          position: 625
+        - add:  |
+                   [  playGame:](open_file code/ch14/Eights.java panel=0 ref="public void playGame" count=14)
+
+          position: 625
+        - add:  |
+                   [Click to remove the highlight](open_file code/ch14/Eights.java panel=0 count=5)
+
+          position: 643
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch14/Eights.java"
+            panel: 0
+            action: open
   - name: "Class Relationships"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Vocabulary"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Exercises"
     type: section
+    transformations:
+        - remove: 47
+          position: 735
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: "Exercise 14.1"
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch14/exercise14_1.java"
+            panel: 0
+            action: open
+  - name: "Exercise 14.2"
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch14/exercise14_2.java"
+            panel: 0
+            action: open
+  - name: "Exercise 14.3"
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch14/exercise14_3.java"
+            panel: 0
+            action: open
+  - name: "Exercise 14.4"
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch14/exercise14_4.java"
+            panel: 0
+            action: open
   - name: "Arrays of Arrays"
     type: chapter
   - name: "Conway's Game of Life"
@@ -1829,7 +2496,8 @@ insert_sections:
       Your method should iterate until it gets two consecutive estimates that differ by less than 0.0001.
       %In other words, return when the absolute value of $x_n - x_{n-1}$ is less than 0.0001.
       You can use \java{Math.abs} to calculate the absolute value of the difference.
-
+      
+      To compile and run your code, press "Run!"
       {Run!}(sh .guides/bg.sh javac code/ch06/exercise6_2.java java -cp code/ch06/ exercise6_2 )
   - name: Exercise 6.3
     type: section
@@ -1845,7 +2513,9 @@ insert_sections:
       Write a method named \java{gauss} that takes \java{x} and \java{n} as arguments and returns the sum of the first \java{n} terms of the series.
       You should not use \java{factorial} or \java{pow}.
         
-       {Run!}(sh .guides/bg.sh javac code/ch06/exercise6_3.java java -cp code/ch06/ exercise6_3 )
+        
+      To compile and run your code, press "Run!"
+      {Run!}(sh .guides/bg.sh javac code/ch06/exercise6_3.java java -cp code/ch06/ exercise6_3 )
       
   - name: Exercise 6.4
     type: section
@@ -1867,8 +2537,9 @@ insert_sections:
       Write a method called \java{isAbecedarian} that takes a \java{String} and returns a \java{boolean} indicating whether the word is abecedarian.
       %Your method can be iterative or recursive.
       
-      {Run!}(sh .guides/bg.sh javac code/ch06/exercise6_4.java java -cp code/ch06/ exercise6_4 )
       
+      To compile and run your code, press "Run!"
+      {Run!}(sh .guides/bg.sh javac code/ch06/exercise6_4.java java -cp code/ch06/ exercise6_4 )
   - name: Exercise 6.5
     type: section
     chapter: Loops and Strings
@@ -1888,7 +2559,8 @@ insert_sections:
 
       Write a method called \java{isDoubloon} that takes a string and checks whether it is a doubloon.
       To ignore case, invoke the \java{toLowerCase} method before checking.
-        
+       
+      To compile and run your code, press "Run!"
       {Run!}(sh .guides/bg.sh javac code/ch06/exercise6_5.java java -cp code/ch06/ exercise6_5 )
   - name: Exercise 6.6
     type: section
@@ -1896,8 +2568,6 @@ insert_sections:
     section: Exercises
     before: false
     latex: |
-      \begin{exercise}  
-
       \index{Scrabble}
 
       In Scrabble each player has a set of tiles with letters on them.
@@ -1913,8 +2583,170 @@ insert_sections:
       You might have more than one tile with the same letter, but you can use each tile only once.
 
       Note: Scrabble is a registered trademark owned in the USA and Canada by Hasbro Inc., and in the rest of the world by J.\ W.\ Spear \& Sons Limited of Maidenhead, Berkshire, England, a subsidiary of Mattel Inc.
-        
-       {Run!}(sh .guides/bg.sh javac code/ch06/exercise6_6.java java -cp code/ch06/ exercise6_6 )
-      \end{exercise}
+       
+      To compile and run your code, press "Run!"
+      {Run!}(sh .guides/bg.sh javac code/ch06/exercise6_6.java java -cp code/ch06/ exercise6_6 )
+  - name: Exercise 10.1
+    type: section
+    chapter: Mutable Objects
+    section: Exercises
+    before: false
+    latex: |
+      The point of this exercise is to make sure you understand the mechanism for passing objects as parameters.
 
-     
+      \begin{enumerate}
+
+      \item For the following program, draw a stack diagram showing the local variables and parameters of \java{main} and \java{riddle} just before \java{riddle} returns.
+      Use arrows to show which objects each variable references.
+
+      \item What is the output of the program?
+
+      \item Is the \java{blank} object mutable or immutable?
+      How can you tell?
+
+      \end{enumerate}
+
+      \begin{code}
+      public static int riddle(int x, Point p) {
+          x = x + 7;
+          return x + p.x + p.y;
+      }
+      \end{code}
+
+      \begin{code}
+      public static void main(String[] args) {
+          int x = 5;
+          Point blank = new Point(1, 2);
+
+          System.out.println(riddle(x, blank));
+          System.out.println(x);
+          System.out.println(blank.x);
+          System.out.println(blank.y);
+      }
+      \end{code}
+  - name: Exercise 10.2
+    type: section
+    chapter: Mutable Objects
+    section: Exercises
+    before: false
+    latex: |
+      The point of this exercise is to make sure you understand the mechanism for returning new objects from methods.
+      The following code uses \java{findCenter} and \java{distance} as defined in this chapter.
+
+      \begin{enumerate}
+
+      \item Draw a stack diagram showing the state of the program just before \java{findCenter} returns.
+      Include all variables and parameters, and show the objects those variables refer to.
+
+      \item Draw a stack diagram showing the state of the program just before \java{distance} returns.
+      Show all variables, parameters, and objects.
+
+      \item What is the output of this program?
+      (Can you tell without running it?)
+
+      \end{enumerate}
+
+      \begin{code}
+      public static void main(String[] args) {
+          Point blank = new Point(5, 8);
+
+          Rectangle rect = new Rectangle(0, 2, 4, 4);
+          Point center = findCenter(rect);
+
+          double dist = distance(center, blank);
+          System.out.println(dist);
+      }
+      \end{code}
+  - name: Exercise 10.3
+    type: section
+    chapter: Mutable Objects
+    section: Exercises
+    before: false
+    latex: |
+      This exercise is about aliasing.
+      Recall that aliases are two variables that refer to the same object.
+      The following code uses \java{findCenter} and \java{printPoint} as defined in this chapter.
+
+      \begin{enumerate}
+
+      \item Draw a diagram that shows the state of the program just before the end of \java{main}.
+      Include all local variables and the objects they refer to.
+
+      \item What is the output of the program?
+
+      \item At the end of \java{main}, are \java{p1} and \java{p2} aliased?
+      Why or why not?
+
+      \end{enumerate}
+
+      \begin{code}
+      public static void main(String[] args) {
+          Rectangle box1 = new Rectangle(2, 4, 7, 9);
+          Point p1 = findCenter(box1);
+          printPoint(p1);
+
+          box1.grow(1, 1);
+          Point p2 = findCenter(box1);
+          printPoint(p2);
+      }
+      \end{code}
+  - name: Exercise 14.1
+    type: section
+    chapter: Extending Classes
+    section: Exercises
+    before: false
+    latex: |
+      Design a better strategy for the \java{Player.play} method.
+      For example, if there are multiple cards you can play, and one of them is an 8, you might want to play the 8.
+
+      \index{override}
+
+      Think of other ways you can minimize penalty points, such as playing the highest-ranking cards first.
+      Write a new class that extends \java{Player} and overrides \java{play} to implement your strategy.
+      
+      To compile and run the statement, remove the comment and press "Run!"
+      {Run!}(sh .guides/bg.sh javac code/ch14/exercise14_1.java java -cp code/ch14/ exercise14_1)
+  - name: Exercise 14.2
+    type: section
+    chapter: Extending Classes
+    section: Exercises
+    before: false
+    latex: |
+      Write a loop that plays the game 100 times and keeps track of how many times each player wins.
+      If you implemented multiple strategies in the previous exercise, you can play them against each other to evaluate which one works best.
+
+      {\em Hint:} Design a \java{Genius} class that extends \java{Player} and overrides the \java{play} method, and then replace one of the players with a \java{Genius} object.
+      
+      To compile and run the statement, remove the comment and press "Run!"
+      {Run!}(sh .guides/bg.sh javac code/ch14/exercise14_2.java java -cp code/ch14/ exercise14_2)
+  - name: Exercise 14.3
+    type: section
+    chapter: Extending Classes
+    section: Exercises
+    before: false
+    latex: |
+      One limitation of the program we wrote in this chapter is that it handles only two players.
+      Modify the \java{Eights} class to create an \java{ArrayList} of players, and modify \java{nextPlayer} to select the next player.
+
+      To compile and run the statement, remove the comment and press "Run!"
+      {Run!}(sh .guides/bg.sh javac code/ch14/exercise14_3.java java -cp code/ch14/ exercise14_3)
+  - name: Exercise 14.4
+    type: section
+    chapter: Extending Classes
+    section: Exercises
+    before: false
+    latex: |
+      When we designed the program for this chapter, we tried to minimize the number of classes.
+      As a result, we ended up with a few awkward methods.
+      For example, \java{cardMatches} is a static method in \java{Player}, but it would be more natural if it were an instance method in \java{Card}.
+
+      The problem is that \java{Card} is supposed to be useful for any card game, not just Crazy Eights.
+      You can solve this problem by adding a new class, \java{EightsCard}, that extends \java{Card} and provides a method, \java{match}, that checks whether two cards match according to the rules of Crazy Eights.
+
+      At the same time, you could create a new class, \java{EightsHand}, that extends \java{Hand} and provides a method, \java{scoreHand}, that adds up the scores of the cards in the hand.
+      And while you're at it, you could add a method named \java{scoreCard} to \java{EightsCard}.
+
+      Whether or not you actually make these changes, draw a UML class diagram that shows this alternative object hierarchy.
+
+      To compile and run the statement, remove the comment and press "Run!"
+      {Run!}(sh .guides/bg.sh javac code/ch14/exercise14_4.java java -cp code/ch14/ exercise14_4)

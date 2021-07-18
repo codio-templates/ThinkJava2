@@ -1,23 +1,27 @@
-Remember that when you assign an object to a variable, you are assigning a *reference* to an object. It is possible to have multiple variables that refer to the same object. For example, this code creates two variables that refer to the same `Rectangle`:
+Remember that when you assign an object to a variable, you are assigning a *reference* to an object. It is possible to have multiple variables that refer to the same object. For example, this code creates two variables that refer to the [ same Rectangle:](open_file code/ch10/PointRect.java panel=0 ref="Rectangle box1 " count=2)
+
 
 ```code
 Rectangle box1 = new Rectangle(0, 0, 100, 200);
 Rectangle box2 = box1;
 ```
 
-Figure 10.4 shows the result: `box1` and `box2` refer to the same object, so any changes that affect one variable also affect the other.
+[Click to remove the highlight](open_file code/ch10/PointRect.java panel=0 count=5)
+ Figure 10.4 shows the result: `box1` and `box2` refer to the same object, so any changes that affect one variable also affect the other.
 
 ![Figure 10.4 Memory diagram showing two variables that refer to the same `Rectangle` object.](figs/aliasing.jpg)
 
 **Figure 10.4 Memory diagram showing two variables that refer to the same `Rectangle` object.**
 
-For example, the following code uses `grow` to make `box1` bigger by 50 units in all directions. It decreases `x` and `y` by 50, and it increases `height` and `width` by 100:
+For example, the following code uses `grow` to make `box1` bigger by 50 units in all directions. It decreases `x` and `y` by 50, and it increases `height` and `width` [ by 100:](open_file code/ch10/PointRect.java panel=0 ref="box1.grow" count=1)
+
 
 ```code
 box1.grow(50, 50);                // grow box1 (alias)
 ```
 
-The result is shown in Figure 10.5.
+[Click to remove the highlight](open_file code/ch10/PointRect.java panel=0 count=5)
+ The result is shown in Figure 10.5.
 
 ![Figure 10.5 Memory diagram showing the effect of invoking `grow`.](figs/aliasing2.jpg)
 

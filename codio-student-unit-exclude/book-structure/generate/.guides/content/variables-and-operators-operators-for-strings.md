@@ -10,7 +10,6 @@ The `+` operator works with strings, but it might not do what you expect. For st
 Likewise if you have a variable called `name` that has type `String`, the expression `"Hello, " + name` appends the value of `name` to the hello string, which creates a personalized greeting.
 
 Since addition is defined for both numbers and strings, Java performs automatic conversions you may not [ expect:](open_file code/ch02/StringConcat.java panel=0 ref="System.out.println" count=5)
- [REMOVE HIGHLIGHT](open_file code/ch02/StringConcat.java panel=0 count=5)
 
 
 ```code
@@ -21,7 +20,8 @@ System.out.println("Hello" + 1 + 2);
 // the output is Hello12
 ```
 
-Java executes these operations from left to right. In the first line, `1 + 2` is `3`, and `3 + "Hello"` is `"3Hello"`. But in the second line, `"Hello" + 1` is `"Hello1"`, and `"Hello1" + 2` is `"Hello12"`.
+[Click to remove the highlight](open_file code/ch02/StringConcat.java panel=0 count=5)
+ Java executes these operations from left to right. In the first line, `1 + 2` is `3`, and `3 + "Hello"` is `"3Hello"`. But in the second line, `"Hello" + 1` is `"Hello1"`, and `"Hello1" + 2` is `"Hello12"`.
 
 To compile and run the code, press the "Run!"
 {Run!}(sh .guides/bg.sh javac code/ch02/StringConcat.java java -cp code/ch02/ StringConcat )

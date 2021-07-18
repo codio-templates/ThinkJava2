@@ -1,7 +1,6 @@
 **Operators** are symbols that represent simple computations. For example, the addition operator is `+`, subtraction is `-`, multiplication is `*`, and division is `/`.
 
-The following program converts a time of day to [ minutes:](open_file code/ch02/PrintingVars.java panel=0 ref="midnight:" count=2)
- [REMOVE HIGHLIGHT](open_file code/ch02/PrintingVars.java panel=0 count=2)
+The following program converts a time of day to [ minutes:](open_file code/ch02/Printing_Vars.java panel=0 ref="midnight:" count=2)
 
 
 ```code
@@ -11,7 +10,10 @@ System.out.print("Number of minutes since midnight: ");
 System.out.println(hour * 60 + minute);
 ```
 
-The output is as follows:
+[Click to remove the highlight](open_file code/ch02/Printing_Vars.java panel=0 count=2)
+ To compile and run the code, remove the proper comment and press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/ch02/Printing_Vars.java java -cp code/ch02/ Printing_Vars 1)
+ The output is as follows:
 
 ```code
 Number of minutes since midnight: 719
@@ -24,8 +26,7 @@ Expressions are generally a combination of numbers, variables, and operators. Wh
 
 In the expression `hour * 60 + minute`, both variables get replaced, yielding `11 * 60 + 59`. The multiplication happens first, yielding `660 + 59`. Then the addition yields `719`.
 
-Addition, subtraction, and multiplication all do what you expect, but you might be surprised by division. For example, the following fragment tries to compute the fraction of an hour that [  has elapsed:](open_file code/ch02/PrintingVars.java panel=0 ref="Fraction of" count=2)
- [REMOVE HIGHLIGHT](open_file code/ch02/PrintingVars.java panel=0 count=2)
+Addition, subtraction, and multiplication all do what you expect, but you might be surprised by division. For example, the following fragment tries to compute the fraction of an hour that [  has elapsed:](open_file code/ch02/Printing_Vars.java panel=0 ref="Fraction of" count=2)
 
 
 ```code
@@ -33,7 +34,10 @@ System.out.print("Fraction of the hour that has passed: ");
 System.out.println(minute / 60);
 ```
 
-The output is as follows:
+[Click to remove the highlight](open_file code/ch02/Printing_Vars.java panel=0 count=2)
+ To compile and run the code, remove the proper comment and press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/ch02/Printing_Vars.java java -cp code/ch02/ Printing_Vars 2)
+ The output is as follows:
 
 ```code
 Fraction of the hour that has passed: 0
@@ -42,8 +46,7 @@ Fraction of the hour that has passed: 0
 
 This result often confuses people. The value of `minute` is `59`, and 59 divided by 60 should be 0.98333, not 0. The problem is that Java performs *integer division* when the operands are integers. By design, integer division always rounds toward zero, even in cases like this one where the next integer is close.
 
-As an alternative, we can calculate a percentage rather than [ a fraction:](open_file code/ch02/PrintingVars.java panel=0 ref="Percent of" count=2)
- [REMOVE HIGHLIGHT](open_file code/ch02/PrintingVars.java panel=0 count=2)
+As an alternative, we can calculate a percentage rather than [ a fraction:](open_file code/ch02/Printing_Vars.java panel=0 ref="Percent of" count=2)
 
 
 ```code
@@ -51,7 +54,10 @@ System.out.print("Percent of the hour that has passed: ");
 System.out.println(minute * 100 / 60);
 ```
 
-The new output is as follows:
+[Click to remove the highlight](open_file code/ch02/Printing_Vars.java panel=0 count=2)
+ To compile and run the code, remove the proper comment and press the "Run!"
+{Run!}(sh .guides/bg.sh javac code/ch02/Printing_Vars.java java -cp code/ch02/ Printing_Vars 3)
+ The new output is as follows:
 
 ```code
 Percent of the hour that has passed: 98

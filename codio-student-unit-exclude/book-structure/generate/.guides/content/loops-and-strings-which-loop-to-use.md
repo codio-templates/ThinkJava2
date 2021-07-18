@@ -15,7 +15,6 @@ You might wonder when to use one or the other.  It depends on whether you know h
 A `for` loop is “definite”, which means we know, at the beginning of the loop, how many times it will repeat. In the alphabet example, we know it will run 26 times. In that case, it's better to use a `for` loop, which puts all of the loop control code on one line.
 
 A `while` loop is “indefinite”, which means we don't know how many times it will repeat. For example, when validating user input as in Section 5.9, it's impossible to know how many times the user will enter a wrong value. In this case, a ```while``` loop is more [ appropriate:](open_file code/ch06/Strings3.java panel=0 ref="Enter a number" count=7)
- [REMOVE HIGHLIGHT](open_file code/ch06/Strings3.java panel=0 count=7)
 
 
 ```code
@@ -28,5 +27,6 @@ while (!in.hasNextDouble()) {
 double number = in.nextDouble();
 ```
 
-It's easier to read the `Scanner` method calls when they're not all on one line of code. To compile and run this statement, press "Run!"
-{try it|terminal}(javac code/ch06/Strings3.java &&java -cp code/ch06/ Strings3 )
+[Click to remove the highlight](open_file code/ch06/Strings3.java panel=0 count=7)
+ It's easier to read the `Scanner` method calls when they're not all on one line of code. To compile and run this statement, press "Run!"
+{Run!|terminal}(javac code/ch06/Strings3.java &&java -cp code/ch06/ Strings3 )

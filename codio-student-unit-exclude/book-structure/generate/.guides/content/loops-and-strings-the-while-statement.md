@@ -1,5 +1,4 @@
 Using a ```while``` statement, we can repeat the same code [ multiple times:](open_file code/ch06/Loops.java panel=0 ref="countdown" count=7)
- [REMOVE HIGHLIGHT](open_file code/ch06/Loops.java panel=0 count=7)
 
 
 ```code
@@ -11,7 +10,8 @@ while (n > 0) {
 System.out.println("Blastoff!");
 ```
 
-To see the output of this function, comment out all other code in the main function besides lines 67 and 68. Press "Run!"
+[Click to remove the highlight](open_file code/ch06/Loops.java panel=0 count=7)
+ To see the output of this function, comment out all other code in the main function besides lines 67 and 68. Press "Run!"
 {Run!}(sh .guides/bg.sh javac code/ch06/Loops.java java -cp code/ch06/ Loops )
  Reading the code in English sounds like this: “Start with `n` set to 3. While `n` is greater than 0, print the value of `n`, and reduce the value of `n` by 1. When you get to 0, print Blastoff!”
 
@@ -47,7 +47,6 @@ while (n > 0) {
 This example will print the number `3` forever, or at least until you terminate the program. An endless source of amusement for computer scientists is the observation that the directions on shampoo, “Lather, rinse, repeat,” are an infinite loop.
 
 In the first example, we can prove that the loop terminates when `n` is positive. But in general, it is not so easy to tell whether a loop terminates. For example, this loop continues until ```n``` is 1 (which makes the condition [ false):](open_file code/ch06/Loops.java panel=0 ref="sequence" count=11)
- [REMOVE HIGHLIGHT](open_file code/ch06/Loops.java panel=0 count=11)
 
 
 ```code
@@ -61,7 +60,8 @@ while (n != 1) {
 }
 ```
 
-To see the output of this function, comment out all other code in the main function besides lines 70 and 71. Press "Run!"
+[Click to remove the highlight](open_file code/ch06/Loops.java panel=0 count=11)
+ To see the output of this function, comment out all other code in the main function besides lines 70 and 71. Press "Run!"
 {Run!}(sh .guides/bg.sh javac code/ch06/Loops.java java -cp code/ch06/ Loops )
  Each time through the loop, the program displays the value of `n` and then checks whether it is even or odd. If it is even, the value of `n` is divided by 2. If it is odd, the value is replaced by $3n+1$. For example, if the starting value is 3, the resulting sequence is 3, 10, 5, 16, 8, 4, 2, 1.
 

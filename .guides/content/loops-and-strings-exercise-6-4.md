@@ -9,4 +9,5 @@ A word is said to be “abecedarian” if the letters in the word appear in alph
 
 Write a method called `isAbecedarian` that takes a `String` and returns a `boolean` indicating whether the word is abecedarian.
 
-{Run!}(sh .guides/bg.sh javac code/ch06/exercise6_4.java java -cp code/ch06/ exercise6_4 )
+
+To compile and run your code, press "Run!" {Run!}(sh .guides/bg.sh javac code/ch06/exercise6_4.java java -cp code/ch06/ exercise6_4 )
