@@ -1,4 +1,7 @@
 The next helper method we need is `merge`, which takes two sorted subdecks and returns a new deck containing all cards from both decks, in order. Here's what the algorithm looks like in pseudocode, assuming the subdecks are named `d1` and `d2`:
+This method can also seen [at the left.](open_file code/ch13/Deck.java panel=0 ref="merge" count=19)
+[Click to remove highlight](open_file code/ch13/Deck.java panel=0)
+
 
 ```code
 private static Deck merge(Deck d1, Deck d2) {
@@ -22,7 +25,9 @@ private static Deck merge(Deck d1, Deck d2) {
 }
 ```
 
-An exercise at the end of the chapter asks you to implement `merge`. It's a little tricky, so be sure to test it with different subdecks. Once your `merge` method is working, you can use it to write a simplified version of merge sort:
+An exercise at the end of the chapter asks you to implement `merge`. It's a little tricky, so be sure to test it with different subdecks. Once your \java{merge} method is working, you can use it to write a simplified version of merge sort, as shown below and [at the left.](open_file code/ch13/Deck.java panel=0 ref="almostMergeSort" count=6)
+[Click to remove highlight](open_file code/ch13/Deck.java panel=0)
+
 
 ```code
 public Deck almostMergeSort() {

@@ -1,4 +1,5 @@
-Now that we have classes that represent cards and decks, let's use them to make a game. One of the simplest card games that children play is called “War” (see [https://en.wikipedia.org/wiki/War_(card_game)](https://en.wikipedia.org/wiki/War_(card_game))).
+Now that we have classes that represent cards and decks, let's use them to make a game. One of the simplest card games that children play is called “War” (see [https://en.wikipedia.org/wiki/War_(card_game)](open_preview https://en.wikipedia.org/wiki/War_(card_game) panel=0)).
+
 
 Initially, the deck is divided evenly into two piles, one for each player. During each round, each player takes the top card from their pile and places it, face up, in the center. Whoever has the highest-ranking card, ignoring suit, takes the two cards and adds them to the bottom of their pile. The game continues until one player has won the entire deck.
 
@@ -9,7 +10,9 @@ We can solve this problem with an `ArrayList`, which is in the `java.util` packa
 
 
 
-We define a new class named `Pile` to represent a pile of cards. It uses an `ArrayList` to store `Card` objects:
+We define a new class named `Pile` to represent a pile of cards. It uses an `ArrayList` to store `Card` objects, as seen [on the left](open_file code/ch13/Pile.java panel=0 ref="Pile" count=11). 
+[Click to remove highlight](open_file code/ch13/Pile.java panel=0)
+
 
 ```code
 public class Pile {
@@ -25,7 +28,9 @@ public class Pile {
 When you declare an `ArrayList`, you specify the type it contains in angle brackets (`<>`). This declaration says that `cards` is not just an `ArrayList`; it's an `ArrayList` of `Card` objects. The constructor initializes `this.cards` with an empty `ArrayList`.
 
 
-Now let's think about the methods we need to play the game. At the beginning of each round, each player draws a card from the top of their pile. So we define a method to do that:
+Now let's think about the methods we need to play the game. At the beginning of each round, each player draws a card from the top of their pile. So we define a method to do that, as shown [on the left](open_file code/ch13/Pile.java panel=0 ref="popCard" count=3). 
+[Click to remove highlight](open_file code/ch13/Pile.java panel=0)
+
 
 
 ```code
@@ -36,7 +41,9 @@ public Card popCard() {
 
 `popCard` removes the `Card` at the beginning of the `ArrayList`, which we think of as the top of the pile. Because we use `ArrayList.remove`, it automatically shifts the remaining cards to fill the gap.
 
-At the end of each round, the winner adds cards to the bottom of their pile. So we define a method to do that:
+At the end of each round, the winner adds cards to the bottom of their pile. So we define a method to do that, as seen [on the left](open_file code/ch13/Pile.java panel=0 ref="addCard" count=3). 
+[Click to remove highlight](open_file code/ch13/Pile.java panel=0)
+
 
 ```code
 public void addCard(Card card) {
@@ -46,7 +53,9 @@ public void addCard(Card card) {
 
 `ArrayList` provides a method, `add`, that adds an element to the end of the collection, which we think of as the bottom of the pile.
 
-To know when to stop the game, we have to check if one of the piles is empty. Here's a method to do that:
+To know when to stop the game, we have to check if one of the piles is empty. Here's a method to do that, also provided [on the left](open_file code/ch13/Pile.java panel=0 ref="isEmpty" count=3). 
+[Click to remove highlight](open_file code/ch13/Pile.java panel=0)
+
 
 ```code
 public boolean isEmpty() {
@@ -56,7 +65,9 @@ public boolean isEmpty() {
 
 So far, these methods don't do very much; they just invoke methods on the instance variable, `cards`. Methods like these are called **wrapper methods** because they wrap one method with another.
 
-Finally, to start the game, we need to divide the deck into two equal parts. We can do that with `subdeck` from Section 13.5 and a new method, `addDeck`:
+Finally, to start the game, we need to divide the deck into two equal parts. We can do that with `subdeck` from before as well as a new method, `addDeck`, as shown [on the left](open_file code/ch13/Pile.java panel=0 ref="addDeck" count=5).
+[Click to remove highlight](open_file code/ch13/Pile.java panel=0)
+
 
 ```code
 public void addDeck(Deck deck) {

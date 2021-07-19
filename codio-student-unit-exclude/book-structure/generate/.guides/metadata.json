@@ -2019,8 +2019,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/objects-of-arrays-merge-sort.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "objects-of-arrays-merge-sort",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2031,8 +2037,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/objects-of-arrays-subdecks.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch13/Deck.java"
+        }
+      ],
       "id": "objects-of-arrays-subdecks",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2067,8 +2084,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/objects-of-arrays-static-context.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "objects-of-arrays-static-context",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2079,8 +2102,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/objects-of-arrays-piles-of-cards.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "/code/ch13/Pile.java"
+        }
+      ],
       "id": "objects-of-arrays-piles-of-cards",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2091,8 +2125,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/objects-of-arrays-playing-war.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "/code/ch13/War.java"
+        }
+      ],
       "id": "objects-of-arrays-playing-war",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2103,8 +2148,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/objects-of-arrays-vocabulary.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "objects-of-arrays-vocabulary",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],

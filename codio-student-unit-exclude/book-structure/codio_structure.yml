@@ -476,11 +476,13 @@ sections:
           position: 126
         - add:  |
                  This technique is sometimes called **pseudocode**, and it is also found as a series of comments within the stub method [at the left.](open_file code/ch13/Deck.java panel=0 ref="shuffle" count=6)
+                 [Click to remove highlight](open_file code/ch13/Deck.java panel=0)
           position: 127
         - remove: 1
           position: 143
         - add:  |
                  In this case, we need a method that chooses a random integer in a given range and a method that takes two indexes and swaps the cards at those positions. These stub methods are in the code file [on the left.](open_file code/ch13/Deck.java panel=0 ref="int low" count=10)
+                 [Click to remove highlight](open_file code/ch13/Deck.java panel=0)
           position: 144
         - remove: 1
           position: 165
@@ -494,26 +496,163 @@ sections:
           position: 186
         - add:  |
                  Pseudocode for selection sort can be found [at the left.](open_file code/ch13/Deck.java panel=0 ref="selectionSort" count=6)
+                 [Click to remove highlight](open_file code/ch13/Deck.java panel=0)
           position: 187
         - add:  |
                  The stub method can be seen [at the left.](open_file code/ch13/Deck.java panel=0 ref="indexLowest" count=3)
+                 [Click to remove highlight](open_file code/ch13/Deck.java panel=0)
           position: 199
   - name: "Merge Sort"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Subdecks"
     type: section
+    transformations:
+        - remove: 1
+          position: 256
+        - add:  |
+                So we need a method that takes a deck, and a range of indexes, and returns a new deck that contains the specified subset of cards. 
+                This method can be seen [at the left.](open_file code/ch13/Deck.java panel=0 ref="subdeck" count=7)
+                [Click to remove highlight](open_file code/ch13/Deck.java panel=0)
+          position: 257
+        - remove: 1
+          position: 268
+        - add:  |
+                [The first line](open_file code/ch13/Deck.java panel=0 ref="new Deck" count=1) creates an unpopulated `Deck` object that contains an array of `null` references.
+                [Click to remove highlight](open_file code/ch13/Deck.java panel=0)
+          position: 269
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch13/Deck.java"
+            panel: 0
+            action: open
   - name: "Merging Decks"
     type: section
+    transformations:
+        - remove: 1
+          position: 315
+        - add:  |
+                Here's what the algorithm looks like in pseudocode, assuming the subdecks are named `d1` and `d2`:
+                This method can also seen [at the left.](open_file code/ch13/Deck.java panel=0 ref="merge" count=19)
+                [Click to remove highlight](open_file code/ch13/Deck.java panel=0)
+          position: 316
+        - remove: 1
+          position: 341
+        - add:  |
+                Once your \java{merge} method is working, you can use it to write a simplified version of merge sort, as shown below and [at the left.](open_file code/ch13/Deck.java panel=0 ref="almostMergeSort" count=6)
+                [Click to remove highlight](open_file code/ch13/Deck.java panel=0)
+          position: 342
   - name: "Adding Recursion"
     type: section
+    transformations:
+        - remove: 1
+          position: 366
+        - add:  |
+                With these base cases, a recursive version of `mergeSort` looks like the method [at the left.](open_file code/ch13/Deck.java panel=0 ref="Deck mergeSort" count=8)
+                [Click to remove highlight](open_file code/ch13/Deck.java panel=0)
+          position: 367
   - name: "Static Context"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Piles of Cards"
     type: section
+    transformations:
+        - remove: 1
+          position: 494
+        - add:  |
+                One of the simplest card games that children play is called “War” (see [https://en.wikipedia.org/wiki/War_(card_game)](open_preview https://en.wikipedia.org/wiki/War_(card_game) panel=0)).
+          position: 495
+        - remove: 1
+          position: 518
+        - add:  |
+                It uses an `ArrayList` to store `Card` objects, as seen [on the left](open_file code/ch13/Pile.java panel=0 ref="Pile" count=11). 
+                [Click to remove highlight](open_file code/ch13/Pile.java panel=0)
+          position: 519
+        - remove: 1
+          position: 543
+        - add:  |
+                So we define a method to do that, as shown [on the left](open_file code/ch13/Pile.java panel=0 ref="popCard" count=3). 
+                [Click to remove highlight](open_file code/ch13/Pile.java panel=0)
+          position: 544
+        - remove: 1
+          position: 558
+        - add:  |
+                So we define a method to do that, as seen [on the left](open_file code/ch13/Pile.java panel=0 ref="addCard" count=3). 
+                [Click to remove highlight](open_file code/ch13/Pile.java panel=0)
+          position: 559
+        - remove: 1
+          position: 569
+        - add:  |
+                Here's a method to do that, also provided [on the left](open_file code/ch13/Pile.java panel=0 ref="isEmpty" count=3). 
+                [Click to remove highlight](open_file code/ch13/Pile.java panel=0)
+          position: 570
+        - remove: 1
+          position: 581
+        - add:  |
+                We can do that with `subdeck` from before as well as a new method, `addDeck`, as shown [on the left](open_file code/ch13/Pile.java panel=0 ref="addDeck" count=5).
+                [Click to remove highlight](open_file code/ch13/Pile.java panel=0)
+          position: 582 
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "/code/ch13/Pile.java"
+            panel: 0
+            action: open
   - name: "Playing War"
     type: section
+    transformations:
+        - remove: 1
+          position: 599
+        - add:  |
+                We'll start by creating a deck and shuffling, as shown [on the left.](open_file code/ch13/War.java panel=0 ref="create" count=3)
+                [Click to remove highlight](open_file code/ch13/War.java panel=0)
+          position: 600
+        - remove: 1
+          position: 606
+        - add:  |
+                Then we divide the \java{Deck} into two piles, as seen [on the left.](open_file code/ch13/War.java panel=0 ref="divide" count=5)
+                [Click to remove highlight](open_file code/ch13/War.java panel=0)
+          position: 607  
+        - remove: 1
+          position: 617
+        - add:  |
+                At each iteration, we draw a card from each pile and compare their ranks, as shown [on the left.](open_file code/ch13/War.java panel=0 ref="while" count=17)
+                [Click to remove highlight](open_file code/ch13/War.java panel=0)
+          position: 618
+        - remove: 1
+          position: 645
+        - add:  |
+                After the \java{while} loop ends, we display the winner based on which pile is not empty, as shown [on the left.](open_file code/ch13/War.java panel=0 ref="display" count=6)
+                [Click to remove highlight](open_file code/ch13/War.java panel=0)
+          position: 646
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "/code/ch13/War.java"
+            panel: 0
+            action: open
   - name: "Vocabulary"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Exercises"
     type: section
   - name: "Extending Classes"

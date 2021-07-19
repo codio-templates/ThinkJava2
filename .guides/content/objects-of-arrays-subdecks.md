@@ -1,4 +1,7 @@
-The first step of merge sort is to split the deck into two “subdecks”, each with about half of the cards. So we need a method that takes a deck, and a range of indexes, and returns a new deck that contains the specified subset of cards:
+The first step of merge sort is to split the deck into two “subdecks”, each with about half of the cards. So we need a method that takes a deck, and a range of indexes, and returns a new deck that contains the specified subset of cards. 
+This method can be seen [at the left.](open_file code/ch13/Deck.java panel=0 ref="subdeck" count=7)
+[Click to remove highlight](open_file code/ch13/Deck.java panel=0)
+
 
 ```code
 public Deck subdeck(int low, int high) {
@@ -10,7 +13,9 @@ public Deck subdeck(int low, int high) {
 }
 ```
 
-The first line creates an unpopulated `Deck` object that contains an array of `null` references. Inside the `for` loop, the subdeck gets populated with references to `Card` objects.
+[The first line](open_file code/ch13/Deck.java panel=0 ref="new Deck" count=1) creates an unpopulated `Deck` object that contains an array of `null` references.
+[Click to remove highlight](open_file code/ch13/Deck.java panel=0)
+ Inside the `for` loop, the subdeck gets populated with references to `Card` objects.
 
 
 The length of the subdeck is `high - low + 1`, because both the low card and the high card are included. This sort of computation can be confusing, and forgetting the “`+ 1`” often leads to **off-by-one** errors. Drawing a picture is usually the best way to avoid them.

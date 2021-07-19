@@ -1,6 +1,7 @@
 Now that we have shuffled the deck, we need a way to put it back in order. There is an algorithm for sorting that is ironically similar to the algorithm for shuffling. It's called **selection sort**, because it works by traversing the array repeatedly and selecting the lowest (or highest) remaining card each time.
 
 During the first iteration, we find the lowest card and swap it with the card in the zeroth position. During the $i$th iteration, we find the lowest card to the right of $i$ and swap it with the $i$th card. Pseudocode for selection sort can be found [at the left.](open_file code/ch13/Deck.java panel=0 ref="selectionSort" count=6)
+[Click to remove highlight](open_file code/ch13/Deck.java panel=0)
 
 
 ```code
@@ -13,6 +14,7 @@ public void selectionSort() {
 ```
 
 Again, the pseudocode helps with the design of the helper methods. For this algorithm, we can reuse `swapCards` from the previous section, so we need only a method to find the lowest card; we'll call it `indexLowest`: The stub method can be seen [at the left.](open_file code/ch13/Deck.java panel=0 ref="indexLowest" count=3)
+[Click to remove highlight](open_file code/ch13/Deck.java panel=0)
 
 
 ```code

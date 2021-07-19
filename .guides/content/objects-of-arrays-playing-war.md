@@ -1,11 +1,15 @@
-Now we can use `Deck` and `Pile` to implement the game. We'll start by creating a deck and shuffling:
+Now we can use `Deck` and `Pile` to implement the game. We'll start by creating a deck and shuffling, as shown [on the left.](open_file code/ch13/War.java panel=0 ref="create" count=3)
+[Click to remove highlight](open_file code/ch13/War.java panel=0)
+
 
 ```code
 Deck deck = new Deck();
 deck.shuffle();
 ```
 
-Then we divide the `Deck` into two piles:
+Then we divide the \java{Deck} into two piles, as seen [on the left.](open_file code/ch13/War.java panel=0 ref="divide" count=5)
+[Click to remove highlight](open_file code/ch13/War.java panel=0)
+
 
 ```code
 Pile p1 = new Pile();
@@ -15,7 +19,9 @@ Pile p2 = new Pile();
 p2.addDeck(deck.subdeck(26, 51));
 ```
 
-The game itself is a loop that repeats until one of the piles is empty. At each iteration, we draw a card from each pile and compare their ranks:
+The game itself is a loop that repeats until one of the piles is empty. At each iteration, we draw a card from each pile and compare their ranks, as shown [on the left.](open_file code/ch13/War.java panel=0 ref="while" count=17)
+[Click to remove highlight](open_file code/ch13/War.java panel=0)
+
 
 ```code
 while (!p1.isEmpty() && !p2.isEmpty()) {
@@ -40,7 +46,9 @@ If the two cards have the same rank, it's a tie. In that case, each player draws
 
 One of the exercises at the end of this chapter asks you to implement the `else` block when there's a tie.
 
-After the `while` loop ends, we display the winner based on which pile is not empty:
+After the \java{while} loop ends, we display the winner based on which pile is not empty, as shown [on the left.](open_file code/ch13/War.java panel=0 ref="display" count=6)
+[Click to remove highlight](open_file code/ch13/War.java panel=0)
+
 
 ```code
 if (p2.isEmpty()) {

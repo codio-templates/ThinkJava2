@@ -2,7 +2,9 @@ To make `mergeSort` work recursively, you have to add a base case; otherwise, it
 
 And it will turn out to be convenient if we handle another base case, a subdeck with zero cards. By the same logic, if there are no cards, they can't be out of order. So we consider an empty deck to be sorted, and return it.
 
-With these base cases, a recursive version of `mergeSort` looks like this:
+With these base cases, a recursive version of `mergeSort` looks like the method [at the left.](open_file code/ch13/Deck.java panel=0 ref="Deck mergeSort" count=8)
+[Click to remove highlight](open_file code/ch13/Deck.java panel=0)
+
 
 ```code
 public Deck mergeSort() {

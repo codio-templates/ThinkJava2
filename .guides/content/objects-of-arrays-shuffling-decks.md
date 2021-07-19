@@ -7,6 +7,7 @@ But a computer program would have the annoying property of doing a perfect shuff
 
 
 A better shuffling algorithm is to traverse the deck one card at a time, and at each iteration, choose two cards and swap them. To outline this algorithm, we'll use a combination of Java statements and English comments. This technique is sometimes called **pseudocode**, and it is also found as a series of comments within the stub method [at the left.](open_file code/ch13/Deck.java panel=0 ref="shuffle" count=6)
+[Click to remove highlight](open_file code/ch13/Deck.java panel=0)
 
 
 
@@ -21,6 +22,7 @@ public void shuffle() {
 
 
 The nice thing about pseudocode is that it often makes clear what other methods you are going to need. In this case, we need a method that chooses a random integer in a given range and a method that takes two indexes and swaps the cards at those positions. These stub methods are in the code file [on the left.](open_file code/ch13/Deck.java panel=0 ref="int low" count=10)
+[Click to remove highlight](open_file code/ch13/Deck.java panel=0)
 
 
 ```code
