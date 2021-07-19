@@ -25,7 +25,7 @@ private static Deck merge(Deck d1, Deck d2) {
 }
 ```
 
-An exercise at the end of the chapter asks you to implement `merge`. It's a little tricky, so be sure to test it with different subdecks. Once your \java{merge} method is working, you can use it to write a simplified version of merge sort, as shown below and [at the left.](open_file code/ch13/Deck.java panel=0 ref="almostMergeSort" count=6)
+An exercise at the end of the chapter asks you to implement `merge`. It's a little tricky, so be sure to test it with different subdecks. Once your `merge` method is working, you can use it to write a simplified version of merge sort, as shown below and [at the left.](open_file code/ch13/Deck.java panel=0 ref="almostMergeSort" count=6)
 [Click to remove highlight](open_file code/ch13/Deck.java panel=0)
 
 

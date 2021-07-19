@@ -69,7 +69,7 @@ public class Deck {
      * Chooses a random number between low and high, including both.
      */
     private static int randomInt(int low, int high) {
-        
+        return 0;
     }
 
     /**
@@ -83,10 +83,10 @@ public class Deck {
      * Sorts the cards (in place) using selection sort.
      */
     public void selectionSort() {
-        for each index i {
+        //for each index i {
             // find the lowest card at or to the right of i
             // swap the ith card and the lowest card found
-        }
+        //}
     }
     /**
      * Finds the index of the lowest card
@@ -94,6 +94,7 @@ public class Deck {
      */
     private int indexLowest(int low, int high) {
         // find the lowest card between low and high
+      return 0;
     }
 
     /**
@@ -119,15 +120,16 @@ public class Deck {
         int j = 0;
 
         // the index k traverses the result deck
-        for (int k = 0; k < d3.length; k++) {
+        //for (int k = 0; k < d3.length; k++) {
             // if d1 is empty, use top card from d2
             // if d2 is empty, use top card from d1
             // otherwise, compare the top two cards
 
             // add lowest card to the new deck at k
             // increment i or j (depending on card)
-        }
+        //}
         // return the new deck
+        return new Deck();
     }
 
     /**

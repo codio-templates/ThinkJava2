@@ -1035,6 +1035,36 @@
           "pageId": "objects-of-arrays-exercises",
           "title": "Exercises",
           "type": "page"
+        },
+        {
+          "id": "objects-of-arrays-exercise-13-1",
+          "pageId": "objects-of-arrays-exercise-13-1",
+          "title": "Exercise 13.1",
+          "type": "page"
+        },
+        {
+          "id": "objects-of-arrays-exercise-13-2",
+          "pageId": "objects-of-arrays-exercise-13-2",
+          "title": "Exercise 13.2",
+          "type": "page"
+        },
+        {
+          "id": "objects-of-arrays-exercise-13-3",
+          "pageId": "objects-of-arrays-exercise-13-3",
+          "title": "Exercise 13.3",
+          "type": "page"
+        },
+        {
+          "id": "objects-of-arrays-exercise-13-4",
+          "pageId": "objects-of-arrays-exercise-13-4",
+          "title": "Exercise 13.4",
+          "type": "page"
+        },
+        {
+          "id": "objects-of-arrays-exercise-13-5",
+          "pageId": "objects-of-arrays-exercise-13-5",
+          "title": "Exercise 13.5",
+          "type": "page"
         }
       ],
       "id": "objects-of-arrays",

@@ -20,24 +20,45 @@ public class Test {
      */
     public static void main(String[] args) {
         Deck deck;
-
-        System.out.println("Testing selection...");
+      
+        int section = Integer.parseInt(args[0]);
+      
+        System.out.println("Testing toString()");
         deck = new Deck();
-        deck.shuffle();
-        deck.selectionSort();
-        checkSorted(deck);
+        System.out.println(deck.toString());
 
-        System.out.println("Testing mergesort...");
-        deck = new Deck();
-        deck.shuffle();
-        deck = deck.mergeSort();
-        checkSorted(deck);
+        if (section != 0) {
+          
+          System.out.println("Testing shuffle... if no unsorted cards listed below, shuffle was not performed.");
+          deck = new Deck();
+          deck.shuffle();
+          checkSorted(deck);
+          
+          if (section != 1) {
+            
+            System.out.println("Testing selection...");
+            deck = new Deck();
+            deck.shuffle();
+            deck.selectionSort();
+            checkSorted(deck);
 
-        System.out.println("Testing insertion...");
-        deck = new Deck();
-        deck.shuffle();
-        deck.insertionSort();
-        checkSorted(deck);
+            System.out.println("Testing mergesort...");
+            deck = new Deck();
+            deck.shuffle();
+            deck = deck.mergeSort();
+            checkSorted(deck);
+
+            System.out.println("Testing insertion...");
+            deck = new Deck();
+            deck.shuffle();
+            deck.insertionSort();
+            checkSorted(deck);
+            
+          }
+        
+        }
+          
+        
     }
 
 }

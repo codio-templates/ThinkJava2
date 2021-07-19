@@ -7,7 +7,7 @@ Deck deck = new Deck();
 deck.shuffle();
 ```
 
-Then we divide the \java{Deck} into two piles, as seen [on the left.](open_file code/ch13/War.java panel=0 ref="divide" count=5)
+Then we divide the `Deck` into two piles, as seen [on the left.](open_file code/ch13/War.java panel=0 ref="divide" count=5)
 [Click to remove highlight](open_file code/ch13/War.java panel=0)
 
 
@@ -46,7 +46,7 @@ If the two cards have the same rank, it's a tie. In that case, each player draws
 
 One of the exercises at the end of this chapter asks you to implement the `else` block when there's a tie.
 
-After the \java{while} loop ends, we display the winner based on which pile is not empty, as shown [on the left.](open_file code/ch13/War.java panel=0 ref="display" count=6)
+After the `while` loop ends, we display the winner based on which pile is not empty, as shown [on the left.](open_file code/ch13/War.java panel=0 ref="display" count=6)
 [Click to remove highlight](open_file code/ch13/War.java panel=0)
 
 
