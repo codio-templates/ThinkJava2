@@ -7,7 +7,6 @@
    "showName": true,
    "instructions": "In computer jargon, what's the difference between a *statement* and a *comment*?",
    "guidance": "While a statement is a line of code that performs a basic action, a comment is a bit of English text that explains a statement or set of statements. ",
-   "showGuidanceAfterResponse": true,
    "previewType": "NONE",
    "arePartialPointsAllowed": false,
    "oneTimeTest": true,
@@ -24,7 +23,10 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "learningObjectives": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   }
   }
  },
  {
@@ -35,7 +37,6 @@
    "showName": true,
    "instructions": "What does it mean to say that a program is *portable*?",
    "guidance": "A portable program can run on different kinds of computers with few or no modifications.",
-   "showGuidanceAfterResponse": true,
    "previewType": "NONE",
    "arePartialPointsAllowed": false,
    "oneTimeTest": true,
@@ -52,7 +53,10 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "learningObjectives": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   }
   }
  },
  {
@@ -63,7 +67,6 @@
    "showName": true,
    "instructions": "In common English, what does the word *compile* mean?",
    "guidance": "The dictionary definition of *compile* is to put something together from its parts. Similarly, in computer science compiling is when the computer reads the entire program and translates it completely into an executable -- language the computer understands -- before running it. ",
-   "showGuidanceAfterResponse": true,
    "previewType": "NONE",
    "arePartialPointsAllowed": false,
    "oneTimeTest": true,
@@ -80,7 +83,10 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "learningObjectives": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   }
   }
  },
  {
@@ -91,7 +97,6 @@
    "showName": true,
    "instructions": "What is an *executable*? Why is that word used as a noun?",
    "guidance": "An executable is the \"translated\" program that is produced by the compiler and run. It is a noun because it represents a specific program at a certain step in the process, rather than being used as an adjective to describe just any program. ",
-   "showGuidanceAfterResponse": true,
    "previewType": "NONE",
    "arePartialPointsAllowed": false,
    "oneTimeTest": true,
@@ -108,7 +113,10 @@
     "opened": []
    },
    "bloomsObjectiveLevel": "",
-   "learningObjectives": ""
+   "learningObjectives": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   }
   }
  },
  {
@@ -116,13 +124,15 @@
   "taskId": "fill-in-the-blanks-405612404",
   "source": {
    "name": "Exercise 5.4",
-   "showName": true,
-   "instructions": "Fill in the blanks based on the above code snippet. ",
+   "showName": false,
+   "instructions": "**Fill in the blanks based on the above code snippet.**",
    "showValues": false,
    "text": "`yes == no && grade > amount` --> <<<false>>>\n`amount == 40.0 || 50.0` --> <<<error>>>\n`hiVal != loVal || loVal < 0` --> <<<true>>>\n`True || hello.length() > 0` --> <<<true>>>\n`hello.isEmpty()` --> <<<false>>>\n`grade <= 100` --> <<<true>>>\n`!yes || no` --> <<<false>>>\n`grade > 75 > amount` --> <<<error>>>\n`amount <= hiVal` --> <<<true>>>\n`no` --> <<<false>>>",
    "distractors": "",
    "guidance": "",
-   "showGuidanceAfterResponse": false,
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   },
    "showExpectedAnswer": true,
    "points": 20,
    "arePartialPointsAllowed": false,
@@ -182,10 +192,12 @@
   "taskId": "free-text-2095154106",
   "source": {
    "name": "Exercise 5.5",
-   "showName": true,
-   "instructions": "What is the output of the code?",
+   "showName": false,
+   "instructions": "**What is the output of the code?**",
    "guidance": "true\ntrue\nping!\npong!",
-   "showGuidanceAfterResponse": true,
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   },
    "previewType": "NONE",
    "arePartialPointsAllowed": false,
    "oneTimeTest": true,
