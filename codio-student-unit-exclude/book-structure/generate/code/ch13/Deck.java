@@ -129,7 +129,13 @@ public class Deck {
             // increment i or j (depending on card)
         //}
         // return the new deck
-        return new Deck();
+         
+        //Before implementing this method, just so that we can run our code, 
+        //we need this stub method to return something 
+      
+        // return this.cards; // Wrong!
+      
+        // return new Deck(); // Correct!
     }
 
     /**
@@ -165,5 +171,16 @@ public class Deck {
      */
     private void insert(Card card, int i) {
     }
+  
+    public static void main(String[] args) {
+      Deck deck = new Deck();
+      deck.print();
+      
+      Deck.print(); //wrong!
+      
+      int i = deck.randomInt(0, 51);  // legal, but not good style
+      
+      
+    }  
 
 }
