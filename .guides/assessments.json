@@ -4,10 +4,12 @@
   "taskId": "free-text-3242694277",
   "source": {
    "name": "Exercise 1.1.1",
-   "showName": true,
-   "instructions": "In computer jargon, what's the difference between a statement and a comment?",
+   "showName": false,
+   "instructions": "**In computer jargon, what's the difference between a statement and a comment?**",
    "guidance": "While a statement is a line of code that performs a basic action, a comment is a bit of English text that explains the code.",
-   "showGuidanceAfterResponse": true,
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   },
    "previewType": "NONE",
    "arePartialPointsAllowed": false,
    "oneTimeTest": true,
@@ -32,10 +34,12 @@
   "taskId": "free-text-3427385436",
   "source": {
    "name": "Exercise 1.1.2",
-   "showName": true,
-   "instructions": "What does it mean to say that a program is portable?",
+   "showName": false,
+   "instructions": "**What does it mean to say that a program is portable?**",
    "guidance": "A program is portable if it can run on different kinds of computers with few or no modifications.",
-   "showGuidanceAfterResponse": true,
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   },
    "previewType": "NONE",
    "arePartialPointsAllowed": false,
    "oneTimeTest": true,
@@ -60,10 +64,12 @@
   "taskId": "free-text-3825581846",
   "source": {
    "name": "Exercise 1.1.3",
-   "showName": true,
-   "instructions": "In common English, what does the word compile mean?",
+   "showName": false,
+   "instructions": "**In common English, what does the word compile mean?**",
    "guidance": "In common English, compiling something means to put different parts together or to assemble information for easier understanding. Similarly, when a computer compiles code, it is translating - in other words, putting the commands together in a way that it can understand. ",
-   "showGuidanceAfterResponse": true,
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   },
    "previewType": "NONE",
    "arePartialPointsAllowed": false,
    "oneTimeTest": true,
@@ -88,10 +94,12 @@
   "taskId": "free-text-3954712850",
   "source": {
    "name": "Exercise 1.1.4",
-   "showName": true,
-   "instructions": "What is an executable? Why is that word used as a noun?",
+   "showName": false,
+   "instructions": "**What is an executable? Why is that word used as a noun?**",
    "guidance": "An executable is the translated program produced by the compiler that is immediately understandable by the computer, and is later run. The term is used as a noun because it is used to refer to a specific file within the process of running code -- it is not meant to be used as an adjective to describe a file at any step in the process.",
-   "showGuidanceAfterResponse": true,
+   "showGuidanceAfterResponseOption": {
+    "type": "Always"
+   },
    "previewType": "NONE",
    "arePartialPointsAllowed": false,
    "oneTimeTest": true,
