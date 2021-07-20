@@ -489,6 +489,14 @@ sections:
         - add:  |
                  The process of writing pseudocode first and then writing helper methods to make it work is a kind of **top-down design** (see [https://en.wikipedia.org/wiki/Top-down_and_bottom-up_design](open_preview https://en.wikipedia.org/wiki/Top-down_and_bottom-up_design panel=0)).
           position: 166
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch13/Deck.java"
+            panel: 0
+            action: open
   - name: "Selection Sort"
     type: section
     transformations:
@@ -502,6 +510,14 @@ sections:
                  The stub method can be seen [at the left.](open_file code/ch13/Deck.java panel=0 ref="indexLowest" count=3)
                  [Click to remove highlight](open_file code/ch13/Deck.java panel=0)
           position: 199
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch13/Deck.java"
+            panel: 0
+            action: open
   - name: "Merge Sort"
     type: section
     configuration:
@@ -549,6 +565,14 @@ sections:
                 Once your `merge` method is working, you can use it to write a simplified version of merge sort, as shown below and [at the left.](open_file code/ch13/Deck.java panel=0 ref="almostMergeSort" count=6)
                 [Click to remove highlight](open_file code/ch13/Deck.java panel=0)
           position: 342
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch13/Deck.java"
+            panel: 0
+            action: open
   - name: "Adding Recursion"
     type: section
     transformations:
@@ -558,6 +582,14 @@ sections:
                 With these base cases, a recursive version of `mergeSort` looks like the method [at the left.](open_file code/ch13/Deck.java panel=0 ref="Deck mergeSort" count=8)
                 [Click to remove highlight](open_file code/ch13/Deck.java panel=0)
           position: 367
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch13/Deck.java"
+            panel: 0
+            action: open
   - name: "Static Context"
     type: section
     configuration:
