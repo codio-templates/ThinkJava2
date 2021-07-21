@@ -1,4 +1,4 @@
-In this chapter, you have seen relational and logical operators, `if` statements, boolean methods, and validating input. The program on the left shows how the individual code examples in the previous section fit together. To compile and run the code, press the "Run!" and enter your input into the terminal on the bottom left.
+In this chapter, you have seen relational and logical operators, `if` statements, boolean methods, and validating input. The program on the left shows how the individual code examples in the previous section fit together. To compile and run the code, press the "Run!" button. and enter your input into the terminal on the bottom left.
 {Run!|terminal}(sh .guides/bg.sh javac code/ch05/Logarithm.java java -cp code/ch05/ Logarithm ) 
 
 

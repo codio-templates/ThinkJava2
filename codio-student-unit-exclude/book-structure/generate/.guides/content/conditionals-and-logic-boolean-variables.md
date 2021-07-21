@@ -8,7 +8,7 @@ To store a `true` or `false` value, you need a `boolean` variable. You can decla
 ```
 
 [Click here to remove highlights](open_file code/ch05/LogicalOpers.java panel=0)
-Remove the comment symbols in front of the code and then press the "Run!"
+Remove the comment symbols in front of the code and then press the "Run!" button.
 {Run!}(sh .guides/bg.sh javac code/ch05/LogicalOpers.java java -cp code/ch05/ LogicalOpers 1) This won't print anything because there are no print statements: the code is only saving boolean values into memory and labeling them. 
 
 
@@ -21,7 +21,7 @@ boolean positiveFlag = (x > 0);     // true if x is positive
 ```
 
 [Click here to remove highlights](open_file code/ch05/LogicalOpers.java panel=0)
-Remove the comment symbols in front of the code and then press the "Run!"
+Remove the comment symbols in front of the code and then press the "Run!" button.
 {Run!}(sh .guides/bg.sh javac code/ch05/LogicalOpers.java java -cp code/ch05/ LogicalOpers 2) This still doesn't print anything. Be sure **NOT** to re-comment these lines out before moving on to the next code snippet. 
 
 
@@ -36,7 +36,7 @@ if (evenFlag) {
 ```
 
 [Click here to remove highlights](open_file code/ch05/LogicalOpers.java panel=0)
-Remove the comment symbols in front of the code and then press the "Run!"
+Remove the comment symbols in front of the code and then press the "Run!" button.
 {Run!}(sh .guides/bg.sh javac code/ch05/LogicalOpers.java java -cp code/ch05/ LogicalOpers 3)
  Flags may not seem that useful at this point, but they will help simplify complex conditions later. Each part of a condition can be stored in a separate flag, and these flags can be combined with logical operators.
 
@@ -49,6 +49,6 @@ Notice that we didn't have to write  `if (evenFlag == true)`. Since `evenFlag` i
 ```
 
 [Click here to remove highlights](open_file code/ch05/LogicalOpers.java panel=0)
-Remove the comment symbols in front of the code and then press the "Run!"
+Remove the comment symbols in front of the code and then press the "Run!" button.
 {Run!}(sh .guides/bg.sh javac code/ch05/LogicalOpers.java java -cp code/ch05/ LogicalOpers 4)
  In general, you should never compare anything to `true` or `false`. Doing so makes the code more verbose and awkward to read out loud.

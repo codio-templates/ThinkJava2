@@ -42,7 +42,7 @@ public static void main(String[] args) {
 ```
 
 [Click here to remove highlights](open_file code/ch05/DigitUtil.java panel=0)
-To compile and run the code, press the "Run!"
+To compile and run the code, press the "Run!" button.
 {Run!}(sh .guides/bg.sh javac code/ch05/DigitUtil.java java -cp code/ch05/ DigitUtil 3)
  The first line displays `true` because 2 is a single-digit number. The second line sets `bigFlag` to `true`, because 17 is *not* a single-digit number.
 
@@ -59,6 +59,6 @@ Conditional statements often invoke `boolean` methods and use the result as the 
  }
 ```
 [Click here to remove highlights](open_file code/ch05/DigitUtil.java panel=0)
-Remove the comment symbols in front of the code and then press the "Run!"
+Remove the comment symbols in front of the code and then press the "Run!" button.
 {Run!}(sh .guides/bg.sh javac code/ch05/DigitUtil.java java -cp code/ch05/ DigitUtil 4)
  Examples like this one almost read like English: “If is single digit z, print z is small else print z is big.”

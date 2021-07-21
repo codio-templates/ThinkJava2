@@ -29,7 +29,7 @@ The `&&` operator can be used to simplify nested `if` statements. For example, [
 ```
 
 [Click here to remove highlight](open_file code/ch05/LogicalOpers.java panel=0)
-Remove the comment symbols in front of the code and then press the "Run!"
+Remove the comment symbols in front of the code and then press the "Run!" button.
 {Run!}(sh .guides/bg.sh javac code/ch05/LogicalOpers.java java -cp code/ch05/ LogicalOpers 1)
  Likewise, the `||` operator can simplify chained `if` statements, such as the one [at the left](open_file code/ch05/LogicalOpers.java panel=0 ref="chained" count=6). Since the branches are the same, there is no need to duplicate [this line of code](open_file code/ch05/LogicalOpers.java panel=0 ref="Either" count=1).  
 Therefore, we can combine them [like this](open_file code/ch05/LogicalOpers.java panel=0 ref="can make things easier" count=4) 
@@ -52,7 +52,7 @@ Therefore, we can combine them [like this](open_file code/ch05/LogicalOpers.java
 ```
 
 [Click here to remove highlights](open_file code/ch05/LogicalOpers.java panel=0)
-Remove the comment symbols in front of the code and then press the "Run!"
+Remove the comment symbols in front of the code and then press the "Run!" button.
 {Run!}(sh .guides/bg.sh javac code/ch05/LogicalOpers.java java -cp code/ch05/ LogicalOpers 2)
 
 

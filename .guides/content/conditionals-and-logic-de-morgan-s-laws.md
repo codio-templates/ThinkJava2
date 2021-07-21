@@ -8,7 +8,7 @@ Sometimes you need to negate an expression containing a mix of relational and lo
 ```
 
 [Click here to remove highlights](open_file code/ch05/LogicalOpers.java panel=0)
-Remove the comment symbols in front of the code and then press the "Run!"
+Remove the comment symbols in front of the code and then press the "Run!" button.
 {Run!}(sh .guides/bg.sh javac code/ch05/LogicalOpers.java java -cp code/ch05/ LogicalOpers 1) This code won't print anything, because the condition is false. 
  This condition is difficult to read because of the `!` and parentheses. A better way to negate logic expressions is to apply **De Morgan's laws**:
 
@@ -41,5 +41,5 @@ if (x != 0 && y != 0) {
 ```
 
 [Click here to remove highlights](open_file code/ch05/LogicalOpers.java panel=0)
-Remove the comment symbols in front of the code and then press the "Run!"
+Remove the comment symbols in front of the code and then press the "Run!" button.
 {Run!}(sh .guides/bg.sh javac code/ch05/LogicalOpers.java java -cp code/ch05/ LogicalOpers 2) This code still won't print anything, because the condition is still false. 

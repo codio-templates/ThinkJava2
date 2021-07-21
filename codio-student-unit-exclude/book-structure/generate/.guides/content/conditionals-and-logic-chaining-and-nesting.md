@@ -11,7 +11,7 @@ Sometimes you want to check related conditions and choose one of several actions
 ```
 
 [Click here to remove highlight](open_file code/ch05/ChainNest.java panel=0)
-Remove the comment symbols in front of the code and then press the "Run!"
+Remove the comment symbols in front of the code and then press the "Run!" button.
 {Run!}(sh .guides/bg.sh javac code/ch05/ChainNest.java java -cp code/ch05/ ChainNest 1)
 
 
@@ -37,7 +37,7 @@ In addition to chaining, you can also make complex decisions by **nesting** one 
 ```
 
 [Click here to remove highlight](open_file code/ch05/ChainNest.java panel=0)
-Remove the comment symbols in front of the code and then press the "Run!"
+Remove the comment symbols in front of the code and then press the "Run!" button.
 {Run!}(sh .guides/bg.sh javac code/ch05/ChainNest.java java -cp code/ch05/ ChainNest 2)
 
 

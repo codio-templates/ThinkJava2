@@ -6,7 +6,7 @@ if (x > 0) {
 ```
 
 [Click here to remove highlight](open_file code/ch05/IfElse.java panel=0)
-Remove the comment symbols in front of the code and then press the "Run!"
+Remove the comment symbols in front of the code and then press the "Run!" button.
 {Run!}(sh .guides/bg.sh javac code/ch05/IfElse.java java -cp code/ch05/ IfElse 1)
 
 
@@ -24,7 +24,7 @@ A second form of conditional statement has two possibilities, indicated by `if` 
 ```
 
 [Click here to remove highlight](open_file code/ch05/IfElse.java panel=0)
-Remove the comment symbols in front of the code and then press the "Run!"
+Remove the comment symbols in front of the code and then press the "Run!" button.
 {Run!}(sh .guides/bg.sh javac code/ch05/IfElse.java java -cp code/ch05/ IfElse 2)
 
 
@@ -43,7 +43,7 @@ The braces are optional for branches that have only one statement. So we could h
 
 
 [Click here to remove highlight](open_file code/ch05/IfElse.java panel=0)                 
-Remove the comment symbols in front of the code and then press the "Run!"
+Remove the comment symbols in front of the code and then press the "Run!" button.
 {Run!}(sh .guides/bg.sh javac code/ch05/IfElse.java java -cp code/ch05/ IfElse 3)
 
 
@@ -55,7 +55,7 @@ However, it's better to use braces---even when they are optional---to avoid maki
 ```
 
 [Click here to remove highlight](open_file code/ch05/IfElse.java panel=0)                 
-Remove the comment symbols in front of the code and then press the "Run!"
+Remove the comment symbols in front of the code and then press the "Run!" button.
 {Run!}(sh .guides/bg.sh javac code/ch05/IfElse.java java -cp code/ch05/ IfElse 4) Then try changing x to 0 and see if the code works as expected. 
 
 
@@ -80,7 +80,7 @@ In all previous examples, notice that there is no semicolon at the end of the `i
 ```
 
 [Click here to remove highlight](open_file code/ch05/IfElse.java panel=0)                 
-Remove the comment symbols in front of the code and then press the "Run!"
+Remove the comment symbols in front of the code and then press the "Run!" button.
 {Run!}(sh .guides/bg.sh javac code/ch05/IfElse.java java -cp code/ch05/ IfElse 5)
 
 
