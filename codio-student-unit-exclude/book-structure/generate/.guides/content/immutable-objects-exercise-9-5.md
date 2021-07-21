@@ -7,4 +7,4 @@ The goal of this exercise is to practice encapsulation and generalization using 
 
 
 
-{Test your code}(sh .guides/bg.sh javac code/ch09/MoreExponents.java java -cp code/ch09/ MoreExponents 1)
+{Run!}(sh .guides/bg.sh javac code/ch09/MoreExponents.java java -cp code/ch09/ MoreExponents 1)

@@ -6,4 +6,4 @@ You should use the `BigInteger` methods `add` and `multiply`. But don't use `Big
 
 Add a main method and some function calls, then test your code using the class below.
 
-{Test your code}(sh .guides/bg.sh javac code/ch09/Pow.java java -cp code/ch09/ Pow 1)
+{Run!}(sh .guides/bg.sh javac code/ch09/Pow.java java -cp code/ch09/ Pow 1)

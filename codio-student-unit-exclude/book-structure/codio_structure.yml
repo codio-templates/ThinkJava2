@@ -1082,7 +1082,7 @@ insert_sections:
       What is the type of the result?
       %(How can you determine the type of the result?)
       
-      {Test your code}(sh .guides/bg.sh javac code/ch09/Test.java java -cp code/ch09/ Test 1)
+      {Run!}(sh .guides/bg.sh javac code/ch09/Test.java java -cp code/ch09/ Test 1)
 
       \item  Make a bigger copy of the following table and fill it in. At the intersection of each pair of types, you should indicate whether it is legal to use the `+` operator with these types by indicating `Yes` or `No` in the table. (For the `String` type, exclude empty-string concatenation for now. This is a special case that you should try in #5.) Also, consider for each case - is this addition or concatenation? What is the data type of the result?
       {Check It!|assessment}(fill-in-the-blanks-2087744111)
@@ -1098,7 +1098,7 @@ insert_sections:
       Try it out.
       See what the error message is, and then see if you can figure out what is going on.
       
-      {Test your code}(sh .guides/bg.sh javac code/ch09/Test.java java -cp code/ch09/ Test 2)
+      {Run!}(sh .guides/bg.sh javac code/ch09/Test.java java -cp code/ch09/ Test 2)
 
 
       \item What happens when you add \java{""} (the empty string) to the other types; for example, \java{"" + 5}?
@@ -1134,7 +1134,7 @@ insert_sections:
       Is it correct up to 30?
       How high can you make it go?
       
-      {Test your code}(sh .guides/bg.sh javac code/ch09/Big.java java -cp code/ch09/ Big 1)
+      {Run!}(sh .guides/bg.sh javac code/ch09/Big.java java -cp code/ch09/ Big 1)
 
       \end{enumerate}
 
@@ -1157,7 +1157,7 @@ insert_sections:
       
       Add a main method and some function calls, then test your code using the class below.
       
-      {Test your code}(sh .guides/bg.sh javac code/ch09/Pow.java java -cp code/ch09/ Pow 1)
+      {Run!}(sh .guides/bg.sh javac code/ch09/Pow.java java -cp code/ch09/ Pow 1)
 
 
   - name: Exercise 9.4
@@ -1179,7 +1179,7 @@ insert_sections:
       \item Write a method called \java{myexp} that takes \java{x} and \java{n} as parameters and estimates $e^x$ by adding the first \java{n} terms of this series.
       You can use the \java{factorial} method from Section~\ref{factorial} or your iterative version from the previous exercise.
 
-      {Test your code}(sh .guides/bg.sh javac code/ch09/MoreExponents.java java -cp code/ch09/ MoreExponents 1)
+      {Run!}(sh .guides/bg.sh javac code/ch09/MoreExponents.java java -cp code/ch09/ MoreExponents 1)
       
       \index{efficiency}
 
@@ -1199,7 +1199,7 @@ insert_sections:
       \item Vary the number of terms in the series (the second argument that \java{check} sends to \java{myexp}) and see the effect on the accuracy of the result.
       Adjust this value until the estimated value agrees with the correct answer when \java{x} is 1.
       
-      {Test your code}(sh .guides/bg.sh javac code/ch09/MoreExponents.java java -cp code/ch09/ MoreExponents 2)
+      {Run!}(sh .guides/bg.sh javac code/ch09/MoreExponents.java java -cp code/ch09/ MoreExponents 2)
       
       \item Write a loop in \java{main} that invokes \java{check} with the values 0.1, 1.0, 10.0, and 100.0.
       How does the accuracy of the result vary as \java{x} varies?
@@ -1210,7 +1210,7 @@ insert_sections:
       
       \end{enumerate}
       
-      {Test your code}(sh .guides/bg.sh javac code/ch09/MoreExponents.java java -cp code/ch09/ MoreExponents 3)
+      {Run!}(sh .guides/bg.sh javac code/ch09/MoreExponents.java java -cp code/ch09/ MoreExponents 3)
       
   - name: Exercise 9.5
     type: section
@@ -1231,7 +1231,7 @@ insert_sections:
 
       \end{enumerate}
       
-      {Test your code}(sh .guides/bg.sh javac code/ch09/MoreExponents.java java -cp code/ch09/ MoreExponents 1)
+      {Run!}(sh .guides/bg.sh javac code/ch09/MoreExponents.java java -cp code/ch09/ MoreExponents 1)
       
 
   - name: Exercise 9.6
@@ -1257,6 +1257,6 @@ insert_sections:
 
       \end{enumerate}
       
-      {Test your code}(sh .guides/bg.sh javac code/ch09/Parens.java java -cp code/ch09/ Parens 1)
+      {Run!}(sh .guides/bg.sh javac code/ch09/Parens.java java -cp code/ch09/ Parens 1)
       
 

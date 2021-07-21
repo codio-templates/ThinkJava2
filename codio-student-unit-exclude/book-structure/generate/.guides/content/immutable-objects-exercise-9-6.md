@@ -8,4 +8,4 @@ The code to the left traverses a string and checks whether it has the same numbe
 
 
 
-{Test your code}(sh .guides/bg.sh javac code/ch09/Parens.java java -cp code/ch09/ Parens 1)
+{Run!}(sh .guides/bg.sh javac code/ch09/Parens.java java -cp code/ch09/ Parens 1)
