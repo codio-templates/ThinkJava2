@@ -1,4 +1,4 @@
-Not surprisingly, searching for “computer” on Google Images ([https://images.google.com/](open_preview https://images.google.com/ panel=0)) displays rows and rows of these types of machines.
+Not surprisingly, searching for “computer” on Google Images ([https://images.google.com/](https://images.google.com/)) displays rows and rows of these types of machines.
 
 
 When people hear the word *computer*, they often think of a desktop or a laptop. Dictionary.com defines a computer as “a programmable electronic device designed to accept data, perform prescribed mathematical and logical operations at high speed, and display the results of these operations. Mainframes, desktop and laptop computers, tablets, and smartphones are some of the different types of computers.”

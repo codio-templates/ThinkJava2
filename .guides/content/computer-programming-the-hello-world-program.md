@@ -1,9 +1,10 @@
-Traditionally, the first program you write when learning a new programming language is called the “Hello World” program. All it does is output the words `Hello, World!` to the screen.
+Traditionally, the first program you write when learning a new programming language is called the “Hello World” program.
 
 
 
 
-See the example java code in the left pane. To compile and run the code, press the "Run!"
+All it does is output `Hello, World!` to the screen.
+See the example java code in the left pane. To compile and run the code, press the "Run!" button.
 {Run!}(sh .guides/bg.sh javac code/ch01/Hello.java java -cp code/ch01/ Hello )
 
 
@@ -52,7 +53,8 @@ The program defines [a class (click to view)](open_file code/ch01/Hello.java pan
  For now, a **class** is a collection of methods; we'll have more to say about this later. You can give a class any name you like, but it is conventional to start with a capital letter. The name of the class has to match the name of the file it is in, so this class has to be in a file named *Hello.java*.
 
 
-Java uses curly braces (`{` and `\`}) to group things together. In *Hello.java*, the outermost braces contain the class definition, and the inner braces contain the method definition.
+Java uses curly braces (`{` and `}`) to group things together.
+ In *Hello.java*, the outermost braces contain the class definition, and the inner braces contain the method definition.
 
 
 [This line (click) is a comment](open_file code/ch01/Hello.java panel=0 ref="//" count=1), which is a bit of English text that explains the code.

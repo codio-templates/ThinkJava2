@@ -76,7 +76,7 @@ sections:
         - remove: 3
           position: 24
         - add: |
-                Not surprisingly, searching for “computer” on Google Images ([https://images.google.com/](open_preview https://images.google.com/ panel=0)) displays rows and rows of these types of machines.
+                Not surprisingly, searching for “computer” on Google Images ([https://images.google.com/](https://images.google.com/)) displays rows and rows of these types of machines.
           position: 25
     configuration:
       layout: 1-panel
@@ -93,10 +93,11 @@ sections:
   - name: "The Hello World Program"
     type: section
     transformations:
-        - remove: 1
-          position: 87
+        - remove: 2
+          position: 86
         - add: |
-                 See the example java code in the left pane. To compile and run the code, press the "Run!"
+                 All it does is output `Hello, World!` to the screen.
+                 See the example java code in the left pane. To compile and run the code, press the "Run!" button.
                  {Run!}(sh .guides/bg.sh javac code/ch01/Hello.java java -cp code/ch01/ Hello )
           position: 105
         - remove: 1
@@ -125,6 +126,11 @@ sections:
                   [Click to remove the highlight.](open_file code/ch01/Hello.java panel=0)
 
           position: 165
+        - remove: 1 
+          position: 171
+        - add: |
+                Java uses curly braces (`{` and `}`) to group things together.
+          position: 172
         - remove: 1
           position: 176
         - add: |
@@ -153,7 +159,7 @@ sections:
         - remove: 1
           position: 278
         - add: |
-                 For example, take a look at Hello2.java in the top left corner. To compile and run the code, press the "Run!"
+                 For example, take a look at Hello2.java in the top left corner. To compile and run the code, press the "Run!" button.
                  {Run!}(sh .guides/bg.sh javac code/ch01/Hello2.java java -cp code/ch01/ Hello2 )
 
           position: 279
@@ -167,7 +173,7 @@ sections:
                  ```
                  
                  [Click to remove the highlight.](open_file code/ch01/Goodbye.java panel=1)
-                 To compile and run the code, press the "Run!"
+                 To compile and run the code, press the "Run!" button.
                  {Run!}(sh .guides/bg.sh javac code/ch01/Goodbye.java java -cp code/ch01/ Goodbye )
 
           position: 309
@@ -188,14 +194,14 @@ sections:
         - remove: 1
           position: 348
         - add: |
-                 For example, the code to the upper left is legal. To compile and run the code, press the "Run!"
+                 For example, the code to the upper left is legal. To compile and run the code, press the "Run!" button.
                  {Run!}(sh .guides/bg.sh javac code/1/Goodbye.java java -cp code/1/ Goodbye )
 
           position: 350
         - remove: 1
           position: 360
         - add: |
-                 So even the code on the lower left is legal. To compile and run the code, press the "Run!"
+                 So even the code on the lower left is legal. To compile and run the code, press the "Run!" button.
                  {Run!}(sh .guides/bg.sh javac code/2/Goodbye.java java -cp code/2/ Goodbye )
 
           position: 362
@@ -234,7 +240,7 @@ sections:
                   }
                  ``` 
                  [Click to remove the highlight.](open_file code/ch01/Hello3.java panel=0)
-                 To compile and run the code, comment out line 5 using a `//` and press the "Run!"
+                 To compile and run the code, comment out line 5 using a `//` and press the "Run!" button.
                  {Run!}(sh .guides/bg.sh javac code/ch01/Hello3.java java -cp code/ch01/ Hello3 1)
 
           position: 405
@@ -257,7 +263,7 @@ sections:
                  ```
                  
                  [Click to remove the highlight.](open_file code/ch01/Hello3.java panel=0)
-                 To compile and run the code, remove the comment from line 5, comment out line 4 using a `//` and press the "Run!"
+                 To compile and run the code, remove the comment from line 5, comment out line 4 using a `//` and press the "Run!" button. 
                  {Run!}(sh .guides/bg.sh javac code/ch01/Hello3.java java -cp code/ch01/ Hello3 2)
 
           position: 453
@@ -271,6 +277,12 @@ sections:
             action: open
   - name: "What Is Computer Science?"
     type: section
+    transformations:
+        - remove: 1
+          position: 466
+        - add: |
+                If you're interested in learning more about Java itself, Oracle maintains an official set of tutorials on its website [https://thinkjava.org/tutorial](open_preview https://thinkjava.org/tutorial panel=0).
+          position: 467
     configuration:
       layout: 1-panel
       files:
@@ -290,8 +302,8 @@ sections:
   - name: "Exercises"
     type: section
     transformations:
-        - remove: 68
-          position: 668
+        - remove: 77
+          position: 659
     configuration:
       layout: 1-panel
       files:

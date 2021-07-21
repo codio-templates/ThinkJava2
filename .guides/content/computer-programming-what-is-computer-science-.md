@@ -1,6 +1,7 @@
 This book intentionally omits some details about the Java language (such as the other escape sequences), because our main goal is teaching you how to think like a computer scientist. Being able to understand computation is much more valuable than just learning how to write code.
 
-If you're interested in learning more about Java itself, Oracle maintains an official set of tutorials on its website ([https://thinkjava.org/tutorial](https://thinkjava.org/tutorial)). The “Language Basics” tutorial, found under “Learning the Java Language”, is a good place to start.
+If you're interested in learning more about Java itself, Oracle maintains an official set of tutorials on its website [https://thinkjava.org/tutorial](open_preview https://thinkjava.org/tutorial panel=0).
+ The “Language Basics” tutorial, found under “Learning the Java Language”, is a good place to start.
 
 One of the most interesting aspects of writing programs is deciding how to solve a particular problem, especially when there are multiple solutions. For example, there are numerous ways to sort a list of numbers, and each way has its advantages. In order to determine which way is best for a given situation, we need techniques for describing and analyzing solutions formally.
 

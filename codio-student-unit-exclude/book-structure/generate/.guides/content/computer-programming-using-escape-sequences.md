@@ -8,7 +8,7 @@ It's possible to display multiple lines of output with only one line of code. Yo
  }
 ``` 
 [Click to remove the highlight.](open_file code/ch01/Hello3.java panel=0)
-To compile and run the code, comment out line 5 using a `//` and press the "Run!"
+To compile and run the code, comment out line 5 using a `//` and press the "Run!" button.
 {Run!}(sh .guides/bg.sh javac code/ch01/Hello3.java java -cp code/ch01/ Hello3 1)
 
 
@@ -43,7 +43,7 @@ System.out.println("She said \"Hello!\" to me.");
 ```
 
 [Click to remove the highlight.](open_file code/ch01/Hello3.java panel=0)
-To compile and run the code, remove the comment from line 5, comment out line 4 using a `//` and press the "Run!"
+To compile and run the code, remove the comment from line 5, comment out line 4 using a `//` and press the "Run!" button. 
 {Run!}(sh .guides/bg.sh javac code/ch01/Hello3.java java -cp code/ch01/ Hello3 2)
 
 

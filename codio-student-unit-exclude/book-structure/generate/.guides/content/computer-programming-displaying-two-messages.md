@@ -1,4 +1,4 @@
-You can put as many statements as you like in the `main` method. For example, take a look at Hello2.java in the top left corner. To compile and run the code, press the "Run!"
+You can put as many statements as you like in the `main` method. For example, take a look at Hello2.java in the top left corner. To compile and run the code, press the "Run!" button.
 {Run!}(sh .guides/bg.sh javac code/ch01/Hello2.java java -cp code/ch01/ Hello2 )
 
 
@@ -19,7 +19,7 @@ System.out.print("Goodbye, ");
 ```
 
 [Click to remove the highlight.](open_file code/ch01/Goodbye.java panel=1)
-To compile and run the code, press the "Run!"
+To compile and run the code, press the "Run!" button.
 {Run!}(sh .guides/bg.sh javac code/ch01/Goodbye.java java -cp code/ch01/ Goodbye )
 
 
