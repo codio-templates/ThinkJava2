@@ -1,4 +1,6 @@
-We begin by defining a `Langton` class that has a grid and information about the ant. The constructor takes the grid dimensions as parameters:
+We begin by defining a `Langton` class that has a grid and information about the ant, as seen [at the left.](open_file code/ch16/Langton.java panel=0 ref="public class Langton" count=19)
+[Click to remove highlight](open_file code/ch16/Langton.java panel=0)
+ The constructor takes the grid dimensions as parameters:
 
 ```code
 public class Langton {
@@ -19,7 +21,9 @@ public class Langton {
 
 `grid` is a `GridCanvas` object, which represents the state of the cells. `xpos` and `ypos` are the coordinates of the ant, and `head` is the “heading” of the ant; that is, which direction it is facing. `head` is an integer with four possible values, where `0` means the ant is facing “north” (i.e., toward the top of the screen), `1` means “east”, etc.
 
-Here's an `update` method that implements the rules for Langton's Ant:
+Here's an `update` method that implements the rules for Langton's Ant, also seen [at the left.](open_file code/ch16/Langton.java panel=0 ref="void update" count=4)
+[Click to remove highlight](open_file code/ch16/Langton.java panel=0)
+
 
 ```code
 public void update() {
@@ -28,7 +32,9 @@ public void update() {
 }
 ```
 
-The `flipCell` method gets the `Cell` at the ant's location, figures out which way to turn, and changes the state of the cell:
+The `flipCell` method gets the `Cell` at the ant's location, figures out which way to turn, and changes the state of the cell, as seen [at the left.](open_file code/ch16/Langton.java panel=0 ref="flipCell" count=11)
+[Click to remove highlight](open_file code/ch16/Langton.java panel=0)
+
 
 ```code
 private void flipCell() {
@@ -47,7 +53,9 @@ We use the remainder operator, `%`, to make `head` wrap around: if `head` is 3 a
 
 Notice that to turn right, we add 1 to `head`. To turn left, we could subtract 1, but `-1 % 4` is `-1` in Java. So we add 3 instead, since one left turn is the same as three right turns.
 
-The `moveAnt` method moves the ant forward one square, using `head` to determine which way is forward:
+The `moveAnt` method moves the ant forward one square, using `head` to determine which way is forward, as shown below and [at the left.](open_file code/ch16/Langton.java panel=0 ref="moveAnt" count=10)
+[Click to remove highlight](open_file code/ch16/Langton.java panel=0)
+
 
 ```code
 private void moveAnt() {
@@ -63,7 +71,11 @@ private void moveAnt() {
 }
 ```
 
-Here is the `main` method we use to create and display the `Langton` object:
+Here is the `main` method we use to create and display the `Langton` object, also shown [at the left.](open_file code/ch16/Langton.java panel=0 ref="public static void main" count=10)
+[Click to remove highlight](open_file code/ch16/Langton.java panel=0)
+
+{Run!}(sudo bash .guides/bg2.sh javac code/ch16/Langton.java code/ch16/Cell.java code/ch16/GridCanvas.java java -cp code/ch16/ Langton) 
+
 
 ```code
 public static void main(String[] args) {

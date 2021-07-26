@@ -464,18 +464,194 @@ sections:
     type: section
   - name: "Reusing Classes"
     type: chapter
+    transformations:
+        - remove: 1
+          position: 16
+        - add:  |
+            You can read more about it at [this site](open_preview https://en.wikipedia.org/wiki/Langtons_ant panel=0)
+          position: 17  
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Langton's Ant"
     type: section
+    transformations:
+        - remove: 1
+          position: 26
+        - add:  |
+            We begin by defining a `Langton` class that has a grid and information about the ant, as seen [at the left.](open_file code/ch16/Langton.java panel=0 ref="public class Langton" count=19)
+            [Click to remove highlight](open_file code/ch16/Langton.java panel=0)
+          position: 27
+        - remove: 1
+          position: 51
+        - add:  |
+            Here's an `update` method that implements the rules for Langton's Ant, also seen [at the left.](open_file code/ch16/Langton.java panel=0 ref="void update" count=4)
+            [Click to remove highlight](open_file code/ch16/Langton.java panel=0)
+          position: 52
+        - remove: 1
+          position: 60
+        - add:  |
+            The `flipCell` method gets the `Cell` at the ant's location, figures out which way to turn, and changes the state of the cell, as seen [at the left.](open_file code/ch16/Langton.java panel=0 ref="flipCell" count=11)
+            [Click to remove highlight](open_file code/ch16/Langton.java panel=0)
+          position: 61
+        - remove: 1
+          position: 81
+        - add:  |
+            The `moveAnt` method moves the ant forward one square, using `head` to determine which way is forward, as shown below and [at the left.](open_file code/ch16/Langton.java panel=0 ref="moveAnt" count=10)
+            [Click to remove highlight](open_file code/ch16/Langton.java panel=0)
+          position: 82  
+        - remove: 1
+          position: 97
+        - add:  |
+            Here is the `main` method we use to create and display the `Langton` object, also shown [at the left.](open_file code/ch16/Langton.java panel=0 ref="public static void main" count=10)
+            [Click to remove highlight](open_file code/ch16/Langton.java panel=0)
+            
+            {Run!}(javac code/ch16/Langton.java && java -cp code/ch16/ Langton) 
+          position: 98  
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch16/Langton.java"
+            panel: 0
+            action: open
   - name: "Refactoring"
     type: section
+    transformations:
+        - remove: 1
+          position: 130
+        - add:  |
+            First, we define a superclass named `Automaton`, in which we will put the code that `Conway` and `Langton` have in common, as seen at the left.
+          position: 131
+        - remove: 1
+          position: 148
+        - add:  |
+            
+            `Automaton` declares `grid` as an instance variable, as seen [at the left](open_file code/misc/Automaton.java panel=0 ref="GridCanvas grid" count=1), so every `Automaton` "has~a" `GridCanvas`. 
+            [Click to remove highlight](open_file code/misc/Automaton.java panel=0)
+          position: 149
+        - remove: 1
+          position: 152
+        - add:  |
+            It uses `title` when creating the `JFrame`, and it passes `rate` to `mainloop`, which is shown [at the left](open_file code/misc/Automaton.java panel=0 ref="void mainloop" count=14).
+            [Click to remove highlight](open_file code/misc/Automaton.java panel=0)
+          position: 153
+        - remove: 1
+          position: 173
+        - add:  |
+            It runs a `while` loop forever (or until the window closes), as shown [here](open_file code/misc/Automaton.java panel=0 ref="while" count=1).
+            [Click to remove highlight](open_file code/misc/Automaton.java panel=0)
+          position: 174
+        - remove: 1
+          position: 174
+        - add:  |
+            Each time through the loop, it [runs](open_file code/misc/Automaton.java panel=0 ref="this.update" count=1) `update` to update `grid` and then [runs](open_file code/misc/Automaton.java panel=0 ref="repaint" count=1) `repaint` to redraw the grid.
+            [Click to remove highlight](open_file code/misc/Automaton.java panel=0)
+          position: 175
+        - remove: 1
+          position: 176
+        - add:  |
+            Then it [calls](open_file code/misc/Automaton.java panel=0 ref="Thread.sleep" count=1) `Thread.sleep` with a delay that depends on `rate`.
+            [Click to remove highlight](open_file code/misc/Automaton.java panel=0)
+            
+            {Run!}(javac code/misc/Langton.java && java -cp code/misc/ Automaton) 
+          position: 177
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/misc/Automaton.java"
+            panel: 0
+            action: open
   - name: "Abstract Classes"
     type: section
+    transformations:
+        - remove: 10
+          position: 209
+        - add:  |
+              * We can make the `grid` attribute `protected` (shown [here](open_file code/ch16/Automaton.java panel=0 ref="protected" count=1)), which means it's accessible to subclasses but not other classes.
+              * We can make the class `abstract` (shown [here](open_file code/ch16/Automaton.java panel=0 ref="abstract" count=1)), which means it cannot be instantiated. If you attempt to create an object for an abstract class, you will get a compiler error.
+              * We can declare `update` as an `abstract` method (shown [here](open_file code/ch16/Automaton.java panel=0 ref="abstract void update" count=1)), meaning that it must be overridden in subclasses. If the subclass does not override an abstract method, you will get a compiler error.
+              [Click to remove highlights](open_file code/ch16/Automaton.java panel=0)
+          position: 219
+        - remove: 1
+          position: 248
+        - add:  |
+             Here's what `Conway` looks like as a subclass of `Automaton`, shown below and [to the left](open_file code/ch16/Conway.java panel=0)
+             
+             {Run!}(javac code/ch16/Conway.java && java -cp code/ch16/ Conway) 
+          position: 249 
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch16/Automaton.java"
+            panel: 0
+            action: open
   - name: "UML Diagram"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Vocabulary"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Exercises"
     type: section
+    transformations:
+        - remove: 23
+          position: 328
+        - add:  |
+              The following exercises will give you a chance to check your knowledge before moving on.
+          position: 327
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: "Exercise 16.1"
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch16/Automaton.java"
+            panel: 0
+            action: open
+          - path: "code/ch16/Langton.java"
+            panel: 0 
+            action: open
+  - name: "Exercise 16.2"
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/ch16/Automaton.java"
+            panel: 0
+            action: open
+          - path: "code/ch16/Cell.java"
+            panel: 0
+            action: open
+          - path: "code/ch16/GridCanvas.java"
+            panel: 0
+            action: open
+          - path: "code/ch16/YourAutomaton.java"
+            panel: 0
+            action: open
   - name: "Advanced Topics"
     type: chapter
   - name: "Polygon Objects"
@@ -550,3 +726,24 @@ sections:
     type: section
   - name: "Logic Errors"
     type: section
+insert_sections:
+  - name: Exercise 16.1
+    type: section
+    chapter: Reusing classes
+    section: Exercises
+    before: false
+    markdown: |
+      **Exercise 16.1:**
+      The last section of this chapter introduced `Automaton` as an abstract class and rewrote `Conway` as a subclass of `Automaton`. Now it's your turn: rewrite `Langton` as a subclass of `Automaton`, removing the code that's no longer needed.
+
+  - name: Exercise 16.2
+    type: section
+    chapter: Reusing classes
+    section: Exercises
+    before: false
+    markdown: |
+      
+      **Exercise 16.2:**
+      Mathematically speaking, Game of Life and Langton's Ant are *cellular automata*. “Cellular” means it has cells, and “automaton” means it runs itself. See [https://en.wikipedia.org/wiki/Cellular_automaton](https://en.wikipedia.org/wiki/Cellular_automaton) for more discussion.
+
+      Implement another cellular automaton of your choice. You may have to modify `Cell` and/or `GridCanvas`, in addition to extending `Automaton`. For example, Brian's Brain ([https://en.wikipedia.org/wiki/Brian's_Brain](https://en.wikipedia.org/wiki/Brian's_Brain)) requires three states: “on”, “dying”, and “off”.

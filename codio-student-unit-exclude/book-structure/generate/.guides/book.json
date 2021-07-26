@@ -1215,6 +1215,18 @@
           "pageId": "reusing-classes-exercises",
           "title": "Exercises",
           "type": "page"
+        },
+        {
+          "id": "reusing-classes-exercise-16-1",
+          "pageId": "reusing-classes-exercise-16-1",
+          "title": "Exercise 16.1",
+          "type": "page"
+        },
+        {
+          "id": "reusing-classes-exercise-16-2",
+          "pageId": "reusing-classes-exercise-16-2",
+          "title": "Exercise 16.2",
+          "type": "page"
         }
       ],
       "id": "reusing-classes",

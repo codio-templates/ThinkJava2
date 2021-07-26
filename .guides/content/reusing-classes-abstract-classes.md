@@ -11,12 +11,11 @@ If we were not planning to implement any other zero-person games, we could leave
 
 Java provides language features to solve these problems:
 
-
-
-* We can make the `grid` attribute `protected`, which means it's accessible to subclasses but not other classes.
-* We can make the class `abstract`, which means it cannot be instantiated. If you attempt to create an object for an abstract class, you will get a compiler error.
-* We can declare `update` as an `abstract` method, meaning that it must be overridden in subclasses. If the subclass does not override an abstract method, you will get a compiler error.
-
+\end{itemize}
+* We can make the `grid` attribute `protected` (shown [here](open_file code/ch16/Automaton.java panel=0 ref="protected" count=1)), which means it's accessible to subclasses but not other classes.
+* We can make the class `abstract` (shown [here](open_file code/ch16/Automaton.java panel=0 ref="abstract" count=1)), which means it cannot be instantiated. If you attempt to create an object for an abstract class, you will get a compiler error.
+* We can declare `update` as an `abstract` method (shown [here](open_file code/ch16/Automaton.java panel=0 ref="abstract void update" count=1)), meaning that it must be overridden in subclasses. If the subclass does not override an abstract method, you will get a compiler error.
+[Click to remove highlights](open_file code/ch16/Automaton.java panel=0)
 
 
 Here's what `Automaton` looks like as an abstract class (using the methods `mainloop` and `run` from Section 16.2):
@@ -43,7 +42,10 @@ Notice also the word `abstract` on the first line, which declares that `Automato
 
 Any class that extends `Automaton` must provide an implementation of `update`; the declaration here allows the compiler to check.
 
-Here's what `Conway` looks like as a subclass of `Automaton`:
+Here's what `Conway` looks like as a subclass of `Automaton`, shown below and [to the left](open_file code/ch16/Conway.java panel=0)
+
+{Run!}(javac code/ch16/Conway.java && java -cp code/ch16/ Conway) 
+
 
 ```code
 public class Conway extends Automaton {

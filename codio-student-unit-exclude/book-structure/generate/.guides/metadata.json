@@ -2374,8 +2374,14 @@
     {
       "chapter": true,
       "content-file": ".guides/content/reusing-classes.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "reusing-classes",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2386,8 +2392,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/reusing-classes-langton-s-ant.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch16/Langton.java"
+        }
+      ],
       "id": "reusing-classes-langton-s-ant",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2398,8 +2415,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/reusing-classes-refactoring.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/misc/Automaton.java"
+        }
+      ],
       "id": "reusing-classes-refactoring",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2410,8 +2438,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/reusing-classes-abstract-classes.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch16/Automaton.java"
+        }
+      ],
       "id": "reusing-classes-abstract-classes",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2422,8 +2461,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/reusing-classes-uml-diagram.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "reusing-classes-uml-diagram",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2434,8 +2479,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/reusing-classes-vocabulary.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "reusing-classes-vocabulary",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2446,13 +2497,85 @@
     {
       "chapter": false,
       "content-file": ".guides/content/reusing-classes-exercises.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "reusing-classes-exercises",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
       "teacherOnly": false,
       "title": "Exercises",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/reusing-classes-exercise-16-1.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch16/Automaton.java"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch16/Langton.java"
+        }
+      ],
+      "id": "reusing-classes-exercise-16-1",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 16.1",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/reusing-classes-exercise-16-2.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch16/Automaton.java"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch16/Cell.java"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch16/GridCanvas.java"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ch16/YourAutomaton.java"
+        }
+      ],
+      "id": "reusing-classes-exercise-16-2",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 16.2",
       "type": "markdown"
     },
     {
