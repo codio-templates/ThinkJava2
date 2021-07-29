@@ -1,0 +1,14 @@
+{
+  
+  // Run button configuration
+  "commands": {
+        "Run Python (tkinter)": "python3 tkinterpy/demo.py",
+        "Run Java (Lunar Phases)": "cd swing && java LunarPhases",
+        "SQLite Browser App": "sqlitebrowser",
+        "StarUML": "staruml > /dev/null 2>&1"
+  },
+  
+    "preview": {
+        "Virtual Desktop": "https://{{domain3000}}/"
+    }
+}
