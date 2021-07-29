@@ -2401,10 +2401,15 @@
           "action": "open",
           "panel": 0,
           "path": "code/ch16/Langton.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "https://{{domain3000}}"
         }
       ],
       "id": "reusing-classes-langton-s-ant",
-      "layout": "2-panels",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
