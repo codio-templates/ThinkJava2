@@ -565,12 +565,7 @@ sections:
         - add:  |
             Then it [calls](open_file code/misc/Automaton.java panel=0 ref="Thread.sleep" count=1) `Thread.sleep` with a delay that depends on `rate`.
             [Click to remove highlight](open_file code/misc/Automaton.java panel=0)
-            
-            Test the code by pressing the following 2 buttons: 
-
-            {Try it!}(bash .guides/swing.sh cd code/misc javac Automaton.java java Automaton )
-
-            [View display](open_preview https://{{domain3000}} panel=1)
+         
           position: 177
     configuration:
       layout: 2-panels
@@ -598,7 +593,7 @@ sections:
              
              Test the code by pressing the following 3 buttons: 
 
-             {Compile Add'l Classes | terminal}(javac code/ch16/Automaton.java)
+             {Compile Add'l Classes | terminal}(javac code/ch16/Automaton.java code/ch16/Cell.java code/ch16/GridCanvas.java)
 
              {Try it!}(bash .guides/swing.sh cd code/ch16 javac Conway.java java Conway )
 
