@@ -2452,10 +2452,15 @@
           "action": "open",
           "panel": 0,
           "path": "code/ch16/Automaton.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "https://{{domain3000}}"
         }
       ],
       "id": "reusing-classes-abstract-classes",
-      "layout": "2-panels",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2537,7 +2542,7 @@
         }
       ],
       "id": "reusing-classes-exercise-16-1",
-      "layout": "2-panels",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2575,7 +2580,7 @@
         }
       ],
       "id": "reusing-classes-exercise-16-2",
-      "layout": "2-panels",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],

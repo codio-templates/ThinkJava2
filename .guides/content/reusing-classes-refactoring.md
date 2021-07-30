@@ -54,15 +54,6 @@ private void mainloop(int rate) {
 
 Then it [calls](open_file code/misc/Automaton.java panel=0 ref="Thread.sleep" count=1) `Thread.sleep` with a delay that depends on `rate`.
 [Click to remove highlight](open_file code/misc/Automaton.java panel=0)
-
-Test the code by pressing the following 2 buttons: 
-
-{Compile Add'l Classes | terminal}(javac code/misc/Cell.java code/misc/GridCanvas.java)
-
-{Try it!}(bash .guides/swing.sh cd code/misc javac Automaton.java java Automaton )
-
-[View display](open_preview https://{{domain3000}} panel=1)
-
  For example, if `rate` is 2, we should draw two frames per second, so the delay is a half second, or 500 milliseconds.
 
 

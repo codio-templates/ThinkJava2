@@ -76,7 +76,7 @@ Here is the `main` method we use to create and display the `Langton` object, als
 
 Test the code by pressing the following 3 buttons: 
 
-{Compile Add'l Classes | terminal}(javac code/ch16/Cell.java code/ch16/GridCanvas.java)
+{Compile Add'l Classes}(javac code/ch16/Cell.java code/ch16/GridCanvas.java)
 
 {Try it!}(bash .guides/swing.sh cd code/ch16 javac Langton.java java Langton )
 

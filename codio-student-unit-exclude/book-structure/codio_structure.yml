@@ -510,7 +510,7 @@ sections:
             
             Test the code by pressing the following 3 buttons: 
 
-            {Compile Add'l Classes | terminal}(javac code/ch16/Cell.java code/ch16/GridCanvas.java)
+            {Compile Add'l Classes}(javac code/ch16/Cell.java code/ch16/GridCanvas.java)
 
             {Try it!}(bash .guides/swing.sh cd code/ch16 javac Langton.java java Langton )
 
@@ -591,21 +591,27 @@ sections:
         - add:  |
              Here's what `Conway` looks like as a subclass of `Automaton`, shown below and [to the left](open_file code/ch16/Conway.java panel=0)
              
+          position: 249 
+        - add:  |  
              Test the code by pressing the following 3 buttons: 
 
-             {Compile Add'l Classes | terminal}(javac code/ch16/Automaton.java code/ch16/Cell.java code/ch16/GridCanvas.java)
+             {Compile Add'l Classes}(javac code/ch16/Automaton.java code/ch16/Cell.java code/ch16/GridCanvas.java)
 
              {Try it!}(bash .guides/swing.sh cd code/ch16 javac Conway.java java Conway )
 
              [View display](open_preview https://{{domain3000}} panel=1)
-          position: 249 
+             
+          position: 263
     configuration:
-      layout: 2-panels
+      layout: 3-cell
       files:
           - path: "#tabs"
             action: close
           - path: "code/ch16/Automaton.java"
             panel: 0
+            action: open
+          - path: "https://{{domain3000}}"
+            panel: 1
             action: open
   - name: "UML Diagram"
     type: section
@@ -637,7 +643,7 @@ sections:
   - name: "Exercise 16.1"
     type: section
     configuration:
-      layout: 2-panels
+      layout: 3-cell
       files:
           - path: "#tabs"
             action: close
@@ -650,7 +656,7 @@ sections:
   - name: "Exercise 16.2"
     type: section
     configuration:
-      layout: 2-panels
+      layout: 3-cell
       files:
           - path: "#tabs"
             action: close
@@ -750,6 +756,12 @@ insert_sections:
       **Exercise 16.1:**
       The last section of this chapter introduced `Automaton` as an abstract class and rewrote `Conway` as a subclass of `Automaton`. Now it's your turn: rewrite `Langton` as a subclass of `Automaton`, removing the code that's no longer needed.
 
+      {Compile Add'l Classes}(javac code/ch16/Automaton.java code/ch16/Cell.java code/ch16/GridCanvas.java)
+
+      {Try it!}(bash .guides/swing.sh cd code/ch16 javac Langton.java java Langton )
+
+      [View display](open_preview https://{{domain3000}} panel=1)
+
   - name: Exercise 16.2
     type: section
     chapter: Reusing classes
@@ -761,3 +773,9 @@ insert_sections:
       Mathematically speaking, Game of Life and Langton's Ant are *cellular automata*. “Cellular” means it has cells, and “automaton” means it runs itself. See [https://en.wikipedia.org/wiki/Cellular_automaton](https://en.wikipedia.org/wiki/Cellular_automaton) for more discussion.
 
       Implement another cellular automaton of your choice. You may have to modify `Cell` and/or `GridCanvas`, in addition to extending `Automaton`. For example, Brian's Brain ([https://en.wikipedia.org/wiki/Brian's_Brain](https://en.wikipedia.org/wiki/Brian's_Brain)) requires three states: “on”, “dying”, and “off”.
+      
+      {Compile Add'l Classes}(javac code/ch16/Automaton.java code/ch16/Cell.java code/ch16/GridCanvas.java)
+
+      {Try it!}(bash .guides/swing.sh cd code/ch16 javac YourAutomaton.java java YourAutomaton )
+
+      [View display](open_preview https://{{domain3000}} panel=1)

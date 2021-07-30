@@ -44,14 +44,6 @@ Any class that extends `Automaton` must provide an implementation of `update`; t
 
 Here's what `Conway` looks like as a subclass of `Automaton`, shown below and [to the left](open_file code/ch16/Conway.java panel=0)
 
-Test the code by pressing the following 3 buttons: 
-
-{Compile Add'l Classes | terminal}(javac code/ch16/Automaton.java)
-
-{Try it!}(bash .guides/swing.sh cd code/ch16 javac Conway.java java Conway )
-
-[View display](open_preview https://{{domain3000}} panel=1)
-
 
 ```code
 public class Conway extends Automaton {
@@ -66,6 +58,13 @@ public class Conway extends Automaton {
 }
 ```
 
-`Conway` extends `Automaton`, so it inherits the `protected` instance variable `grid` and the methods `mainloop` and `run`. But because `Automaton` is abstract, `Conway` has to provide `update` and a constructor (which it has already).
+Test the code by pressing the following 3 buttons: 
+
+{Compile Add'l Classes}(javac code/ch16/Automaton.java code/ch16/Cell.java code/ch16/GridCanvas.java)
+
+{Try it!}(bash .guides/swing.sh cd code/ch16 javac Conway.java java Conway )
+
+[View display](open_preview https://{{domain3000}} panel=1)
+ `Conway` extends `Automaton`, so it inherits the `protected` instance variable `grid` and the methods `mainloop` and `run`. But because `Automaton` is abstract, `Conway` has to provide `update` and a constructor (which it has already).
 
 Abstract classes are essentially “incomplete” class definitions that specify methods to be implemented by subclasses. But they also provide attributes and methods to be inherited, thus eliminating repeated code.
