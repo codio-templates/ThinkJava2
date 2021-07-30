@@ -44,7 +44,13 @@ Any class that extends `Automaton` must provide an implementation of `update`; t
 
 Here's what `Conway` looks like as a subclass of `Automaton`, shown below and [to the left](open_file code/ch16/Conway.java panel=0)
 
-{Run!}(javac code/ch16/Conway.java && java -cp code/ch16/ Conway) 
+Test the code by pressing the following 3 buttons: 
+
+{Compile Add'l Classes | terminal}(javac code/ch16/Automaton.java)
+
+{Try it!}(bash .guides/swing.sh cd code/ch16 javac Conway.java java Conway )
+
+[View display](open_preview https://{{domain3000}} panel=1)
 
 
 ```code

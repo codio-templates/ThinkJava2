@@ -74,9 +74,13 @@ private void moveAnt() {
 Here is the `main` method we use to create and display the `Langton` object, also shown [at the left.](open_file code/ch16/Langton.java panel=0 ref="public static void main" count=10)
 [Click to remove highlight](open_file code/ch16/Langton.java panel=0)
 
+Test the code by pressing the following 3 buttons: 
+
 {Compile Add'l Classes | terminal}(javac code/ch16/Cell.java code/ch16/GridCanvas.java)
 
 {Try it!}(bash .guides/swing.sh cd code/ch16 javac Langton.java java Langton )
+
+[View display](open_preview https://{{domain3000}} panel=1)
 
 
 ```code
