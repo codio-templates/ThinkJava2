@@ -578,7 +578,7 @@ sections:
   - name: "Abstract Classes"
     type: section
     transformations:
-        - remove: 10
+        - remove: 11
           position: 209
         - add:  |
               * We can make the `grid` attribute `protected` (shown [here](open_file code/ch16/Automaton.java panel=0 ref="protected" count=1)), which means it's accessible to subclasses but not other classes.
@@ -753,7 +753,7 @@ insert_sections:
     section: Exercises
     before: false
     markdown: |
-      **Exercise 16.1:**
+
       The last section of this chapter introduced `Automaton` as an abstract class and rewrote `Conway` as a subclass of `Automaton`. Now it's your turn: rewrite `Langton` as a subclass of `Automaton`, removing the code that's no longer needed.
 
       {Compile Add'l Classes}(javac code/ch16/Automaton.java code/ch16/Cell.java code/ch16/GridCanvas.java)
@@ -768,8 +768,7 @@ insert_sections:
     section: Exercises
     before: false
     markdown: |
-      
-      **Exercise 16.2:**
+
       Mathematically speaking, Game of Life and Langton's Ant are *cellular automata*. “Cellular” means it has cells, and “automaton” means it runs itself. See [https://en.wikipedia.org/wiki/Cellular_automaton](https://en.wikipedia.org/wiki/Cellular_automaton) for more discussion.
 
       Implement another cellular automaton of your choice. You may have to modify `Cell` and/or `GridCanvas`, in addition to extending `Automaton`. For example, Brian's Brain ([https://en.wikipedia.org/wiki/Brian's_Brain](https://en.wikipedia.org/wiki/Brian's_Brain)) requires three states: “on”, “dying”, and “off”.
