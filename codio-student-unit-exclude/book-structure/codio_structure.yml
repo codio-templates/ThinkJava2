@@ -520,14 +520,49 @@ sections:
     type: section
   - name: "Javadoc"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Reading Documentation"
     type: section
+    transformations:
+        - remove: 10
+          position: 52
+        - add:  |
+                You can see the documentation on the web page at the left.
+          position: 62
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "https://docs.oracle.com/javase/7/docs/api/java/util/Scanner.html"
+            panel: 0
+            action: open
   - name: "Writing Documentation"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "Javadoc Tags"
     type: section
   - name: "Example Source File"
     type: section
+    transformations:
+        - remove: 2
+          position: 256
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/appb/Convert.java"
+            panel: 0
+            action: open
   - name: "Vocabulary"
     type: section
   - name: "Graphics"
