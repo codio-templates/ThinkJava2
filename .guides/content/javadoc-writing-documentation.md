@@ -1,7 +1,8 @@
 As you benefit from reading good documentation, you should “pay it forward” by writing good documentation.
 
 
-Javadoc scans your source files looking for documentation comments, also known as “Javadoc comments”. They begin with `/**` (two stars) and end with \textcolor{comment}`*/` (one star). Anything in between is considered part of the documentation.
+Javadoc scans your source files looking for documentation comments, also known as “Javadoc comments”. They begin with `/**` (two stars) and end with `*/` (one star).
+ Anything in between is considered part of the documentation.
 
 Here's a class definition with two Javadoc comments, one for the `Goodbye` class and one for the `main` method:
 

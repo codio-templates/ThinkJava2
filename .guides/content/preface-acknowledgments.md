@@ -33,4 +33,4 @@ Other contributors who found one or more typos: Stijn Debrouwere, Guy Driesen, A
 
 If you have additional comments or ideas about the text, please send them to: [mailto:feedback@greenteapress.com](feedback@greenteapress.com).
 
-\hfill Allen Downey and Chris Mayfield
+Allen Downey and Chris Mayfield

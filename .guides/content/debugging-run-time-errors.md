@@ -64,14 +64,14 @@ When an exception occurs, Java displays a message that includes the name of the 
 
 The first step is to examine the place in the program where the error occurred and see if you can figure out what happened:
 
-* **NullPointerException** \hfill You tried to access an instance variable or invoke a method on an object that is currently `null`. You should figure out which variable is `null` and then figure out how it got to be that way. Remember that when you declare a variable with an array type, its elements are initially `null` until you assign a value to them. For example, this code causes a `NullPointerException`: ```code
+* **NullPointerException** You tried to access an instance variable or invoke a method on an object that is currently `null`. You should figure out which variable is `null` and then figure out how it got to be that way. Remember that when you declare a variable with an array type, its elements are initially `null` until you assign a value to them. For example, this code causes a `NullPointerException`: ```code
 int[] array = new Point[5];
 System.out.println(array[0].x);
 ```
-* **ArrayIndexOutOfBoundsException** \hfill The index you are using to access an array is either negative or greater than `array.length - 1`. If you can find the site where the problem is, add a print statement immediately before it to display the value of the index and the length of the array. Is the array the right size? Is the index the right value? Now work your way backward through the program and see where the array and the index come from. Find the nearest assignment statement and see if it is doing the right thing. If either one is a parameter, go to the place where the method is invoked and see where the values are coming from.
-* **StackOverflowError** \hfill See “Infinite recursion” on page in section Run-Time Errors.
-* **FileNotFoundException** \hfill This means Java didn't find the file it was looking for. If you are using a project-based development environment like Eclipse, you might have to import the file into the project. Otherwise, make sure the file exists and that the path is correct. This problem depends on your filesystem, so it can be hard to track down.
-* **ArithmeticException** \hfill Something went wrong during an arithmetic operation; for example, division by zero.
+* **ArrayIndexOutOfBoundsException** The index you are using to access an array is either negative or greater than `array.length - 1`. If you can find the site where the problem is, add a print statement immediately before it to display the value of the index and the length of the array. Is the array the right size? Is the index the right value? Now work your way backward through the program and see where the array and the index come from. Find the nearest assignment statement and see if it is doing the right thing. If either one is a parameter, go to the place where the method is invoked and see where the values are coming from.
+* **StackOverflowError** See “Infinite recursion” on page in section Run-Time Errors.
+* **FileNotFoundException** This means Java didn't find the file it was looking for. If you are using a project-based development environment like Eclipse, you might have to import the file into the project. Otherwise, make sure the file exists and that the path is correct. This problem depends on your filesystem, so it can be hard to track down.
+* **ArithmeticException** Something went wrong during an arithmetic operation; for example, division by zero.
 
 
 

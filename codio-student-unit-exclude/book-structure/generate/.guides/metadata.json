@@ -2710,8 +2710,14 @@
     {
       "chapter": true,
       "content-file": ".guides/content/javadoc.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "javadoc",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2722,8 +2728,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/javadoc-reading-documentation.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "#preview: https://docs.oracle.com/javase/7/docs/api/java/util/Scanner.html"
+        }
+      ],
       "id": "javadoc-reading-documentation",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2734,8 +2751,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/javadoc-writing-documentation.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "javadoc-writing-documentation",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2746,8 +2769,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/javadoc-javadoc-tags.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/appb/DigitUtil.java"
+        }
+      ],
       "id": "javadoc-javadoc-tags",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2758,8 +2792,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/javadoc-example-source-file.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/appb/Convert.java"
+        }
+      ],
       "id": "javadoc-example-source-file",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2770,8 +2815,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/javadoc-vocabulary.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "javadoc-vocabulary",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],

@@ -1,8 +1,5 @@
-As an example, let's look at the documentation for `Scanner`, a class we first used in Section 3.2. You can find the documentation quickly by doing a web search for “Java Scanner”. Figure 19.1 shows a screenshot of the page.
+As an example, let's look at the documentation for `Scanner`, a class we first used in Section 3.2. You can see the documentation on the web page at the left.
 
-![Figure 19.1 The documentation for `Scanner`.](figs/scanner.png)
-
-**Figure 19.1 The documentation for `Scanner`.**
 
 Documentation for other classes uses a similar format. The first line is the package that contains the class, such as `java.util`. The second line is the name of the class. The “All Implemented Interfaces” section lists some of the functionality a `Scanner` has.
 

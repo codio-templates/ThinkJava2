@@ -1,9 +1,11 @@
-Now let's take a look at a more complete example. The code for this section is in the *appb* directory of *ThinkJavaCode2*. See page in section Using the Code Examples for instructions on how to download the repository.
+Now let's take a look at a more complete example.
 
-Professional-grade source files often begin with a copyright statement. This text spans multiple lines, but it is not part of the documentation. So we use a multiline comment (`/*`) rather than a documentation comment (`/**`). Our example source file, *Convert.java*, includes the MIT License ([https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT)):
+Professional-grade source files often begin with a copyright statement. This text spans multiple lines, but it is not part of the documentation. So we use a multiline comment (`/*`) rather than a documentation comment (`/**`). Our example source file, `Convert.java`, includes [the MIT License](https://opensource.org/licenses/MIT)
+The MIT License is also mentioned [at the start of the code file](open_file code/appb/Convert.java panel=0 ref="*" count=22)
+[Click to remove highlight](open_file code/appb/Convert.java panel=0)
 
 
-\begin{scriptsize}
+
 ```code
 /*
  * Copyright (c) 2019 Allen Downey and Chris Mayfield
@@ -27,9 +29,10 @@ Professional-grade source files often begin with a copyright statement. This tex
  * SOFTWARE.
  */
 ```
-\end{scriptsize}
 
-Import statements generally follow the copyright text. After that, we can define the class itself and begin writing the documentation (`/**`):
+Import statements generally follow the copyright text. After that, we can define the class itself and begin writing the documentation (`**`), as shown [at the left](open_file code/appb/Convert.java panel=0 ref="import" count=10)
+[Click to remove highlight](open_file code/appb/Convert.java panel=0)
+
 
 ```code
 import java.util.Scanner;
@@ -44,9 +47,12 @@ import java.util.Scanner;
 public class Convert {
 ```
 
-A common mistake that beginners make is to put `import` statements between the documentation and the `public class` line. Doing so separates the documentation from the class itself. To avoid this issue, always make the end of the comment (the \textcolor{comment}`*/`) “touch” the word `public`.
+A common mistake that beginners make is to put `import` statements between the documentation and the `public class` line. Doing so separates the documentation from the class itself. To avoid this issue, always make the end of the comment (the `*/`) 'touch' the word \java{public}.
 
-This class has two constants and three methods. The constants are self-explanatory, so there is no need to write documentation for them:
+
+This class has two constants and three methods. There is no need to write documentation for the constants -- the code [at the left](open_file code/appb/Convert.java panel=0 ref="final" count=3) is self-explanatory.
+[Click to remove highlight](open_file code/appb/Convert.java panel=0)
+
 
 ```code
 public static final double CM_PER_INCH = 2.54;
@@ -82,7 +88,9 @@ public static double toMetric(int feet, int inches) {
 }
 ```
 
-The `main` method has a similar documentation comment, except there is no `@return` tag since the method is `void`:
+The `main` method has a similar documentation comment, except there is no `@return` tag since the method is `void`: The `main` method can also be viewed [here](open_file code/appb/Convert.java panel=0 ref="Tests" count=24)
+[Click to remove highlight](open_file code/appb/Convert.java panel=0)
+
 
 ```code
 /**
@@ -112,15 +120,17 @@ public static void main(String[] args) {
 }
 ```
 
-Here are two ways you can run the Javadoc tool on this example program:
+Click the button below to run the Javadoc tool on this example program.
 
+{Document!}(javadoc -d doc code/appb/Convert.java)
 
+For reference, the command being run is below. When using this command in the future, make sure you're in the same directory as the file you wish to document.
 
-* From the command line, go to the location for *Convert.java*. The `-d` option of `javadoc` indicates where to generate the HTML files: ```code
+```
 javadoc -d doc Convert.java
 ```
-* From DrJava, click the **Javadoc** button on the toolbar. The IDE will then prompt you for a location to generate the HTML files.
 
+[View document](open_preview doc/Convert.html panel=0)
 
 
 For more examples of what you can do with Javadoc comments, see the source code of any Java library class (e.g., *Scanner.java*). Section 10.6 explains how to find the source files for the Java library on your computer.
