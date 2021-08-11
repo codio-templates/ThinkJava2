@@ -9,7 +9,9 @@ Graphical coordinates are measured in **pixels**; each pixel corresponds to a do
 
 To draw on the canvas, you invoke methods on a `Graphics` object. You don't have to create the `Graphics` object; it gets created when you create the `Canvas`, and it gets passed as an argument to `paint`.
 
-The previous example used `fillOval`, which has the following signature:
+[The previous example](open_file code/appc/Drawing.java panel=0 ref="fillOval" count=1) used `fillOval`, which has the following signature:
+[Click to remove highlight](open_file code/appc/Drawing.java panel=0)
+
 
 ```code
 /**
@@ -27,7 +29,9 @@ The four parameters specify a **bounding box**, which is the rectangle in which 
 **Figure 20.2 An oval inside its bounding box.**
 
 
-To choose the color of a shape, invoke `setColor` on the `Graphics` object:
+To choose the color of a shape, invoke `setColor` on the `Graphics` object, as shown [at the left.](open_file code/appc/Drawing.java panel=0 ref="setColor" count=1)
+[Click to remove highlight](open_file code/appc/Drawing.java panel=0)
+
 
 ```code
 g.setColor(Color.RED);
@@ -41,7 +45,9 @@ GREEN       MAGENTA   ORANGE   PINK       WHITE   YELLOW
 ```
 
 
-You can create your own colors by specifying the red, green, and blue (**RGB**) components. For example:
+You can create your own colors by specifying the red, green, and blue (**RGB**) components. See the example [at the left.](open_file code/appc/Drawing.java panel=0 ref="purple" count=1)
+[Click to remove highlight](open_file code/appc/Drawing.java panel=0)
+
 
 ```code
 Color purple = new Color(128, 0, 128);
@@ -49,8 +55,16 @@ Color purple = new Color(128, 0, 128);
 
 Each value is an integer in the range 0 (darkest) to 255 (lightest). The color `(0, 0, 0)` is black, and `(255, 255, 255)` is white.
 
-You can set the background color of the `Canvas` by invoking `setBackground`:
+You can set the background color of the `Canvas` by invoking `setBackground`, as shown [here](open_file code/appc/Drawing.java panel=0 ref="setBackground" count=1).
+[Click to remove highlight](open_file code/appc/Drawing.java panel=0)
 
-```code
-canvas.setBackground(Color.WHITE);
+
 ```
+ this.setBackground(Color.WHITE);
+```
+Note that the keyword `this` is used to represent the `Canvas` object. This is correct because the `paint()` method is called on `Drawing` objects, which are a type of `Canvas`. The methods called from `main` work such that `paint` is called behind the scenes on the instance `drawing`. 
+Test the code using the "Try It!" button below. 
+
+{Try It!}(bash .guides/swing.sh cd code/appc javac Drawing.java java Drawing )
+
+If the display doesn't appear in the bottom left corner, click [here.](open_preview https://{{domain3000}} panel=1)

@@ -1421,6 +1421,24 @@
           "pageId": "graphics-exercises",
           "title": "Exercises",
           "type": "page"
+        },
+        {
+          "id": "graphics-exercise-20-1",
+          "pageId": "graphics-exercise-20-1",
+          "title": "Exercise 20.1",
+          "type": "page"
+        },
+        {
+          "id": "graphics-exercise-20-2",
+          "pageId": "graphics-exercise-20-2",
+          "title": "Exercise 20.2",
+          "type": "page"
+        },
+        {
+          "id": "graphics-exercise-20-3",
+          "pageId": "graphics-exercise-20-3",
+          "title": "Exercise 20.3",
+          "type": "page"
         }
       ],
       "id": "graphics",

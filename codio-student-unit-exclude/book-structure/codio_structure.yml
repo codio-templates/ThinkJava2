@@ -678,21 +678,331 @@ sections:
             action: close
   - name: "Graphics"
     type: chapter
+    transformations:
+        - remove: 1
+          position: 10
+        - add:  |
+                You can read more about it in the Java tutorials [here](open_preview https://thinkjava.org/java2d panel=0).
+          position: 11
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close    
   - name: "Creating Graphics"
     type: section
+    transformations:
+        - remove: 1
+          position: 22
+        - add:  |
+                At the left and below, we can see an example program that draws a circle by using the `fillOval` method:
+          position: 23
+        - remove: 3
+          position: 30
+        - remove: 1
+          position: 50
+        - add:  |
+                You can read about the other methods in the documentation, which you can find by doing a web search for "Java Canvas".
+          position: 51
+        - remove: 12
+          position: 53
+        - add:  |
+                In the `main` method, we do the following:
+                1. [Create a `JFrame` object](open_file code/appc/Drawing.java panel=0 ref="new JFrame" count=2), which is the window that will contain the canvas.
+                1. [Create a `Drawing` object](open_file code/appc/Drawing.java panel=0 ref="Canvas drawing" count=2) (which is the canvas), set its width and height, and add it to the frame.
+                1. [Pack the frame](open_file code/appc/Drawing.java panel=0 ref="frame.add" count=3) (resize it) to fit the canvas, and display it on the screen.
+                [Click to remove highlights](open_file code/appc/Drawing.java panel=0)
+          position: 65
+    configuration:
+      layout: 2-panels
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/appc/Drawing.java"
+            panel: 0
+            action: open
   - name: "Graphics Methods"
     type: section
+    transformations:
+        - remove: 1
+          position: 123
+        - add:  |
+                To choose the color of a shape, invoke `setColor` on the `Graphics` object, as shown [at the left.](open_file code/appc/Drawing.java panel=0 ref="setColor" count=1)
+                [Click to remove highlight](open_file code/appc/Drawing.java panel=0)
+          position: 124
+        - remove: 1
+          position: 141
+        - add:  |
+                See the example [at the left.](open_file code/appc/Drawing.java panel=0 ref="purple" count=1)
+                [Click to remove highlight](open_file code/appc/Drawing.java panel=0)
+          position: 142
+        - remove: 1
+          position: 97
+        - add:  |
+                [The previous example](open_file code/appc/Drawing.java panel=0 ref="fillOval" count=1) used `fillOval`, which has the following signature:
+                [Click to remove highlight](open_file code/appc/Drawing.java panel=0)
+          position: 98
+        - remove: 1
+          position: 150
+        - add:  |
+                You can set the background color of the `Canvas` by invoking `setBackground`, as shown [here](open_file code/appc/Drawing.java panel=0 ref="setBackground" count=1).
+                [Click to remove highlight](open_file code/appc/Drawing.java panel=0)
+          position: 151
+        - remove: 3
+          position: 152
+        - add:  |
+                ```
+                 this.setBackground(Color.WHITE);
+                ```
+                Note that the keyword `this` is used to represent the `Canvas` object. This is correct because the `paint()` method is called on `Drawing` objects, which are a type of `Canvas`. The methods called from `main` work such that `paint` is called behind the scenes on the instance `drawing`. 
+                Test the code using the "Try It!" button below. 
+
+                {Try It!}(bash .guides/swing.sh cd code/appc javac Drawing.java java Drawing )
+
+                If the display doesn't appear in the bottom left corner, click [here.](open_preview https://{{domain3000}} panel=1)
+          position: 155
+    configuration:
+      layout: 3-cell
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/appc/Drawing.java"
+            panel: 0
+            action: open
+          - path: "#preview: https://{{domain3000}}"
+            panel: 1
+            action: open
   - name: "Example Drawing"
     type: section
+    transformations:
+        - remove: 1
+          position: 161
+        - add:  |
+                Suppose we want to draw a "Hidden Mickey," which is an icon that represents Mickey Mouse (see [here](open_preview https://en.wikipedia.org/wiki/Hidden_Mickey panel=0)).
+          position: 162
+        - remove: 1
+          position: 165
+        - add:  |
+                Here's a method that takes a \java{Rectangle} and invokes \java{fillOval}, shown [at the left:](open_file code/appc/Mickey.java panel=0 ref="boxOval" count=3)
+          position: 166
+        - remove: 1
+          position: 173
+        - add:  |
+                And here's a method that draws Mickey Mouse, also seen [at the left: ](open_file code/appc/Mickey.java panel=0 ref="void mickey" count=13)
+          position: 174
+        - add:  |
+                Test the code using the "Try It!" button below.
+
+                {Try It!}(bash .guides/swing.sh cd code/appc javac Mickey.java java Mickey )
+
+                If the display doesn't appear in the bottom left corner, click [here.](open_preview https://{{domain3000}} panel=1)
+          position: 207
+    configuration:
+      layout: 3-cell
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/appc/Mickey.java"
+            panel: 0
+            action: open
+          - path: "#preview: https://{{domain3000}}"
+            panel: 1
+            action: open
   - name: "Vocabulary"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close 
   - name: "Exercises"
     type: section
+    transformations:
+        - remove: 64
+          position: 232
+        - add:  |
+                The following exercises will help you solidify your knowledge of graphics and experiment with different techniques.
+          position: 296
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close 
+  - name: "Exercise 20.1"
+    type: section
+    configuration:
+      layout: 3-cell
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/appc/Exercise1.java"
+            panel: 0
+            action: open
+          - path: "#preview: https://{{domain3000}}"
+            panel: 1
+            action: open 
+  - name: "Exercise 20.2"
+    type: section
+    configuration:
+      layout: 3-cell
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/appc/Mickey.java"
+            panel: 0
+            action: open
+          - path: "#preview: https://{{domain3000}}"
+            panel: 1
+            action: open 
+  - name: "Exercise 20.3"
+    type: section
+    configuration:
+      layout: 3-cell
+      files:
+          - path: "#tabs"
+            action: close
+          - path: "code/appc/Moire.java"
+            panel: 0
+            action: open
+          - path: "#preview: https://{{domain3000}}"
+            panel: 1
+            action: open 
   - name: "Debugging"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close 
   - name: "Compile-Time Errors"
     type: section
+    transformations:
+        - remove: 1
+          position: 149
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close 
   - name: "Run-Time Errors"
     type: section
+    transformations:
+        - remove: 1
+          position: 206
+        - add:  |
+                Suppose we want to draw a "Hidden Mickey," which is an icon that represents Mickey Mouse (see [here](open_preview https://en.wikipedia.org/wiki/Hidden_Mickey panel=0)).
+          position: 207
+        - remove: 1
+          position: 206
+        - add:  |
+                **Infinite loop**
+          position: 207
+        - remove: 1
+          position: 229
+        - add:  |
+                **Infinite recursion**
+          position: 230
+        - remove: 1
+          position: 248
+        - add:  |
+                **Flow of execution**
+          position: 249
+        - remove: 1
+          position: 279
+        - add:  |
+                For example, this code causes a `NullPointerException`:
+                
+                
+          position: 280
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close 
   - name: "Logic Errors"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close 
+insert_sections:
+  - name: Exercise 20.1
+    type: section
+    chapter: Graphics
+    section: Exercises
+    before: false
+    latex: |
+      Draw the flag of Japan: a red circle on a white background that is wider than it is tall.
+      Test the code using the "Try It!" button below.
+
+      {Try It!}(bash .guides/swing.sh cd code/appc javac Exercise1.java java Exercise1 )
+
+      If the display doesn't appear in the bottom left corner, click [here.](open_preview https://{{domain3000}} panel=1)
+
+  - name: Exercise 20.2
+    type: section
+    chapter: Graphics
+    section: Exercises
+    before: false
+    latex: |
+      Modify {\it Mickey.java} to draw ears on the ears, and ears on those ears, and more ears all the way down until the smallest ears are only 3 pixels wide.
+      The result should look like Figure~\ref{fig.moose}.
+      %
+      {\em Hint:} You should have to add or modify only a few lines of code.
+
+      \begin{figure}[!ht]
+      \begin{center}
+      \includegraphics[height=2in]{figs/moose.png}
+      \caption{A recursive shape we call ``Mickey Moose''.}
+      \label{fig.moose}
+      \end{center}
+      \end{figure}
+      Test the code using the "Try It!" button below.
+
+      {Try It!}(bash .guides/swing.sh cd code/appc javac Mickey.java java Mickey )
+
+      If the display doesn't appear in the bottom left corner, click [here.](open_preview https://{{domain3000}} panel=1)
+
+  - name: Exercise 20.3
+    type: section
+    chapter: Graphics
+    section: Exercises
+    before: false
+    latex: |
+      In this exercise, you will draw ``Moir\'{e} patterns'' that seem to shift around as you move.
+      For an explanation of what is going on, see \url{https://en.wikipedia.org/wiki/Moire_pattern}.
+
+      \begin{enumerate}
+
+      \item Open {\it Moire.java} and read the \java{paint} method.
+      Draw a sketch of what you expect it to do.
+      Now run it.
+      Did you get what you expected?
+
+      \item Modify the program so that the space between the circles is larger or smaller.
+      See what happens to the image.
+
+      \item Modify the program so that the circles are drawn in the center of the screen and concentric, as in Figure~\ref{fig.moire} (left).
+      The distance between the circles should be small enough that the Moir\'{e} interference is apparent.
+
+      \begin{figure}[!ht]
+      \begin{center}
+      \includegraphics[height=2in]{figs/moire.pdf}
+      \caption{Graphical patterns that can exhibit Moir\'{e} interference.}
+      \label{fig.moire}
+      \end{center}
+      \end{figure}
+
+      \item Write a method named \java{radial} that draws a radial set of line segments as shown in Figure~\ref{fig.moire} (right), but they should be close enough together to create a Moir\'{e} pattern.
+
+      \item Just about any kind of graphical pattern can generate Moir\'{e}-like interference patterns.
+      Play around and see what you can create.
+
+      \end{enumerate}
+      
+      Test the code using the "Try It!" button below.
+
+      {Try It!}(bash .guides/swing.sh cd code/appc javac Moire.java java Moire )
+
+      If the display doesn't appear in the bottom left corner, click [here.](open_preview https://{{domain3000}} panel=1)

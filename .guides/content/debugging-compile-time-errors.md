@@ -61,21 +61,23 @@ If you have examined the code thoroughly, and you are sure the compiler is compi
 * Delete about half the code from *Bob.java*. Try compiling again. \begin{itemize}
 * If the program compiles now, you know the error is in the code you deleted. Bring back about half of what you deleted and repeat.
 * If the program still doesn't compile, the error must be in the code that remains. Delete about half of the remaining code and repeat.
+* Once you have found and fixed the error, start bringing back the code you deleted, a little bit at a time.
 
 
 
-\item Once you have found and fixed the error, start bringing back the code you deleted, a little bit at a time.
-
-\end{itemize}
-
-This process is ugly, but it goes faster than you might think and is very reliable. It works for other programming languages too!
+This process is ugly, but it goes faster than you might think and is very reliable.
+It works for other programming languages too!
 
 
 ####  I did what the compiler told me to do, but it still doesn't work.
 
 
-Some error messages come with tidbits of advice, like “class Golfer must be declared abstract. It does not define int compareTo(java.lang.Object) from interface java.lang.Comparable.” It sounds like the compiler is telling you to declare `Golfer` as an `abstract` class, and if you are reading this book, you probably don't know what that is or how to do it.
+Some error messages come with tidbits of advice, like “class Golfer must be declared abstract.
+It does not define int compareTo(java.lang.Object) from interface java.lang.Comparable.”
+It sounds like the compiler is telling you to declare `Golfer` as an `abstract` class, and if you are reading this book, you probably don't know what that is or how to do it.
 
-Fortunately, the compiler is wrong. The solution in this case is to make sure `Golfer` has a method called `compareTo` that takes an `Object` as a parameter.
+Fortunately, the compiler is wrong.
+The solution in this case is to make sure `Golfer` has a method called `compareTo` that takes an `Object` as a parameter.
 
-Don't let the compiler lead you by the nose. Error messages give you evidence that something is wrong, but the remedies they suggest are unreliable.
+Don't let the compiler lead you by the nose.
+Error messages give you evidence that something is wrong, but the remedies they suggest are unreliable.

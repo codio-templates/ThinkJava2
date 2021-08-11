@@ -1,6 +1,8 @@
-Suppose we want to draw a “Hidden Mickey”, which is an icon that represents Mickey Mouse (see [https://en.wikipedia.org/wiki/Hidden_Mickey](https://en.wikipedia.org/wiki/Hidden_Mickey)). We can use the oval we just drew as the face, and then add two ears. To make the code more readable, let's use `Rectangle` objects to represent bounding boxes.
+Suppose we want to draw a "Hidden Mickey," which is an icon that represents Mickey Mouse (see [here](open_preview https://en.wikipedia.org/wiki/Hidden_Mickey panel=0)).
+ We can use the oval we just drew as the face, and then add two ears. To make the code more readable, let's use `Rectangle` objects to represent bounding boxes.
 
-Here's a method that takes a `Rectangle` and invokes `fillOval`:
+Here's a method that takes a \java{Rectangle} and invokes \java{fillOval}, shown [at the left:](open_file code/appc/Mickey.java panel=0 ref="boxOval" count=3)
+
 
 ```code
 public void boxOval(Graphics g, Rectangle bb) {
@@ -8,7 +10,8 @@ public void boxOval(Graphics g, Rectangle bb) {
 }
 ```
 
-And here's a method that draws Mickey Mouse:
+And here's a method that draws Mickey Mouse, also seen [at the left: ](open_file code/appc/Mickey.java panel=0 ref="void mickey" count=13)
+
 
 ```code
 public void mickey(Graphics g, Rectangle bb) {
@@ -33,3 +36,9 @@ The first line draws the face. The next three lines create a smaller rectangle f
 **Figure 20.3 A Hidden Mickey drawn using Java graphics.**
 
 You can read more about `Rectangle` and `translate` in Chapter 10. See the exercises at the end of this appendix for more example drawings.
+
+Test the code using the "Try It!" button below.
+
+{Try It!}(bash .guides/swing.sh cd code/appc javac Mickey.java java Mickey )
+
+If the display doesn't appear in the bottom left corner, click [here.](open_preview https://{{domain3000}} panel=1)

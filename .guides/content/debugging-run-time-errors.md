@@ -15,8 +15,9 @@ If a program stops and seems to be doing nothing, we say it is “hanging”. Of
 
 
 
+Suppose we want to draw a "Hidden Mickey," which is an icon that represents Mickey Mouse (see [here](open_preview https://en.wikipedia.org/wiki/Hidden_Mickey panel=0)).
+ **Infinite loop**
 
-\subsubsection*{Infinite loop}
 
 If you think you have an infinite loop and you know which loop it is, add a print statement at the end of the loop that displays the values of the variables in the condition, and the value of the condition.
 
@@ -36,7 +37,8 @@ while (x > 0 && y < 0) {
 Now when you run the program, you see three lines of output for each time through the loop. The last time through the loop, the condition should be `false`. If the loop keeps going, you will see the values of `x` and `y`, and you might figure out why they are not getting updated correctly.
 
 
-\subsubsection*{Infinite recursion}
+**Infinite recursion**
+
 
 
 Most of the time, an infinite recursion will cause the program to throw a `StackOverflowError`. But if the program is slow, it may take a long time to fill the stack.
@@ -48,7 +50,8 @@ If there is a base case, but the program doesn't seem to be reaching it, add a p
 Now when you run the program, you see a few lines of output every time the method is invoked, and you can see the values of the parameters. If the parameters are not moving toward the base case, you might see why not.
 
 
-\subsubsection*{Flow of execution}
+**Flow of execution**
+
 
 
 If you are not sure how the flow of execution is moving through your program, add print statements to the beginning of each method with a message like `"entering method foo"`, where `foo` is the name of the method. Now when you run the program, it displays a trace of each method as it is invoked.
@@ -64,7 +67,8 @@ When an exception occurs, Java displays a message that includes the name of the 
 
 The first step is to examine the place in the program where the error occurred and see if you can figure out what happened:
 
-* **NullPointerException** You tried to access an instance variable or invoke a method on an object that is currently `null`. You should figure out which variable is `null` and then figure out how it got to be that way. Remember that when you declare a variable with an array type, its elements are initially `null` until you assign a value to them. For example, this code causes a `NullPointerException`: ```code
+* **NullPointerException** You tried to access an instance variable or invoke a method on an object that is currently `null`. You should figure out which variable is `null` and then figure out how it got to be that way. Remember that when you declare a variable with an array type, its elements are initially `null` until you assign a value to them. For example, this code causes a `NullPointerException`:
+ ```code
 int[] array = new Point[5];
 System.out.println(array[0].x);
 ```
